@@ -1,0 +1,302 @@
+.mask {height: 64px; background-color: #273b54; position: absolute;top: 64px; width: 100%; z-index: -1;}
+
+.action{border: none;}
+
+div.carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.carousel .slick-list{
+    padding: 0!important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 50px!important;
+}
+
+.slick-slide img {
+    margin: 0 auto!important;
+}
+
+.slick-slide > p {
+    margin: 0 !important;
+    color: #d0d0c6;
+    width: 50%;
+}
+
+.carousel-caption {
+    height: 40px;
+    line-height: 10px;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.8;
+    position: relative!important;
+    left: 0!important;
+    right: 0!important;
+}
+
+.highlight {
+    padding-bottom: 10px;
+}
+
+.highlight pre {
+    color: #d0d0c6;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #444;
+}
+
+.nav > li > a {
+    display: none!important;
+}
+
+#page table, #page img {
+    margin-bottom: 45px;
+}
+
+#page h2, #page h3, #page h4, #page h5, #page h6 {
+    margin-bottom: 20px!important;
+}
+
+#page a span {
+    font-size: inherit;
+    color: inherit;
+}
+
+#page a:hover span {
+    text-decoration: inherit;
+}
+
+#content table td {
+    text-align: left;
+}
+
+#content .hightlight .go {
+    color: #999;
+}
+
+#content a {
+    color: #2199e8;
+}
+
+#homepage .splash h2 {
+    top: 0!important;
+    padding-top: 0;
+}
+
+.ovh-api .ovh-api-main a {
+    text-decoration: none;
+}
+
+.ovh-api .ovh-api-main span{
+    font-family: "Consolas", "Monaco", monospace!important;
+    font-size: 12px!important;
+}
+
+.ovh-api .ovh-api-verb {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #999;
+    border-radius: 3px;
+    color: #ffffff!important;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    margin-right: 7px;
+    padding: 2px 4px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: baseline;
+    white-space: nowrap;
+    top: -2px;
+    left: 3px;
+    min-width: 40px;
+}
+
+.ovh-api span.ovh-api-endpoint {
+    color: #122844!important;
+    font-size: 10px!important;
+}
+
+.universe-home a {
+    color: #122844!important;
+}
+
+.universe-home a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.product-section ul, .product-section li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.caps {
+    font-size: inherit;
+}
+
+.hidden-sm-xs {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+.hidden-sm-xs {
+    display: block;
+  }
+}
+
+.table-meltown-spectre table {
+    table-layout: fixed;
+}
+
+.table-meltown-spectre td, .table-meltown-spectre th {
+    word-wrap: break-word;
+    text-align: left;
+    vertical-align: top;
+}   
+
+.table-meltown-spectre td p, .table-meltown-spectre th p {
+    margin-bottom: 5px;
+}           
+
+.table-meltown-spectre td p a {
+    display: block;
+    text-align: left;
+}   
+
+.table-meltown-spectre .status-macro {
+    background: red;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 8px;
+    white-space: nowrap;
+}
+
+.table-meltown-spectre .status-macro.aui-lozenge-complete {
+    background: #4a6785;
+    color: #fff;
+}
+
+.table-meltown-spectre .status-macro.aui-lozenge-current {
+    background: #ffd351;
+    color: #594300;
+}
+
+.table-meltown-spectre .status-macro.aui-lozenge-success {
+    background: #14892c;
+    color: #ffffff;
+}
+
+#overlay{
+    position: fixed; 
+    width: 100%; 
+    height: 100%;
+    top: 0px; 
+    left: 0px; 
+    background-color: #000;
+    opacity: 0.7;
+    filter: alpha(opacity = 70) !important;
+    display: none;
+    z-index: 100;
+}
+
+#overlayContent{
+    position: fixed; 
+    width: 100%;
+    top: 200px;
+    left: 0;
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    z-index: 100;
+}
+
+div.breadcrumbs {padding-top: 2px;}
+.breadcrumbs .breadcrumbs {border-top: none;}
+
+#docs-lang-selector{
+    height: 30px;
+    font-size: 14px;
+    padding: 0 25px 0 0;
+    margin-top: 10px;
+}
+
+.title-tag {
+    display: inline-block;
+}
+
+.rel-pages a {
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rel-pages a:hover {
+    background-color: #eee;
+    text-decoration: none;
+}
+
+.rel-pages span.product-tag {
+    border-radius: 3px;
+    background-color: #122844 !important;
+    height: 20px;
+    color: #fff !important;
+    font-size: 12px !important;
+    padding: 0 15px;
+    line-height: 20px;
+}
+
+.row.product a {
+    color: #00a2bf !important
+}
+
+.slick-dots button {
+    background-color: #eee !important;
+    border-radius: 50%;
+}
+
+
+.slick-dots .slick-active button {
+    background-color: #999!important;
+}
+
+.far, .fas {
+    font-family: "Font Awesome\ 5 Free" !important;
+}
+
+.fab {
+    font-family: 'Font Awesome\ 5 Brands' !important;
+}
+
+#sharing {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#sharing a:hover i {
+    text-decoration: none;
+}
+
+#sharing .dropdown-item {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#sharing .dropdown-item i{
+    margin-right: 3px;
+}
+
+.highlight pre span {
+    color: #f8f8f2 !important;
+}

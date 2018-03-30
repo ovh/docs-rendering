@@ -1,0 +1,5 @@
+pelican==3.7.1
+pelican-entities==0.3.0
+markdown==2.6.11
+PyYAML
+beautifulsoup4==4.6.0

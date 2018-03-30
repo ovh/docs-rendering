@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+
+{% block html_lang_attr%}{{entity.locale}}-{{entity.global|upper}}{% endblock %}
+
+{% block translations%}
+    <link rel="alternate" href="{{ SITEURL }}/{{ entity.url }}" hreflang="{{ entity.lang if entity.locale != entity.global else entity.locale }}" />
+{% if entity.translations %}
+{% for translation in entity.translations %}
+    <link rel="alternate" href="{{ SITEURL }}/{{ translation.url }}" hreflang="{{ translation.lang if translation.locale != translation.global else translation.locale }}" />
+{% endfor %}
+{% endif %}
+{% endblock %}
+
+{% block title %}{{ entity.title }} | {{ SITENAME|translate(entity.global) }}{% endblock %}
+
+{% block metas %}
+    {{- super() -}}
+
+    {% if entity.metadata.get('description') %}
+    <meta name="description" content="{{ entity.metadata.get('description')|replace('"',"'")|replace('\n',' ')|trim}}" />
+    {% elif entity.metadata.get('excerpt') %}
+    <meta name="description" content="{{ entity.metadata.get('excerpt')|replace('"',"'")|replace('\n',' ')|trim}}" />
+    {% endif %}
+    {% if entity.metadata.get('hidden') %}
+    <meta name="robots" content="noindex">
+    {% endif %}
+
+{% endblock %}
+
+{% block menu%}
+    {% include 'menus/menu.'+ entity.global + '-' + entity.locale + '.html' %}
+{% endblock %}
+
+{% block main%}
+        <div class="entry-title">
+          <div class="row">
+            <div class="site-title columns small-12 medium-8 large-9">
+              {{'OVH Guides'|translate(entity.global)}}
+            </div>
+            <div id="content-head" class="columns large-12">
+              <div class="breadcrumbs hidden-sm-xs">
+                <div class="columns medium-10">
+                  {% block breadcrumbs %}
+                  <ol class="breadcrumbs">
+                    {%for text, url in entity|breadcrumbs%}
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                      <a href="/{{url}}"{{' class="home"' if loop.index == 1}} itemprop="url"><span{{' class="show-for-sr"' if loop.index == 1}}>{{text}}</span></a>
+                    </li>
+                    {% endfor %}
+                  </ol>
+                  {% endblock %}
+                </div>
+                <div class="columns medium-2 docs-lang-selector">
+                  {% block lang_selector %}
+                  <select id="docs-lang-selector">
+                      <option class="docs-flag-{{entity.lang}}" value="">{{LANGS[entity.lang]}}</option>
+                      {% if entity.translations %}
+                        {% for translation in entity.translations %}
+                          {% if LANGS[translation.lang] %}
+                      <option class="docs-flag-{{translation.lang}}" value="/{{ translation.url }}">{{LANGS[translation.lang]}}</option>
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                  </select>
+                  {% endblock %}
+                </div>
+              </div>
+              <h1>{{entity.title}}</h1>
+              <div class="excerpt">
+                <p class="first last">{{entity.excerpt}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% block search %}
+        <div id="searchZone">
+          <div class="row">
+            <div id="search" class="columns small-12 medium-9 small-centered">
+              <input class="algoliaSearch" placeholder="{{ 'Search OVH guides'|translate(entity.global)  }}" type="search" id="q" autocomplete="off">
+              <div class="algoliaSignature">
+                Powered by <img src="/{{ THEME_STATIC_DIR }}/img/logo-algolia-search.png"/>
+              </div>
+              <script type="text/javascript">
+                var search = docsearch({
+                    appId: 'Q3MWBHI9ZS',
+                    apiKey: 'b0158dc6691d7f943416c08f0f48494f',
+                    indexName: 'docs-ovh-com-docsearch-mdprod',
+                    inputSelector: '#q',
+                    handleSelected: function (input, event, suggestion) {
+                        var index = $('.ds-cursor').first().data('index');
+
+                        if (index >= 0) {
+                            sessionStorage.setItem('algolia-search', JSON.stringify({
+                                keyword: search.autocomplete.autocomplete.getVal(),
+                                resultPosition: index.toString(),
+                                resultPageNumber: '1'
+                            }));
+                        }
+
+                        location.href = suggestion.url;
+                    },
+                    algoliaOptions: {
+                        hitsPerPage: 5,
+                        facetFilters: [
+                         "tags:lang-{{ entity.lang }}"
+                        ],
+                    }
+                });
+                search.autocomplete.on('autocomplete:updated', function(e) {
+                    $('.ds-suggestion').each(function(index, el) {
+                        $(el).data('index', index);
+                    });
+
+                    $('.algolia-docsearch-suggestion--category-header-lvl0').each( function() {
+                         var productClass = 'ovh-search-product-' + $(this).text();
+                         if (! $(this).parent().hasClass(productClass )) {
+                             $(this).parent().addClass(productClass);
+                         }
+                    });
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+        {% endblock %}
+        <div id="page" class="row">
+          {% block content %}
+          {% endblock %}
+        </div>
+{% endblock %}
+
+{% block footer %}
+  {% include 'footers/footer.'+ entity.global + '-' + entity.locale + '.html' %}
+{% endblock %}
+
+{% block scripts_bottom %}
+    {{- super() -}}
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        $('select#docs-lang-selector').change(function(e) {
+          window.location = $(this).find('option:selected').val();
+        });
+      });
+    </script>
+{% endblock %}
+
+{% block analytics %}
+  {{- super() -}}
+  <script src="/{{ THEME_STATIC_DIR }}/js/analytics.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+        var parts = [
+          {%for parent in entity.parents%}
+          {%if parent.metadata.get("folder")%}'{{ parent.metadata.get("folder") }}',{%endif%}
+          {%endfor%}
+          '{{ entity.metadata.get("folder") }}'
+        ];
+
+        var countryCode = '{{entity.global.upper()}}';
+        var countryName = '{{entity.settings.ZONES[entity.locale.lower() + "-" + entity.global.lower()]}}';
+
+        analytics.at.initialize(parts, countryCode, countryName);
+    });
+  </script>
+{% endblock %}

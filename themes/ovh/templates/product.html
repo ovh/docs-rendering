@@ -1,0 +1,30 @@
+{% extends "entity.html" %}
+
+{% block content %}
+        <div class="row product">
+            {% if entity.sections %}
+            {% for type in ['odd', 'even'] %}
+            <div class="columns large-6 medium-6 small-12">
+                {% for section, guides in entity.sections[type].items() %}
+                {% set visible_guides = guides|visible %}
+                {% if visible_guides|length > 0 %}
+                <div class="columns">
+                    <h3>{{section|translate(entity.global)}}</h3>
+                    <ul class="doc-list">
+                    {% for guide in visible_guides|sort(attribute='order') %}
+                        <li><a href="/{{guide.url}}">{{guide.title}}</a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endfor %}
+            {% endif %}
+        {% if entity.content %}
+        <div class="row product">
+            {{ entity.content }}
+        </div>
+        {% endif %}
+
+{% endblock %}

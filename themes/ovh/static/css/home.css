@@ -1,0 +1,85 @@
+#homepage > div {
+	list-style: outside none none;
+	padding: 0 5 !important;
+	margin-top: 40px;
+}
+#homepage > div > li {
+	display: block;
+	float: left;
+	margin-right: 1%;
+	width: 32%;
+}
+#homepage > div > li > a {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+}
+#homepage > div > li > a > p {
+	margin-bottom: 5px;
+}
+#homepage > div ul {
+	background-color: #2b292a;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#homepage > div ul li a {
+	border-bottom: 1px solid #3c3b3c;
+}
+#homepage > div ul li a {
+	color: #fff;
+	display: block;
+	font-family: "SourceSansPro",sans-serif !important;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	line-height: 24px;
+	padding: 10px 20px;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#homepage > div ul li a:hover {
+	color: #66c9f0;
+}
+#homepage .splash {
+	text-align: center;
+	height: 250px;
+}
+#homepage .splash img {
+	position: relative;
+	top: 40px;
+}
+#homepage .splash h2 {
+	color: white;
+	font-family: "SourceSansPro",sans-serif !important;
+	font-size: 34px;
+	font-weight: normal;
+	line-height: 40px;
+	position: relative;
+	top: 25px;
+}
+#homepage .splash.green {
+	background: #5da999 none repeat scroll 0 0;
+}
+#homepage .splash.blue {
+	background: #35698b none repeat scroll 0 0;
+}
+#homepage .splash.gold {
+	background: #e0ae00 none repeat scroll 0 0;
+}
+#homepage .splash.grey {
+	background: #616161 none repeat scroll 0 0;
+}
+#homepage .splash.red {
+	background: #ED4036 none repeat scroll 0 0;
+}
+#homepage .splash.light-blue {
+	background: #3399FF none repeat scroll 0 0;
+}
+#homepage .splash.violet {
+	background: #9900CC none repeat scroll 0 0;
+}
+#homepage .splash.orange {
+	background: #FF3300 none repeat scroll 0 0;
+}

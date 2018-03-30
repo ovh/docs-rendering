@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+{% for entity in home.entities %}
+  <url>
+    <loc>{{ SITEURL }}/{{ entity.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% for translation in entity.translations %}
+  <url>
+    <loc>{{ SITEURL }}/{{ translation.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+{% endfor %}
+
+{% for entity in universe.entities %}
+  <url>
+    <loc>{{ SITEURL }}/{{ entity.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% for translation in entity.translations %}
+  <url>
+    <loc>{{ SITEURL }}/{{ translation.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+{% endfor %}
+
+{% for entity in product.entities %}
+  <url>
+    <loc>{{ SITEURL }}/{{ entity.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% for translation in entity.translations %}
+  <url>
+    <loc>{{ SITEURL }}/{{ translation.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+{% endfor %}
+
+{% for entity in guide.entities %}
+  <url>
+    <loc>{{ SITEURL }}/{{ entity.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% for translation in entity.translations %}
+  <url>
+    <loc>{{ SITEURL }}/{{ translation.url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% endfor %}
+{% endfor %}
+
+</urlset>

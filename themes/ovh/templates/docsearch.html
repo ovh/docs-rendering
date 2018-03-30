@@ -1,0 +1,107 @@
+{
+  "index_name": "docs-ovh-com-docsearch-mdprod",
+  "start_urls": [
+  {% for entity in product.entities %}
+    {
+      "url": "{{ SITEURL }}/{{ entity.url }}",
+      "tags": [
+        {% for p in entity.parents %}
+        {% if p.type != 'Home' %}
+        "{{ p.type.lower() + '-' + p.folder}}",
+        {% endif %}
+        {% endfor %}
+        "{{ 'product-' + entity.folder}}",
+        "lang-{{ entity.lang }}"
+      ],
+      "page_rank": 2
+    },
+    {% for translation in entity.translations %}
+    {
+      "url": "{{ SITEURL }}/{{ translation.url }}",
+      "tags": [
+        {% for p in translation.parents %}
+        {% if p.type != 'Home' %}
+        "{{ p.type.lower() + '-' + p.folder}}",
+        {% endif %}
+        {% endfor %}
+        "{{ 'product-' + translation.folder}}",
+        "lang-{{ translation.lang }}"
+      ],
+      "page_rank": 2
+    },
+    {% endfor %}
+  {% endfor %}
+  {% for entity in universe.entities %}
+    {
+      "url": "{{ SITEURL }}/{{ entity.url }}",
+      "tags": [
+        {% for p in entity.parents %}
+        {% if p.type != 'Home' %}
+        "{{ p.type.lower() + '-' + p.folder}}",
+        {% endif %}
+        {% endfor %}
+        "{{ 'universe-' + entity.folder}}",
+        "lang-{{ entity.lang }}"
+      ],
+      "page_rank": 1
+    },
+    {% for translation in entity.translations %}
+    {
+      "url": "{{ SITEURL }}/{{ translation.url }}",
+      "tags": [
+        {% for p in translation.parents %}
+        {% if p.type != 'Home' %}
+        "{{ p.type.lower() + '-' + p.folder}}",
+        {% endif %}
+        {% endfor %}
+        "{{ 'universe-' + translation.folder}}",
+        "lang-{{ translation.lang }}"
+      ],
+      "page_rank": 1
+    },
+    {% endfor %}
+  {% endfor %}
+  {% for entity in home.entities %}
+    {
+      "url": "{{ SITEURL }}/{{ entity.url }}",
+      "tags": [
+        "lang-{{ entity.lang }}"
+      ],
+      "page_rank": 0
+    },
+    {% for translation in entity.translations %}
+    {
+      "url": "{{ SITEURL }}/{{ translation.url }}",
+      "tags": [
+        "lang-{{ translation.lang }}"
+      ],
+      "page_rank": 0
+    }{{ ',' if not loop.last }}
+    {% endfor %}
+  {% endfor %}
+  ],
+  "stop_urls": [
+    "https://docs.ovh.com/[^/]+?/[^/]+?/[^/]+?/[^/]+?/[^/]+?/$",
+    "/$"
+  ],
+  "allowed_domains": [
+    "docs.ovh.com"
+  ],
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    "#sidebar"
+  ],
+  "min_indexed_level": 2,
+  "selectors": {
+    "lvl0": {
+      "selector": "#content-head ol li:nth-child(3)",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-head h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "lvl5": "#content h5",
+    "text": "#content p,#content ol,#content ul,#content dt,#content dl,#content-head .excerpt, #content .highlighttable .code"
+  }
+}

@@ -1,0 +1,163 @@
+{% extends "entity.html" %}
+
+{% block metas %}
+    {{- super() -}}
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@OVH" />
+    <meta name="twitter:creator" content="@OVH" />
+    <meta name="twitter:image:src" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/og/illus-guides-ovh-A-1200x900-px.jpg" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{entity.title}}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{entity.url}}" />
+    <meta property="og:url" content="OVH" />
+    <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/og/illus-guides-ovh-A-1200x900-px.jpg" />
+    {% if entity.metadata.get('excerpt') %}
+    <meta property="og:description" content="{{ entity.metadata.get('excerpt')|replace('"',"'")|replace('\n',' ')|trim}}" />
+    {% endif %}
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "name": "{{entity.title}}",
+      "headline": "{{entity.title}}",
+      "description": "{{entity.metadata.get('excerpt')}}",
+      "inLanguage": "{{ entity.lang if entity.locale != entity.global else entity.locale }}",
+      "url": "{{ SITEURL }}/{{entity.url}}",
+      "image": [
+        "{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/og/illus-guides-ovh-A-1200x900-px.jpg"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "OVH",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/menu/logo.png"
+        }
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      {% for parent in entity.parents %}
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "item": {
+          "@id": "{{ SITEURL }}/{{parent.url}}",
+          "name": "{{parent.title}}"
+        }
+      },
+      {% endfor %}
+      {
+        "@type": "ListItem",
+        "position": {{entity.parents|length + 1}},
+        "item": {
+          "@id": "{{ SITEURL }}/{{entity.url}}",
+          "name": "{{entity.title}}"
+        }
+      }]
+    }
+    </script>
+{% endblock %}
+
+{% block body_attr %}data-spy="scroll" data-offset="64" data-target="#sidebar-nav"{% endblock %}
+
+{% block content %}
+    {% if not entity.fullwidth %}
+    <div id="sidebar" class="col-md-3 hidden-sm-xs">
+      <nav id="sidebar-nav" data-spy="affix" data-offset-top="750">
+        <div id="edit">
+          <a class="btn btn-default" href="{{GITHUB_URL}}{{entity.path}}"><i class="fab fa-github"></i> {{'Contribute'|translate(entity.global)}}</a>
+        </div>
+        <div id="sharing">
+          <div class="btn-group">
+            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-share-alt-square"></i>
+              {{'Share'|translate(entity.global)}}
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" target="_blank" href="http://twitter.com/share?text={{entity.title}} %23OVHguides&url={{SITEURL}}/{{entity.url}}">
+                <i class="fab fa-twitter-square"></i> Twitter</a>
+            </div>
+          </div>
+        </div>
+        {% if entity.toc %}
+          {{entity.toc.replace('<div id="toc"><ul>', '<div id="toc"><ul class="nav">')}}
+        {% endif %}
+        </nav>
+    </div>
+    {% endif %}
+    <div id="content" class="col-md-{% if not entity.fullwidth %}9{%else%}12{% endif %}">
+      <div id="page-top"></div>
+      {{ entity.content }}
+
+      {% if entity.summary and entity.children|count > 0 %}
+      <div class="doclist">
+        <table>
+          <thead>
+            <tr><th style="width: 40px">#</th><th>{{'Guide'|translate(entity.global)}}</th></tr>
+          </thead>
+          <tbody>
+          {% for child in entity.children %}
+            <tr><td>{{loop.index}}</td><td><a href="/{{child.url}}">{{child.title}}</a></td></tr>
+          {% endfor %}
+          <tbody>
+        </table>
+      </div>
+      {% endif %}
+
+      <div id="page-bottom"></div>
+
+      {% set related_entities = entity|related %}
+      {% if related_entities|length > 0 %}
+      {# List a few guides linked to this guide (optional) #}
+      <hr />
+      <h3>{{ 'These guides might also interest you'| translate(entity.global) }}...</h2>
+      <div class="rel-pages">
+          <div class="row small-up-1 medium-up-2 large-up-3">
+              {% for related_entity in related_entities %}
+              <div class="column">
+                  <a href="/{{ related_entity.url }}">
+                    <span class='product-tag'>{{ related_entity.parent.title }}</span><br />
+                    <span class='title-tag'>{{ related_entity.title }}</span>
+                  </a>
+              </div>
+              {% endfor %}
+          </div>
+      </div>
+      {% endif %}
+
+    </div>
+    <div id="overlay"></div>
+    <div id="overlayContent">
+        <img id="imgBig" src="" alt="" />
+    </div>
+{% endblock %}
+
+{% block scripts_bottom %}
+    {{- super() -}}
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        $("img.thumbnail").click(function() { 
+          $("#imgBig").attr("src",$(this).attr("src"));
+          $("#overlay").show();
+          $("#overlayContent").show();
+        });
+
+        $("#imgBig").click(function(){
+          $("#imgBig").attr("src", "");
+          $("#overlay").hide();
+          $("#overlayContent").hide();
+        });
+
+        $('select#docs-lang-selector').change(function(e) {
+          window.location = $(this).find('option:selected').val();
+        });
+      });
+    </script>
+{% endblock %}

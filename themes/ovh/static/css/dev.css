@@ -1,0 +1,132 @@
+.fork-ribbon-wrapper {
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+  display: inline-block;
+  cursor: move;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  cursor: grab;
+  z-index: 19999;
+}
+.fork-ribbon-wrapper .fork-ribbon-border {
+  width: 120px;
+  height: 55px;
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.fork-ribbon-wrapper .fork-ribbon-container {
+  position: relative;
+  box-sizing: border-box;
+  transition: top 1s ease 0s;
+  top: -65px;
+  margin: 0 10px;
+  height: 110px;
+  width: 82px;
+}
+.fork-ribbon-wrapper .fork-ribbon-container:hover {
+  transition: top 1s ease 0s;
+  top: 0;
+}
+.fork-ribbon-wrapper .fork-ribbon {
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  width: 80px;
+  height: 70px;
+}
+.fork-ribbon-wrapper .fork-ribbon:after {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 80px;
+  top: 70px;
+  padding: 0;
+}
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content {
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+}
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content i {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content a {
+  position: relative;
+  z-index: 2;
+  font-size: .75rem;
+  line-height: .75rem;
+  margin-top: -5px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content:before,
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 72px;
+  height: 102px;
+  z-index: 1;
+}
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content:before,
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content:after {
+  border-left-width: 1px;
+  border-left-style: dashed;
+  border-right-width: 1px;
+  border-right-style: dashed;
+}
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content:before {
+  left: 3px;
+}
+.fork-ribbon-wrapper .fork-ribbon .fork-ribbon-content:after {
+  left: 4px;
+}
+.fork-ribbon-wrapper.fixed {
+  position: fixed;
+}
+.fork-ribbon-wrapper.green {
+  top: 0px;
+  right: 50%;
+}
+.fork-ribbon-wrapper.green .fork-ribbon-container {
+  border-left: 1px solid #50cc50;
+  border-right: 1px solid #50cc50;
+}
+.fork-ribbon-wrapper.green .fork-ribbon {
+  background: #007200;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.15)));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+}
+.fork-ribbon-wrapper.green .fork-ribbon:after {
+  border: 40px solid #006100;
+  border-top-width: 0;
+  border-bottom-color: transparent;
+}
+.fork-ribbon-wrapper.green .fork-ribbon .fork-ribbon-content a {
+  color: #fff;
+}
+.fork-ribbon-wrapper.green .fork-ribbon .fork-ribbon-content a:hover {
+  color: #ffc;
+}
+.fork-ribbon-wrapper.green .fork-ribbon .fork-ribbon-content:before {
+  border-left-color: #004400;
+  border-right-color: #004400;
+}
+.fork-ribbon-wrapper.green .fork-ribbon .fork-ribbon-content:after {
+  border-left-color: #50CC50;
+  border-right-color: #50CC50;
+}

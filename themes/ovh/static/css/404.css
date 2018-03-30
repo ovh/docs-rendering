@@ -1,0 +1,38 @@
+a.back{
+    border: 2px solid #59d2ef;
+    border-radius: 3px;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px !important;
+    padding: 0 16px !important;
+    text-align: center;
+    min-width: 195px;
+    width: auto;
+    -webkit-transition: all ease 0.4s;
+    -khtml-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+    text-decoration: none !important;
+    color: #122844;
+    box-sizing: border-box;
+    margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    /*background: #59d2ef;*/
+    font-weight: 600;
+}
+
+.errors-icn {
+    background: transparent url("../img/all-errors_sprite.png") no-repeat center;
+    background-position-x: center;
+    background-position-y: center;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.errors-icn.errors-icn-404 {
+    background-position: 0 0;
+}

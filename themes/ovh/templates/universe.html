@@ -1,0 +1,25 @@
+{% extends "entity.html" %}
+
+{% block content %}
+          <div id="content" class="columns medium-9 large-12">
+            <div class="page-top"></div>
+            {% if entity.content %}
+            <div class="row">
+                {{ entity.content }}
+                <hr>
+            </div>
+            {% endif %}
+            <div class="universe-home">
+              {% if entity.children %}
+              <div class="row">
+                {% for child in entity.children %}
+                <div class="columns large-6">
+                <a href="/{{ child.url }}">{{child.title}}</a>
+                </div>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+            <div class="page-bottom"></div>
+          </div>
+{% endblock %}

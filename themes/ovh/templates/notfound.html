@@ -1,0 +1,26 @@
+{% extends "entity.html" %}
+
+{% block css%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/404.css" />
+{% endblock %}
+
+{% block lang_selector %}
+{% endblock %}
+
+{% block search %}
+{% endblock %}
+
+{% block content %}
+
+    {{ super() }}
+
+        <div class="col-s-12 col-l-8 col-m-10 col-s-center center"><div class="marginTop80 marginBottom80">
+            <div class="errors-icn errors-icn-404"></div>
+            <div class="marginTop30 marginBottom30">
+                <div class="col-s-center separationBorder backgroundBleuVif"></div>
+            </div>
+            {{ entity.content }}
+        </div>
+
+{% endblock %}

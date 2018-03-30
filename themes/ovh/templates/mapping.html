@@ -1,0 +1,24 @@
+{% for entity in home.entities %}
+"{{entity.path}}","{{entity.url}}"
+{% for translation in entity.translations %}
+"{{translation.path}}","{{translation.url}}"
+{% endfor%}
+{% endfor%}
+{% for entity in universe.entities %}
+"{{entity.path}}","{{entity.url}}"
+{% for translation in entity.translations %}
+"{{translation.path}}","{{translation.url}}"
+{% endfor%}
+{% endfor%}
+{% for entity in product.entities %}
+"{{entity.path}}","{{entity.url}}"
+{% for translation in entity.translations %}
+"{{translation.path}}","{{translation.url}}"
+{% endfor%}
+{% endfor%}
+{% for entity in guide.entities %}
+"{{entity.path}}","{{entity.url}}"
+{% for translation in entity.translations %}
+"{{translation.path}}","{{translation.url}}"
+{% endfor%}
+{% endfor%}

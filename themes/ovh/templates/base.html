@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="{% block html_lang_attr %}{% endblock %}">
+  <head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msvalidate.01" content="9571C6C1172FA240D5DC7B902DD1F2A9" />
+    <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+    {% block translations %}{% endblock %}
+    {% block css %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/menu.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/footer.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/newSite.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/sidebar.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/fix.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
+    {% endblock %}
+    {% block metas %}
+    <meta name="google-site-verification" content="J3fSHAVfI5uZPzM4rlKtSiBnE5iC0lxi0k2-pn0aM1U" />
+    {% endblock %}
+    <link rel="icon" href="/{{ THEME_STATIC_DIR }}/img/favicon.ico">
+    <script src="https://www.ovh.com/fr/js/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">jQuery.noConflict();</script>
+    <script src="https://www.ovh.com/fr/js/jquery.cookie.js"></script>
+    <script src="https://www.ovh.com/fr/components/menu/menu.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        var pop = $('#cookiesPop');
+
+        if(!pop.is(':visible')) {
+          pop.remove();
+        }
+      } (jQuery));
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    {% endblock %}
+  </head>
+  <body id="top" class="antialiased" {% block body_attr %}{% endblock %}>
+  {% block body %}
+    <section role="main" class="body">
+      {% block edit_banner%}
+      {% endblock %}
+
+      {% block menu %}
+      {% endblock %}
+     
+      <div id="main">
+        {% block main %}
+        {% endblock %}
+      </div>
+      
+      {% block footer %}
+      {% endblock %}
+    </section>
+
+    {# SCRIPTS #}
+    <script src="/{{ THEME_STATIC_DIR }}/js/vendor/jquery.min.js"></script>
+    <script src="/{{ THEME_STATIC_DIR }}/js/vendor/typogr.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="/{{ THEME_STATIC_DIR }}/js/app.js"></script>
+
+    {% block scripts_bottom %}
+    {% endblock %}
+  {% endblock %}
+
+  {% block analytics %}
+  {% endblock %}
+  </body>
+</html>
