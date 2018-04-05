@@ -7,6 +7,9 @@ Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/doc
 Our CI Pipe is managed by [CDS](https://github.com/ovh/cds) 
 All modifications to this repository, will automatically trigger a new build to docs.ovh.com.
 
+## Test it 
+Test if with our developer environment [docs-developer-env](https://github.com/ovh/docs-developer-env)
+
 ## Technical specs
 
 [docs.ovh.com](https://docs.ovh.com/) is entirely generated with [Pelican](https://github.com/getpelican/pelican) from `markdown` [files](https://github.com/ovh/docs)
