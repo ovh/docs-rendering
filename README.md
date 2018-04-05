@@ -1,4 +1,13 @@
 # OVH - Docs rendering engine
+This repository contains our official Documentation Rendering Engine. 
+
+## Continuous integration
+Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/docs), we build docs.ovh.com and template all markdown with our rendering engine. Our build contains a bunch of static HTML files, deployed in ours front webfarms.
+
+Our CI Pipe is managed by [CDS](https://github.com/ovh/cds) 
+All modifications to this repository, will automatically trigger a new build to docs.ovh.com.
+
+## Technical specs
 
 [docs.ovh.com](https://docs.ovh.com/) is entirely generated with [Pelican](https://github.com/getpelican/pelican) from `markdown` [files](https://github.com/ovh/docs)
 
@@ -6,7 +15,7 @@ In this repository, you will find all configurations, themes and plugins that we
 
 ![CDS](screenshots/cds-diagram.png)
 
-## Pelican
+### Pelican
 
 Description from the Pelican repository:
 > [Pelican](https://github.com/getpelican/pelican) is a static site generator, written in Python
@@ -27,12 +36,12 @@ our custom content.
 
 ![Home](screenshots/pelican-diagram.png)
 
-## Plugins
+### Plugins
 
-### OVH Entities (`plugins/ovh_entities`)
+#### OVH Entities (`plugins/ovh_entities`)
 extends [`pelican-entities`](https://github.com/AlexJF/pelican-entities) in order to suit our needs.
 
-#### Entity matching
+##### Entity matching
 
 Because of our docs repository is structured in a hierarchical manner, we needed to easily define search path for entity using regexp instead of just a folder name.
 
@@ -83,7 +92,7 @@ ENTITY_TYPES = {
 }
 ```
 
-#### Entity children
+##### Entity children
 When needed, for each entity, we add a children property that lists all authorized children (useful in jinja2 templates for children list rendering).
 
 ```py
@@ -104,7 +113,7 @@ ENTITY_TYPES = {
 }
 ```
 
-#### url building
+##### url building
 We needed to exclude some part of the default generated url by pelican without the need to include 
 the `override_url` and `override_save_as` properties in each file.
 
@@ -125,7 +134,7 @@ ENTITY_TYPES = {
 }
 ```
 
-### OVH markdown (`plugins/ovh_markdown`)
+#### OVH markdown (`plugins/ovh_markdown`)
 This plugin contains all custom processors for rendering content like `notices` that `markdown parser` does not handle by default.
 
 - `BlockCalloutProcessor` for notices
@@ -135,11 +144,11 @@ This plugin contains all custom processors for rendering content like `notices` 
 
 see markdown usages [here](https://github.com/ovh/docs/blob/master/docs-guideline/markdown-custom.md)
 
-### OVH Filters (`plugins/ovh_filters`)
+#### OVH Filters (`plugins/ovh_filters`)
 
 Contains Jinja2 filters used in templates.
 
-#### breadcrumbs
+##### breadcrumbs
 get an array of (title, url) from parents of an OVH Entity
 
 ```jinja
@@ -154,7 +163,7 @@ get an array of (title, url) from parents of an OVH Entity
 </ul>
 ```
 
-#### related
+##### related
 get an array of related guides for a given guide
 
 ```jinja
@@ -171,7 +180,7 @@ get an array of related guides for a given guide
 {% endfor %}
 ```
 
-#### visible 
+##### visible 
 filter visible entities (visible property of entity == True)
 
 ```jinja
@@ -191,7 +200,7 @@ filter visible entities (visible property of entity == True)
 {% endfor %}
 ```
 
-#### translate
+##### translate
 translate a content according to a given language. Dictionary defined in [config/translations.yml](./config/translation.yml)
 
 ```jinja
@@ -199,7 +208,7 @@ translate a content according to a given language. Dictionary defined in [config
 <h3>{{section|translate(entity.global)}}</h3>
 ```
 
-## Themes - OVH
+### Themes - OVH
 
 stored in the folder `themes/ovh`
 ```
@@ -210,12 +219,12 @@ stored in the folder `themes/ovh`
 └── templates
     └── ... (jinja2 templates)
 ```
-### Templates
+#### Templates
 
-#### base.html
+##### base.html
 base template containing all common css, js and jinja blocks
 
-#### entity.html
+##### entity.html
 entity base template (extends base.html) containing all elements shared between all ovh entities
 - title
 - meta
@@ -231,28 +240,28 @@ entity base template (extends base.html) containing all elements shared between 
 
 ![Home](screenshots/entity-bottom.png)
 
-#### home.html
+##### home.html
 Template for Home entity. Generate `Universe > Products` list using children property
 
 ![Home](screenshots/home.png)
 
-#### universe.html
+##### universe.html
 Template for Universe entity. Generate `Products` list using children property
 
 ![Home](screenshots/universe.png)
 
-#### product.html
+##### product.html
 Template for Product entity. Generate `Guides` list grouped by `section`.
 The section meta is defined in each guide file (default value: Misc)
 
 ![Home](screenshots/product.png)
 
-#### guide.html
+##### guide.html
 Template for Guide entity
 
 ![Home](screenshots/guide.png)
 
-#### sitemap.html
+##### sitemap.html
 Generate sitemap of `docs.ovh.com`
 
 defined in config as direct template
