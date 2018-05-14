@@ -12,4 +12,4 @@ def related(entity, numberOfElements = 3):
     related_entities = [related_entity for related_entity in entity.parent.children if \
         getattr(related_entity, 'section', 'Misc') == getattr(entity, 'section', 'Misc') and related_entity.slug != entity.slug]
 
-    return random.sample(related_entities, min(numberOfElements, len(related_entities)))
+    return related_entities[:numberOfElements]
