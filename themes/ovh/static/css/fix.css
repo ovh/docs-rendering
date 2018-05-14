@@ -44,7 +44,12 @@ div.carousel .slick-list{
     color: #d0d0c6;
     padding: 5px;
     font-size: 14px;
+    font-family: monospace !important;
     background-color: #444;
+    white-space: pre;
+    overflow: auto !important;
+    word-break: normal;
+    word-wrap: normal;
 }
 
 .nav > li > a {
@@ -299,4 +304,9 @@ div.breadcrumbs {padding-top: 2px;}
 
 .highlight pre span {
     color: #f8f8f2 !important;
+}
+
+.highlight pre * {
+    font-size: 14px !important;
+    font-family: monospace !important;
 }
