@@ -310,3 +310,30 @@ div.breadcrumbs {padding-top: 2px;}
     font-size: 14px !important;
     font-family: monospace !important;
 }
+
+.product-section.left {
+    float: left;
+}
+
+.product-section.right {
+    float: right;
+}
+
+.product-section li {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.product-section li:last-child {
+    border: 0;
+}
+
+.product-section li a {
+    display: block;
+    padding: 10px 0px;
+}
+
+.product-section li a:hover {
+    text-decoration: none !important;
+    background: #f5f5f5;
+    color: #111 !important;
+}

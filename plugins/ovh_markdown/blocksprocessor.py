@@ -54,7 +54,7 @@ class BlockCalloutProcessor(DefaultBlockProcessor):
         self.parser.state.reset()
 
 class BlockProductSectionProcessor(DefaultBlockProcessor):
-    RE = re.compile(r"(^|\n)\>[ ]?\[\!product-section\]")
+    RE = re.compile(r"(^|\n)\>[ ]?\[\!product-section(\((?P<side>left|right)\)){0,1}\]")
 
     def __init__(self, parser, extension):
         super(BlockProductSectionProcessor, self).__init__(parser, extension)
@@ -67,6 +67,7 @@ class BlockProductSectionProcessor(DefaultBlockProcessor):
         m = self.RE.search(block)
 
         if m:
+            side = 'right' if m.group('side') == 'right' else 'left'
             before = block[:m.start()]
             self.parser.parseBlocks(parent, [before])
             block = '\n'.join(
@@ -74,10 +75,13 @@ class BlockProductSectionProcessor(DefaultBlockProcessor):
             )
 
         div = util.etree.SubElement(parent, 'div')
-        div.attrib = { 'class': 'columns large-6 medium-6 small-12 product-section' }
+        div.attrib = { 'class': 'columns large-6 medium-6 small-12 product-section ' + side }
+
+        column = util.etree.SubElement(div, 'div')
+        column.attrib = { 'class': 'columns' }
 
         self.parser.state.set('div')
-        self.parser.parseChunk(div, block)
+        self.parser.parseChunk(column, block)
         self.parser.state.reset()
 
 class BlockApiProcessor(DefaultBlockProcessor):
