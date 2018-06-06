@@ -10,52 +10,34 @@ var analytics = {
 
             return tmp.join('::');
         },
-        initialize: function(parts, lang, zone) {
+        initialize: function(parts, code, name, cb) {
             var pageName = analytics.at.generateName(parts);
 
-            if (pageName === "" || pageName === "default") {
-                pageName = "Homepage";
+            if (pageName === '' || pageName === 'default') {
+                pageName = 'Homepage';
             }
 
-            window.ATInternet = {
-                onTrackerLoad: function() {
-                    window.tag = new window.ATInternet.Tracker.Tag();
+            window.tc_vars = {
+                env_template : 'Website',
+                page_name : pageName,
+                env_country : '[' + code + ']',
+                env_language : '[' + name + ']'
+            }
 
-                    if (!!sessionStorage.getItem("algolia-search")) {
-                        var search = JSON.parse(sessionStorage.getItem("algolia-search"));
-                        sessionStorage.removeItem('algolia-search');
-                        tag.internalSearch.set(search);
-                    }
+            if (!!sessionStorage.getItem("algolia-search")) {
+                var search = JSON.parse(sessionStorage.getItem("algolia-search"));
+                window.tc_vars.searchKeywords = search.keyword;
+                window.tc_vars.resultPosition = search.resultPosition;
+            }
 
-                    if (sessionStorage.getItem("user") != null) {
-                        var getNIC = sessionStorage.getItem("user");
-                        tag.identifiedVisitor.unset();
-                        tag.identifiedVisitor.set({
-                            id: getNIC
-                        });
-                    }
-                    
-                    tag.page.set({
-                        name: pageName
-                    });
+            if (!!sessionStorage.getItem("user")) {
+                var nic = sessionStorage.getItem("user");
+                window.tc_vars.user_code = nic;
+            }
 
-                    tag.customVars.set({
-                        site: {
-                            1: "[" + lang + "]",
-                            2: "[" + zone + "]"
-                        }
-                    });
-
-                    tag.dispatch();
-                }
-            };
-            (function() {
-                var at = document.createElement("script");
-                at.type = "text/javascript";
-                at.async = true;
-                at.src = "https://www.ovh.com/fr/js/analytics/smarttag-docs.js";
-                (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0] || document.getElementsByTagName("script")[0].parentNode).insertBefore(at, null)
-            })()
+            if (cb && typeof cb === 'function') {
+                cb();
+            }
         }
     }
 };
