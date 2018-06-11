@@ -148,6 +148,14 @@
   {{- super() -}}
   <script src="/{{ THEME_STATIC_DIR }}/js/analytics.js"></script>
   <script type="text/javascript">
+    var cb = function() {
+        var at = document.createElement('script');
+        at.type = 'text/javascript';
+        at.async = true;
+        at.src = '{{entity.settings.ANALYTICS_SCRIPT_URL}}';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] || document.getElementsByTagName('script')[0].parentNode).insertBefore(at, null)
+    }
+
     jQuery(document).ready(function() {
         var parts = [
           {%for parent in entity.parents%}
@@ -159,7 +167,7 @@
         var countryCode = '{{entity.global.upper()}}';
         var countryName = '{{entity.settings.ZONES[entity.locale.lower() + "-" + entity.global.lower()]}}';
 
-        analytics.at.initialize(parts, countryCode, countryName);
+        analytics.at.initialize(parts, countryCode, countryName, cb);
     });
   </script>
 {% endblock %}
