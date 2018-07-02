@@ -11,7 +11,7 @@ class NormalizeImg(Preprocessor):
 
     def run(self, lines):
         source = '\n'.join(lines)
-        source = re.sub(r'\!\[(.*)\]\(images\/(.*)\)', '![\g<1>]({attach}images/\g<2>)', source)
+        source = re.sub(r'\!\[([^\]]*)\]\(images\/([^)]*)\)', '![\g<1>]({attach}images/\g<2>)', source)
         return source.split('\n')
 
 class NormalizeLink(Preprocessor):
