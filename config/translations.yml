@@ -1,10 +1,10 @@
 Published:
-  fr: Publié le
-  es: Publicado
+  fr: 'Publié le'
+  es: 'Publicado'
 
 Updated:
-  fr: Modifié le
-  es: Modificado
+  fr: 'Modifié le'
+  es: 'Modificado'
 
 By:
   fr: Par
@@ -16,28 +16,40 @@ In:
 
 Misc:
   fr: Divers
+  it: Varie
 
 Telecom:
   fr: Télécom
+  it: Telecom
 
 Translations:
   fr: Traductions
   es: Traducción
+  it: Traduzioni
 
 'OVH Guides':
-  fr: Documentation OVH
-  es: OVH Guías
+  fr: 'Documentation OVH'
+  es: 'OVH Guías'
+  cz: 'Příručky OVH'
+  it: 'Documentazione OVH'
 
 'Search OVH guides':
-  fr: Rechercher dans la documentation OVH
+  fr: 'Rechercher dans la documentation OVH'
+  cz: 'Prohledat příručky OVH'
+  it: 'Cerca nella documentazione OVH'
 
 'These guides might also interest you':
-  fr: Ces guides pourraient également vous intéresser
-  es: Otras guías que podrían interesarle
-  pl: Inne przewodniki, które mogą Cię zainteresować
+  fr: 'Ces guides pourraient également vous intéresser'
+  es: 'Otras guías que podrían interesarle'
+  pl: 'Inne przewodniki, które mogą Cię zainteresować'
+  cz: 'Mohlo by Vás zaujmout'
+  de: 'Diese Anleitungen könnten Sie auch interessieren'
+  it: 'Potrebbero interessarti anche'
 
 Share:
   fr: Partager
+  cz: Sdílet
+  it: Condividi
 
 Contribute:
-  fr: Contribuer
+fr: Contribuer
