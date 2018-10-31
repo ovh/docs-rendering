@@ -1287,6 +1287,9 @@ body {
 #header .icn-ovhlabs.icn:before {
  background-position:-2816px 0
 }
+#header .icn-ovhlabs.icn:before {
+    background: url(../img/menu/icn-menu-ai.png) center center no-repeat !important;
+}
 #header .disabled ul li {
  pointer-events:none
 }
