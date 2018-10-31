@@ -1337,11 +1337,11 @@ body.ie #header .main_logo {
  display:block!important;
  margin:15px auto;
  display:inline-block;
- background:url('/theme/img/homeOVH/spriteOvh.png') no-repeat;
+ background:url('/theme/img/homeOVH/BrandColor.svg') no-repeat;
+ background-size: auto 35px;
  overflow:hidden;
  text-indent:-9999px;
  text-align:left;
- background-position:-10px -0px;
  width:210px
 }
 #header .main_logo img {

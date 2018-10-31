@@ -1,43 +1,126 @@
 Published:
-  fr: Publié le
-  es: Publicado
+  fr: 'Publié le'
+  de: 'Veröffentlicht am'
+  cz: Zveřejněno
+  es: 'Fecha de publicación'
+  fi: Julkaistu
+  it: 'Pubblicato il'
+  nl: 'Geplaatst op'
+  pl: 'Opublikowano w dniu'
+  pt: Publicado
 
 Updated:
-  fr: Modifié le
+  fr: 'Modifié le'
   es: Modificado
+  de: 'Aktualisiert am'
+  cz: Aktualizováno
+  fi: Muokattu
+  it: 'Modificato il'
+  nl: 'Laatste update op'
+  pl: 'Zmodyfikowano w dniu'
+  pt: Atualizado
 
 By:
   fr: Par
   es: Por
-
+  de: Von
+  it: Da
+  nl: Door
+  pl: Autor
+  
 In:
   fr: Dans
   es: En
+  de: In
+  cz: V
+  it: In
+  nl: In
+  pl: W
 
 Misc:
   fr: Divers
+  it: Varie
+  de: Verschiedenes
+  cz: Různé
+  es: Miscelánea
+  fi: Sekalaista
+  nl: Diversen
+  pl: Różne
+  pt: Diversos
 
 Telecom:
   fr: Télécom
+  it: Telecom
+  de: Telekom
+  cz: Telecom
+  es: Telecom
+  fi: Telekom
+  nl: Telecom
+  pl: Telekomunikacja
+  pt: Telecom
 
 Translations:
   fr: Traductions
   es: Traducción
+  it: Traduzioni
+  de: Übersetzungen
+  cz: Překlady
+  fi: Käännökset
+  nl: Vertalingen
+  pl: Tłumaczenia
+  pt: Traduções
 
 'OVH Guides':
-  fr: Documentation OVH
-  es: OVH Guías
+  fr: 'Documentation OVH'
+  es: 'OVH Guías'
+  cz: 'Příručky OVH'
+  it: 'Documentazione OVH'
+  de: 'OVH Dokumentation'
+  fi: 'OVH:n Ohjeet'
+  nl: 'OVH-handleidingen'
+  pl: 'Dokumentacja techniczna OVH'
+  pt: 'Manuais OVH'
 
 'Search OVH guides':
-  fr: Rechercher dans la documentation OVH
+  fr: 'Rechercher dans la documentation OVH'
+  cz: 'Prohledat příručky OVH'
+  it: 'Cerca nella documentazione OVH'
+  de: 'OVH Dokumentation durchsuchen'
+  es: 'Buscar en la documentación de OVH'
+  fi: 'Etsi OVH:n ohjeista'
+  nl: 'Zoek OVH-handleidingen'
+  pl: 'Szukaj w dokumentacji technicznej OVH'
+  pt: 'Procurar Manuais'
 
 'These guides might also interest you':
-  fr: Ces guides pourraient également vous intéresser
-  es: Otras guías que podrían interesarle
-  pl: Inne przewodniki, które mogą Cię zainteresować
+  fr: 'Ces guides pourraient également vous intéresser'
+  es: 'Otras guías que podrían interesarle'
+  cz: 'Mohlo by Vás zaujmout'
+  de: 'Diese Anleitungen könnten Sie auch interessieren'
+  it: 'Potrebbero interessarti anche'
+  fi: 'Myös nämä ohjeet saattavat kiinnostaa sinua'
+  nl: 'Deze handleidingen kunnen ook interessant zijn voor u'
+  pl: 'Inne przewodniki, które mogą Cię zainteresować'
+  pt: 'Estes manuais também podem ser úteis'
 
 Share:
   fr: Partager
+  cz: Sdílet
+  it: Condividi
+  de: Teilen
+  es: Compartir
+  fi: Jaa
+  nl: Delen
+  pl: Udostępnij
+  pt: Partilha
 
 Contribute:
   fr: Contribuer
+  cz: Přispět
+  de: Mitmachen
+  it: Modifica
+  fi: Muokkaa
+  es: Contribuir
+  nl: Bijdragen
+  pl: Współtwórz
+  pt: Contribuir
