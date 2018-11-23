@@ -27,7 +27,7 @@ By:
   it: Da
   nl: Door
   pl: Autor
-  
+
 In:
   fr: Dans
   es: En
@@ -124,3 +124,66 @@ Contribute:
   nl: Bijdragen
   pl: Współtwórz
   pt: Contribuir
+
+'Did you find this guide useful?':
+  fr: 'Cet article vous a-t-il été utile ?'
+  es: '¿Le ha resultado útil esta guía?'
+  it: 'Questa guida è stata utile?'
+  nl: 'Vond u deze handleiding nuttig?'
+  pt: 'Este artigo foi útil?'
+  de: 'War dieser Artikel hilfreich?'
+  pl: 'Czy ten artykuł był pomocny?'
+
+'Yes':
+  fr: 'Oui'
+  es: 'Sí'
+  it: 'Sì'
+  nl: 'Ja'
+  pt: 'Sim'
+  de: 'Ja'
+  pl: 'Tak'
+
+"Great! We're glad we were able to help":
+  fr: "Génial ! Ravi d'avoir pu vous aider"
+  es: "¡Perfecto! Estamos encantados de poder ayudarle"
+  it: "Benissimo! Siamo felici di averti aiutato"
+  nl: "Geweldig! We zijn blij dat we konden helpen"
+  pt: "Ótimo! Ficamos contentes por poder ajudar"
+  de: "Schön, dass wir Ihnen helfen konnten"
+  pl: "Cieszymy się, że mogliśmy pomóc"
+
+'No':
+  fr: 'Non'
+  es: 'No'
+  it: 'No'
+  nl: 'Nee'
+  pt: 'Não'
+  de: 'Nein'
+  pl: 'Nie'
+
+'Why was it not useful?':
+  fr: "Pourquoi n'êtes-vous pas satisfait ?"
+  es: "¿Por qué no está satisfecho?"
+  it: "Perché non sei rimasto soddisfatto?"
+  nl: "Waarom was het niet nuttig?"
+  pt: "Porque é que não ficou satisfeito?"
+  de: "Warum sind Sie nicht zufrieden?"
+  pl: "Dlaczego artykuł nie spełnił Twoich oczekiwań?"
+
+Send:
+  fr: 'Envoyer'
+  es: 'Enviar'
+  it: 'Invia'
+  nl: 'Verzenden'
+  pt: 'Enviar'
+  de: 'Absenden'
+  pl: 'Wyślij'
+
+'Thank you. Your feedback has been received':
+  fr: 'Merci votre avis a été pris en compte'
+  es: '¡Gracias! Tendremos en cuenta su opinión'
+  it: 'Grazie per averci inviato il tuo feedback'
+  nl: 'Hartelijk bedankt, uw feedback is ontvangen'
+  pt: 'Obrigado. A sua mensagem foi recebida com sucesso'
+  de: 'Vielen Dank. Ihr Feedback wurde gesendet'
+  pl: 'Dziękujemy. Twoja opinia jest dla nas bardzo cenna'

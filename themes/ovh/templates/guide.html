@@ -117,11 +117,43 @@
 
       <div id="page-bottom"></div>
 
+      <hr/>
+      <div class="feedbacks">
+        <h3>{{ 'Was this article helpful?' | translate(entity.global) }}</h3>
+        <div id="question">
+          <button type="button" onclick="helpful();">
+            {{ 'Yes' | translate(entity.global) }}
+          </button>
+          <button type="button" onclick="$('#question, #yes').empty().hide(); $('#no').fadeIn();">
+            {{ 'No' | translate(entity.global) }}
+          </button>
+        </div>
+        <div id="yes">
+          <p class="bold">
+            {{ 'Awesome! Glad we helped' | translate(entity.global) }}.
+          </p>
+        </div>
+        <div id="no">
+          <p class="bold">
+            {{ 'Why are you not satisfied?' | translate(entity.global) }}
+          </p>
+          <textarea rows="2"></textarea>
+          <button type="button" class="disabled" onclick="unhelpful();">
+            {{ 'Send' | translate(entity.global) }}
+          </button>
+        </div>
+        <div id="thanks">
+          <p class="bold">
+            {{ 'Thank you your opinion has been taken into account' | translate(entity.global) }}.
+          </p>
+        </div>
+      </div>
+
       {% set related_entities = entity|related %}
       {% if related_entities|length > 0 %}
       {# List a few guides linked to this guide (optional) #}
       <hr />
-      <h3>{{ 'These guides might also interest you'| translate(entity.global) }}...</h2>
+      <h3>{{ 'These guides might also interest you' | translate(entity.global) }}...</h3>
       <div class="rel-pages">
           <div class="row small-up-1 medium-up-2 large-up-3">
               {% for related_entity in related_entities %}
@@ -135,7 +167,6 @@
           </div>
       </div>
       {% endif %}
-
     </div>
     <div id="overlay"></div>
     <div id="overlayContent">
@@ -143,10 +174,55 @@
     </div>
 {% endblock %}
 
+
 {% block scripts_bottom %}
     {{- super() -}}
     <script type="text/javascript">
+        window.doorbellOptions = {
+            id: '9415',
+            appKey: '2ncJfsqNkuKcM55B5z9cUKTqX0MAjKZaqn0tjdCADQpy80mWQv711zhTcrdxy8zg',
+            hideButton: true,
+            tags: [
+              "{{ entity.lang if entity.locale != entity.global else entity.locale }}",
+              {% for parent in entity.parents %}
+                "{{ parent.slug }}",
+              {% endfor %}
+              "{{entity.slug}}"
+            ]
+        };
+        (function(w, d, t) {
+            var hasLoaded = false;
+            function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+            if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+            if (d.readyState == 'complete') { l(); }
+        }(window, document, 'script'));
+    </script>
+
+    <script type="text/javascript">
+      var helpful = function() {
+        $('#question, #no ,#thanks').empty().hide();
+        doorbell.setOption('sentiment', 'positive');
+        doorbell.send('Positive feedback!', '', function() {
+          $('#yes').fadeIn();
+        }, function(error) {
+          alert(error);
+        });
+      }
+      var unhelpful = function() {
+        doorbell.setOption('sentiment', 'negative');
+        doorbell.send($('#no textarea').val(), '', function() {
+          $('#no').empty().hide();
+          $('#thanks').fadeIn();
+        }, function(error) {
+          alert(error);
+        });
+      }
+
       jQuery(document).ready(function() {
+        $('#no textarea').on('input', function() {
+          $(this).val() ? $('#no button').removeClass('disabled') : $('#no button').addClass('disabled');
+        });
+
         $("img.thumbnail").click(function() { 
           $("#imgBig").attr("src",$(this).attr("src"));
           $("#overlay").show();
