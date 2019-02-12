@@ -1,35 +1,26 @@
-<input id="rootUrl" value="https://www.ovh.it" type="hidden">
-<div id="header" class="global-component-menu it">
-<div id="cookiesPop" style="display: none;"><div class="wrapper">
-<div class="txt"><p>Proseguendo nella visita di questo sito, accetti l'utilizzo dei cookies a fini statistici e per una migliore esperienza di navigazione<a href="https://www.ovh.it/supporto//documenti_legali/cookies_ovh.xml">Maggiori informazioni sull'utilizzo e la gestione dei cookies</a></p></div>
-<div class="lnk"><input id="cross" value="Ok" type="button"></div>
-</div></div>
-<input id="main-language" value="it" type="hidden"><a onclick="window.scrollTo(0, 0);" class="toTop" href="javascript:void(0)" title="Torna su">Torna su</a><div class="header_wrapper">
-<a href="https://www.ovh.it/" title="Homepage OVH - Domini, Hosting condiviso, Server dedicati, Cloud, Email, VPS, CDN" class="main_logo sprite-logo-01-2017" style="display: flex;"></a><div class="support">
-<a id="menu_customer_not_logged" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.it/" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Manager','','action');" title="Il tuo Spazio Cliente OVH">Spazio Cliente OVH</a><a id="menu_customer_logged_in" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.it/" style="display: none;" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-NIC','','action');" title="Il tuo Spazio Cliente OVH">Spazio Cliente OVH (#NIC#)
-                            </a><a id="menu_customer_num_pending_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=in-progress" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Billing','','action');" title="Ordini in corso" style="display: none;"></a><a id="menu_customer_num_unpaid_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=unpaid" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-UnpaidBilling','','action');" title="Ordini pagabili"></a> 
+<input type="hidden" id="rootUrl" value="https://www.ovh.it"><div id="header" class="global-component-menu it"><input id="main-language" type="hidden" value="it"><div class="header_wrapper"><a href="https://www.ovh.it/" title="Homepage OVH - Domini, Hosting condiviso, Server dedicati, Cloud, Email, VPS, CDN" style="display: flex;" class="main_logo"><img src="/images/logo/ovhLogoColor.svg" alt="OVH.com logo" style="height: 44px; margin: 10px;"></a><div class="support"><a id="menu_customer_not_logged" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.it/&amp;ovhSubsidiary=it" data-tc-clic="TopHeader-Manager" title="Il tuo Spazio Cliente OVH">Spazio Cliente OVH</a><a id="menu_customer_logged_in" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.it/&amp;ovhSubsidiary=it" style="display: none;" data-tc-clic="TopHeader-NIC" title="Il tuo Spazio Cliente OVH">Spazio Cliente OVH (#NIC#)
+                            </a><a id="menu_customer_num_pending_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=in-progress" data-tc-clic="TopHeader-Billing" title="Ordini in corso"></a><a id="menu_customer_num_unpaid_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=unpaid" data-tc-clic="TopHeader-UnpaidBilling" title="Ordini pagabili"></a> 
 
                             |
 
-                            <a class="menu_link" href="https://mail.ovh.net/it/" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Webmail','','action');" title="Le tue email online">Webmail</a> 
+                            <a class="menu_link" href="https://www.ovh.it/mail//" data-tc-clic="TopHeader-Webmail" title="Le tue email online">Webmail</a> 
     
                             |
 
-                            <a class="menu_link" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Support','','action');" href="https://www.ovh.it/supporto//contattaci/" title="Assistenza tecnica e commerciale">Supporto</a><a id="menu_customer_num_pending_ticket" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/ticket" title="Ticket di supporto aperti" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Manager','','action');" style="display: none;"></a> 
+                            <a class="menu_link" data-tc-clic="TopHeader-Support" href="https://www.ovh.it/supporto//contattaci/" title="Assistenza tecnica e commerciale">Supporto</a><a id="menu_customer_num_pending_ticket" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/ticket" title="Ticket di supporto aperti" data-tc-clic="TopHeader-Manager"></a> 
 
                             |
 
-                            <a class="menu_link" href="https://www.ovh.it/community/knowledge/" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Community','','action');" title="Guide OVH">Guide</a> 
-
+                            <a class="menu_link" href="https://docs.ovh.com/it/" data-tc-clic="TopHeader-Community" title="Guide OVH">Guide</a> 
                                 |
                             <style type="text/css">
             #changeLanguage .ovhFlag,
             a#languageChooser,
             span#languageChooser {
-                background-image: url('/theme/img/ovhFlags.png') !important;
+                background-image: url('/theme/img/images/flagz/ovhFlags.png') !important;
                 width: 30px;
                 height: 26px;
-                margin: -5px 10px 0 5px !important;
+                margin: -2px 10px 0 5px !important;
                 background-size: 30px;
                 border: none;
             }
@@ -97,7 +88,7 @@
             }
 
             .mobileLanguageChooserWrapper {
-                height: 26px;
+                height: 49px;
                 margin: 0;
                 text-align: center !important;
                 border: solid #fff 1px;
@@ -105,721 +96,153 @@
                 border-right: 0px;
                 padding: 11px 0;
             }
-        </style>
-<a href="javascript:void(0);" id="languageChooser" class="ovhFlag it" tabindex="1"></a><div id="changeLanguage">
-<div class="contryBox">
-<span class="chLangTitl">Europa</span><ul class="countryList">
-<li><a href="https://www.ovh.cz" name="Flagz/cz"><div class="ovhFlag cz"></div>
-<span>Repubblica Ceca</span></a></li>
-<li><a href="https://www.ovh.de" name="Flagz/de"><div class="ovhFlag de"></div>
-<span>Germania</span></a></li>
-<li><a href="https://www.ovh-hosting.fi" name="Flagz/fi"><div class="ovhFlag fi"></div>
-<span>Finlandia</span></a></li>
-<li><a href="https://www.ovh.com/fr/" name="Flagz/fr"><div class="ovhFlag fr"></div>
-<span>Francia</span></a></li>
-<li><a href="https://www.ovh.it" name="Flagz/fi"><div class="ovhFlag it"></div>
-<span>Italia</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/ie"><div class="ovhFlag ie"></div>
-<span>Irlanda</span></a></li>
-<li><a href="https://www.ovh.lt" name="Flagz/lt"><div class="ovhFlag lt"></div>
-<span>Lituania</span></a></li>
-<li><a href="https://www.ovh.nl" name="Flagz/nl"><div class="ovhFlag nl"></div>
-<span>Paesi Bassi</span></a></li>
-<li><a href="https://www.ovh.pl" name="Flagz/pl"><div class="ovhFlag pl"></div>
-<span>Polonia</span></a></li>
-<li><a href="https://www.ovh.pt" name="Flagz/pt"><div class="ovhFlag pt"></div>
-<span>Portogallo</span></a></li>
-<li><a href="https://www.ovh.es" name="Flagz/es"><div class="ovhFlag es"></div>
-<span>Spagna</span></a></li>
-<li><a href="https://www.ovh.co.uk" name="Flagz/uk"><div class="ovhFlag uk"></div>
-<span>Regno Unito</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">America</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/us"><div class="ovhFlag us"></div>
-<span>USA</span></a></li>
-<li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca"><div class="ovhFlag ca"></div>
-<span>Canada [EN]</span></a></li>
-<li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc"><div class="ovhFlag qc"></div>
-<span>Canada [FR]</span></a></li>
-<li><a href="https://www.ovh.com/us/es/" name="Flagz/ws"><div class="ovhFlag ws"></div>
-<span>America Latina [ES]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Africa</span><ul class="countryList">
-<li><a href="https://www.ovh.com/ma/" name="Flagz/ma"><div class="ovhFlag ma"></div>
-<span>Marocco</span></a></li>
-<li><a href="https://www.ovh.sn" name="Flagz/sn"><div class="ovhFlag sn"></div>
-<span>Senegal</span></a></li>
-<li><a href="https://www.ovh.com/tn/" name="Flagz/tn"><div class="ovhFlag tn"></div>
-<span>Tunisia</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Océanie</span><ul class="countryList">
-<li><a href="https://www.ovh.com.au/" name="Flagz/au"><div class="ovhFlag au"></div>
-<span>Australia</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Asia</span><ul class="countryList">
-<li><a href="https://www.ovh.com/sg/" name="Flagz/au"><div class="ovhFlag sg"></div>
-<span>Singapore</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Mondo</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Mondo [$]</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Mondo [€]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div style="clear: both;"></div>
-</div>
-<input id="gsearchEngine" value="comit" type="hidden"><input id="gsearchNoAnswer" value="Nessun risultato" type="hidden"><div class="searchContainer">
-<input name="query" autocomplete="off" id="searchQuery" value="" placeholder="Cerca" style="width: 100px;" type="text"><input value="" id="searchSubmit" type="submit"><div id="searchSuggestions" style="width: 539px; display: none;"></div>
-<div id="searchResults" style="width: 539px; display: none;"></div>
-<div id="searchResultsLoader" style="width: 539px; display: none;">
-<img src="/theme/img/ajax-loader.gif" style="margin: 0 8px;">Caricamento...</div>
-</div>
-</div>
-</div>
-<div class="
-                    topMainMenu" style="top: 0px;"><div class="header_wrapper">
-<style type="text/css" translate="none">
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+               .mobileLanguageChooserWrapper{height: 26px;}
+            }
+        </style><a href="javascript:void(0);" id="languageChooser" class="ovhFlag it" tabindex="1"></a><div id="changeLanguage"><div class="contryBox"><span class="chLangTitl">Europa</span><ul class="countryList"><li><a href="https://www.ovh.cz" name="Flagz/cz" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag cz"></div><span>Repubblica Ceca</span></a></li><li><a href="https://www.ovh.de" name="Flagz/de" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag de"></div><span>Germania</span></a></li><li><a href="https://www.ovh-hosting.fi" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fi"></div><span>Finlandia</span></a></li><li><a href="https://www.ovh.com/fr/" name="Flagz/fr" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fr"></div><span>Francia</span></a></li><li><a href="https://www.ovh.it" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag it"></div><span>Italia</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/ie" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ie"></div><span>Irlanda</span></a></li><li><a href="https://www.ovh.lt" name="Flagz/lt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag lt"></div><span>Lituania</span></a></li><li><a href="https://www.ovh.nl" name="Flagz/nl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag nl"></div><span>Paesi Bassi</span></a></li><li><a href="https://www.ovh.pl" name="Flagz/pl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pl"></div><span>Polonia</span></a></li><li><a href="https://www.ovh.pt" name="Flagz/pt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pt"></div><span>Portogallo</span></a></li><li><a href="https://www.ovh.es" name="Flagz/es" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag es"></div><span>Spagna</span></a></li><li><a href="https://www.ovh.co.uk" name="Flagz/uk" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag uk"></div><span>Regno Unito</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">America</span><ul class="countryList"><li><a href="https://us.ovhcloud.com/" name="Flagz/us" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag us"></div><span>USA</span></a></li><li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ca"></div><span>Canada [EN]</span></a></li><li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag qc"></div><span>Canada [FR]</span></a></li><li><a href="https://www.ovh.com/world/es/" name="Flagz/ws" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ws"></div><span>America Latina [ES]</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Africa</span><ul class="countryList"><li><a href="https://www.ovh.com/ma/" name="Flagz/ma" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ma"></div><span>Marocco</span></a></li><li><a href="https://www.ovh.sn" name="Flagz/sn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sn"></div><span>Senegal</span></a></li><li><a href="https://www.ovh.com/tn/" name="Flagz/tn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag tn"></div><span>Tunisia</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Océanie</span><ul class="countryList"><li><a href="https://www.ovh.com.au/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag au"></div><span>Australia</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Asia</span><ul class="countryList"><li><a href="https://www.ovh.com/sg/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sg"></div><span>Singapore</span></a></li><li><a href="https://www.ovh.com/asia/" name="Flagz/asia" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag asia"></div><span>Asia</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Mondo</span><ul class="countryList"><li><a href="https://www.ovh.com/world/" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Mondo [$]</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Mondo [€]</span></a></li><div style="clear: both;"></div></ul></div><div style="clear: both;"></div></div><input type="hidden" id="gsearchEngine" value="it_IT"><input type="hidden" id="searchSource" value="www.ovh.it"><input type="hidden" id="gsearchNoAnswer" value="Nessun risultato"></div></div><div class="
+                    topMainMenu"><div class="header_wrapper"><style type="text/css" translate="none">
                         #header #navigation > ul > li > a { width: 16.6666666666667%; }
                         #header .topMainMenu.compressed #menu > li > a { width: 15%; }
-                        #header .topMainMenu.compressed.mvA #menu > li > a { font-size: 15px!important;}
+                        #header .topMainMenu.compressed.mvA #menu > li > a { font-size: 15px !important; }
 
-                        </style>
-<nav id="nav" role="navigation"><ul><li id="navigation">
-<a href="/it/" class="mobileLogo"><img src="/theme/img/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" translate="none">≡</label><input id="menu-toggle" type="checkbox"><ul id="menu" role="menubar">
-<li class="menuLogo"><a href="/it/"><span class="sprite-logo"></span></a></li>
-<li class="web">
-<a href="javascript:void(0);" nameat="Tab-Web" onclick="window.globalComponentFooter.analytics.at.track('Tab-Web','','navigation');">Web</a><ul><li class="products"><ul>
-<li class="icn icn-domains first " data-product="domains">
-<a href="https://www.ovh.it/domini/" name="Menu/NomsDeDomaine" nameat="NomsDeDomaine" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine','','navigation');"><div class="prDesc">
-<span class="title">Domini</span><br><span class="baseline">Crea o trasferisci il tuo dominio in OVH</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€0.99&nbsp;+IVA</span><span class="period">/anno</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/domini/" class="title" name="Menu/NomsDeDomaine-More/Create" nameat="NomsDeDomaine-Create" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-Create','','navigation');" rel="nofollow">Registra il tuo dominio</a></li>
-<li><a href="https://www.ovh.it/domini/procedura_trasferimento_dominio.xml" name="Menu/NomsDeDomaine-More/Transfer" nameat="NomsDeDomaine-Transfer" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-Transfer','','navigation');">Trasferisci un dominio</a></li>
-<li><a href="https://www.ovh.it/domini/tariffe/" name="Menu/NomsDeDomaine-More/tous" nameat="NomsDeDomaine-tous" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-tous','','navigation');" rel="nofollow">Tutti i domini</a></li>
-<li><a href="https://www.ovh.it/domini/tariffe/#promotions" name="Menu/NomsDeDomaine-More/Prom" nameat="NomsDeDomaine-Prom" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-Prom','','navigation');">Offerte Promo</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/domini/dns-anycast/" name="Menu/NomsDeDomaine-More/DNS Anycast" nameat="NomsDeDomaine-DNS Anycast" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-DNS Anycast','','navigation');">Acceleratore DNS Anycast</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/hosting-web/guide/" name="Menu/NomsDeDomaine-More/guides" nameat="NomsDeDomaine-guides" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-guides','','navigation');">Guide</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                        </style><nav id="nav" role="navigation"><ul><li id="navigation"><a href="/" class="mobileLogo"><img src="/theme/img/images/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" translate="none">≡</label><input type="checkbox" id="menu-toggle"><ul id="menu" role="menubar"><li class="menuLogo"><a href="https://www.ovh.it/"><span class="sprite-logo"></span></a></li>
+        
+        <li class="web"><a href="https://www.ovh.it/web/" nameat="Tab-Web" data-tc-clic="Tab-Web" data-tc-clic-type="navigation">Web hosting</a><ul><li class="products"><ul><li class="icn icn-domains first " data-product="domains"><a href="https://www.ovh.it/domini/" style="" name="Menu/NomsDeDomaine" nameat="NomsDeDomaine" data-tc-clic="NomsDeDomaine" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Domini</span><br><span class="baseline">Crea o trasferisci il tuo dominio in OVH</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€0.69 +IVA</span><span class="period">/anno</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/domini/" class="title" style="" name="Menu/NomsDeDomaine-More/Create" nameat="NomsDeDomaine-Create" data-tc-clic="NomsDeDomaine-Create" data-tc-clic-type="navigation" rel="nofollow">Registra il tuo dominio</a></li><li><a href="https://www.ovh.it/domini/procedura_trasferimento_dominio.xml" class="" style="" name="Menu/NomsDeDomaine-More/Transfer" nameat="NomsDeDomaine-Transfer" data-tc-clic="NomsDeDomaine-Transfer" data-tc-clic-type="navigation">Trasferisci un dominio</a></li><li><a href="https://www.ovh.it/domini/tariffe/" class="" style="" name="Menu/NomsDeDomaine-More/tous" nameat="NomsDeDomaine-tous" data-tc-clic="NomsDeDomaine-tous" data-tc-clic-type="navigation" rel="nofollow">Tutti i domini</a></li><li><a href="https://www.ovh.it/domini/tariffe/#promotions" class="" style="" name="Menu/NomsDeDomaine-More/Prom" nameat="NomsDeDomaine-Prom" data-tc-clic="NomsDeDomaine-Prom" data-tc-clic-type="navigation">Offerte Promo</a></li><li class="separate"><li><a href="https://www.ovh.it/domini/easy-redirect/" class="" style="" name="Menu/NomsDeDomaine-More/Easy%20Redirect" nameat="NomsDeDomaine-Easy Redirect" data-tc-clic="NomsDeDomaine-Easy Redirect" data-tc-clic-type="navigation">Easy Redirect</a></li><li><a href="https://www.ovh.it/domini/dns-anycast/" class="" style="" name="Menu/NomsDeDomaine-More/DNS%20Anycast" nameat="NomsDeDomaine-DNS Anycast" data-tc-clic="NomsDeDomaine-DNS Anycast" data-tc-clic-type="navigation">Acceleratore DNS Anycast</a></li><li class="separate"><li><a href="https://docs.ovh.com/it/domains/" class="" style="" name="Menu/NomsDeDomaine-More/guides" nameat="NomsDeDomaine-guides" data-tc-clic="NomsDeDomaine-guides" data-tc-clic-type="navigation">Guide</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Diventa internazionale!</p>
-<br><p class="moreButton bgweb" style="">Visualizza l'offerta</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-hosting" data-product="hosting">
-<a href="https://www.ovh.it/hosting-web/" name="Menu/hosting" nameat="hosting" onclick="window.globalComponentFooter.analytics.at.track('hosting','','navigation');"><div class="prDesc">
-<span class="title">Hosting Web e di siti Web</span><br><span class="baseline">Hosting semplice e potente per il tuo sito</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€1.99&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/hosting-web/" class="title" name="Menu/hosting-More/all" nameat="hosting-all" onclick="window.globalComponentFooter.analytics.at.track('hosting-all','','navigation');" rel="nofollow">Costruisci il tuo sito Web</a></li>
-<li><a href="https://www.ovh.it/hosting-web/hosting-web-personale.xml" name="Menu/hosting-More/Perso" nameat="hosting-Perso" onclick="window.globalComponentFooter.analytics.at.track('hosting-Perso','','navigation');">Hosting Personale</a></li>
-<li><a href="https://www.ovh.it/hosting-web/hosting-web-pro.xml" name="Menu/hosting-More/Pro" nameat="hosting-Pro" onclick="window.globalComponentFooter.analytics.at.track('hosting-Pro','','navigation');">Hosting Pro</a></li>
-<li><a href="https://www.ovh.it/hosting-web/hosting-web-performance.xml" name="Menu/hosting-More/Perf" nameat="hosting-Perf" onclick="window.globalComponentFooter.analytics.at.track('hosting-Perf','','navigation');">Web Performance (Piattaforma isolata)</a></li>
-<li><a href="https://www.ovh.it/hosting-web/opzioni-sql.xml" name="Menu/hosting-More/options-sql" nameat="hosting-options-sql" onclick="window.globalComponentFooter.analytics.at.track('hosting-options-sql','','navigation');">Database MySQL</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/hosting-web/website/" class="title" name="Menu/hosting-More/1click" nameat="hosting-1click" onclick="window.globalComponentFooter.analytics.at.track('hosting-1click','','navigation');">Crea il tuo sito in pochi click</a></li>
-<li><a href="https://www.ovh.it/hosting-web/website/wordpress.xml" name="Menu/hosting-More/Wordpress" nameat="hosting-Wordpress" onclick="window.globalComponentFooter.analytics.at.track('hosting-Wordpress','','navigation');">WordPress</a></li>
-<li><a href="https://www.ovh.it/hosting-web/website/joomla.xml" name="Menu/hosting-More/Joomla" nameat="hosting-Joomla" onclick="window.globalComponentFooter.analytics.at.track('hosting-Joomla','','navigation');">Joomla!</a></li>
-<li><a href="https://www.ovh.it/hosting-web/website/drupal.xml" name="Menu/hosting-More/drupal" nameat="hosting-drupal" onclick="window.globalComponentFooter.analytics.at.track('hosting-drupal','','navigation');">Drupal</a></li>
-<li><a href="https://www.ovh.it/hosting-web/website/prestashop.xml" name="Menu/hosting-More/prestashop" nameat="hosting-prestashop" onclick="window.globalComponentFooter.analytics.at.track('hosting-prestashop','','navigation');">PrestaShop</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/hosting-web/guide/" name="Menu/hosting-More/guides" nameat="hosting-guides" onclick="window.globalComponentFooter.analytics.at.track('hosting-guides','','navigation');">Guide</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/cgi-bin/newOrder/order.cgi?templates=wordpress&amp;plan=pro2014" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Diventa internazionale!</p><br><p class="moreButton bgweb" style="">Visualizza l'offerta</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-hosting" data-product="hosting"><a href="https://www.ovh.it/hosting-web/" style="" name="Menu/hosting" nameat="hosting" data-tc-clic="hosting" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Hosting Web e di siti Web</span><br><span class="baseline">Hosting semplice e potente per il tuo sito</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€1.99 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/hosting-web/" class="title" style="" name="Menu/hosting-More/all" nameat="hosting-all" data-tc-clic="hosting-all" data-tc-clic-type="navigation" rel="nofollow">Costruisci il tuo sito Web</a></li><li><a href="https://www.ovh.it/hosting-web/hosting-web-personale.xml" class="" style="" name="Menu/hosting-More/Perso" nameat="hosting-Perso" data-tc-clic="hosting-Perso" data-tc-clic-type="navigation">Hosting Personale</a></li><li><a href="https://www.ovh.it/hosting-web/hosting-web-pro.xml" class="" style="" name="Menu/hosting-More/Pro" nameat="hosting-Pro" data-tc-clic="hosting-Pro" data-tc-clic-type="navigation">Hosting Pro</a></li><li><a href="https://www.ovh.it/hosting-web/cloud-web.xml" class="" style="" name="Menu/hosting-More/CloudWeb" nameat="hosting-CloudWeb" data-tc-clic="hosting-CloudWeb" data-tc-clic-type="navigation">Hosting Cloud Web (piattaforma isolata)</a></li><li><a href="https://www.ovh.it/hosting-web/hosting-web-performance.xml" class="" style="" name="Menu/hosting-More/Perf" nameat="hosting-Perf" data-tc-clic="hosting-Perf" data-tc-clic-type="navigation">Hosting Performance (risorse garantite)</a></li><li><a href="https://www.ovh.it/hosting-web/opzioni-sql.xml" class="" style="" name="Menu/hosting-More/options-sql" nameat="hosting-options-sql" data-tc-clic="hosting-options-sql" data-tc-clic-type="navigation">Database MySQL</a></li><li><a href="https://www.ovh.it/ssl/" class="" style="" name="Menu/hosting-More/certificats-ssl" nameat="hosting-certificats-ssl" data-tc-clic="hosting-certificats-ssl" data-tc-clic-type="navigation">Certificati SSL</a></li><li class="separate"><li><a href="https://www.ovh.it/hosting-web/website/" class="title" style="" name="Menu/hosting-More/1click" nameat="hosting-1click" data-tc-clic="hosting-1click" data-tc-clic-type="navigation">Crea il tuo sito in pochi click</a></li><li><a href="https://www.ovh.it/hosting-web/website/wordpress.xml" class="" style="" name="Menu/hosting-More/Wordpress" nameat="hosting-Wordpress" data-tc-clic="hosting-Wordpress" data-tc-clic-type="navigation">WordPress</a></li><li><a href="https://www.ovh.it/hosting-web/website/joomla.xml" class="" style="" name="Menu/hosting-More/Joomla" nameat="hosting-Joomla" data-tc-clic="hosting-Joomla" data-tc-clic-type="navigation">Joomla!</a></li><li><a href="https://www.ovh.it/hosting-web/website/drupal.xml" class="" style="" name="Menu/hosting-More/drupal" nameat="hosting-drupal" data-tc-clic="hosting-drupal" data-tc-clic-type="navigation">Drupal</a></li><li><a href="https://www.ovh.it/hosting-web/website/prestashop.xml" class="" style="" name="Menu/hosting-More/prestashop" nameat="hosting-prestashop" data-tc-clic="hosting-prestashop" data-tc-clic-type="navigation">PrestaShop</a></li><li class="separate"><li><a href="https://docs.ovh.com/it/hosting/" class="title" style="" name="Menu/hosting-More/guides" nameat="hosting-guides" data-tc-clic="hosting-guides" data-tc-clic-type="navigation">Guide</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/cgi-bin/newOrder/order.cgi?templates=wordpress&amp;plan=pro2014" name="Menu/Pub-Web"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/Mutu_Wordpress.jpg'); background-color: #000;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">WordPress Pro</p>
-<p style="color: #FFF;">Il tuo WordPress pronto all'uso</p>
-<br><p class="moreButton bgweb" style=""><span class="amount">€4.99&nbsp;+IVA</span><span class="period">/mese</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-multihosting" data-product="pleskaas">
-<a href="https://www.ovh.it/hosting-plesk/" name="Menu/pleskaas" nameat="pleskaas" onclick="window.globalComponentFooter.analytics.at.track('pleskaas','','navigation');"><div class="prDesc">
-<span class="title">Hosting Web Plesk</span><br><span class="baseline">Soluzione chiavi in mano per i professionisti</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€12.99&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/hosting-plesk/" class="title" name="Menu/pleskaas-More/seeOffer" nameat="pleskaas-seeOffer" onclick="window.globalComponentFooter.analytics.at.track('pleskaas-seeOffer','','navigation');" rel="nofollow">Scopri l'offerta</a></li></ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/hosting-plesk/" name="Menu/Pub-Office" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Office','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/Mutu_Wordpress.jpg'); background-color: #000;"><span><div class="moreContent"><p class="title" style="color: #FFF;">WordPress Pro</p><p style="color: #FFF;">Il tuo WordPress pronto all'uso</p><br><p class="moreButton bgweb" style=""><span class="amount">€4.99 +IVA</span><span class="period">/mese</span></p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-multihosting" data-product="pleskaas"><a href="https://www.ovh.it/hosting-plesk/" style="" name="Menu/pleskaas" nameat="pleskaas" data-tc-clic="pleskaas" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Hosting Web Plesk</span><br><span class="baseline">Soluzione chiavi in mano per i professionisti</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€12.99 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/hosting-plesk/" class="title" style="" name="Menu/pleskaas-More/seeOffer" nameat="pleskaas-seeOffer" data-tc-clic="pleskaas-seeOffer" data-tc-clic-type="navigation" rel="nofollow">Scopri l'offerta</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/hosting-plesk/" name="Menu/Pub-Office"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/encart-menu-plesk.jpg'); "><span><div class="moreContent">
-<p style="color: ;">Siti Web, database, email, sicurezza... Tutto è più semplice con&nbsp;Plesk!</p>
-<br><p class="moreButton bgweb" style="">Visualizza l'offerta</p>
-<span class="fw200" style="font-size: 9px; color: "></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-email" data-product="email">
-<a href="https://www.ovh.it/emails/" name="Menu/Messagerie" nameat="Messagerie" onclick="window.globalComponentFooter.analytics.at.track('Messagerie','','navigation');"><div class="prDesc">
-<span class="title">Soluzioni Email</span><br><span class="baseline">Email condivisa e caselle email</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€4.99&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/emails/email-pro/" class="title" name="Menu/Messagerie-More/" nameat="Messagerie-" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-','','navigation');">Email Pro</a></li>
-<li><a href="https://www.ovh.it/emails/hosted-exchange/" class="title" name="Menu/Messagerie-More/exchange" nameat="Messagerie-exchange" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-exchange','','navigation');">Microsoft Exchange</a></li>
-<li><a href="https://www.ovh.it/hosting-web/" name="Menu/Messagerie-More/inclusHosting" nameat="Messagerie-inclusHosting" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-inclusHosting','','navigation');" rel="nofollow">Servizi Email inclusi nel tuo Hosting </a></li>
-<li><a href="https://www.ovh.it/domini/offerta_hosting_start10m.xml" name="Menu/Messagerie-More/inclusDomaine" nameat="Messagerie-inclusDomaine" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-inclusDomaine','','navigation');" rel="nofollow">Servizi Email inclusi nel tuo dominio</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/sharepoint/?range=mail" name="Menu/Messagerie-More/sharepoint" nameat="Messagerie-sharepoint" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-sharepoint','','navigation');" rel="nofollow"> Microsoft Sharepoint 2016</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/emails/hosted-exchange/guide/" name="Menu/Messagerie-More/guides" nameat="Messagerie-guides" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-guides','','navigation');">Guide</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/encart-menu-plesk.jpg'); "><span><div class="moreContent"><p style="color: ;">Siti Web, database, email, sicurezza... Tutto è più semplice con Plesk!</p><br><p class="moreButton bgweb" style="">Visualizza l'offerta</p><span class="fw200" style="font-size: 9px; color: "></span></div></span></div></a></li></ul></li><li class="icn icn-email" data-product="email"><a href="https://www.ovh.it/emails/" style="" name="Menu/Messagerie" nameat="Messagerie" data-tc-clic="Messagerie" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Soluzioni Email</span><br><span class="baseline">Email condivisa e caselle email</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€0.99 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/emails/email-pro/" class="title" style="" name="Menu/Messagerie-More/" nameat="Messagerie-" data-tc-clic="Messagerie-" data-tc-clic-type="navigation">Email Pro</a></li><li><a href="https://www.ovh.it/emails/hosted-exchange/" class="title" style="" name="Menu/Messagerie-More/exchange" nameat="Messagerie-exchange" data-tc-clic="Messagerie-exchange" data-tc-clic-type="navigation">Microsoft Exchange</a></li><li><a href="https://www.ovh.it/hosting-web/" class="" style="" name="Menu/Messagerie-More/inclusHosting" nameat="Messagerie-inclusHosting" data-tc-clic="Messagerie-inclusHosting" data-tc-clic-type="navigation" rel="nofollow">Servizi Email inclusi nel tuo Hosting </a></li><li><a href="https://www.ovh.it/domini/offerta_hosting_start10m.xml" class="" style="" name="Menu/Messagerie-More/inclusDomaine" nameat="Messagerie-inclusDomaine" data-tc-clic="Messagerie-inclusDomaine" data-tc-clic-type="navigation" rel="nofollow">Servizi Email inclusi nel tuo dominio</a></li><li class="separate"><li><a href="https://www.ovh.it/sharepoint/?range=mail" class="" style="" name="Menu/Messagerie-More/sharepoint" nameat="Messagerie-sharepoint" data-tc-clic="Messagerie-sharepoint" data-tc-clic-type="navigation" rel="nofollow"> Microsoft Sharepoint 2016</a></li><li class="separate"><li><a href="https://www.ovh.it/emails/hosted-exchange/guide/" class="" style="" name="Menu/Messagerie-More/guides" nameat="Messagerie-guides" data-tc-clic="Messagerie-guides" data-tc-clic-type="navigation">Guide</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Diventa internazionale!</p>
-<br><p class="moreButton bgweb" style="">Visualizza l'offerta</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-office" data-product="dedicated">
-<a href="https://www.ovh.it/office-365/" name="Menu/office" nameat="office" onclick="window.globalComponentFooter.analytics.at.track('office','','navigation');"><div class="prDesc">
-<span class="title">Office 365</span><br><span class="baseline">Installa la Suite Office 2013 su PC &amp; Mac</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€7.99&nbsp;+IVA</span><span class="period"></span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/office-365/" class="title" name="Menu/office-More/All" nameat="office-All" onclick="window.globalComponentFooter.analytics.at.track('office-All','','navigation');" rel="nofollow">Prenota la suite Microsoft Office</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/office-365/" name="Menu/office-More/word" nameat="office-word" onclick="window.globalComponentFooter.analytics.at.track('office-word','','navigation');" rel="nofollow">Word</a></li>
-<li><a href="https://www.ovh.it/office-365/" name="Menu/office-More/excel" nameat="office-excel" onclick="window.globalComponentFooter.analytics.at.track('office-excel','','navigation');" rel="nofollow">Excel</a></li>
-<li><a href="https://www.ovh.it/office-365/" name="Menu/office-More/ppt" nameat="office-ppt" onclick="window.globalComponentFooter.analytics.at.track('office-ppt','','navigation');" rel="nofollow">PowerPoint</a></li>
-<li><a href="https://www.ovh.it/office-365/" name="Menu/office-More/outlook" nameat="office-outlook" onclick="window.globalComponentFooter.analytics.at.track('office-outlook','','navigation');" rel="nofollow">Outlook</a></li>
-<li><a href="https://www.ovh.it/office-365/" name="Menu/office-More/oneNote" nameat="office-oneNote" onclick="window.globalComponentFooter.analytics.at.track('office-oneNote','','navigation');" rel="nofollow">OneNote</a></li>
-<li><a href="https://www.ovh.it/office-365/" name="Menu/office-More/publisher" nameat="office-publisher" onclick="window.globalComponentFooter.analytics.at.track('office-publisher','','navigation');" rel="nofollow">Publisher</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Diventa internazionale!</p><br><p class="moreButton bgweb" style="">Visualizza l'offerta</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-office" data-product="dedicated"><a href="https://www.ovh.it/office-365/" style="" name="Menu/office" nameat="office" data-tc-clic="office" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Office 365</span><br><span class="baseline">Installa la Suite Office 2013 su PC &amp; Mac</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€7.99 +IVA</span><span class="period"></span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/office-365/" class="title" style="" name="Menu/office-More/All" nameat="office-All" data-tc-clic="office-All" data-tc-clic-type="navigation" rel="nofollow">Prenota la suite Microsoft Office</a></li><li class="separate"><li><a href="https://www.ovh.it/office-365/" class="" style="" name="Menu/office-More/word" nameat="office-word" data-tc-clic="office-word" data-tc-clic-type="navigation" rel="nofollow">Word</a></li><li><a href="https://www.ovh.it/office-365/" class="" style="" name="Menu/office-More/excel" nameat="office-excel" data-tc-clic="office-excel" data-tc-clic-type="navigation" rel="nofollow">Excel</a></li><li><a href="https://www.ovh.it/office-365/" class="" style="" name="Menu/office-More/ppt" nameat="office-ppt" data-tc-clic="office-ppt" data-tc-clic-type="navigation" rel="nofollow">PowerPoint</a></li><li><a href="https://www.ovh.it/office-365/" class="" style="" name="Menu/office-More/outlook" nameat="office-outlook" data-tc-clic="office-outlook" data-tc-clic-type="navigation" rel="nofollow">Outlook</a></li><li><a href="https://www.ovh.it/office-365/" class="" style="" name="Menu/office-More/oneNote" nameat="office-oneNote" data-tc-clic="office-oneNote" data-tc-clic-type="navigation" rel="nofollow">OneNote</a></li><li><a href="https://www.ovh.it/office-365/" class="" style="" name="Menu/office-More/publisher" nameat="office-publisher" data-tc-clic="office-publisher" data-tc-clic-type="navigation" rel="nofollow">Publisher</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Diventa internazionale!</p>
-<br><p class="moreButton bgweb" style="">Visualizza l'offerta</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-cdn" data-product="cdn">
-<a href="https://www.ovh.it/ssl-gateway/" name="Menu/cdn" nameat="cdn" onclick="window.globalComponentFooter.analytics.at.track('cdn','','navigation');"><div class="prDesc">
-<span class="title">SSL Gateway/CDN</span><br><span class="baseline">Aumenta la velocità dei tuoi siti nel mondo! </span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/ssl-gateway/" class="title" name="Menu/cdn-More/ssl-gateway" nameat="cdn-ssl-gateway" onclick="window.globalComponentFooter.analytics.at.track('cdn-ssl-gateway','','navigation');" rel="nofollow">SSL-Gateway</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/cdn/infrastructure/" class="title" name="Menu/cdn-More/infra" nameat="cdn-infra" onclick="window.globalComponentFooter.analytics.at.track('cdn-infra','','navigation');">CDN Infrastructure </a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Diventa internazionale!</p><br><p class="moreButton bgweb" style="">Visualizza l'offerta</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-cdn" data-product="cdn"><a href="https://www.ovh.it/ssl-gateway/" style="" name="Menu/cdn" nameat="cdn" data-tc-clic="cdn" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">SSL Gateway/CDN</span><br><span class="baseline">Aumenta la velocità dei tuoi siti nel mondo! </span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/ssl/" class="title" style="" name="Menu/cdn-More/certificats-ssl" nameat="cdn-certificats-ssl" data-tc-clic="cdn-certificats-ssl" data-tc-clic-type="navigation">Certificati SSL</a></li><li><a href="https://www.ovh.it/ssl-gateway/" class="" style="" name="Menu/cdn-More/ssl-gateway" nameat="cdn-ssl-gateway" data-tc-clic="cdn-ssl-gateway" data-tc-clic-type="navigation" rel="nofollow">SSL-Gateway</a></li><li><a href="https://www.ovh.it/cdn/infrastructure/" class="" style="" name="Menu/cdn-More/infra" nameat="cdn-infra" data-tc-clic="cdn-infra" data-tc-clic-type="navigation">CDN Infrastructure </a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Diventa internazionale!</p>
-<br><p class="moreButton bgweb" style="">Visualizza l'offerta</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="separate">&nbsp;</li>
-<li class="icn icn-partners">
-<a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_web%22%7D" name="Menu/partner-web" nameat="partner-web" onclick="window.globalComponentFooter.analytics.at.track('partner-web','','navigation');" target="_blank"><div class="prDesc">
-<span class="title">OVH Partners Web</span><br><span class="baseline">Installazione | Gestione | Sviluppo | Assistenza</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_web%22%7D" class="title" name="Menu/partner-web-More/exchange" nameat="partner-web-exchange" onclick="window.globalComponentFooter.analytics.at.track('partner-web-exchange','','navigation');" target="_blank">Trova un partner</a></li></ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Diventa internazionale!</p><br><p class="moreButton bgweb" style="">Visualizza l'offerta</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="separate"> </li><li class="icn icn-partners"><a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_web%22%7D" style="" name="Menu/partner-web" nameat="partner-web" data-tc-clic="partner-web" data-tc-clic-type="navigation" target="_blank"><div class="prDesc"><span class="title">OVH Partners Web</span><br><span class="baseline">Installazione | Gestione | Sviluppo | Assistenza</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_web%22%7D" class="title" style="" name="Menu/partner-web-More/exchange" nameat="partner-web-exchange" data-tc-clic="partner-web-exchange" data-tc-clic-type="navigation" target="_blank">Trova un partner</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/domini/dotcom.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Diventa internazionale!</p>
-<br><p class="moreButton bgweb" style="">Visualizza l'offerta</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="dedicated">
-<a href="javascript:void(0);">Dedicated</a><ul><li class="products"><ul>
-<li class="icn icn-dedicated first " data-product="dedicated">
-<a href="https://www.ovh.it/server_dedicati/" name="Menu/dedicated" nameat="dedicated" onclick="window.globalComponentFooter.analytics.at.track('dedicated','','navigation');"><div class="prDesc">
-<span class="title">Server dedicati</span><br><span class="baseline">Server Professionali OVH</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€64.99&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/server_dedicati/all_servers.xml" class="title" name="Menu/dedicated-More/all" nameat="dedicated-all" onclick="window.globalComponentFooter.analytics.at.track('dedicated-all','','navigation');" rel="nofollow">Tutti i server dedicati</a></li>
-<li><a href="https://www.ovh.it/discover/" name="Menu/dedicated-More/" nameat="dedicated-" onclick="window.globalComponentFooter.analytics.at.track('dedicated-','','navigation');">Server Discover</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/enterprise/" name="Menu/dedicated-More/enterprise" nameat="dedicated-enterprise" onclick="window.globalComponentFooter.analytics.at.track('dedicated-enterprise','','navigation');">Server Enterprise</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/hosting/" name="Menu/dedicated-More/hosting" nameat="dedicated-hosting" onclick="window.globalComponentFooter.analytics.at.track('dedicated-hosting','','navigation');">Server Hosting </a></li>
-<li><a href="https://www.ovh.it/server_dedicati/infra/" name="Menu/dedicated-More/infra" nameat="dedicated-infra" onclick="window.globalComponentFooter.analytics.at.track('dedicated-infra','','navigation');">Server Infrastructure </a></li>
-<li><a href="https://www.ovh.it/server_dedicati/game/" name="Menu/dedicated-More/game" nameat="dedicated-game" onclick="window.globalComponentFooter.analytics.at.track('dedicated-game','','navigation');">Server Game</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/storage/" name="Menu/dedicated-More/backup" nameat="dedicated-backup" onclick="window.globalComponentFooter.analytics.at.track('dedicated-backup','','navigation');">Server Storage e Backup</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/HG/" name="Menu/dedicated-More/HG" nameat="dedicated-HG" onclick="window.globalComponentFooter.analytics.at.track('dedicated-HG','','navigation');">Server HG - Big Data</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/gpu/" name="Menu/dedicated-More/gpu" nameat="dedicated-gpu" onclick="window.globalComponentFooter.analytics.at.track('dedicated-gpu','','navigation');">Server GPU</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/legacy-s/" name="Menu/dedicated-More/legacy" nameat="dedicated-legacy" onclick="window.globalComponentFooter.analytics.at.track('dedicated-legacy','','navigation');">
-                            Server Xeon E5-v2 
-                        </a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/server_dedicati/dedicati-settimana.xml" name="Menu/dedicated-More/oneWeek" nameat="dedicated-oneWeek" onclick="window.globalComponentFooter.analytics.at.track('dedicated-oneWeek','','navigation');">Server alla settimana</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/community/knowledge/" name="Menu/dedicated-More/guides" nameat="dedicated-guides" onclick="window.globalComponentFooter.analytics.at.track('dedicated-guides','','navigation');" rel="nofollow">Guide</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Diventa internazionale!</p><br><p class="moreButton bgweb" style="">Visualizza l'offerta</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li></ul></li></ul></li>
+
+
+        
+        
+
+
+        
+        <li class="dedicated"><a href="javascript:void(0);">Dedicated</a><ul><li class="products"><ul><li class="icn icn-dedicated first " data-product="dedicated"><a href="https://www.ovh.it/server_dedicati/" style="" name="Menu/dedicated" nameat="dedicated" data-tc-clic="dedicated" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Server dedicati</span><br><span class="baseline">Server Professionali OVH</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€44.99 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/server_dedicati/all_servers.xml" class="" style="" name="Menu/dedicated-More/all" nameat="dedicated-all" data-tc-clic="dedicated-all" data-tc-clic-type="navigation" rel="nofollow">Tutti i server dedicati</a></li><li><a href="https://www.ovh.it/server_dedicati/enterprise/" class="" style="" name="Menu/dedicated-More/enterprise" nameat="dedicated-enterprise" data-tc-clic="dedicated-enterprise" data-tc-clic-type="navigation">Server Enterprise</a></li><li><a href="https://www.ovh.it/server_dedicati/hosting/" class="" style="" name="Menu/dedicated-More/hosting" nameat="dedicated-hosting" data-tc-clic="dedicated-hosting" data-tc-clic-type="navigation">Server Hosting </a></li><li><a href="https://www.ovh.it/server_dedicati/infra/" class="" style="" name="Menu/dedicated-More/infra" nameat="dedicated-infra" data-tc-clic="dedicated-infra" data-tc-clic-type="navigation">Server Infrastructure </a></li><li><a href="https://www.ovh.it/server_dedicati/game/" class="" style="" name="Menu/dedicated-More/game" nameat="dedicated-game" data-tc-clic="dedicated-game" data-tc-clic-type="navigation">Server Game</a></li><li><a href="https://www.ovh.it/server_dedicati/storage/" class="" style="" name="Menu/dedicated-More/backup" nameat="dedicated-backup" data-tc-clic="dedicated-backup" data-tc-clic-type="navigation">Server Storage e Backup</a></li><li><a href="https://www.ovh.it/server_dedicati/hg/" class="" style="" name="Menu/dedicated-More/HG" nameat="dedicated-HG" data-tc-clic="dedicated-HG" data-tc-clic-type="navigation">Server HG - Big Data</a> <span style="color: black;">Nuovo</span></li><li><a href="https://www.ovh.it/server_dedicati/legacy-s/" class="" style="" name="Menu/dedicated-More/legacy" nameat="dedicated-legacy" data-tc-clic="dedicated-legacy" data-tc-clic-type="navigation">Server dedicati Legacy</a></li><li class="separate"><li><a href="https://www.ovh.it/server_dedicati/dedicati-settimana.xml" class="" style="" name="Menu/dedicated-More/oneWeek" nameat="dedicated-oneWeek" data-tc-clic="dedicated-oneWeek" data-tc-clic-type="navigation">Server alla settimana</a></li><li class="separate"><li><a href="https://docs.ovh.com/it/dedicated/" class="" style="" name="Menu/dedicated-More/guides" nameat="dedicated-guides" data-tc-clic="dedicated-guides" data-tc-clic-type="navigation" rel="nofollow">Guide</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Bilancia il tuo traffico! </p>
-<br><p class="moreButton bgdedicated" style="">A partire da:&nbsp;<span class="amount">€9.99&nbsp;+IVA</span><span class="period">/mese</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-storage">
-<a href="https://www.ovh.it/server_dedicati/storage/" name="Menu/storage" nameat="storage" onclick="window.globalComponentFooter.analytics.at.track('storage','','navigation');"><div class="prDesc">
-<span class="title">Data, Storage, Backup</span><br><span class="baseline">Tutte le nostre soluzioni DATA dedicated</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€9.99&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/server_dedicati/storage/" class="title" name="Menu/storage-More/backup" nameat="storage-backup" onclick="window.globalComponentFooter.analytics.at.track('storage-backup','','navigation');">Server Storage e Backup</a></li>
-<li><a href="https://www.ovh.it/nas/" name="Menu/storage-More/nas" nameat="storage-nas" onclick="window.globalComponentFooter.analytics.at.track('storage-nas','','navigation');">NAS</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/HG/" name="Menu/storage-More/HG" nameat="storage-HG" onclick="window.globalComponentFooter.analytics.at.track('storage-HG','','navigation');">Server HG - Big Data </a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/server_dedicati/backup-storage.xml" name="Menu/storage-More/service" nameat="storage-service" onclick="window.globalComponentFooter.analytics.at.track('storage-service','','navigation');">Servizio Backup Storage</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/chiave_usb.xml" name="Menu/storage-More/USB" nameat="storage-USB" onclick="window.globalComponentFooter.analytics.at.track('storage-USB','','navigation');">Chiavi USB</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/community/knowledge/" name="Menu/storage-More/guides" nameat="storage-guides" onclick="window.globalComponentFooter.analytics.at.track('storage-guides','','navigation');" rel="nofollow">Guide</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancer</p><p style="color: #FFF;">Bilancia il tuo traffico! </p><br><p class="moreButton bgdedicated" style="">Scopri l'IP Load Balancer</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-storage"><a href="https://www.ovh.it/server_dedicati/storage/" style="" name="Menu/storage" nameat="storage" data-tc-clic="storage" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Data, Storage, Backup</span><br><span class="baseline">Tutte le nostre soluzioni DATA dedicated</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€9.99 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/server_dedicati/storage/" class="title" style="" name="Menu/storage-More/backup" nameat="storage-backup" data-tc-clic="storage-backup" data-tc-clic-type="navigation">Server Storage e Backup</a></li><li><a href="https://www.ovh.it/nas/" class="" style="" name="Menu/storage-More/nas" nameat="storage-nas" data-tc-clic="storage-nas" data-tc-clic-type="navigation">NAS</a></li><li><a href="https://www.ovh.it/server_dedicati/hg/" class="" style="" name="Menu/storage-More/HG" nameat="storage-HG" data-tc-clic="storage-HG" data-tc-clic-type="navigation">Server HG - Big Data </a></li><li class="separate"><li><a href="https://www.ovh.it/server_dedicati/backup-storage.xml" class="" style="" name="Menu/storage-More/service" nameat="storage-service" data-tc-clic="storage-service" data-tc-clic-type="navigation">Servizio Backup Storage</a></li><li><a href="https://www.ovh.it/server_dedicati/chiave_usb.xml" class="" style="" name="Menu/storage-More/USB" nameat="storage-USB" data-tc-clic="storage-USB" data-tc-clic-type="navigation">Chiavi USB</a></li><li class="separate"><li><a href="https://docs.ovh.com/it/dedicated/" class="" style="" name="Menu/storage-More/guides" nameat="storage-guides" data-tc-clic="storage-guides" data-tc-clic-type="navigation" rel="nofollow">Guide</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Bilancia il tuo traffico! </p>
-<br><p class="moreButton bgdedicated" style="">A partire da:&nbsp;<span class="amount">€9.99&nbsp;+IVA</span><span class="period">/mese</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-pcc" data-product="cloud">
-<a href="https://www.ovh.it/private-cloud/" name="Menu/privateCloud" nameat="privateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud','','navigation');"><div class="prDesc">
-<span class="title">Private Cloud</span><br><span class="baseline">Il tuo Cloud, 100% dedicato e High Availability</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€557.00&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/private-cloud/" class="title" name="Menu/privateCloud-More/PrivateCloud" nameat="privateCloud-PrivateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-PrivateCloud','','navigation');">Private Cloud</a></li>
-<li><a href="https://www.ovh.it/dedicated-cloud/" name="Menu/privateCloud-More/DedicatedCloud" nameat="privateCloud-DedicatedCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-DedicatedCloud','','navigation');">Dedicated Cloud</a></li>
-<li><a href="https://www.ovh.it/sddc/" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-SDDC','','navigation');">SDDC</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/private-cloud/opzioni/" class="title" name="Menu/privateCloud-More/options" nameat="privateCloud-options" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-options','','navigation');">Opzioni</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/nsx.xml" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-nsx','','navigation');">NSX</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/vrops.xml" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vrops','','navigation');">vRealize Operations</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/veeam.xml" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-veeam','','navigation');">Backup Managed</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/immagini-licenze.xml" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-licences','','navigation');">Immagini &amp; Licenze</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/private-cloud/payment-infrastructure/" class="title" name="Menu/privateCloud-More/pci-dss" nameat="privateCloud-pci-dss" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-pci-dss','','navigation');">Payment Infrastructure: dati bancari</a></li>
-<li><a href="https://www.ovh.it/private-cloud/drp/" class="title" name="Menu/privateCloud-More/pra" nameat="privateCloud-pra" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-pra','','navigation');">Disaster Recovery Plan (Zerto)</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/private-cloud/documentation/cloud.xml" class="title" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-UniqueOffer','','navigation');">Un'offerta unica</a></li>
-<li><a href="https://www.ovh.it/private-cloud/servizi_inclusi/vsphere.xml" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vsphere','','navigation');">vSphere as a service</a></li>
-<li><a href="https://www.ovh.it/private-cloud/documentation/certificazioni.xml" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-certification','','navigation');">Certificazioni </a></li>
-<li><a href="https://www.ovh.it/private-cloud/documentation/trasferimento.xml" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-howToMigrate','','navigation');">Come migrare</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancer</p><p style="color: #FFF;">Bilancia il tuo traffico! </p><br><p class="moreButton bgdedicated" style="">Scopri l'IP Load Balancer</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-pcc" data-product="cloud"><a href="https://www.ovh.it/private-cloud/" style="" name="Menu/privateCloud" nameat="privateCloud" data-tc-clic="privateCloud" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Private Cloud</span><br><span class="baseline">Il tuo Cloud, 100% dedicato e High Availability</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€557.00 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/sddc/" class="title" style="" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" data-tc-clic="privateCloud-SDDC" data-tc-clic-type="navigation">SDDC</a></li><li class="separate"><li><a href="https://www.ovh.it/private-cloud/opzioni/" class="title" style="" name="Menu/privateCloud-More/options" nameat="privateCloud-options" data-tc-clic="privateCloud-options" data-tc-clic-type="navigation">Opzioni</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/nsx.xml" class="" style="" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" data-tc-clic="privateCloud-nsx" data-tc-clic-type="navigation">NSX</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/vrops.xml" class="" style="" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" data-tc-clic="privateCloud-vrops" data-tc-clic-type="navigation">vRealize Operations</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/veeam.xml" class="" style="" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" data-tc-clic="privateCloud-veeam" data-tc-clic-type="navigation">Backup Managed</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/immagini-licenze.xml" class="" style="" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" data-tc-clic="privateCloud-licences" data-tc-clic-type="navigation">Immagini &amp; Licenze</a></li><li class="separate"><li><a href="https://www.ovh.it/private-cloud/payment-infrastructure/" class="title" style="" name="Menu/privateCloud-More/pci-dss" nameat="privateCloud-pci-dss" data-tc-clic="privateCloud-pci-dss" data-tc-clic-type="navigation">Payment Infrastructure: dati bancari</a></li><li><a href="https://www.ovh.it/private-cloud/drp/" class="title" style="" name="Menu/privateCloud-More/pra" nameat="privateCloud-pra" data-tc-clic="privateCloud-pra" data-tc-clic-type="navigation">Disaster Recovery Plan (Zerto)</a></li><li class="separate"><li><a href="https://www.ovh.it/private-cloud/documentation/cloud.xml" class="title" style="" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" data-tc-clic="privateCloud-UniqueOffer" data-tc-clic-type="navigation">Un'offerta unica</a></li><li><a href="https://www.ovh.it/private-cloud/servizi_inclusi/vsphere.xml" class="" style="" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" data-tc-clic="privateCloud-vsphere" data-tc-clic-type="navigation">vSphere as a service</a></li><li><a href="https://www.ovh.it/private-cloud/documentation/certificazioni.xml" class="" style="" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" data-tc-clic="privateCloud-certification" data-tc-clic-type="navigation">Certificazioni </a></li><li><a href="https://www.ovh.it/private-cloud/documentation/trasferimento.xml" class="" style="" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" data-tc-clic="privateCloud-howToMigrate" data-tc-clic-type="navigation">Come migrare</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Bilancia il tuo traffico! </p>
-<br><p class="moreButton bgdedicated" style="">A partire da:&nbsp;<span class="amount">€9.99&nbsp;+IVA</span><span class="period">/mese</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-network">
-<a href="javascript:void(0);" name="Menu/network" nameat="network" onclick="window.globalComponentFooter.analytics.at.track('network','','navigation');"><div class="prDesc">
-<span class="title">Rete &amp; Sicurezza </span><br><span class="baseline">Costruisci e metti in sicurezza le tue reti OVH</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/soluzioni/vrack/" class="title" name="Menu/network-More/vRack" nameat="network-vRack" onclick="window.globalComponentFooter.analytics.at.track('network-vRack','','navigation');">vRack</a></li>
-<li><a href="https://www.ovh.it/soluzioni/vrack-connect/" name="Menu/network-More/dedicatedConnect" nameat="network-dedicatedConnect" onclick="window.globalComponentFooter.analytics.at.track('network-dedicatedConnect','','navigation');">Dedicated Connect </a></li>
-<li><a href="https://www.ovh.it/server_dedicati/upgrade-banda-passante.xml" name="Menu/network-More/Bandwidth" nameat="network-Bandwidth" onclick="window.globalComponentFooter.analytics.at.track('network-Bandwidth','','navigation');">Banda Passante</a></li>
-<li><a href="https://www.ovh.it/cdn/infrastructure/" name="Menu/network-More/CDN" nameat="network-CDN" onclick="window.globalComponentFooter.analytics.at.track('network-CDN','','navigation');">CDN Infrastructure</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/ip_failover.xml" name="Menu/network-More/IPfo" nameat="network-IPfo" onclick="window.globalComponentFooter.analytics.at.track('network-IPfo','','navigation');">IP Failover</a></li>
-<li><a href="https://www.ovh.it/soluzioni/load-balancer/" name="Menu/network-More/IPlb" nameat="network-IPlb" onclick="window.globalComponentFooter.analytics.at.track('network-IPlb','','navigation');" rel="nofollow">Répartiteur de charge (Load Balancers)</a></li>
-<li><a href="https://www.ovh.it/anti-ddos/" name="Menu/network-More/antiDDos" nameat="network-antiDDos" onclick="window.globalComponentFooter.analytics.at.track('network-antiDDos','','navigation');">Anti-DDoS</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/firewall_servers_dedicati.xml" name="Menu/network-More/firewall" nameat="network-firewall" onclick="window.globalComponentFooter.analytics.at.track('network-firewall','','navigation');">Firewall Hardware</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancer</p><p style="color: #FFF;">Bilancia il tuo traffico! </p><br><p class="moreButton bgdedicated" style="">Scopri l'IP Load Balancer</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-network"><a href="javascript:void(0);" style="" name="Menu/network" nameat="network" data-tc-clic="network" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Rete &amp; Sicurezza </span><br><span class="baseline">Costruisci e metti in sicurezza le tue reti OVH</span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/soluzioni/vrack/" class="title" style="" name="Menu/network-More/vRack" nameat="network-vRack" data-tc-clic="network-vRack" data-tc-clic-type="navigation">vRack</a></li><li><a href="https://www.ovh.it/soluzioni/ovhcloud-connect/" class="" style="" name="Menu/network-More/dedicatedConnect" nameat="network-dedicatedConnect" data-tc-clic="network-dedicatedConnect" data-tc-clic-type="navigation">Dedicated Connect </a></li><li><a href="https://www.ovh.it/server_dedicati/upgrade-banda-passante.xml" class="" style="" name="Menu/network-More/Bandwidth" nameat="network-Bandwidth" data-tc-clic="network-Bandwidth" data-tc-clic-type="navigation">Banda Passante</a></li><li><a href="https://www.ovh.it/cdn/infrastructure/" class="" style="" name="Menu/network-More/CDN" nameat="network-CDN" data-tc-clic="network-CDN" data-tc-clic-type="navigation">CDN Infrastructure</a></li><li><a href="https://www.ovh.it/server_dedicati/ip_failover.xml" class="" style="" name="Menu/network-More/IPfo" nameat="network-IPfo" data-tc-clic="network-IPfo" data-tc-clic-type="navigation">IP Failover</a></li><li><a href="https://www.ovh.it/soluzioni/load-balancer/" class="" style="" name="Menu/network-More/IPlb" nameat="network-IPlb" data-tc-clic="network-IPlb" data-tc-clic-type="navigation" rel="nofollow">Load Balancer (Bilanciatore di carico)</a></li><li><a href="https://www.ovh.it/anti-ddos/" class="" style="" name="Menu/network-More/antiDDos" nameat="network-antiDDos" data-tc-clic="network-antiDDos" data-tc-clic-type="navigation">Anti-DDoS</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Bilancia il tuo traffico! </p>
-<br><p class="moreButton bgdedicated" style="">A partire da:&nbsp;<span class="amount">€9.99&nbsp;+IVA</span><span class="period">/mese</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-licence">
-<a href="https://www.ovh.it/server_dedicati/distribuzioni/" name="Menu/distrib" nameat="distrib" onclick="window.globalComponentFooter.analytics.at.track('distrib','','navigation');"><div class="prDesc">
-<span class="title">Licenze</span><br><span class="baseline">OS e software preinstallabili sui tuoi server </span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" class="title" name="Menu/distrib-More/all" nameat="distrib-all" onclick="window.globalComponentFooter.analytics.at.track('distrib-all','','navigation');">Licenze (preinstallabili)</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" name="Menu/distrib-More/linux" nameat="distrib-linux" onclick="window.globalComponentFooter.analytics.at.track('distrib-linux','','navigation');">Distribuzioni Linux</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" name="Menu/distrib-More/win" nameat="distrib-win" onclick="window.globalComponentFooter.analytics.at.track('distrib-win','','navigation');">Windows Server</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" name="Menu/distrib-More/virtualisation" nameat="distrib-virtualisation" onclick="window.globalComponentFooter.analytics.at.track('distrib-virtualisation','','navigation');">Virtualizzazione</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" name="Menu/distrib-More/panels" nameat="distrib-panels" onclick="window.globalComponentFooter.analytics.at.track('distrib-panels','','navigation');">Pannello di gestione</a></li>
-<li><a href="https://www.ovh.it/server_dedicati/distribuzioni/sql_server.xml" name="Menu/distrib-More/ms-sql-server" nameat="distrib-ms-sql-server" onclick="window.globalComponentFooter.analytics.at.track('distrib-ms-sql-server','','navigation');">Microsoft SQL Server</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancer</p><p style="color: #FFF;">Bilancia il tuo traffico! </p><br><p class="moreButton bgdedicated" style="">Scopri l'IP Load Balancer</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-licence"><a href="https://www.ovh.it/server_dedicati/distribuzioni/" style="" name="Menu/distrib" nameat="distrib" data-tc-clic="distrib" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Licenze</span><br><span class="baseline">OS e software preinstallabili sui tuoi server </span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" class="title" style="" name="Menu/distrib-More/all" nameat="distrib-all" data-tc-clic="distrib-all" data-tc-clic-type="navigation">Licenze (preinstallabili)</a></li><li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" class="" style="" name="Menu/distrib-More/linux" nameat="distrib-linux" data-tc-clic="distrib-linux" data-tc-clic-type="navigation">Distribuzioni Linux</a></li><li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" class="" style="" name="Menu/distrib-More/win" nameat="distrib-win" data-tc-clic="distrib-win" data-tc-clic-type="navigation">Windows Server</a></li><li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" class="" style="" name="Menu/distrib-More/virtualisation" nameat="distrib-virtualisation" data-tc-clic="distrib-virtualisation" data-tc-clic-type="navigation">Virtualizzazione</a></li><li><a href="https://www.ovh.it/server_dedicati/distribuzioni/" class="" style="" name="Menu/distrib-More/panels" nameat="distrib-panels" data-tc-clic="distrib-panels" data-tc-clic-type="navigation">Pannello di gestione</a></li><li><a href="https://www.ovh.it/server_dedicati/distribuzioni/sql_server.xml" class="" style="" name="Menu/distrib-More/ms-sql-server" nameat="distrib-ms-sql-server" data-tc-clic="distrib-ms-sql-server" data-tc-clic-type="navigation">Microsoft SQL Server</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/soluzioni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Bilancia il tuo traffico! </p>
-<br><p class="moreButton bgdedicated" style="">A partire da:&nbsp;<span class="amount">€9.99&nbsp;+IVA</span><span class="period">/mese</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="cloud">
-<a href="https://www.ovh.it/cloud/" nameat="Tab-Cloud" onclick="window.globalComponentFooter.analytics.at.track('Tab-Cloud','','navigation');">Cloud</a><ul><li class="products"><ul>
-<li class="icn icn-vps first " data-product="vps">
-<a href="https://www.ovh.it/vps/" name="Menu/VPS" nameat="VPS" onclick="window.globalComponentFooter.analytics.at.track('VPS','','navigation');"><div class="prDesc">
-<span class="title">VPS</span><br><span class="baseline">Hosting su Virtual Private Server </span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€2.99&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/vps/" class="title" name="Menu/VPS-More/all" nameat="VPS-all" onclick="window.globalComponentFooter.analytics.at.track('VPS-all','','navigation');" rel="nofollow">VPS </a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/vps/vps-ssd.xml" name="Menu/VPS-More/SSD" nameat="VPS-SSD" onclick="window.globalComponentFooter.analytics.at.track('VPS-SSD','','navigation');">VPS SSD</a></li>
-<li><a href="https://www.ovh.it/vps/vps-cloud.xml" name="Menu/VPS-More/Cloud" nameat="VPS-Cloud" onclick="window.globalComponentFooter.analytics.at.track('VPS-Cloud','','navigation');">VPS Cloud</a></li>
-<li><a href="https://www.ovh.it/vps/vps-cloud-ram.xml" name="Menu/VPS-More/CloudRAM" nameat="VPS-CloudRAM" onclick="window.globalComponentFooter.analytics.at.track('VPS-CloudRAM','','navigation');">VPS Cloud RAM</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/vps/sistema-operativo.xml" name="Menu/VPS-More/Panel" nameat="VPS-Panel" onclick="window.globalComponentFooter.analytics.at.track('VPS-Panel','','navigation');">Soluzioni Panel (cPanel/Plesk)</a></li>
-<li><a href="https://www.ovh.it/hosting-plesk/" name="Menu/VPS-More/Pleskaas" nameat="VPS-Pleskaas" onclick="window.globalComponentFooter.analytics.at.track('VPS-Pleskaas','','navigation');">Plesk As a Service</a></li>
-<li><a href="https://www.ovh.it/community/knowledge/" name="Menu/VPS-More/Aide" nameat="VPS-Aide" onclick="window.globalComponentFooter.analytics.at.track('VPS-Aide','','navigation');">Assistenza</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancer</p><p style="color: #FFF;">Bilancia il tuo traffico! </p><br><p class="moreButton bgdedicated" style="">Scopri l'IP Load Balancer</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li></ul></li></ul></li>
+
+
+        
+        <li class="cloud"><a href="https://www.ovh.it/cloud/" nameat="Tab-Cloud" data-tc-clic="Tab-Cloud" data-tc-clic-type="navigation">Cloud</a><ul><li class="products"><ul><li class="icn icn-vps first " data-product="vps"><a href="https://www.ovh.it/vps/" style="" name="Menu/VPS" nameat="VPS" data-tc-clic="VPS" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">VPS</span><br><span class="baseline">Hosting su Virtual Private Server </span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€2.99 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/vps/" class="title" style="" name="Menu/VPS-More/all" nameat="VPS-all" data-tc-clic="VPS-all" data-tc-clic-type="navigation" rel="nofollow">VPS </a></li><li class="separate"><li><a href="https://www.ovh.it/vps/vps-ssd.xml" class="" style="" name="Menu/VPS-More/SSD" nameat="VPS-SSD" data-tc-clic="VPS-SSD" data-tc-clic-type="navigation">VPS SSD</a></li><li><a href="https://www.ovh.it/vps/vps-cloud.xml" class="" style="" name="Menu/VPS-More/Cloud" nameat="VPS-Cloud" data-tc-clic="VPS-Cloud" data-tc-clic-type="navigation">VPS Cloud</a></li><li><a href="https://www.ovh.it/vps/vps-cloud-ram.xml" class="" style="" name="Menu/VPS-More/CloudRAM" nameat="VPS-CloudRAM" data-tc-clic="VPS-CloudRAM" data-tc-clic-type="navigation">VPS Cloud RAM</a></li><li class="separate"><li><a href="https://www.ovh.it/vps/sistema-operativo.xml" class="" style="" name="Menu/VPS-More/Panel" nameat="VPS-Panel" data-tc-clic="VPS-Panel" data-tc-clic-type="navigation">Soluzioni Panel (cPanel/Plesk)</a></li><li><a href="https://www.ovh.it/hosting-plesk/" class="" style="" name="Menu/VPS-More/Pleskaas" nameat="VPS-Pleskaas" data-tc-clic="VPS-Pleskaas" data-tc-clic-type="navigation">Plesk As a Service</a></li><li class="separate"><li><a href="https://www.ovh.it/vps/perche-vps-ovh.xml" class="" style="" name="Menu/VPS-More/WhyVpsOVH" nameat="VPS-WhyVpsOVH" data-tc-clic="VPS-WhyVpsOVH" data-tc-clic-type="navigation">Perché scegliere i VPS OVH?</a></li><li><a href="https://docs.ovh.com/it/vps/" class="" style="" name="Menu/VPS-More/Aide" nameat="VPS-Aide" data-tc-clic="VPS-Aide" data-tc-clic-type="navigation">Assistenza</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-cloud">
-<a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/PublicCloud" nameat="PublicCloud" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud','','navigation');"><div class="prDesc">
-<span class="title">Public Cloud</span><br><span class="baseline">Le tue risorse IT on demand</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€20.00&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/public-cloud/istanze/" class="title" name="Menu/PublicCloud-More/allInstances" nameat="PublicCloud-allInstances" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-allInstances','','navigation');" rel="nofollow">Public Cloud Instance</a></li>
-<li><a href="https://www.ovh.it/public-cloud/istanze/funzionalita/" name="Menu/PublicCloud-More/features" nameat="PublicCloud-features" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-features','','navigation');">Funzionalità</a></li>
-<li><a href="https://www.ovh.it/public-cloud/istanze/tecnologie/" name="Menu/PublicCloud-More/technologies" nameat="PublicCloud-technologies" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-technologies','','navigation');">Tecnologie</a></li>
-<li><a href="https://www.ovh.it/public-cloud/istanze/feedback/" name="Menu/PublicCloud-More/usecases" nameat="PublicCloud-usecases" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-usecases','','navigation');">Casi pratici</a></li>
-<li><a href="https://www.ovh.it/public-cloud/istanze/tariffe/" name="Menu/PublicCloud-More/pricing" nameat="PublicCloud-pricing" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-pricing','','navigation');">Tariffe</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/public-cloud/storage/" class="title" name="Menu/PublicCloud-More/allStorage" nameat="PublicCloud-allStorage" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-allStorage','','navigation');">Public Cloud Storage</a></li>
-<li><a href="https://www.ovh.it/public-cloud/storage/object-storage/" name="Menu/PublicCloud-More/object-storage" nameat="PublicCloud-object-storage" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-object-storage','','navigation');">Object Storage</a></li>
-<li><a href="https://www.ovh.it/public-cloud/storage/cloud-archive/" name="Menu/PublicCloud-More/cloud-archive" nameat="PublicCloud-cloud-archive" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-cloud-archive','','navigation');">Cloud Archive</a></li>
-<li><a href="https://www.ovh.it/public-cloud/storage/additional-disks/" name="Menu/PublicCloud-More/volume" nameat="PublicCloud-volume" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-volume','','navigation');">Additional Disk</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/g1785.cloud" name="Menu/PublicCloud-More/Guides" nameat="PublicCloud-Guides" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-Guides','','navigation');">Guide</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-cloud"><a href="https://www.ovh.it/public-cloud/istanze/" style="" name="Menu/PublicCloud" nameat="PublicCloud" data-tc-clic="PublicCloud" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Public Cloud</span><br><span class="baseline">Le tue risorse IT on demand</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€22.00 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/public-cloud/istanze/" class="title" style="" name="Menu/PublicCloud-More/allInstances" nameat="PublicCloud-allInstances" data-tc-clic="PublicCloud-allInstances" data-tc-clic-type="navigation" rel="nofollow">Public Cloud Instance</a></li><li><a href="https://www.ovh.it/public-cloud/istanze/funzionalita/" class="" style="" name="Menu/PublicCloud-More/features" nameat="PublicCloud-features" data-tc-clic="PublicCloud-features" data-tc-clic-type="navigation">Funzionalità</a></li><li><a href="https://www.ovh.it/public-cloud/istanze/tecnologie/" class="" style="" name="Menu/PublicCloud-More/technologies" nameat="PublicCloud-technologies" data-tc-clic="PublicCloud-technologies" data-tc-clic-type="navigation">Tecnologie</a></li><li><a href="https://www.ovh.it/public-cloud/istanze/feedback/" class="" style="" name="Menu/PublicCloud-More/usecases" nameat="PublicCloud-usecases" data-tc-clic="PublicCloud-usecases" data-tc-clic-type="navigation">Casi pratici</a></li><li><a href="https://www.ovh.it/public-cloud/istanze/tariffe/" class="" style="" name="Menu/PublicCloud-More/pricing" nameat="PublicCloud-pricing" data-tc-clic="PublicCloud-pricing" data-tc-clic-type="navigation">Tariffe</a></li><li class="separate"><li><a href="https://www.ovh.it/public-cloud/storage/" class="title" style="" name="Menu/PublicCloud-More/allStorage" nameat="PublicCloud-allStorage" data-tc-clic="PublicCloud-allStorage" data-tc-clic-type="navigation">Public Cloud Storage</a></li><li><a href="https://www.ovh.it/public-cloud/storage/object-storage/" class="" style="" name="Menu/PublicCloud-More/object-storage" nameat="PublicCloud-object-storage" data-tc-clic="PublicCloud-object-storage" data-tc-clic-type="navigation">Object Storage</a></li><li><a href="https://www.ovh.it/public-cloud/storage/cloud-archive/" class="" style="" name="Menu/PublicCloud-More/cloud-archive" nameat="PublicCloud-cloud-archive" data-tc-clic="PublicCloud-cloud-archive" data-tc-clic-type="navigation">Cloud Archive</a></li><li><a href="https://www.ovh.it/public-cloud/storage/additional-disks/" class="" style="" name="Menu/PublicCloud-More/volume" nameat="PublicCloud-volume" data-tc-clic="PublicCloud-volume" data-tc-clic-type="navigation">Additional Disk</a></li><li class="separate"><li><a href="https://docs.ovh.com/it/public-cloud/" class="" style="" name="Menu/PublicCloud-More/Guides" nameat="PublicCloud-Guides" data-tc-clic="PublicCloud-Guides" data-tc-clic-type="navigation">Guide</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-pcc" data-product="cloud">
-<a href="https://www.ovh.it/private-cloud/" name="Menu/privateCloud" nameat="privateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud','','navigation');"><div class="prDesc">
-<span class="title">Private Cloud</span><br><span class="baseline">Il tuo Cloud, 100% dedicato e High Availability</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€557.00&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/private-cloud/" class="title" name="Menu/privateCloud-More/PrivateCloud" nameat="privateCloud-PrivateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-PrivateCloud','','navigation');">Private Cloud</a></li>
-<li><a href="https://www.ovh.it/dedicated-cloud/" name="Menu/privateCloud-More/DedicatedCloud" nameat="privateCloud-DedicatedCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-DedicatedCloud','','navigation');">Dedicated Cloud</a></li>
-<li><a href="https://www.ovh.it/sddc/" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-SDDC','','navigation');">SDDC</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/private-cloud/opzioni/" class="title" name="Menu/privateCloud-More/options" nameat="privateCloud-options" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-options','','navigation');">Opzioni</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/nsx.xml" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-nsx','','navigation');">NSX</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/vrops.xml" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vrops','','navigation');">vRealize Operations</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/veeam.xml" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-veeam','','navigation');">Backup Managed</a></li>
-<li><a href="https://www.ovh.it/private-cloud/opzioni/immagini-licenze.xml" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-licences','','navigation');">Immagini &amp; Licenze</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/private-cloud/payment-infrastructure/" class="title" name="Menu/privateCloud-More/pci-dss" nameat="privateCloud-pci-dss" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-pci-dss','','navigation');">Payment Infrastructure: dati bancari</a></li>
-<li><a href="https://www.ovh.it/private-cloud/drp/" class="title" name="Menu/privateCloud-More/pra" nameat="privateCloud-pra" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-pra','','navigation');">Disaster Recovery Plan (Zerto)</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/private-cloud/documentation/cloud.xml" class="title" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-UniqueOffer','','navigation');">Un'offerta unica</a></li>
-<li><a href="https://www.ovh.it/private-cloud/servizi_inclusi/vsphere.xml" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vsphere','','navigation');">vSphere as a service</a></li>
-<li><a href="https://www.ovh.it/private-cloud/documentation/certificazioni.xml" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-certification','','navigation');">Certificazioni </a></li>
-<li><a href="https://www.ovh.it/private-cloud/documentation/trasferimento.xml" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-howToMigrate','','navigation');">Come migrare</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-pcc" data-product="cloud"><a href="https://www.ovh.it/private-cloud/" style="" name="Menu/privateCloud" nameat="privateCloud" data-tc-clic="privateCloud" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Private Cloud</span><br><span class="baseline">Il tuo Cloud, 100% dedicato e High Availability</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da: <br><span class="amount">€557.00 +IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.it/sddc/" class="title" style="" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" data-tc-clic="privateCloud-SDDC" data-tc-clic-type="navigation">SDDC</a></li><li class="separate"><li><a href="https://www.ovh.it/private-cloud/opzioni/" class="title" style="" name="Menu/privateCloud-More/options" nameat="privateCloud-options" data-tc-clic="privateCloud-options" data-tc-clic-type="navigation">Opzioni</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/nsx.xml" class="" style="" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" data-tc-clic="privateCloud-nsx" data-tc-clic-type="navigation">NSX</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/vrops.xml" class="" style="" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" data-tc-clic="privateCloud-vrops" data-tc-clic-type="navigation">vRealize Operations</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/veeam.xml" class="" style="" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" data-tc-clic="privateCloud-veeam" data-tc-clic-type="navigation">Backup Managed</a></li><li><a href="https://www.ovh.it/private-cloud/opzioni/immagini-licenze.xml" class="" style="" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" data-tc-clic="privateCloud-licences" data-tc-clic-type="navigation">Immagini &amp; Licenze</a></li><li class="separate"><li><a href="https://www.ovh.it/private-cloud/payment-infrastructure/" class="title" style="" name="Menu/privateCloud-More/pci-dss" nameat="privateCloud-pci-dss" data-tc-clic="privateCloud-pci-dss" data-tc-clic-type="navigation">Payment Infrastructure: dati bancari</a></li><li><a href="https://www.ovh.it/private-cloud/drp/" class="title" style="" name="Menu/privateCloud-More/pra" nameat="privateCloud-pra" data-tc-clic="privateCloud-pra" data-tc-clic-type="navigation">Disaster Recovery Plan (Zerto)</a></li><li class="separate"><li><a href="https://www.ovh.it/private-cloud/documentation/cloud.xml" class="title" style="" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" data-tc-clic="privateCloud-UniqueOffer" data-tc-clic-type="navigation">Un'offerta unica</a></li><li><a href="https://www.ovh.it/private-cloud/servizi_inclusi/vsphere.xml" class="" style="" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" data-tc-clic="privateCloud-vsphere" data-tc-clic-type="navigation">vSphere as a service</a></li><li><a href="https://www.ovh.it/private-cloud/documentation/certificazioni.xml" class="" style="" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" data-tc-clic="privateCloud-certification" data-tc-clic-type="navigation">Certificazioni </a></li><li><a href="https://www.ovh.it/private-cloud/documentation/trasferimento.xml" class="" style="" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" data-tc-clic="privateCloud-howToMigrate" data-tc-clic-type="navigation">Come migrare</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-hybridCloud">
-<a href="https://www.ovh.it/soluzioni/hybrid-cloud/" name="Menu/HybridCloud" nameat="HybridCloud" onclick="window.globalComponentFooter.analytics.at.track('HybridCloud','','navigation');"><div class="prDesc">
-<span class="title">Hybrid Cloud</span><br><span class="baseline">Le soluzioni di rete OVH per il tuo ambiente ibrido</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/soluzioni/vrack/" class="title" name="Menu/HybridCloud-More/vrack" nameat="HybridCloud-vrack" onclick="window.globalComponentFooter.analytics.at.track('HybridCloud-vrack','','navigation');">vRack</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/soluzioni/vrack-connect/" class="title" name="Menu/HybridCloud-More/vrack-connect" nameat="HybridCloud-vrack-connect" onclick="window.globalComponentFooter.analytics.at.track('HybridCloud-vrack-connect','','navigation');">vRack Connect</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-database" data-product="database"><a href="https://www.ovh.it/cloud/cloud-databases/" style="" name="Menu/database" nameat="database" data-tc-clic="database" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Database
+</span><br><span class="baseline">Scegli un database totalmente gestito per archiviare e gestire i tuoi dati</span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/mysql" nameat="database-mysql" data-tc-clic="database-mysql" data-tc-clic-type="navigation">Cloud Database: MySQL</a></li><li class="separate"><li><a href="https://www.ovh.it/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/postgre" nameat="database-postgre" data-tc-clic="database-postgre" data-tc-clic-type="navigation">Cloud Database: PostgreSQL</a></li><li class="separate"><li><a href="https://www.ovh.it/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/mariadb" nameat="database-mariadb" data-tc-clic="database-mariadb" data-tc-clic-type="navigation">Cloud Database: MariaDB</a></li><li class="separate"><li><a href="https://www.ovh.it/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/redis" nameat="database-redis" data-tc-clic="database-redis" data-tc-clic-type="navigation">Cloud Database: Redis</a></li><li class="separate"><li><a href="https://www.ovh.it/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/MongoDB" nameat="database-MongoDB" data-tc-clic="database-MongoDB" data-tc-clic-type="navigation">Cloud Database: MongoDB</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-deskaas">
-<a href="https://www.ovh.it/cloud/cloud-desktop/" name="Menu/Cloud Desktop" nameat="Cloud Desktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop','','navigation');"><div class="prDesc">
-<span class="title">Cloud Desktop</span><br><span class="baseline">Il tuo computer, i tuoi contenuti e le tue applicazioni sempre con te, da qualsiasi dispositivo</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">A partire da:&nbsp;<br><span class="amount">€12.99&nbsp;+IVA</span><span class="period">/mese</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/cloud/cloud-desktop/#what" class="title" name="Menu/Cloud Desktop-More/whatCloudDesktop" nameat="Cloud Desktop-whatCloudDesktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-whatCloudDesktop','','navigation');" rel="nofollow">Cos'è?</a></li>
-<li><a href="https://www.ovh.it/cloud/cloud-desktop/#advantages" name="Menu/Cloud Desktop-More/advantages" nameat="Cloud Desktop-advantages" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-advantages','','navigation');" rel="nofollow">Punti di forza</a></li>
-<li><a href="https://www.ovh.it/cloud/cloud-desktop/#orderDeskaaS" name="Menu/Cloud Desktop-More/orderCloudDesktop" nameat="Cloud Desktop-orderCloudDesktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-orderCloudDesktop','','navigation');" rel="nofollow">Scegli il tuo OVH Cloud Desktop</a></li>
-<li><a href="https://www.ovh.it/cloud/cloud-desktop/#usecase" name="Menu/Cloud Desktop-More/usecase" nameat="Cloud Desktop-usecase" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-usecase','','navigation');" rel="nofollow">Casi d'uso</a></li>
-<li><a href="https://www.ovh.it/cloud/cloud-desktop/#applis" name="Menu/Cloud Desktop-More/applis" nameat="Cloud Desktop-applis" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-applis','','navigation');" rel="nofollow">Applicazioni preinstallate</a></li>
-<li><a href="https://www.ovh.it/cloud/cloud-desktop/#solution" name="Menu/Cloud Desktop-More/solution" nameat="Cloud Desktop-solution" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-solution','','navigation');" rel="nofollow">Una soluzione flessibile con risorse garantite</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/cloud/cloud-desktop/infrastructure/" class="title" name="Menu/Cloud Desktop-More/cdi" nameat="Cloud Desktop-cdi" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-cdi','','navigation');">Cloud Desktop Infrastructure</a></li>
-<li><a href="https://www.ovh.it/cloud/cloud-desktop/infrastructure/" name="Menu/Cloud Desktop-More/ManageCloudDesktop" nameat="Cloud Desktop-ManageCloudDesktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-ManageCloudDesktop','','navigation');" rel="nofollow">Gestisci i tuoi desktop virtuali</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-compute" data-product="bigdata"><a href="https://www.ovh.it/platform/big-data/" style="" name="Menu/bigdata" nameat="bigdata" data-tc-clic="bigdata" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Big Data</span><br><span class="baseline">Raccogli, archivia e analizza i tuoi dati</span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/platform/big-data/managed-cluster.xml" class="title" style="" name="Menu/bigdata-More/cloudera" nameat="bigdata-cloudera" data-tc-clic="bigdata-cloudera" data-tc-clic-type="navigation">Cloudera Hadoop</a></li><li><a href="https://www.ovh.it/platform/big-data/analytics-data-platform.xml" class="title" style="" name="Menu/bigdata-More/analytics" nameat="bigdata-analytics" data-tc-clic="bigdata-analytics" data-tc-clic-type="navigation">Analytics Data Platform</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="separate">&nbsp;</li>
-<li class="icn icn-database" data-product="database">
-<a href="https://www.ovh.it/cloud/cloud-databases/" name="Menu/database" nameat="database" onclick="window.globalComponentFooter.analytics.at.track('database','','navigation');"><div class="prDesc">
-<span class="title">Database
-</span><br><span class="baseline">Scegli un database totalmente gestito per archiviare e gestire i tuoi dati</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/cloud/cloud-databases" class="title" name="Menu/database-More/mysql" nameat="database-mysql" onclick="window.globalComponentFooter.analytics.at.track('database-mysql','','navigation');">Cloud Database: MySQL</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/cloud/cloud-databases" class="title" name="Menu/database-More/postgre" nameat="database-postgre" onclick="window.globalComponentFooter.analytics.at.track('database-postgre','','navigation');">Cloud Database: PostgreSQL</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/cloud/cloud-databases" class="title" name="Menu/database-More/mariadb" nameat="database-mariadb" onclick="window.globalComponentFooter.analytics.at.track('database-mariadb','','navigation');">Cloud Database: MariaDB</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-ai" data-product="ai"><a href="https://www.ovh.it/platform/ai-machine-learning.xml" style="" name="Menu/ai" nameat="ai" data-tc-clic="ai" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">IA e Machine Learning</span><br><span class="baseline"></span></div></a><ul class="prMore"></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-network">
-<a href="https://www.ovh.it/cloud/soluzioni-rete-e-sicurezza.xml" name="Menu/network" nameat="network" onclick="window.globalComponentFooter.analytics.at.track('network','','navigation');"><div class="prDesc">
-<span class="title">Soluzioni rete &amp; sicurezza </span><br><span class="baseline">Costruisci e metti in sicurezza le tue reti OVH</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/soluzioni/vrack/" name="Menu/network-More/vRack" nameat="network-vRack" onclick="window.globalComponentFooter.analytics.at.track('network-vRack','','navigation');">vRack </a></li>
-<li><a href="https://www.ovh.it/soluzioni/vrack-connect/" name="Menu/network-More/dedicatedConnect" nameat="network-dedicatedConnect" onclick="window.globalComponentFooter.analytics.at.track('network-dedicatedConnect','','navigation');">Dedicated Connect </a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/soluzioni/load-balancer/" name="Menu/network-More/IPlb" nameat="network-IPlb" onclick="window.globalComponentFooter.analytics.at.track('network-IPlb','','navigation');">Load Balancers (Répartition de charge)</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.it/anti-ddos/" name="Menu/network-More/antiDDos" nameat="network-antiDDos" onclick="window.globalComponentFooter.analytics.at.track('network-antiDDos','','navigation');">Protezione Anti-DDoS</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-network"><a href="https://www.ovh.it/cloud/soluzioni-rete-e-sicurezza.xml" style="" name="Menu/NetworkAndSecurity" nameat="NetworkAndSecurity" data-tc-clic="NetworkAndSecurity" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Soluzioni rete &amp; sicurezza </span><br><span class="baseline">Costruisci e metti in sicurezza le tue reti OVH</span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/soluzioni/vrack/" class="" style="" name="Menu/NetworkAndSecurity-More/vRack" nameat="NetworkAndSecurity-vRack" data-tc-clic="NetworkAndSecurity-vRack" data-tc-clic-type="navigation">vRack </a></li><li><a href="https://www.ovh.it/soluzioni/ovhcloud-connect/" class="" style="" name="Menu/NetworkAndSecurity-More/dedicatedConnect" nameat="NetworkAndSecurity-dedicatedConnect" data-tc-clic="NetworkAndSecurity-dedicatedConnect" data-tc-clic-type="navigation">OVH Cloud Connect (connessione diretta tra OVH e i tuoi datacenter)</a></li><li class="separate"><li><a href="https://www.ovh.it/soluzioni/load-balancer/" class="" style="" name="Menu/NetworkAndSecurity-More/IPlb" nameat="NetworkAndSecurity-IPlb" data-tc-clic="NetworkAndSecurity-IPlb" data-tc-clic-type="navigation">Load Balancer (Bilanciatore di carico)</a></li><li class="separate"><li><a href="https://www.ovh.it/anti-ddos/" class="" style="" name="Menu/NetworkAndSecurity-More/antiDDos" nameat="NetworkAndSecurity-antiDDos" data-tc-clic="NetworkAndSecurity-antiDDos" data-tc-clic-type="navigation">Protezione Anti-DDoS</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-hubic">
-<a href="https://hubic.com/it/" name="Menu/hubic" nameat="hubic" onclick="window.globalComponentFooter.analytics.at.track('hubic','','navigation');" target="_blank"><div class="prDesc">
-<span class="title">Cloud hubiC</span><br><span class="baseline">Salva i tuoi dati in Cloud! </span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"><span style="color:#FFF; font-size:14px; font-weight:400;" qtlid="42484">25 GB</span><br><span style="color:#FFF; font-size:16px; font-weight:400;" qtlid="965916">Gratis</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://hubic.com/it/" class="title" name="Menu/hubic-More/créer" nameat="hubic-créer" onclick="window.globalComponentFooter.analytics.at.track('hubic-créer','','navigation');" target="_blank">Crea un account da 25 GB gratis!</a></li>
-<li><a href="https://hubic.com/it/offers/" name="Menu/hubic-More/offres" nameat="hubic-offres" onclick="window.globalComponentFooter.analytics.at.track('hubic-offres','','navigation');" target="_blank">Scopri le offerte Storage</a></li>
-<li class="separate">
-</li><li><a href="https://hubic.com/home/" class="title" name="Menu/hubic-More/webApp" nameat="hubic-webApp" onclick="window.globalComponentFooter.analytics.at.track('hubic-webApp','','navigation');" target="_blank">Accedi</a></li>
-<li><a href="https://hubic.com/it/downloads" name="Menu/hubic-More/download" nameat="hubic-download" onclick="window.globalComponentFooter.analytics.at.track('hubic-download','','navigation');" target="_blank">Download</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="separate"> </li><li class="icn icn-partners"><a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_infra%22%7D" style="" name="Menu/partners-cloud" nameat="partners-cloud" data-tc-clic="partners-cloud" data-tc-clic-type="navigation" target="_blank"><div class="prDesc"><span class="title">OVH Partners Cloud</span><br><span class="baseline">Installazione | Gestione | Sviluppo | Assistenza</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_infra%22%7D" class="title" style="" name="Menu/partners-cloud-More/exchange" nameat="partners-cloud-exchange" data-tc-clic="partners-cloud-exchange" data-tc-clic-type="navigation" target="_blank">Trova un partner</a></li><li><a href="https://www.ovh.it/marketplace/" class="title" style="" name="Menu/partners-cloud-More/all" nameat="partners-cloud-all" data-tc-clic="partners-cloud-all" data-tc-clic-type="navigation" rel="nofollow">OVH Marketplace</a></li><li><a href="https://www.ovh.it/marketplace/list.xml" class="" style="" name="Menu/partners-cloud-More/mailjet" nameat="partners-cloud-mailjet" data-tc-clic="partners-cloud-mailjet" data-tc-clic-type="navigation">Tutte le soluzioni</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/public-cloud/istanze/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="separate">&nbsp;</li>
-<li class="separate">&nbsp;</li>
-<li class="icn icn-partners">
-<a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_infra%22%7D" name="Menu/partners-cloud" nameat="partners-cloud" onclick="window.globalComponentFooter.analytics.at.track('partners-cloud','','navigation');" target="_blank"><div class="prDesc">
-<span class="title">OVH Partners Cloud</span><br><span class="baseline">Installazione | Gestione | Sviluppo | Assistenza</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://partners.ovh.com/ricerca-per-competenza?filters=%7B%22universe%22:%22universe_infra%22%7D" class="title" name="Menu/partners-cloud-More/exchange" nameat="partners-cloud-exchange" onclick="window.globalComponentFooter.analytics.at.track('partners-cloud-exchange','','navigation');" target="_blank">Trova un partner</a></li></ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.it/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
-                                    moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nuovi datacenter</p>
-<p style="color: #FFF;">Scopri le nostre offerte limitate!</p>
-<br><p class="moreButton callToActionTop" style="">Scegli la tua destinazione</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="marketplace"><a href="https://www.ovh.it/dlp/" nameat="dlp-main" onclick="window.globalComponentFooter.analytics.at.track('dlp-main','','navigation');">Startup</a></li>
-<li class="marketplace"><a href="https://partners.ovh.com/">OVH Partners</a></li>
-<li class="about">
-<a href="javascript:void(0);">Chi siamo</a><ul><li class="products"><ul>
-<li class="icn icn-community first ">
-<a href="https://www.ovh.it/community/" name="Menu/community" nameat="community" onclick="window.globalComponentFooter.analytics.at.track('community','','navigation');"><div class="prDesc">
-<span class="title">Bisogno di aiuto?</span><br><span class="baseline">Le risposte a tutte le tue domande</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/community/" class="title" name="Menu/community-More/home" nameat="community-home" onclick="window.globalComponentFooter.analytics.at.track('community-home','','navigation');" rel="nofollow">Bisogno di aiuto?</a></li>
-<li><a href="https://www.ovh.it/community/knowledge/" name="Menu/community-More/guides" nameat="community-guides" onclick="window.globalComponentFooter.analytics.at.track('community-guides','','navigation');">Guide</a></li>
-<li><a href="https://www.ovh.it/community/status/" name="Menu/community-More/status" nameat="community-status" onclick="window.globalComponentFooter.analytics.at.track('community-status','','navigation');">Stato dei servizi</a></li>
-<li><a href="https://www.ovh.it/community/betas/" name="Menu/community-More/betas" nameat="community-betas" onclick="window.globalComponentFooter.analytics.at.track('community-betas','','navigation');">Beta</a></li>
-<li><a href="https://www.ovh.it/community/api.xml" name="Menu/community-More/API" nameat="community-API" onclick="window.globalComponentFooter.analytics.at.track('community-API','','navigation');">API</a></li>
-<li><a href="https://www.ovh.it/community/mailing.xml" name="Menu/community-More/mailing" nameat="community-mailing" onclick="window.globalComponentFooter.analytics.at.track('community-mailing','','navigation');">Iscriviti alle nostre mailing list</a></li>
-<li><a href="https://www.ovh.it/community/forum.xml" name="Menu/community-More/forum" nameat="community-forum" onclick="window.globalComponentFooter.analytics.at.track('community-forum','','navigation');">Forum</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/pciVoucherIT.png'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">OVH Public Cloud</p><p style="color: #FFF;">€30 di voucher per testare il Public Cloud</p><br><p class="moreButton bgcloud" style="">Comincia ora!</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li></ul></li></ul></li>
+
+
+        
+        
+
+
+        
+        
+        
+
+
+        
+        <li class="marketplace"><a href="https://www.ovh.it/dlp/" nameat="dlp-main" data-tc-clic="dlp-main" data-tc-clic-type="navigation">Startup</a></li>
+
+
+        
+        <li class="marketplace"><a href="https://partners.ovh.com/">OVH Partners</a></li>
+
+
+        
+        <li class="about"><a href="javascript:void(0);">Chi siamo</a><ul><li class="products"><ul><li class="icn icn-community first "><a href="https://www.ovh.it/community/" style="" name="Menu/community" nameat="community" data-tc-clic="community" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Bisogno di aiuto?</span><br><span class="baseline">Le risposte a tutte le tue domande</span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/community/" class="title" style="" name="Menu/community-More/home" nameat="community-home" data-tc-clic="community-home" data-tc-clic-type="navigation" rel="nofollow">Bisogno di aiuto?</a></li><li><a href="https://www.ovh.it/community/knowledge/" class="" style="" name="Menu/community-More/guides" nameat="community-guides" data-tc-clic="community-guides" data-tc-clic-type="navigation">Guide</a></li><li><a href="https://www.ovh.it/community/status/" class="" style="" name="Menu/community-More/status" nameat="community-status" data-tc-clic="community-status" data-tc-clic-type="navigation">Stato dei servizi</a></li><li><a href="https://www.ovh.it/community/api.xml" class="" style="" name="Menu/community-More/API" nameat="community-API" data-tc-clic="community-API" data-tc-clic-type="navigation">API</a></li><li><a href="https://www.ovh.it/community/mailing.xml" class="" style="" name="Menu/community-More/mailing" nameat="community-mailing" data-tc-clic="community-mailing" data-tc-clic-type="navigation">Iscriviti alle nostre mailing list</a></li><li><a href="https://www.ovh.it/community/forum.xml" class="" style="" name="Menu/community-More/forum" nameat="community-forum" data-tc-clic="community-forum" data-tc-clic-type="navigation">Forum</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Ultime Novità</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">News OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-news">
-<a href="https://www.ovh.it/news/" name="Menu/news" nameat="news" onclick="window.globalComponentFooter.analytics.at.track('news','','navigation');"><div class="prDesc">
-<span class="title">OVH News</span><br><span class="baseline">Tutte le news OVH</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/news/" class="title" name="Menu/news-More/home" nameat="news-home" onclick="window.globalComponentFooter.analytics.at.track('news-home','','navigation');" rel="nofollow">Home News</a></li>
-<li><a href="https://www.ovh.it/news/articoli/" name="Menu/news-More/all" nameat="news-all" onclick="window.globalComponentFooter.analytics.at.track('news-all','','navigation');">Tutti gli articoli</a></li>
-<li><a href="https://www.ovh.it/news/video/" name="Menu/news-More/video" nameat="news-video" onclick="window.globalComponentFooter.analytics.at.track('news-video','','navigation');">Video</a></li>
-<li><a href="https://www.ovh.it/news/foto/" name="Menu/news-More/photo" nameat="news-photo" onclick="window.globalComponentFooter.analytics.at.track('news-photo','','navigation');">Foto</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.it/files/featured_images/kubblog_0.jpg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Ultime Novità</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/al938.perche-creare-ovh-managed-kubernetes">Perché creare OVH Managed Kubernetes?</a></p><br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About">News OVH</a></div></span></div></li></ul></li><li class="icn icn-news"><a href="https://www.ovh.it/news/" style="" name="Menu/news" nameat="news" data-tc-clic="news" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">OVH News</span><br><span class="baseline">Tutte le news OVH</span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/news/" class="title" style="" name="Menu/news-More/home" nameat="news-home" data-tc-clic="news-home" data-tc-clic-type="navigation" rel="nofollow">Home News</a></li><li><a href="https://www.ovh.it/news/articoli/" class="" style="" name="Menu/news-More/all" nameat="news-all" data-tc-clic="news-all" data-tc-clic-type="navigation">Tutti gli articoli</a></li><li><a href="https://www.ovh.it/news/video/" class="" style="" name="Menu/news-More/video" nameat="news-video" data-tc-clic="news-video" data-tc-clic-type="navigation">Video</a></li><li><a href="https://www.ovh.it/news/foto/" class="" style="" name="Menu/news-More/photo" nameat="news-photo" data-tc-clic="news-photo" data-tc-clic-type="navigation">Foto</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Ultime Novità</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">News OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-events">
-<a href="https://www.ovh.it/events/" name="Menu/events" nameat="events" onclick="window.globalComponentFooter.analytics.at.track('events','','navigation');"><div class="prDesc">
-<span class="title">OVH Events</span><br><span class="baseline">Eventi, incontri e corsi di formazione</span>
-</div></a><ul class="prMore"><li><a href="https://www.ovh.it/events/" class="title" name="Menu/events-More/all" nameat="events-all" onclick="window.globalComponentFooter.analytics.at.track('events-all','','navigation');" rel="nofollow">Tutti gli eventi</a></li></ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.it/files/featured_images/kubblog_0.jpg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Ultime Novità</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/al938.perche-creare-ovh-managed-kubernetes">Perché creare OVH Managed Kubernetes?</a></p><br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About">News OVH</a></div></span></div></li></ul></li><li class="icn icn-partners"><a href="https://www.ovh.it/case-studies/" style="" name="Menu/case-studies" nameat="case-studies" data-tc-clic="case-studies" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Case Study</span><br><span class="baseline">Lasciati ispirare dal modo in cui i nostri clienti utilizzano le soluzioni OVH</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Ultime Novità</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">News OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-aboutus">
-<a href="https://www.ovh.it/aproposito/" name="Menu/about" nameat="about" onclick="window.globalComponentFooter.analytics.at.track('about','','navigation');"><div class="prDesc">
-<span class="title">Chi siamo</span><br><span class="baseline"></span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/aproposito/" class="title" name="Menu/about-More/discover" nameat="about-discover" onclick="window.globalComponentFooter.analytics.at.track('about-discover','','navigation');" rel="nofollow">Scopri OVH</a></li>
-<li><a href="https://www.ovh.it/aproposito/datacenter.xml" name="Menu/about-More/datacenter" nameat="about-datacenter" onclick="window.globalComponentFooter.analytics.at.track('about-datacenter','','navigation');">Datacenter</a></li>
-<li><a href="https://www.ovh.it/aproposito/rete.xml" name="Menu/about-More/network" nameat="about-network" onclick="window.globalComponentFooter.analytics.at.track('about-network','','navigation');">Rete mondiale</a></li>
-<li><a href="https://www.ovh.it/aproposito/sicurezza.xml" name="Menu/about-More/security" nameat="about-security" onclick="window.globalComponentFooter.analytics.at.track('about-security','','navigation');">Sicurezza</a></li>
-<li><a href="https://www.ovh.it/aproposito/componenti.xml" name="Menu/about-More/Composants" nameat="about-Composants" onclick="window.globalComponentFooter.analytics.at.track('about-Composants','','navigation');">Componenti</a></li>
-<li><a href="https://www.ovh.it/aproposito/produzione.xml" name="Menu/about-More/prod" nameat="about-prod" onclick="window.globalComponentFooter.analytics.at.track('about-prod','','navigation');">Produzione dei server</a></li>
-<li><a href="https://www.ovh.it/aproposito/partner-tecnici.xml" name="Menu/about-More/partners" nameat="about-partners" onclick="window.globalComponentFooter.analytics.at.track('about-partners','','navigation');">Partner tecnici </a></li>
-<li><a href="https://www.ovh.it/referenze-clienti/" name="Menu/about-More/refs" nameat="about-refs" onclick="window.globalComponentFooter.analytics.at.track('about-refs','','navigation');">Feedback Clienti 
-</a></li>
-<li><a href="https://www.ovh.it/aproposito/certificazioni.xml" name="Menu/about-More/certifs" nameat="about-certifs" onclick="window.globalComponentFooter.analytics.at.track('about-certifs','','navigation');">Certificazioni </a></li>
-<li><a href="https://www.ovh.it/aproposito/green-it.xml" name="Menu/about-More/green" nameat="about-green" onclick="window.globalComponentFooter.analytics.at.track('about-green','','navigation');">Green IT</a></li>
-<li><a href="https://www.ovh.it/aproposito/team.xml" name="Menu/about-More/RDTeam" nameat="about-RDTeam" onclick="window.globalComponentFooter.analytics.at.track('about-RDTeam','','navigation');">Team ricerca e sviluppo</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.it/files/featured_images/kubblog_0.jpg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Ultime Novità</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/al938.perche-creare-ovh-managed-kubernetes">Perché creare OVH Managed Kubernetes?</a></p><br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About">News OVH</a></div></span></div></li></ul></li><li class="icn icn-events"><a href="https://www.ovh.it/events/" style="" name="Menu/events" nameat="events" data-tc-clic="events" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">OVH Events</span><br><span class="baseline">Eventi, incontri e corsi di formazione</span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/events/" class="title" style="" name="Menu/events-More/all" nameat="events-all" data-tc-clic="events-all" data-tc-clic-type="navigation" rel="nofollow">Tutti gli eventi</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Ultime Novità</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">News OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-jobs">
-<a href="https://www.ovh.it/careers/" name="Menu/careers" nameat="careers" onclick="window.globalComponentFooter.analytics.at.track('careers','','navigation');"><div class="prDesc">
-<span class="title">Lavora con noi </span><br><span class="baseline">Entra nel mondo OVH</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.it/careers/" class="title" name="Menu/careers-More/home" nameat="careers-home" onclick="window.globalComponentFooter.analytics.at.track('careers-home','','navigation');" rel="nofollow">Home OVH Jobs</a></li>
-<li><a href="https://www.ovh.it/careers/posizioni/?country=it" name="Menu/careers-More/home" nameat="careers-home" onclick="window.globalComponentFooter.analytics.at.track('careers-home','','navigation');" rel="nofollow">Offerte di lavoro </a></li>
-<li><a href="https://www.ovh.it/careers/candidati.xml" name="Menu/careers-More/home" nameat="careers-home" onclick="window.globalComponentFooter.analytics.at.track('careers-home','','navigation');" rel="nofollow">Candidatura spontanea</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.it/files/featured_images/kubblog_0.jpg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Ultime Novità</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/al938.perche-creare-ovh-managed-kubernetes">Perché creare OVH Managed Kubernetes?</a></p><br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About">News OVH</a></div></span></div></li></ul></li><li class="icn icn-aboutus"><a href="https://www.ovh.it/aproposito/" style="" name="Menu/about" nameat="about" data-tc-clic="about" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Chi siamo</span><br><span class="baseline"></span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/aproposito/" class="title" style="" name="Menu/about-More/discover" nameat="about-discover" data-tc-clic="about-discover" data-tc-clic-type="navigation" rel="nofollow">Scopri OVH</a></li><li><a href="https://www.ovh.it/aproposito/datacenter.xml" class="" style="" name="Menu/about-More/datacenter" nameat="about-datacenter" data-tc-clic="about-datacenter" data-tc-clic-type="navigation">Datacenter</a></li><li><a href="https://www.ovh.it/aproposito/rete.xml" class="" style="" name="Menu/about-More/MondialNetwork" nameat="about-MondialNetwork" data-tc-clic="about-MondialNetwork" data-tc-clic-type="navigation">Rete mondiale</a></li><li><a href="https://www.ovh.it/aproposito/sicurezza.xml" class="" style="" name="Menu/about-More/security" nameat="about-security" data-tc-clic="about-security" data-tc-clic-type="navigation">Sicurezza</a></li><li><a href="https://www.ovh.it/aproposito/componenti.xml" class="" style="" name="Menu/about-More/Composants" nameat="about-Composants" data-tc-clic="about-Composants" data-tc-clic-type="navigation">Componenti</a></li><li><a href="https://www.ovh.it/aproposito/produzione.xml" class="" style="" name="Menu/about-More/prod" nameat="about-prod" data-tc-clic="about-prod" data-tc-clic-type="navigation">Produzione server</a></li><li><a href="https://www.ovh.it/aproposito/partner-tecnici.xml" class="" style="" name="Menu/about-More/partners" nameat="about-partners" data-tc-clic="about-partners" data-tc-clic-type="navigation">Partner tecnologici</a></li><li><a href="https://www.ovh.it/referenze-clienti/" class="" style="" name="Menu/about-More/refs" nameat="about-refs" data-tc-clic="about-refs" data-tc-clic-type="navigation">Feedback Clienti 
+</a></li><li><a href="https://www.ovh.it/aproposito/certificazioni.xml" class="" style="" name="Menu/about-More/certifs" nameat="about-certifs" data-tc-clic="about-certifs" data-tc-clic-type="navigation">Certificazioni </a></li><li><a href="https://www.ovh.it/aproposito/green-it.xml" class="" style="" name="Menu/about-More/green" nameat="about-green" data-tc-clic="about-green" data-tc-clic-type="navigation">Green IT</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Ultime Novità</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">News OVH</a>
-</div></span></div></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="mobile first"><a href="https://www.ovh.com/manager/" title="Il tuo Spazio Cliente OVH">Spazio Cliente OVH</a></li>
-<li class="mobile"><a href="https://www.ovh.it/supporto//" title="Assistenza tecnica e commerciale">Supporto</a></li>
-<li class="mobile">
-<style type="text/css">
+                        background-image: url('https://www.ovh.it/files/featured_images/kubblog_0.jpg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Ultime Novità</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/al938.perche-creare-ovh-managed-kubernetes">Perché creare OVH Managed Kubernetes?</a></p><br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About">News OVH</a></div></span></div></li></ul></li><li class="icn icn-jobs"><a href="https://careers.ovh.com/en-gb" style="" name="Menu/careers" nameat="careers" data-tc-clic="careers" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Lavora con noi </span><br><span class="baseline">Entra nel mondo OVH</span></div></a><ul class="prMore"><li><a href="https://careers.ovh.com/en-gb" class="title" style="" name="Menu/careers-More/home" nameat="careers-home" data-tc-clic="careers-home" data-tc-clic-type="navigation" rel="nofollow">Home OVH Jobs</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh.it/files/featured_images/kubblog_0.jpg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Ultime Novità</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/al938.perche-creare-ovh-managed-kubernetes">Perché creare OVH Managed Kubernetes?</a></p><br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About">News OVH</a></div></span></div></li></ul></li><li class="icn icn-privacy"><a href="https://www.ovh.it/protezione-dati-personali/" style="" name="Menu/data-protection" nameat="data-protection" data-tc-clic="data-protection" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Protezione dei dati - GDPR</span><br><span class="baseline"></span></div></a><ul class="prMore"><li><a href="https://www.ovh.it/protezione-dati-personali/" class="title" style="" name="Menu/data-protection-More/home" nameat="data-protection-home" data-tc-clic="data-protection-home" data-tc-clic-type="navigation" rel="nofollow">Protezione dei dati personali</a></li><li><a href="https://www.ovh.it/protezione-dati-personali/gdpr.xml" class="" style="" name="Menu/data-protection-More/gdrp" nameat="data-protection-gdrp" data-tc-clic="data-protection-gdrp" data-tc-clic-type="navigation" rel="nofollow">GDPR</a></li><li><a href="https://www.ovh.it/protezione-dati-personali/sicurezza.xml" class="" style="" name="Menu/data-protection-More/security" nameat="data-protection-security" data-tc-clic="data-protection-security" data-tc-clic-type="navigation" rel="nofollow">Sicurezza dei dati</a></li><li><a href="https://www.ovh.it/protezione-dati-personali/esercita-i-tuoi-diritti/" class="" style="" name="Menu/data-protection-More/contact" nameat="data-protection-contact" data-tc-clic="data-protection-contact" data-tc-clic-type="navigation" rel="nofollow">Esercita i tuoi diritti</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh.it/files/featured_images/kubblog_0.jpg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Ultime Novità</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.it/news/articoli/al938.perche-creare-ovh-managed-kubernetes">Perché creare OVH Managed Kubernetes?</a></p><br><a class="moreButton bgabout" href="https://www.ovh.it/news/" name="Menu/Pub-About">News OVH</a></div></span></div></li></ul></li></ul></li></ul></li>
+
+
+        
+        
+    <li class="mobile first"><a href="https://www.ovh.com/manager/" title="Il tuo Spazio Cliente OVH">Spazio Cliente OVH</a></li><li class="mobile"><a href="https://www.ovh.it/supporto//" title="Assistenza tecnica e commerciale">Supporto</a></li><li class="mobile"><style type="text/css">
             #changeLanguage .ovhFlag,
             a#languageChooser,
             span#languageChooser {
-                background-image: url('/theme/img/ovhFlags.png') !important;
+                background-image: url('/theme/img/images/flagz/ovhFlags.png') !important;
                 width: 30px;
                 height: 26px;
-                margin: -5px 10px 0 5px !important;
+                margin: -2px 10px 0 5px !important;
                 background-size: 30px;
                 border: none;
             }
@@ -887,7 +310,7 @@
             }
 
             .mobileLanguageChooserWrapper {
-                height: 26px;
+                height: 49px;
                 margin: 0;
                 text-align: center !important;
                 border: solid #fff 1px;
@@ -895,90 +318,11 @@
                 border-right: 0px;
                 padding: 11px 0;
             }
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+               .mobileLanguageChooserWrapper{height: 26px;}
+            }
         </style>
                     <div class="mobileLanguageChooserWrapper">
-                <a href="javascript:void(0);" id="languageChooser" class="ovhFlag it" tabindex="1"></a><div id="changeLanguage">
-<div class="contryBox">
-<span class="chLangTitl">Europa</span><ul class="countryList">
-<li><a href="https://www.ovh.cz" name="Flagz/cz"><div class="ovhFlag cz"></div>
-<span>Repubblica Ceca</span></a></li>
-<li><a href="https://www.ovh.de" name="Flagz/de"><div class="ovhFlag de"></div>
-<span>Germania</span></a></li>
-<li><a href="https://www.ovh-hosting.fi" name="Flagz/fi"><div class="ovhFlag fi"></div>
-<span>Finlandia</span></a></li>
-<li><a href="https://www.ovh.com/fr/" name="Flagz/fr"><div class="ovhFlag fr"></div>
-<span>Francia</span></a></li>
-<li><a href="https://www.ovh.it" name="Flagz/fi"><div class="ovhFlag it"></div>
-<span>Italia</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/ie"><div class="ovhFlag ie"></div>
-<span>Irlanda</span></a></li>
-<li><a href="https://www.ovh.lt" name="Flagz/lt"><div class="ovhFlag lt"></div>
-<span>Lituania</span></a></li>
-<li><a href="https://www.ovh.nl" name="Flagz/nl"><div class="ovhFlag nl"></div>
-<span>Paesi Bassi</span></a></li>
-<li><a href="https://www.ovh.pl" name="Flagz/pl"><div class="ovhFlag pl"></div>
-<span>Polonia</span></a></li>
-<li><a href="https://www.ovh.pt" name="Flagz/pt"><div class="ovhFlag pt"></div>
-<span>Portogallo</span></a></li>
-<li><a href="https://www.ovh.es" name="Flagz/es"><div class="ovhFlag es"></div>
-<span>Spagna</span></a></li>
-<li><a href="https://www.ovh.co.uk" name="Flagz/uk"><div class="ovhFlag uk"></div>
-<span>Regno Unito</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">America</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/us"><div class="ovhFlag us"></div>
-<span>USA</span></a></li>
-<li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca"><div class="ovhFlag ca"></div>
-<span>Canada [EN]</span></a></li>
-<li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc"><div class="ovhFlag qc"></div>
-<span>Canada [FR]</span></a></li>
-<li><a href="https://www.ovh.com/us/es/" name="Flagz/ws"><div class="ovhFlag ws"></div>
-<span>America Latina [ES]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Africa</span><ul class="countryList">
-<li><a href="https://www.ovh.com/ma/" name="Flagz/ma"><div class="ovhFlag ma"></div>
-<span>Marocco</span></a></li>
-<li><a href="https://www.ovh.sn" name="Flagz/sn"><div class="ovhFlag sn"></div>
-<span>Senegal</span></a></li>
-<li><a href="https://www.ovh.com/tn/" name="Flagz/tn"><div class="ovhFlag tn"></div>
-<span>Tunisia</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Océanie</span><ul class="countryList">
-<li><a href="https://www.ovh.com.au/" name="Flagz/au"><div class="ovhFlag au"></div>
-<span>Australia</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Asia</span><ul class="countryList">
-<li><a href="https://www.ovh.com/sg/" name="Flagz/au"><div class="ovhFlag sg"></div>
-<span>Singapore</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Mondo</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Mondo [$]</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Mondo [€]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div style="clear: both;"></div>
-</div>
+                <a href="javascript:void(0);" id="languageChooser" class="ovhFlag it" tabindex="1"></a><div id="changeLanguage"><div class="contryBox"><span class="chLangTitl">Europa</span><ul class="countryList"><li><a href="https://www.ovh.cz" name="Flagz/cz" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag cz"></div><span>Repubblica Ceca</span></a></li><li><a href="https://www.ovh.de" name="Flagz/de" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag de"></div><span>Germania</span></a></li><li><a href="https://www.ovh-hosting.fi" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fi"></div><span>Finlandia</span></a></li><li><a href="https://www.ovh.com/fr/" name="Flagz/fr" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fr"></div><span>Francia</span></a></li><li><a href="https://www.ovh.it" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag it"></div><span>Italia</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/ie" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ie"></div><span>Irlanda</span></a></li><li><a href="https://www.ovh.lt" name="Flagz/lt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag lt"></div><span>Lituania</span></a></li><li><a href="https://www.ovh.nl" name="Flagz/nl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag nl"></div><span>Paesi Bassi</span></a></li><li><a href="https://www.ovh.pl" name="Flagz/pl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pl"></div><span>Polonia</span></a></li><li><a href="https://www.ovh.pt" name="Flagz/pt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pt"></div><span>Portogallo</span></a></li><li><a href="https://www.ovh.es" name="Flagz/es" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag es"></div><span>Spagna</span></a></li><li><a href="https://www.ovh.co.uk" name="Flagz/uk" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag uk"></div><span>Regno Unito</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">America</span><ul class="countryList"><li><a href="https://us.ovhcloud.com/" name="Flagz/us" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag us"></div><span>USA</span></a></li><li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ca"></div><span>Canada [EN]</span></a></li><li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag qc"></div><span>Canada [FR]</span></a></li><li><a href="https://www.ovh.com/world/es/" name="Flagz/ws" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ws"></div><span>America Latina [ES]</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Africa</span><ul class="countryList"><li><a href="https://www.ovh.com/ma/" name="Flagz/ma" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ma"></div><span>Marocco</span></a></li><li><a href="https://www.ovh.sn" name="Flagz/sn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sn"></div><span>Senegal</span></a></li><li><a href="https://www.ovh.com/tn/" name="Flagz/tn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag tn"></div><span>Tunisia</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Océanie</span><ul class="countryList"><li><a href="https://www.ovh.com.au/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag au"></div><span>Australia</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Asia</span><ul class="countryList"><li><a href="https://www.ovh.com/sg/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sg"></div><span>Singapore</span></a></li><li><a href="https://www.ovh.com/asia/" name="Flagz/asia" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag asia"></div><span>Asia</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Mondo</span><ul class="countryList"><li><a href="https://www.ovh.com/world/" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Mondo [$]</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Mondo [€]</span></a></li><div style="clear: both;"></div></ul></div><div style="clear: both;"></div></div>
                 </div>
-            </li>
-</ul>
-</li></ul></nav>
-</div></div>
-</div>
+            </li></ul></li></ul></nav></div></div></div>
