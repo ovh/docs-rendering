@@ -21,7 +21,7 @@ TRANSLATIONS_FILE = "config/translations.yml"
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = False
 
-GITHUB_URL = "https://github.com/ovh/docs/blob/master/"
+GITHUB_URL = "https://github.com/ovh/docs/blob/develop/"
 REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
 DEFAULT_PAGINATION = False
