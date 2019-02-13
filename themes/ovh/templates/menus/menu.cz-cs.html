@@ -1,35 +1,26 @@
-<input id="rootUrl" value="https://www.ovh.cz" type="hidden">
-<div id="header" class="global-component-menu cz">
-<div id="cookiesPop" style="display: none;"><div class="wrapper">
-<div class="txt"><p>Pokračováním v prohlížení těchto stránek souhlasíte s používáním cookies k zajištění jejich správného fungování a k vytváření anonymních statistik návštěvnosti.<a href="https://www.ovh.cz/podpora/pravni_dokumenty/cookies_ovh.xml">Více informací a správa cookies</a></p></div>
-<div class="lnk"><input id="cross" value="Ok" type="button"></div>
-</div></div>
-<input id="main-language" value="cz" type="hidden"><a onclick="window.scrollTo(0, 0);" class="toTop" href="javascript:void(0)" title="Na začátek stránky">Na začátek stránky</a><div class="header_wrapper">
-<a href="https://www.ovh.cz/" title="Úvodní strana OVH.com - domény, webhosting, dedikované servery, Cloud computing, e-maily, VPS, SMS, CDN..." class="main_logo sprite-logo-01-2017" style="display: flex;"></a><div class="support">
-<a id="menu_customer_not_logged" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.cz/" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Manager','','action');" title="Váš OVH Manažer">Nový Zákaznický prostor Web</a><a id="menu_customer_logged_in" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.cz/" style="display: none;" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-NIC','','action');" title="Váš OVH Manažer">Nový Zákaznický prostor Web (#NIC#)
-                            </a><a id="menu_customer_num_pending_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=in-progress" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Billing','','action');" title="Probíhající objednávky" style="display: none;"></a><a id="menu_customer_num_unpaid_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=unpaid" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-UnpaidBilling','','action');" title="Splatné objednávky"></a> 
+<input type="hidden" id="rootUrl" value="https://www.ovh.cz"><div id="header" class="global-component-menu cz"><div id="cookiesPop"><div class="wrapper"><div class="txt"><p>Pokračováním v prohlížení těchto stránek souhlasíte s používáním cookies k zajištění jejich správného fungování a k vytváření anonymních statistik návštěvnosti.<a href="https://www.ovh.cz/podpora/pravni_dokumenty/cookies_ovh.xml">Více informací a správa cookies</a></p></div><div class="lnk"><input type="button" id="cross" value="Ok"></div></div></div><input id="main-language" type="hidden" value="cz"><div class="header_wrapper"><a href="https://www.ovh.cz/" title="Úvodní strana OVH.com - domény, webhosting, dedikované servery, Cloud computing, e-maily, VPS, SMS, CDN..." style="display: flex;" class="main_logo"><img src="/images/logo/ovhLogoColor.svg" alt="OVH.com logo" style="height: 44px; margin: 10px;"></a><div class="support"><a id="menu_customer_not_logged" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.cz/&amp;ovhSubsidiary=cz" data-tc-clic="TopHeader-Manager" title="Váš OVH Manažer">Zákaznický prostor OVH</a><a id="menu_customer_logged_in" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.cz/&amp;ovhSubsidiary=cz" style="display: none;" data-tc-clic="TopHeader-NIC" title="Váš OVH Manažer">Zákaznický prostor OVH (#NIC#)
+                            </a><a id="menu_customer_num_pending_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=in-progress" data-tc-clic="TopHeader-Billing" title="Probíhající objednávky"></a><a id="menu_customer_num_unpaid_order" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/billing/orders?status=unpaid" data-tc-clic="TopHeader-UnpaidBilling" title="Splatné objednávky"></a> 
 
                             |
 
-                            <a class="menu_link" href="https://mail.ovh.net/cz/" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Webmail','','action');" title="E-maily online">Webmail</a> 
+                            <a class="menu_link" href="https://www.ovh.cz/mail//" data-tc-clic="TopHeader-Webmail" title="E-maily online">Webmail</a> 
     
                             |
 
-                            <a class="menu_link" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Support','','action');" href="https://www.ovh.cz/podpora/kontaktujte-nas/" title="Technická a obchodní podpora">Podpora</a><a id="menu_customer_num_pending_ticket" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/ticket" title="Otevřené tickety" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Manager','','action');" style="display: none;"></a> 
+                            <a class="menu_link" data-tc-clic="TopHeader-Support" href="https://www.ovh.cz/podpora/kontaktujte-nas/" title="Technická a obchodní podpora">Podpora</a><a id="menu_customer_num_pending_ticket" class="menu_badge" href="https://www.ovh.com/manager/web/index.html#/ticket" title="Otevřené tickety" data-tc-clic="TopHeader-Manager"></a> 
 
                             |
 
-                            <a class="menu_link" href="https://www.ovh.cz/community/knowledge/" onclick="window.globalComponentFooter.analytics.at.track('TopHeader-Community','','action');" title="Příručky pro Vaše řešení">Nápovědy</a> 
-
+                            <a class="menu_link" href="https://docs.ovh.com/cz/cs/" data-tc-clic="TopHeader-Community" title="Příručky pro Vaše řešení">Nápovědy</a> 
                                 |
                             <style type="text/css">
             #changeLanguage .ovhFlag,
             a#languageChooser,
             span#languageChooser {
-                background-image: url('/theme/img/ovhFlags.png') !important;
+                background-image: url('/theme/img/images/flagz/ovhFlags.png') !important;
                 width: 30px;
                 height: 26px;
-                margin: -5px 10px 0 5px !important;
+                margin: -2px 10px 0 5px !important;
                 background-size: 30px;
                 border: none;
             }
@@ -97,7 +88,7 @@
             }
 
             .mobileLanguageChooserWrapper {
-                height: 26px;
+                height: 49px;
                 margin: 0;
                 text-align: center !important;
                 border: solid #fff 1px;
@@ -105,672 +96,135 @@
                 border-right: 0px;
                 padding: 11px 0;
             }
-        </style>
-<a href="javascript:void(0);" id="languageChooser" class="ovhFlag cz" tabindex="1"></a><div id="changeLanguage">
-<div class="contryBox">
-<span class="chLangTitl">Evropa</span><ul class="countryList">
-<li><a href="https://www.ovh.cz" name="Flagz/cz"><div class="ovhFlag cz"></div>
-<span>Česká Republika</span></a></li>
-<li><a href="https://www.ovh.de" name="Flagz/de"><div class="ovhFlag de"></div>
-<span>Německo</span></a></li>
-<li><a href="https://www.ovh-hosting.fi" name="Flagz/fi"><div class="ovhFlag fi"></div>
-<span>Finsko</span></a></li>
-<li><a href="https://www.ovh.com/fr/" name="Flagz/fr"><div class="ovhFlag fr"></div>
-<span>Francie</span></a></li>
-<li><a href="https://www.ovh.it" name="Flagz/fi"><div class="ovhFlag it"></div>
-<span>Itálie</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/ie"><div class="ovhFlag ie"></div>
-<span>Irsko</span></a></li>
-<li><a href="https://www.ovh.lt" name="Flagz/lt"><div class="ovhFlag lt"></div>
-<span>Litva</span></a></li>
-<li><a href="https://www.ovh.nl" name="Flagz/nl"><div class="ovhFlag nl"></div>
-<span>Nizozemí</span></a></li>
-<li><a href="https://www.ovh.pl" name="Flagz/pl"><div class="ovhFlag pl"></div>
-<span>Polsko</span></a></li>
-<li><a href="https://www.ovh.pt" name="Flagz/pt"><div class="ovhFlag pt"></div>
-<span>Portugalsko</span></a></li>
-<li><a href="https://www.ovh.es" name="Flagz/es"><div class="ovhFlag es"></div>
-<span>Španělsko</span></a></li>
-<li><a href="https://www.ovh.co.uk" name="Flagz/uk"><div class="ovhFlag uk"></div>
-<span>Velká Británie</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Severní Amerika</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/us"><div class="ovhFlag us"></div>
-<span>USA</span></a></li>
-<li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca"><div class="ovhFlag ca"></div>
-<span>Kanada [EN]</span></a></li>
-<li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc"><div class="ovhFlag qc"></div>
-<span>Kanada [FR]</span></a></li>
-<li><a href="https://www.ovh.com/us/es/" name="Flagz/ws"><div class="ovhFlag ws"></div>
-<span>Latinská Amerika [ES]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Afrika</span><ul class="countryList">
-<li><a href="https://www.ovh.com/ma/" name="Flagz/ma"><div class="ovhFlag ma"></div>
-<span>Maroko</span></a></li>
-<li><a href="https://www.ovh.sn" name="Flagz/sn"><div class="ovhFlag sn"></div>
-<span>Senegal</span></a></li>
-<li><a href="https://www.ovh.com/tn/" name="Flagz/tn"><div class="ovhFlag tn"></div>
-<span>Tunisko</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Océanie</span><ul class="countryList">
-<li><a href="https://www.ovh.com.au/" name="Flagz/au"><div class="ovhFlag au"></div>
-<span>Austrálie</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Asie</span><ul class="countryList">
-<li><a href="https://www.ovh.com/sg/" name="Flagz/au"><div class="ovhFlag sg"></div>
-<span>Singapur</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Svět</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Svět [$]</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Svět [€]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div style="clear: both;"></div>
-</div>
-<input id="gsearchEngine" value="comcz" type="hidden"><input id="gsearchNoAnswer" value="Žádný výsledek" type="hidden"><div class="searchContainer">
-<input name="query" autocomplete="off" id="searchQuery" value="" placeholder="Vyhledávání" type="text"><input value="" id="searchSubmit" type="submit"><div id="searchSuggestions"></div>
-<div id="searchResults"></div>
-<div id="searchResultsLoader">
-<img src="/theme/img/ajax-loader.gif" style="margin: 0 8px;">Načítání...</div>
-</div>
-</div>
-</div>
-<div class="
-                    topMainMenu" style="top: 0px;"><div class="header_wrapper">
-<style type="text/css" translate="none">
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+               .mobileLanguageChooserWrapper{height: 26px;}
+            }
+        </style><a href="javascript:void(0);" id="languageChooser" class="ovhFlag cz" tabindex="1"></a><div id="changeLanguage"><div class="contryBox"><span class="chLangTitl">Evropa</span><ul class="countryList"><li><a href="https://www.ovh.cz" name="Flagz/cz" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag cz"></div><span>Česká Republika</span></a></li><li><a href="https://www.ovh.de" name="Flagz/de" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag de"></div><span>Německo</span></a></li><li><a href="https://www.ovh-hosting.fi" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fi"></div><span>Finsko</span></a></li><li><a href="https://www.ovh.com/fr/" name="Flagz/fr" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fr"></div><span>Francie</span></a></li><li><a href="https://www.ovh.it" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag it"></div><span>Itálie</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/ie" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ie"></div><span>Irsko</span></a></li><li><a href="https://www.ovh.lt" name="Flagz/lt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag lt"></div><span>Litva</span></a></li><li><a href="https://www.ovh.nl" name="Flagz/nl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag nl"></div><span>Nizozemí</span></a></li><li><a href="https://www.ovh.pl" name="Flagz/pl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pl"></div><span>Polsko</span></a></li><li><a href="https://www.ovh.pt" name="Flagz/pt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pt"></div><span>Portugalsko</span></a></li><li><a href="https://www.ovh.es" name="Flagz/es" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag es"></div><span>Španělsko</span></a></li><li><a href="https://www.ovh.co.uk" name="Flagz/uk" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag uk"></div><span>Velká Británie</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Severní Amerika</span><ul class="countryList"><li><a href="https://us.ovhcloud.com/" name="Flagz/us" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag us"></div><span>USA</span></a></li><li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ca"></div><span>Kanada [EN]</span></a></li><li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag qc"></div><span>Kanada [FR]</span></a></li><li><a href="https://www.ovh.com/world/es/" name="Flagz/ws" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ws"></div><span>Latinská Amerika [ES]</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Afrika</span><ul class="countryList"><li><a href="https://www.ovh.com/ma/" name="Flagz/ma" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ma"></div><span>Maroko</span></a></li><li><a href="https://www.ovh.sn" name="Flagz/sn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sn"></div><span>Senegal</span></a></li><li><a href="https://www.ovh.com/tn/" name="Flagz/tn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag tn"></div><span>Tunisko</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Océanie</span><ul class="countryList"><li><a href="https://www.ovh.com.au/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag au"></div><span>Austrálie</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Asie</span><ul class="countryList"><li><a href="https://www.ovh.com/sg/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sg"></div><span>Singapur</span></a></li><li><a href="https://www.ovh.com/asia/" name="Flagz/asia" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag asia"></div><span>Asie</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Svět</span><ul class="countryList"><li><a href="https://www.ovh.com/world/" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Svět [$]</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Svět [€]</span></a></li><div style="clear: both;"></div></ul></div><div style="clear: both;"></div></div><input type="hidden" id="gsearchEngine" value="cs_CZ"><input type="hidden" id="searchSource" value="www.ovh.cz"><input type="hidden" id="gsearchNoAnswer" value="Žádný výsledek"></div></div><div class="
+                    topMainMenu"><div class="header_wrapper"><style type="text/css" translate="none">
                         #header #navigation > ul > li > a { width: 20%; }
                         #header .topMainMenu.compressed #menu > li > a { width: 18%; }
-                        #header .topMainMenu.compressed.mvA #menu > li > a { font-size: 15px!important;}
+                        #header .topMainMenu.compressed.mvA #menu > li > a { font-size: 15px !important; }
 
-                        </style>
-<nav id="nav" role="navigation"><ul><li id="navigation">
-<a href="/cz/cs" class="mobileLogo"><img src="/theme/img/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" translate="none">≡</label><input id="menu-toggle" type="checkbox"><ul id="menu" role="menubar">
-<li class="menuLogo"><a href="/cz/cs"><span class="sprite-logo"></span></a></li>
-<li class="web">
-<a href="javascript:void(0);" nameat="Tab-Web" onclick="window.globalComponentFooter.analytics.at.track('Tab-Web','','navigation');">Web</a><ul><li class="products"><ul>
-<li class="icn icn-domains first " data-product="domains">
-<a href="https://www.ovh.cz/domeny/" name="Menu/NomsDeDomaine" nameat="NomsDeDomaine" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine','','navigation');"><div class="prDesc">
-<span class="title">Domény</span><br><span class="baseline">Nastavte a převádějte domény</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">24.00 Kč &nbsp;bez DPH</span><span class="period">/rok</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/domeny/" class="title" name="Menu/NomsDeDomaine-More/Create" nameat="NomsDeDomaine-Create" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-Create','','navigation');" rel="nofollow">Vytvořit doménu</a></li>
-<li><a href="https://www.ovh.cz/domeny/praxe_prevod_domeny.xml" name="Menu/NomsDeDomaine-More/Transfer" nameat="NomsDeDomaine-Transfer" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-Transfer','','navigation');">Převod domény</a></li>
-<li><a href="https://www.ovh.cz/domeny/cenik/" name="Menu/NomsDeDomaine-More/tous" nameat="NomsDeDomaine-tous" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-tous','','navigation');" rel="nofollow">Všechny domény</a></li>
-<li><a href="https://www.ovh.cz/domeny/cenik/#promotions" name="Menu/NomsDeDomaine-More/Prom" nameat="NomsDeDomaine-Prom" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-Prom','','navigation');">Naše nabídky</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/domeny/dns-anycast/" name="Menu/NomsDeDomaine-More/DNS Anycast" nameat="NomsDeDomaine-DNS Anycast" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-DNS Anycast','','navigation');">DNS Anycast</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/webhosting/prirucky/" name="Menu/NomsDeDomaine-More/guides" nameat="NomsDeDomaine-guides" onclick="window.globalComponentFooter.analytics.at.track('NomsDeDomaine-guides','','navigation');">Nápovědy</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                        </style><nav id="nav" role="navigation"><ul><li id="navigation"><a href="/" class="mobileLogo"><img src="/theme/img/images/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" translate="none">≡</label><input type="checkbox" id="menu-toggle"><ul id="menu" role="menubar"><li class="menuLogo"><a href="https://www.ovh.cz/"><span class="sprite-logo"></span></a></li>
+        
+        <li class="web"><a href="https://www.ovh.cz/web/" nameat="Tab-Web" data-tc-clic="Tab-Web" data-tc-clic-type="navigation">Webhosting</a><ul><li class="products"><ul><li class="icn icn-domains first " data-product="domains"><a href="https://www.ovh.cz/domeny/" style="" name="Menu/NomsDeDomaine" nameat="NomsDeDomaine" data-tc-clic="NomsDeDomaine" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Domény</span><br><span class="baseline">Nastavte a převádějte domény</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">18.65 Kč bez DPH</span><span class="period">/rok</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/domeny/" class="title" style="" name="Menu/NomsDeDomaine-More/Create" nameat="NomsDeDomaine-Create" data-tc-clic="NomsDeDomaine-Create" data-tc-clic-type="navigation" rel="nofollow">Vytvořit doménu</a></li><li><a href="https://www.ovh.cz/domeny/praxe_prevod_domeny.xml" class="" style="" name="Menu/NomsDeDomaine-More/Transfer" nameat="NomsDeDomaine-Transfer" data-tc-clic="NomsDeDomaine-Transfer" data-tc-clic-type="navigation">Převod domény</a></li><li><a href="https://www.ovh.cz/domeny/cenik/" class="" style="" name="Menu/NomsDeDomaine-More/tous" nameat="NomsDeDomaine-tous" data-tc-clic="NomsDeDomaine-tous" data-tc-clic-type="navigation" rel="nofollow">Všechny domény</a></li><li><a href="https://www.ovh.cz/domeny/cenik/#promotions" class="" style="" name="Menu/NomsDeDomaine-More/Prom" nameat="NomsDeDomaine-Prom" data-tc-clic="NomsDeDomaine-Prom" data-tc-clic-type="navigation">Naše nabídky</a></li><li class="separate"><li><a href="https://www.ovh.cz/domeny/easy-redirect/" class="" style="" name="Menu/NomsDeDomaine-More/Easy%20Redirect" nameat="NomsDeDomaine-Easy Redirect" data-tc-clic="NomsDeDomaine-Easy Redirect" data-tc-clic-type="navigation">Easy Redirect</a></li><li><a href="https://www.ovh.cz/domeny/dns-anycast/" class="" style="" name="Menu/NomsDeDomaine-More/DNS%20Anycast" nameat="NomsDeDomaine-DNS Anycast" data-tc-clic="NomsDeDomaine-DNS Anycast" data-tc-clic-type="navigation">DNS Anycast</a></li><li class="separate"><li><a href="https://docs.ovh.com/cz/cs/domains/" class="" style="" name="Menu/NomsDeDomaine-More/guides" nameat="NomsDeDomaine-guides" data-tc-clic="NomsDeDomaine-guides" data-tc-clic-type="navigation">Nápovědy</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Vaše .CZ doména.</p>
-<p style="color: #FFF;">149,00 Kč/rok</p>
-<br><p class="moreButton bgweb" style="">Zobrazit nabídku</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-hosting" data-product="hosting">
-<a href="https://www.ovh.cz/webhosting/" name="Menu/hosting" nameat="hosting" onclick="window.globalComponentFooter.analytics.at.track('hosting','','navigation');"><div class="prDesc">
-<span class="title">Webhosting</span><br><span class="baseline">Váš jednoduchý a mocný webhostingový balíček</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">55.75 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/webhosting/" class="title" name="Menu/hosting-More/all" nameat="hosting-all" onclick="window.globalComponentFooter.analytics.at.track('hosting-all','','navigation');" rel="nofollow">Hosting Vašich stránek</a></li>
-<li><a href="https://www.ovh.cz/webhosting/webhosting-personal.xml" name="Menu/hosting-More/Perso" nameat="hosting-Perso" onclick="window.globalComponentFooter.analytics.at.track('hosting-Perso','','navigation');">Webhosting Perso</a></li>
-<li><a href="https://www.ovh.cz/webhosting/webhosting-pro.xml" name="Menu/hosting-More/Pro" nameat="hosting-Pro" onclick="window.globalComponentFooter.analytics.at.track('hosting-Pro','','navigation');">Webhosting Pro</a></li>
-<li><a href="https://www.ovh.cz/webhosting/webhosting-performance.xml" name="Menu/hosting-More/Perf" nameat="hosting-Perf" onclick="window.globalComponentFooter.analytics.at.track('hosting-Perf','','navigation');">Izolovaná platforma (webhosting Performance)</a></li>
-<li><a href="https://www.ovh.cz/webhosting/moznosti-sql.xml" name="Menu/hosting-More/options-sql" nameat="hosting-options-sql" onclick="window.globalComponentFooter.analytics.at.track('hosting-options-sql','','navigation');">Volby databází MySQL</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/webhosting/website/" class="title" name="Menu/hosting-More/1click" nameat="hosting-1click" onclick="window.globalComponentFooter.analytics.at.track('hosting-1click','','navigation');">Snadné spuštění webových stránek</a></li>
-<li><a href="https://www.ovh.cz/webhosting/website/wordpress.xml" name="Menu/hosting-More/Wordpress" nameat="hosting-Wordpress" onclick="window.globalComponentFooter.analytics.at.track('hosting-Wordpress','','navigation');">WordPress</a></li>
-<li><a href="https://www.ovh.cz/webhosting/website/joomla.xml" name="Menu/hosting-More/Joomla" nameat="hosting-Joomla" onclick="window.globalComponentFooter.analytics.at.track('hosting-Joomla','','navigation');">Joomla!</a></li>
-<li><a href="https://www.ovh.cz/webhosting/website/drupal.xml" name="Menu/hosting-More/drupal" nameat="hosting-drupal" onclick="window.globalComponentFooter.analytics.at.track('hosting-drupal','','navigation');">Drupal</a></li>
-<li><a href="https://www.ovh.cz/webhosting/website/prestashop.xml" name="Menu/hosting-More/prestashop" nameat="hosting-prestashop" onclick="window.globalComponentFooter.analytics.at.track('hosting-prestashop','','navigation');">PrestaShop</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/webhosting/prirucky/" name="Menu/hosting-More/guides" nameat="hosting-guides" onclick="window.globalComponentFooter.analytics.at.track('hosting-guides','','navigation');">Nápovědy</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"></li></ul>
-</li>
-<li class="icn icn-multihosting" data-product="pleskaas">
-<a href="https://www.ovh.cz/plesk-webhosting/" name="Menu/pleskaas" nameat="pleskaas" onclick="window.globalComponentFooter.analytics.at.track('pleskaas','','navigation');"><div class="prDesc">
-<span class="title">Plesk webhosting</span><br><span class="baseline">Řešení na klíč pro profesionály.</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">359.99 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/plesk-webhosting/" class="title" name="Menu/pleskaas-More/seeOffer" nameat="pleskaas-seeOffer" onclick="window.globalComponentFooter.analytics.at.track('pleskaas-seeOffer','','navigation');" rel="nofollow">Seznamte se s nabídkou</a></li></ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/plesk-webhosting/" name="Menu/Pub-Office" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Office','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Vaše .CZ doména.</p><p style="color: #FFF;">149,00 Kč/rok</p><br><p class="moreButton bgweb" style="">Zobrazit nabídku</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-hosting" data-product="hosting"><a href="https://www.ovh.cz/webhosting/" style="" name="Menu/hosting" nameat="hosting" data-tc-clic="hosting" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Webhosting</span><br><span class="baseline">Váš jednoduchý a mocný webhostingový balíček</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">55.75 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/webhosting/" class="title" style="" name="Menu/hosting-More/all" nameat="hosting-all" data-tc-clic="hosting-all" data-tc-clic-type="navigation" rel="nofollow">Hosting Vašich stránek</a></li><li><a href="https://www.ovh.cz/webhosting/webhosting-personal.xml" class="" style="" name="Menu/hosting-More/Perso" nameat="hosting-Perso" data-tc-clic="hosting-Perso" data-tc-clic-type="navigation">Webhosting Personal</a></li><li><a href="https://www.ovh.cz/webhosting/webhosting-pro.xml" class="" style="" name="Menu/hosting-More/Pro" nameat="hosting-Pro" data-tc-clic="hosting-Pro" data-tc-clic-type="navigation">Webhosting Pro</a></li><li><a href="https://www.ovh.cz/webhosting/cloud-web.xml" class="" style="" name="Menu/hosting-More/CloudWeb" nameat="hosting-CloudWeb" data-tc-clic="hosting-CloudWeb" data-tc-clic-type="navigation">Webhosting Cloud Web (Izolovaná platforma)</a></li><li><a href="https://www.ovh.cz/webhosting/webhosting-performance.xml" class="" style="" name="Menu/hosting-More/Perf" nameat="hosting-Perf" data-tc-clic="hosting-Perf" data-tc-clic-type="navigation">Webhosting Performance (Garantované zdroje)</a></li><li><a href="https://www.ovh.cz/webhosting/moznosti-sql.xml" class="" style="" name="Menu/hosting-More/options-sql" nameat="hosting-options-sql" data-tc-clic="hosting-options-sql" data-tc-clic-type="navigation">Volby databází MySQL</a></li><li><a href="https://www.ovh.cz/ssl/" class="" style="" name="Menu/hosting-More/certificats-ssl" nameat="hosting-certificats-ssl" data-tc-clic="hosting-certificats-ssl" data-tc-clic-type="navigation">Certifikáty SSL</a></li><li class="separate"><li><a href="https://www.ovh.cz/webhosting/website/" class="title" style="" name="Menu/hosting-More/1click" nameat="hosting-1click" data-tc-clic="hosting-1click" data-tc-clic-type="navigation">Snadné spuštění webových stránek</a></li><li><a href="https://www.ovh.cz/webhosting/website/wordpress.xml" class="" style="" name="Menu/hosting-More/Wordpress" nameat="hosting-Wordpress" data-tc-clic="hosting-Wordpress" data-tc-clic-type="navigation">WordPress</a></li><li><a href="https://www.ovh.cz/webhosting/website/joomla.xml" class="" style="" name="Menu/hosting-More/Joomla" nameat="hosting-Joomla" data-tc-clic="hosting-Joomla" data-tc-clic-type="navigation">Joomla!</a></li><li><a href="https://www.ovh.cz/webhosting/website/drupal.xml" class="" style="" name="Menu/hosting-More/drupal" nameat="hosting-drupal" data-tc-clic="hosting-drupal" data-tc-clic-type="navigation">Drupal</a></li><li><a href="https://www.ovh.cz/webhosting/website/prestashop.xml" class="" style="" name="Menu/hosting-More/prestashop" nameat="hosting-prestashop" data-tc-clic="hosting-prestashop" data-tc-clic-type="navigation">PrestaShop</a></li><li class="separate"><li><a href="https://docs.ovh.com/cz/cs/hosting/" class="title" style="" name="Menu/hosting-More/guides" nameat="hosting-guides" data-tc-clic="hosting-guides" data-tc-clic-type="navigation">Nápovědy</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/encart-menu-plesk.jpg'); "><span><div class="moreContent">
-<p style="color: ;">Web, databáze, emaily, bezpečnost... S Pleskem je to hračka!</p>
-<br><p class="moreButton bgweb" style="">Zobrazit nabídku</p>
-<span class="fw200" style="font-size: 9px; color: "></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-email" data-product="email">
-<a href="https://www.ovh.cz/emails/" name="Menu/Messagerie" nameat="Messagerie" onclick="window.globalComponentFooter.analytics.at.track('Messagerie','','navigation');"><div class="prDesc">
-<span class="title">E-mail řešení</span><br><span class="baseline">Sdílené zprávy a mailové schránky</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">140 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/emails/email-pro/" class="title" name="Menu/Messagerie-More/" nameat="Messagerie-" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-','','navigation');">E-mail Pro</a></li>
-<li><a href="https://www.ovh.cz/emails/hosted-exchange/" class="title" name="Menu/Messagerie-More/exchange" nameat="Messagerie-exchange" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-exchange','','navigation');">Microsoft Exchange</a></li>
-<li><a href="https://www.ovh.cz/webhosting/" name="Menu/Messagerie-More/inclusHosting" nameat="Messagerie-inclusHosting" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-inclusHosting','','navigation');" rel="nofollow">E-maily zdarma k webhostingovému balíčku</a></li>
-<li><a href="https://www.ovh.cz/domeny/nabidka_hosting_start10m.xml" name="Menu/Messagerie-More/inclusDomaine" nameat="Messagerie-inclusDomaine" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-inclusDomaine','','navigation');" rel="nofollow">E-maily zdarma k doméně</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/emails/hosted-exchange/prirucky/" name="Menu/Messagerie-More/guides" nameat="Messagerie-guides" onclick="window.globalComponentFooter.analytics.at.track('Messagerie-guides','','navigation');">Nápovědy</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Vaše .CZ doména.</p><p style="color: #FFF;">149,00 Kč/rok</p><br><p class="moreButton bgweb" style="">Zobrazit nabídku</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-multihosting" data-product="pleskaas"><a href="https://www.ovh.cz/plesk-webhosting/" style="" name="Menu/pleskaas" nameat="pleskaas" data-tc-clic="pleskaas" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Plesk webhosting</span><br><span class="baseline">Řešení na klíč pro profesionály.</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">359.99 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/plesk-webhosting/" class="title" style="" name="Menu/pleskaas-More/seeOffer" nameat="pleskaas-seeOffer" data-tc-clic="pleskaas-seeOffer" data-tc-clic-type="navigation" rel="nofollow">Seznamte se s nabídkou</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/plesk-webhosting/" name="Menu/Pub-Office"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Vaše .CZ doména.</p>
-<p style="color: #FFF;">149,00 Kč/rok</p>
-<br><p class="moreButton bgweb" style="">Zobrazit nabídku</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-office" data-product="dedicated">
-<a href="https://www.ovh.cz/office-365/" name="Menu/office" nameat="office" onclick="window.globalComponentFooter.analytics.at.track('office','','navigation');"><div class="prDesc">
-<span class="title">Office 365</span><br><span class="baseline">Nainstalujte Suite Office 2013 na PC a Mac</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">223.72 Kč &nbsp;bez DPH</span><span class="period"></span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/office-365/" class="title" name="Menu/office-More/All" nameat="office-All" onclick="window.globalComponentFooter.analytics.at.track('office-All','','navigation');" rel="nofollow">Pronájem Microsoft Office</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/office-365/" name="Menu/office-More/word" nameat="office-word" onclick="window.globalComponentFooter.analytics.at.track('office-word','','navigation');" rel="nofollow">Word</a></li>
-<li><a href="https://www.ovh.cz/office-365/" name="Menu/office-More/excel" nameat="office-excel" onclick="window.globalComponentFooter.analytics.at.track('office-excel','','navigation');" rel="nofollow">Excel</a></li>
-<li><a href="https://www.ovh.cz/office-365/" name="Menu/office-More/ppt" nameat="office-ppt" onclick="window.globalComponentFooter.analytics.at.track('office-ppt','','navigation');" rel="nofollow">PowerPoint</a></li>
-<li><a href="https://www.ovh.cz/office-365/" name="Menu/office-More/outlook" nameat="office-outlook" onclick="window.globalComponentFooter.analytics.at.track('office-outlook','','navigation');" rel="nofollow">Outlook</a></li>
-<li><a href="https://www.ovh.cz/office-365/" name="Menu/office-More/oneNote" nameat="office-oneNote" onclick="window.globalComponentFooter.analytics.at.track('office-oneNote','','navigation');" rel="nofollow">OneNote</a></li>
-<li><a href="https://www.ovh.cz/office-365/" name="Menu/office-More/publisher" nameat="office-publisher" onclick="window.globalComponentFooter.analytics.at.track('office-publisher','','navigation');" rel="nofollow">Publisher</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/encart-menu-plesk.jpg'); "><span><div class="moreContent"><p style="color: ;">Web, databáze, emaily, bezpečnost... S Pleskem je to hračka!</p><br><p class="moreButton bgweb" style="">Zobrazit nabídku</p><span class="fw200" style="font-size: 9px; color: "></span></div></span></div></a></li></ul></li><li class="icn icn-email" data-product="email"><a href="https://www.ovh.cz/emails/" style="" name="Menu/Messagerie" nameat="Messagerie" data-tc-clic="Messagerie" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">E-mail řešení</span><br><span class="baseline">Sdílené zprávy a mailové schránky</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">20 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/emails/email-pro/" class="title" style="" name="Menu/Messagerie-More/" nameat="Messagerie-" data-tc-clic="Messagerie-" data-tc-clic-type="navigation">E-mail Pro</a></li><li><a href="https://www.ovh.cz/emails/hosted-exchange/" class="title" style="" name="Menu/Messagerie-More/exchange" nameat="Messagerie-exchange" data-tc-clic="Messagerie-exchange" data-tc-clic-type="navigation">Microsoft Exchange</a></li><li><a href="https://www.ovh.cz/webhosting/" class="" style="" name="Menu/Messagerie-More/inclusHosting" nameat="Messagerie-inclusHosting" data-tc-clic="Messagerie-inclusHosting" data-tc-clic-type="navigation" rel="nofollow">E-maily zdarma k webhostingovému balíčku</a></li><li><a href="https://www.ovh.cz/domeny/nabidka_hosting_start10m.xml" class="" style="" name="Menu/Messagerie-More/inclusDomaine" nameat="Messagerie-inclusDomaine" data-tc-clic="Messagerie-inclusDomaine" data-tc-clic-type="navigation" rel="nofollow">E-maily zdarma k doméně</a></li><li class="separate"><li><a href="https://www.ovh.cz/emails/hosted-exchange/prirucky/" class="" style="" name="Menu/Messagerie-More/guides" nameat="Messagerie-guides" data-tc-clic="Messagerie-guides" data-tc-clic-type="navigation">Nápovědy</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Vaše .CZ doména.</p>
-<p style="color: #FFF;">149,00 Kč/rok</p>
-<br><p class="moreButton bgweb" style="">Zobrazit nabídku</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-cdn" data-product="cdn">
-<a href="https://www.ovh.cz/ssl-gateway/" name="Menu/cdn" nameat="cdn" onclick="window.globalComponentFooter.analytics.at.track('cdn','','navigation');"><div class="prDesc">
-<span class="title">SSL Gateway / CDN</span><br><span class="baseline">Rozšiřujte své mezinárodní stránky</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/ssl-gateway/" class="title" name="Menu/cdn-More/ssl-gateway" nameat="cdn-ssl-gateway" onclick="window.globalComponentFooter.analytics.at.track('cdn-ssl-gateway','','navigation');" rel="nofollow">SSL-Gateway</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/cdn/infrastructure/" class="title" name="Menu/cdn-More/infra" nameat="cdn-infra" onclick="window.globalComponentFooter.analytics.at.track('cdn-infra','','navigation');">CDN Infrastructure (dedikovaná)</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-Web" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Web','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Vaše .CZ doména.</p><p style="color: #FFF;">149,00 Kč/rok</p><br><p class="moreButton bgweb" style="">Zobrazit nabídku</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-office" data-product="dedicated"><a href="https://www.ovh.cz/office-365/" style="" name="Menu/office" nameat="office" data-tc-clic="office" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Office 365</span><br><span class="baseline">Nainstalujte Suite Office 2013 na PC a Mac</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">223.72 Kč bez DPH</span><span class="period"></span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/office-365/" class="title" style="" name="Menu/office-More/All" nameat="office-All" data-tc-clic="office-All" data-tc-clic-type="navigation" rel="nofollow">Pronájem Microsoft Office</a></li><li class="separate"><li><a href="https://www.ovh.cz/office-365/" class="" style="" name="Menu/office-More/word" nameat="office-word" data-tc-clic="office-word" data-tc-clic-type="navigation" rel="nofollow">Word</a></li><li><a href="https://www.ovh.cz/office-365/" class="" style="" name="Menu/office-More/excel" nameat="office-excel" data-tc-clic="office-excel" data-tc-clic-type="navigation" rel="nofollow">Excel</a></li><li><a href="https://www.ovh.cz/office-365/" class="" style="" name="Menu/office-More/ppt" nameat="office-ppt" data-tc-clic="office-ppt" data-tc-clic-type="navigation" rel="nofollow">PowerPoint</a></li><li><a href="https://www.ovh.cz/office-365/" class="" style="" name="Menu/office-More/outlook" nameat="office-outlook" data-tc-clic="office-outlook" data-tc-clic-type="navigation" rel="nofollow">Outlook</a></li><li><a href="https://www.ovh.cz/office-365/" class="" style="" name="Menu/office-More/oneNote" nameat="office-oneNote" data-tc-clic="office-oneNote" data-tc-clic-type="navigation" rel="nofollow">OneNote</a></li><li><a href="https://www.ovh.cz/office-365/" class="" style="" name="Menu/office-More/publisher" nameat="office-publisher" data-tc-clic="office-publisher" data-tc-clic-type="navigation" rel="nofollow">Publisher</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-NomsDeDomaine"><div class="
                                     moreBox
                                     bgweb" style="
-                                    background-image: url('/theme/img/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Vaše .CZ doména.</p>
-<p style="color: #FFF;">149,00 Kč/rok</p>
-<br><p class="moreButton bgweb" style="">Zobrazit nabídku</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="dedicated">
-<a href="javascript:void(0);">Dedicated</a><ul><li class="products"><ul>
-<li class="icn icn-dedicated first " data-product="dedicated">
-<a href="https://www.ovh.cz/dedikovane_servery/" name="Menu/dedicated" nameat="dedicated" onclick="window.globalComponentFooter.analytics.at.track('dedicated','','navigation');"><div class="prDesc">
-<span class="title">Dedikované servery</span><br><span class="baseline">Profesionální servery OVH</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">1756.99 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/dedikovane_servery/all_servers.xml" class="title" name="Menu/dedicated-More/all" nameat="dedicated-all" onclick="window.globalComponentFooter.analytics.at.track('dedicated-all','','navigation');" rel="nofollow">Všechny naše dedikované servery</a></li>
-<li><a href="https://www.ovh.cz/discover/" name="Menu/dedicated-More/" nameat="dedicated-" onclick="window.globalComponentFooter.analytics.at.track('dedicated-','','navigation');">Servery Discover</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/enterprise/" name="Menu/dedicated-More/enterprise" nameat="dedicated-enterprise" onclick="window.globalComponentFooter.analytics.at.track('dedicated-enterprise','','navigation');">Flexibilní dedikované servery (Enterprise)</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/hosting/" name="Menu/dedicated-More/hosting" nameat="dedicated-hosting" onclick="window.globalComponentFooter.analytics.at.track('dedicated-hosting','','navigation');">Dedikované servery Hosting</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/infra/" name="Menu/dedicated-More/infra" nameat="dedicated-infra" onclick="window.globalComponentFooter.analytics.at.track('dedicated-infra','','navigation');">Dedikované servery Infrastructure</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/game/" name="Menu/dedicated-More/game" nameat="dedicated-game" onclick="window.globalComponentFooter.analytics.at.track('dedicated-game','','navigation');">Dedikované servery Game</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/storage/" name="Menu/dedicated-More/backup" nameat="dedicated-backup" onclick="window.globalComponentFooter.analytics.at.track('dedicated-backup','','navigation');">Servery Storage a Backup</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/HG/" name="Menu/dedicated-More/HG" nameat="dedicated-HG" onclick="window.globalComponentFooter.analytics.at.track('dedicated-HG','','navigation');">Servery HG - Big Data (konfigurovatelné)</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/gpu/" name="Menu/dedicated-More/gpu" nameat="dedicated-gpu" onclick="window.globalComponentFooter.analytics.at.track('dedicated-gpu','','navigation');">Dedikované servery GPU</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/legacy-s/" name="Menu/dedicated-More/legacy" nameat="dedicated-legacy" onclick="window.globalComponentFooter.analytics.at.track('dedicated-legacy','','navigation');">
-                            Servery Xeon v2 
-                        </a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/dedikovane_servery/tydenni-dedikovany-server.xml" name="Menu/dedicated-More/oneWeek" nameat="dedicated-oneWeek" onclick="window.globalComponentFooter.analytics.at.track('dedicated-oneWeek','','navigation');">Servery na 1 týden</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/community/knowledge/" name="Menu/dedicated-More/guides" nameat="dedicated-guides" onclick="window.globalComponentFooter.analytics.at.track('dedicated-guides','','navigation');" rel="nofollow">Nápovědy</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Vaše .CZ doména.</p><p style="color: #FFF;">149,00 Kč/rok</p><br><p class="moreButton bgweb" style="">Zobrazit nabídku</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-cdn" data-product="cdn"><a href="https://www.ovh.cz/ssl-gateway/" style="" name="Menu/cdn" nameat="cdn" data-tc-clic="cdn" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">SSL Gateway / CDN</span><br><span class="baseline">Rozšiřujte své mezinárodní stránky</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/ssl/" class="title" style="" name="Menu/cdn-More/certificats-ssl" nameat="cdn-certificats-ssl" data-tc-clic="cdn-certificats-ssl" data-tc-clic-type="navigation">Certifikáty SSL</a></li><li><a href="https://www.ovh.cz/ssl-gateway/" class="" style="" name="Menu/cdn-More/ssl-gateway" nameat="cdn-ssl-gateway" data-tc-clic="cdn-ssl-gateway" data-tc-clic-type="navigation" rel="nofollow">SSL-Gateway</a></li><li><a href="https://www.ovh.cz/cdn/infrastructure/" class="" style="" name="Menu/cdn-More/infra" nameat="cdn-infra" data-tc-clic="cdn-infra" data-tc-clic-type="navigation">CDN Infrastructure (dedikovaná)</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/domeny/dotcz.xml" name="Menu/Pub-NomsDeDomaine"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('/theme/img/images/menu/pub/dotcz.jpg'); background-color: #692242;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Vaše .CZ doména.</p><p style="color: #FFF;">149,00 Kč/rok</p><br><p class="moreButton bgweb" style="">Zobrazit nabídku</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li></ul></li></ul></li>
+
+
+        
+        
+
+
+        
+        <li class="dedicated"><a href="javascript:void(0);">Dedicated</a><ul><li class="products"><ul><li class="icn icn-dedicated first " data-product="dedicated"><a href="https://www.ovh.cz/dedikovane_servery/" style="" name="Menu/dedicated" nameat="dedicated" data-tc-clic="dedicated" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Dedikované servery</span><br><span class="baseline">Profesionální servery OVH</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">1219.99 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/dedikovane_servery/all_servers.xml" class="" style="" name="Menu/dedicated-More/all" nameat="dedicated-all" data-tc-clic="dedicated-all" data-tc-clic-type="navigation" rel="nofollow">Všechny naše dedikované servery</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/enterprise/" class="" style="" name="Menu/dedicated-More/enterprise" nameat="dedicated-enterprise" data-tc-clic="dedicated-enterprise" data-tc-clic-type="navigation">Řada Enterprise</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/hosting/" class="" style="" name="Menu/dedicated-More/hosting" nameat="dedicated-hosting" data-tc-clic="dedicated-hosting" data-tc-clic-type="navigation">Řada Hosting</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/infra/" class="" style="" name="Menu/dedicated-More/infra" nameat="dedicated-infra" data-tc-clic="dedicated-infra" data-tc-clic-type="navigation">Řada Infrastructure</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/game/" class="" style="" name="Menu/dedicated-More/game" nameat="dedicated-game" data-tc-clic="dedicated-game" data-tc-clic-type="navigation">Řada Game</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/storage/" class="" style="" name="Menu/dedicated-More/backup" nameat="dedicated-backup" data-tc-clic="dedicated-backup" data-tc-clic-type="navigation">Řada Storage</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/hg/" class="" style="" name="Menu/dedicated-More/HG" nameat="dedicated-HG" data-tc-clic="dedicated-HG" data-tc-clic-type="navigation">Řada HG - Big Data (konfigurovatelné)</a> <span style="color: black;">Novinka:</span></li><li><a href="https://www.ovh.cz/dedikovane_servery/legacy-s/" class="" style="" name="Menu/dedicated-More/legacy" nameat="dedicated-legacy" data-tc-clic="dedicated-legacy" data-tc-clic-type="navigation">Řada Legacy</a></li><li class="separate"><li><a href="https://www.ovh.cz/dedikovane_servery/tydenni-dedikovany-server.xml" class="" style="" name="Menu/dedicated-More/oneWeek" nameat="dedicated-oneWeek" data-tc-clic="dedicated-oneWeek" data-tc-clic-type="navigation">Servery na 1 týden</a></li><li class="separate"><li><a href="https://docs.ovh.com/cz/cs/dedicated/" class="" style="" name="Menu/dedicated-More/guides" nameat="dedicated-guides" data-tc-clic="dedicated-guides" data-tc-clic-type="navigation" rel="nofollow">Nápovědy</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p>
-<br><p class="moreButton bgdedicated" style="">Od:&nbsp;<span class="amount">280.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-storage">
-<a href="https://www.ovh.cz/dedikovane_servery/storage/" name="Menu/storage" nameat="storage" onclick="window.globalComponentFooter.analytics.at.track('storage','','navigation');"><div class="prDesc">
-<span class="title">Data, Storage, Backup</span><br><span class="baseline">Všechna naše dedikovaná datová řešení</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">280.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/dedikovane_servery/storage/" class="title" name="Menu/storage-More/backup" nameat="storage-backup" onclick="window.globalComponentFooter.analytics.at.track('storage-backup','','navigation');">Servery Storage a Backup</a></li>
-<li><a href="https://www.ovh.cz/nas/" name="Menu/storage-More/nas" nameat="storage-nas" onclick="window.globalComponentFooter.analytics.at.track('storage-nas','','navigation');">NAS</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/HG/" name="Menu/storage-More/HG" nameat="storage-HG" onclick="window.globalComponentFooter.analytics.at.track('storage-HG','','navigation');">Servery HG - Big Data (konfigurovatelné)</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/dedikovane_servery/backup-storage.xml" name="Menu/storage-More/service" nameat="storage-service" onclick="window.globalComponentFooter.analytics.at.track('storage-service','','navigation');">Backup Storage služba</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/usb_klic.xml" name="Menu/storage-More/USB" nameat="storage-USB" onclick="window.globalComponentFooter.analytics.at.track('storage-USB','','navigation');">USB flash disk</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/community/knowledge/" name="Menu/storage-More/guides" nameat="storage-guides" onclick="window.globalComponentFooter.analytics.at.track('storage-guides','','navigation');" rel="nofollow">Nápovědy</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancers</p><p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p><br><p class="moreButton bgdedicated" style="">Více informací o IP Load balancingu</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-storage"><a href="https://www.ovh.cz/dedikovane_servery/storage/" style="" name="Menu/storage" nameat="storage" data-tc-clic="storage" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Data, Storage, Backup</span><br><span class="baseline">Všechna naše dedikovaná datová řešení</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">280.00 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/dedikovane_servery/storage/" class="title" style="" name="Menu/storage-More/backup" nameat="storage-backup" data-tc-clic="storage-backup" data-tc-clic-type="navigation">Řada Storage</a></li><li><a href="https://www.ovh.cz/nas/" class="" style="" name="Menu/storage-More/nas" nameat="storage-nas" data-tc-clic="storage-nas" data-tc-clic-type="navigation">NAS</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/hg/" class="" style="" name="Menu/storage-More/HG" nameat="storage-HG" data-tc-clic="storage-HG" data-tc-clic-type="navigation">Servery HG - Big Data (konfigurovatelné)</a></li><li class="separate"><li><a href="https://www.ovh.cz/dedikovane_servery/backup-storage.xml" class="" style="" name="Menu/storage-More/service" nameat="storage-service" data-tc-clic="storage-service" data-tc-clic-type="navigation">Backup Storage služba</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/usb_klic.xml" class="" style="" name="Menu/storage-More/USB" nameat="storage-USB" data-tc-clic="storage-USB" data-tc-clic-type="navigation">USB flash disk</a></li><li class="separate"><li><a href="https://docs.ovh.com/cz/cs/dedicated/" class="" style="" name="Menu/storage-More/guides" nameat="storage-guides" data-tc-clic="storage-guides" data-tc-clic-type="navigation" rel="nofollow">Nápovědy</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p>
-<br><p class="moreButton bgdedicated" style="">Od:&nbsp;<span class="amount">280.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-pcc" data-product="cloud">
-<a href="https://www.ovh.cz/private-cloud/" name="Menu/privateCloud" nameat="privateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud','','navigation');"><div class="prDesc">
-<span class="title">Private Cloud</span><br><span class="baseline">Plně dedikovaný hostovaný Cloud s vysokou dostupností</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">15433.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/private-cloud/" class="title" name="Menu/privateCloud-More/PrivateCloud" nameat="privateCloud-PrivateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-PrivateCloud','','navigation');">Private Cloud</a></li>
-<li><a href="https://www.ovh.cz/dedicated-cloud/" name="Menu/privateCloud-More/DedicatedCloud" nameat="privateCloud-DedicatedCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-DedicatedCloud','','navigation');">Dedicated Cloud</a></li>
-<li><a href="https://www.ovh.cz/sddc/" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-SDDC','','navigation');">SDDC</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/private-cloud/moznosti/" class="title" name="Menu/privateCloud-More/options" nameat="privateCloud-options" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-options','','navigation');">Možnosti</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/nsx.xml" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-nsx','','navigation');">NSX</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/vrops.xml" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vrops','','navigation');">vRealize Operations</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/veeam.xml" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-veeam','','navigation');">Managed Backup</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/images-licences.xml" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-licences','','navigation');">Diskové obrazy &amp; Licence</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/private-cloud/documentation/cloud.xml" class="title" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-UniqueOffer','','navigation');">Jedinečná služba</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/zahrnute_sluzby/vsphere.xml" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vsphere','','navigation');">vSphere as a Service</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/documentation/certifikace.xml" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-certification','','navigation');">Certifikace</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/documentation/migrace.xml" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-howToMigrate','','navigation');">Jak migrovat</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancers</p><p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p><br><p class="moreButton bgdedicated" style="">Více informací o IP Load balancingu</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-pcc" data-product="cloud"><a href="https://www.ovh.cz/private-cloud/" style="" name="Menu/privateCloud" nameat="privateCloud" data-tc-clic="privateCloud" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Private Cloud</span><br><span class="baseline">Plně dedikovaný hostovaný Cloud s vysokou dostupností</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">15433.00 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/sddc/" class="title" style="" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" data-tc-clic="privateCloud-SDDC" data-tc-clic-type="navigation">SDDC</a></li><li class="separate"><li><a href="https://www.ovh.cz/private-cloud/moznosti/" class="title" style="" name="Menu/privateCloud-More/options" nameat="privateCloud-options" data-tc-clic="privateCloud-options" data-tc-clic-type="navigation">Možnosti</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/nsx.xml" class="" style="" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" data-tc-clic="privateCloud-nsx" data-tc-clic-type="navigation">NSX</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/vrops.xml" class="" style="" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" data-tc-clic="privateCloud-vrops" data-tc-clic-type="navigation">vRealize Operations</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/veeam.xml" class="" style="" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" data-tc-clic="privateCloud-veeam" data-tc-clic-type="navigation">Managed Backup</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/images-licences.xml" class="" style="" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" data-tc-clic="privateCloud-licences" data-tc-clic-type="navigation">Diskové obrazy &amp; Licence</a></li><li class="separate"><li><a href="https://www.ovh.cz/private-cloud/documentation/cloud.xml" class="title" style="" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" data-tc-clic="privateCloud-UniqueOffer" data-tc-clic-type="navigation">Jedinečná služba</a></li><li><a href="https://www.ovh.cz/private-cloud/zahrnute_sluzby/vsphere.xml" class="" style="" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" data-tc-clic="privateCloud-vsphere" data-tc-clic-type="navigation">vSphere as a Service</a></li><li><a href="https://www.ovh.cz/private-cloud/documentation/certifikace.xml" class="" style="" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" data-tc-clic="privateCloud-certification" data-tc-clic-type="navigation">Certifikace</a></li><li><a href="https://www.ovh.cz/private-cloud/documentation/migrace.xml" class="" style="" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" data-tc-clic="privateCloud-howToMigrate" data-tc-clic-type="navigation">Jak migrovat</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p>
-<br><p class="moreButton bgdedicated" style="">Od:&nbsp;<span class="amount">280.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-network">
-<a href="javascript:void(0);" name="Menu/network" nameat="network" onclick="window.globalComponentFooter.analytics.at.track('network','','navigation');"><div class="prDesc">
-<span class="title">Síť &amp; Bezpečnost</span><br><span class="baseline">Vytvářejte a zabezpečujte své vlastní sítě OVH.</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/reseni/vrack/" class="title" name="Menu/network-More/vRack" nameat="network-vRack" onclick="window.globalComponentFooter.analytics.at.track('network-vRack','','navigation');">Virtuální privátní síť (vRack)</a></li>
-<li><a href="https://www.ovh.cz/reseni/vrack-connect/" name="Menu/network-More/dedicatedConnect" nameat="network-dedicatedConnect" onclick="window.globalComponentFooter.analytics.at.track('network-dedicatedConnect','','navigation');">Přímé propojení mezi Vašim podnikem a OVH</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/navyseni-sirky-pasma.xml" name="Menu/network-More/Bandwidth" nameat="network-Bandwidth" onclick="window.globalComponentFooter.analytics.at.track('network-Bandwidth','','navigation');">Šířka pásma</a></li>
-<li><a href="https://www.ovh.cz/cdn/infrastructure/" name="Menu/network-More/CDN" nameat="network-CDN" onclick="window.globalComponentFooter.analytics.at.track('network-CDN','','navigation');">CDN infrastructure (dedicated CDN)</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/ip_failover.xml" name="Menu/network-More/IPfo" nameat="network-IPfo" onclick="window.globalComponentFooter.analytics.at.track('network-IPfo','','navigation');">IP Failover</a></li>
-<li><a href="https://www.ovh.cz/reseni/load-balancer/" name="Menu/network-More/IPlb" nameat="network-IPlb" onclick="window.globalComponentFooter.analytics.at.track('network-IPlb','','navigation');" rel="nofollow">Répartiteur de charge (Load Balancers)</a></li>
-<li><a href="https://www.ovh.cz/anti-ddos/" name="Menu/network-More/antiDDos" nameat="network-antiDDos" onclick="window.globalComponentFooter.analytics.at.track('network-antiDDos','','navigation');">Obecná anti-DDoS ochrana</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/firewall_dedikovane_servery.xml" name="Menu/network-More/firewall" nameat="network-firewall" onclick="window.globalComponentFooter.analytics.at.track('network-firewall','','navigation');">Hardwarové Firewally</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancers</p><p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p><br><p class="moreButton bgdedicated" style="">Více informací o IP Load balancingu</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-network"><a href="javascript:void(0);" style="" name="Menu/network" nameat="network" data-tc-clic="network" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Síť &amp; Bezpečnost</span><br><span class="baseline">Vytvářejte a zabezpečujte své vlastní sítě OVH.</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/reseni/vrack/" class="title" style="" name="Menu/network-More/vRack" nameat="network-vRack" data-tc-clic="network-vRack" data-tc-clic-type="navigation">Virtuální privátní síť (vRack)</a></li><li><a href="https://www.ovh.cz/reseni/ovhcloud-connect/" class="" style="" name="Menu/network-More/dedicatedConnect" nameat="network-dedicatedConnect" data-tc-clic="network-dedicatedConnect" data-tc-clic-type="navigation">Přímé propojení mezi Vaším podnikem a OVH</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/navyseni-sirky-pasma.xml" class="" style="" name="Menu/network-More/Bandwidth" nameat="network-Bandwidth" data-tc-clic="network-Bandwidth" data-tc-clic-type="navigation">Šířka pásma</a></li><li><a href="https://www.ovh.cz/cdn/infrastructure/" class="" style="" name="Menu/network-More/CDN" nameat="network-CDN" data-tc-clic="network-CDN" data-tc-clic-type="navigation">CDN infrastructure (dedicated CDN)</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/ip_failover.xml" class="" style="" name="Menu/network-More/IPfo" nameat="network-IPfo" data-tc-clic="network-IPfo" data-tc-clic-type="navigation">IP Failover</a></li><li><a href="https://www.ovh.cz/reseni/load-balancer/" class="" style="" name="Menu/network-More/IPlb" nameat="network-IPlb" data-tc-clic="network-IPlb" data-tc-clic-type="navigation" rel="nofollow">Load Balancer (Redistribuce datové zátěže)</a></li><li><a href="https://www.ovh.cz/anti-ddos/" class="" style="" name="Menu/network-More/antiDDos" nameat="network-antiDDos" data-tc-clic="network-antiDDos" data-tc-clic-type="navigation">Obecná anti-DDoS ochrana</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p>
-<br><p class="moreButton bgdedicated" style="">Od:&nbsp;<span class="amount">280.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-licence">
-<a href="https://www.ovh.cz/dedikovane_servery/distribuce/" name="Menu/distrib" nameat="distrib" onclick="window.globalComponentFooter.analytics.at.track('distrib','','navigation');"><div class="prDesc">
-<span class="title">Licence</span><br><span class="baseline">OS a software, který může být předinstalovaný na Vašem serveru</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" class="title" name="Menu/distrib-More/all" nameat="distrib-all" onclick="window.globalComponentFooter.analytics.at.track('distrib-all','','navigation');">Naše licence (předinstalované)</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" name="Menu/distrib-More/linux" nameat="distrib-linux" onclick="window.globalComponentFooter.analytics.at.track('distrib-linux','','navigation');">Linuxové distribuce</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" name="Menu/distrib-More/win" nameat="distrib-win" onclick="window.globalComponentFooter.analytics.at.track('distrib-win','','navigation');">Windows Server</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" name="Menu/distrib-More/virtualisation" nameat="distrib-virtualisation" onclick="window.globalComponentFooter.analytics.at.track('distrib-virtualisation','','navigation');">Virtualizace</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" name="Menu/distrib-More/panels" nameat="distrib-panels" onclick="window.globalComponentFooter.analytics.at.track('distrib-panels','','navigation');">Kontrolní panely</a></li>
-<li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/sql_server.xml" name="Menu/distrib-More/ms-sql-server" nameat="distrib-ms-sql-server" onclick="window.globalComponentFooter.analytics.at.track('distrib-ms-sql-server','','navigation');">Microsoft SQL Server</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/ip-load-balancing/" name="Menu/Pub-Dedicated" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Dedicated','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancers</p><p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p><br><p class="moreButton bgdedicated" style="">Více informací o IP Load balancingu</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-licence"><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" style="" name="Menu/distrib" nameat="distrib" data-tc-clic="distrib" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Licence</span><br><span class="baseline">OS a software, který může být předinstalovaný na Vašem serveru</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" class="title" style="" name="Menu/distrib-More/all" nameat="distrib-all" data-tc-clic="distrib-all" data-tc-clic-type="navigation">Naše licence (předinstalované)</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" class="" style="" name="Menu/distrib-More/linux" nameat="distrib-linux" data-tc-clic="distrib-linux" data-tc-clic-type="navigation">Linuxové distribuce</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" class="" style="" name="Menu/distrib-More/win" nameat="distrib-win" data-tc-clic="distrib-win" data-tc-clic-type="navigation">Windows Server</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" class="" style="" name="Menu/distrib-More/virtualisation" nameat="distrib-virtualisation" data-tc-clic="distrib-virtualisation" data-tc-clic-type="navigation">Virtualizace</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/" class="" style="" name="Menu/distrib-More/panels" nameat="distrib-panels" data-tc-clic="distrib-panels" data-tc-clic-type="navigation">Kontrolní panely</a></li><li><a href="https://www.ovh.cz/dedikovane_servery/distribuce/sql_server.xml" class="" style="" name="Menu/distrib-More/ms-sql-server" nameat="distrib-ms-sql-server" data-tc-clic="distrib-ms-sql-server" data-tc-clic-type="navigation">Microsoft SQL Server</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/reseni/load-balancer/" name="Menu/Pub-Dedicated"><div class="
                                     moreBox
                                     bgdedicated" style="
-                                    background-image: url('/theme/img/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">IP Load Balancing</p>
-<p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p>
-<br><p class="moreButton bgdedicated" style="">Od:&nbsp;<span class="amount">280.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="cloud">
-<a href="javascript:void(0);" nameat="Tab-Cloud" onclick="window.globalComponentFooter.analytics.at.track('Tab-Cloud','','navigation');">Cloud</a><ul><li class="products"><ul>
-<li class="icn icn-vps first " data-product="vps">
-<a href="https://www.ovh.cz/vps/" name="Menu/VPS" nameat="VPS" onclick="window.globalComponentFooter.analytics.at.track('VPS','','navigation');"><div class="prDesc">
-<span class="title">VPS</span><br><span class="baseline">Hosting na virtuálním privátním serveru</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">83.72 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/vps/" class="title" name="Menu/VPS-More/all" nameat="VPS-all" onclick="window.globalComponentFooter.analytics.at.track('VPS-all','','navigation');" rel="nofollow">Všechny naše VPS</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/vps/vps-ssd.xml" name="Menu/VPS-More/SSD" nameat="VPS-SSD" onclick="window.globalComponentFooter.analytics.at.track('VPS-SSD','','navigation');">VPS SSD</a></li>
-<li><a href="https://www.ovh.cz/vps/vps-cloud.xml" name="Menu/VPS-More/Cloud" nameat="VPS-Cloud" onclick="window.globalComponentFooter.analytics.at.track('VPS-Cloud','','navigation');">VPS Cloud</a></li>
-<li><a href="https://www.ovh.cz/vps/vps-cloud-ram.xml" name="Menu/VPS-More/CloudRAM" nameat="VPS-CloudRAM" onclick="window.globalComponentFooter.analytics.at.track('VPS-CloudRAM','','navigation');">VPS Cloud RAM</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/vps/vyuziti-systemu.xml" name="Menu/VPS-More/Panel" nameat="VPS-Panel" onclick="window.globalComponentFooter.analytics.at.track('VPS-Panel','','navigation');">Panely (cPanel/Plesk)</a></li>
-<li><a href="https://www.ovh.cz/plesk-webhosting/" name="Menu/VPS-More/Pleskaas" nameat="VPS-Pleskaas" onclick="window.globalComponentFooter.analytics.at.track('VPS-Pleskaas','','navigation');">Plesk As a Service</a></li>
-<li><a href="https://www.ovh.cz/community/knowledge/" name="Menu/VPS-More/Aide" nameat="VPS-Aide" onclick="window.globalComponentFooter.analytics.at.track('VPS-Aide','','navigation');">Nápověda</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    background-image: url('/theme/img/images/menu/pub/dedicated.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Load Balancers</p><p style="color: #FFF;">Snadná distribuce Vašeho přenosu dat</p><br><p class="moreButton bgdedicated" style="">Více informací o IP Load balancingu</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li></ul></li></ul></li>
+
+
+        
+        <li class="cloud"><a href="https://www.ovh.cz/cloud/" nameat="Tab-Cloud" data-tc-clic="Tab-Cloud" data-tc-clic-type="navigation">Cloud</a><ul><li class="products"><ul><li class="icn icn-vps first " data-product="vps"><a href="https://www.ovh.cz/vps/" style="" name="Menu/VPS" nameat="VPS" data-tc-clic="VPS" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">VPS</span><br><span class="baseline">Hosting na virtuálním privátním serveru</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">83.72 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/vps/" class="title" style="" name="Menu/VPS-More/all" nameat="VPS-all" data-tc-clic="VPS-all" data-tc-clic-type="navigation" rel="nofollow">Všechny naše VPS</a></li><li class="separate"><li><a href="https://www.ovh.cz/vps/vps-ssd.xml" class="" style="" name="Menu/VPS-More/SSD" nameat="VPS-SSD" data-tc-clic="VPS-SSD" data-tc-clic-type="navigation">VPS SSD</a></li><li><a href="https://www.ovh.cz/vps/vps-cloud.xml" class="" style="" name="Menu/VPS-More/Cloud" nameat="VPS-Cloud" data-tc-clic="VPS-Cloud" data-tc-clic-type="navigation">VPS Cloud</a></li><li><a href="https://www.ovh.cz/vps/vps-cloud-ram.xml" class="" style="" name="Menu/VPS-More/CloudRAM" nameat="VPS-CloudRAM" data-tc-clic="VPS-CloudRAM" data-tc-clic-type="navigation">VPS Cloud RAM</a></li><li class="separate"><li><a href="https://www.ovh.cz/vps/vyuziti-systemu.xml" class="" style="" name="Menu/VPS-More/Panel" nameat="VPS-Panel" data-tc-clic="VPS-Panel" data-tc-clic-type="navigation">Panely (cPanel/Plesk)</a></li><li><a href="https://www.ovh.cz/plesk-webhosting/" class="" style="" name="Menu/VPS-More/Pleskaas" nameat="VPS-Pleskaas" data-tc-clic="VPS-Pleskaas" data-tc-clic-type="navigation">Plesk As a Service</a></li><li class="separate"><li><a href="https://www.ovh.cz/vps/proc-vps-ovh.xml" class="" style="" name="Menu/VPS-More/WhyVpsOVH" nameat="VPS-WhyVpsOVH" data-tc-clic="VPS-WhyVpsOVH" data-tc-clic-type="navigation">Proč VPS od OVH?</a></li><li><a href="https://docs.ovh.com/cz/cs/vps/" class="" style="" name="Menu/VPS-More/Aide" nameat="VPS-Aide" data-tc-clic="VPS-Aide" data-tc-clic-type="navigation">Nápověda</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-cloud">
-<a href="https://www.ovh.cz/public-cloud/instances/" name="Menu/PublicCloud" nameat="PublicCloud" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud','','navigation');"><div class="prDesc">
-<span class="title">Public Cloud</span><br><span class="baseline">Vaše IT zdroje na požádání</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">540.52 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/public-cloud/instances/" class="title" name="Menu/PublicCloud-More/allInstances" nameat="PublicCloud-allInstances" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-allInstances','','navigation');" rel="nofollow">Public Cloud Instance</a></li>
-<li><a href="https://www.ovh.cz/public-cloud/instances/vlastnosti/" name="Menu/PublicCloud-More/features" nameat="PublicCloud-features" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-features','','navigation');">Funkce</a></li>
-<li><a href="https://www.ovh.cz/public-cloud/instances/technologie/" name="Menu/PublicCloud-More/technologies" nameat="PublicCloud-technologies" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-technologies','','navigation');">Technologie</a></li>
-<li><a href="https://www.ovh.cz/public-cloud/instances/pripadove-studie/" name="Menu/PublicCloud-More/usecases" nameat="PublicCloud-usecases" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-usecases','','navigation');">Příklady použití</a></li>
-<li><a href="https://www.ovh.cz/public-cloud/instances/cenik/" name="Menu/PublicCloud-More/pricing" nameat="PublicCloud-pricing" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-pricing','','navigation');">Ceník</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/public-cloud/storage/" class="title" name="Menu/PublicCloud-More/allStorage" nameat="PublicCloud-allStorage" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-allStorage','','navigation');">Public Cloud Storage</a></li>
-<li><a href="https://www.ovh.cz/public-cloud/storage/object-storage/" name="Menu/PublicCloud-More/object-storage" nameat="PublicCloud-object-storage" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-object-storage','','navigation');">Object Storage</a></li>
-<li><a href="https://www.ovh.cz/public-cloud/storage/cloud-archive/" name="Menu/PublicCloud-More/cloud-archive" nameat="PublicCloud-cloud-archive" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-cloud-archive','','navigation');">Cloud Archive</a></li>
-<li><a href="https://www.ovh.cz/public-cloud/storage/additional-disks/" name="Menu/PublicCloud-More/volume" nameat="PublicCloud-volume" onclick="window.globalComponentFooter.analytics.at.track('PublicCloud-volume','','navigation');">Přídavné disky</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Nová datacentra</p><p style="color: #FFF;">Speciální omezené nabídky!</p><br><p class="moreButton bgcloud" style="">Detailní informace</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-cloud"><a href="https://www.ovh.cz/public-cloud/instances/" style="" name="Menu/PublicCloud" nameat="PublicCloud" data-tc-clic="PublicCloud" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Public Cloud</span><br><span class="baseline">Vaše IT zdroje na požádání</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">594.59 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/public-cloud/instances/" class="title" style="" name="Menu/PublicCloud-More/allInstances" nameat="PublicCloud-allInstances" data-tc-clic="PublicCloud-allInstances" data-tc-clic-type="navigation" rel="nofollow">Public Cloud Instance</a></li><li><a href="https://www.ovh.cz/public-cloud/instances/vlastnosti/" class="" style="" name="Menu/PublicCloud-More/features" nameat="PublicCloud-features" data-tc-clic="PublicCloud-features" data-tc-clic-type="navigation">Funkce</a></li><li><a href="https://www.ovh.cz/public-cloud/instances/technologie/" class="" style="" name="Menu/PublicCloud-More/technologies" nameat="PublicCloud-technologies" data-tc-clic="PublicCloud-technologies" data-tc-clic-type="navigation">Technologie</a></li><li><a href="https://www.ovh.cz/public-cloud/instances/pripadove-studie/" class="" style="" name="Menu/PublicCloud-More/usecases" nameat="PublicCloud-usecases" data-tc-clic="PublicCloud-usecases" data-tc-clic-type="navigation">Příklady použití</a></li><li><a href="https://www.ovh.cz/public-cloud/instances/cenik/" class="" style="" name="Menu/PublicCloud-More/pricing" nameat="PublicCloud-pricing" data-tc-clic="PublicCloud-pricing" data-tc-clic-type="navigation">Ceník</a></li><li class="separate"><li><a href="https://www.ovh.cz/public-cloud/storage/" class="title" style="" name="Menu/PublicCloud-More/allStorage" nameat="PublicCloud-allStorage" data-tc-clic="PublicCloud-allStorage" data-tc-clic-type="navigation">Public Cloud Storage</a></li><li><a href="https://www.ovh.cz/public-cloud/storage/object-storage/" class="" style="" name="Menu/PublicCloud-More/object-storage" nameat="PublicCloud-object-storage" data-tc-clic="PublicCloud-object-storage" data-tc-clic-type="navigation">Object Storage</a></li><li><a href="https://www.ovh.cz/public-cloud/storage/cloud-archive/" class="" style="" name="Menu/PublicCloud-More/cloud-archive" nameat="PublicCloud-cloud-archive" data-tc-clic="PublicCloud-cloud-archive" data-tc-clic-type="navigation">Cloud Archive</a></li><li><a href="https://www.ovh.cz/public-cloud/storage/additional-disks/" class="" style="" name="Menu/PublicCloud-More/volume" nameat="PublicCloud-volume" data-tc-clic="PublicCloud-volume" data-tc-clic-type="navigation">Přídavné disky</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-pcc" data-product="cloud">
-<a href="https://www.ovh.cz/private-cloud/" name="Menu/privateCloud" nameat="privateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud','','navigation');"><div class="prDesc">
-<span class="title">Private Cloud</span><br><span class="baseline">Plně dedikovaný hostovaný Cloud s vysokou dostupností</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">15433.00 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/private-cloud/" class="title" name="Menu/privateCloud-More/PrivateCloud" nameat="privateCloud-PrivateCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-PrivateCloud','','navigation');">Private Cloud</a></li>
-<li><a href="https://www.ovh.cz/dedicated-cloud/" name="Menu/privateCloud-More/DedicatedCloud" nameat="privateCloud-DedicatedCloud" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-DedicatedCloud','','navigation');">Dedicated Cloud</a></li>
-<li><a href="https://www.ovh.cz/sddc/" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-SDDC','','navigation');">SDDC</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/private-cloud/moznosti/" class="title" name="Menu/privateCloud-More/options" nameat="privateCloud-options" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-options','','navigation');">Možnosti</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/nsx.xml" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-nsx','','navigation');">NSX</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/vrops.xml" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vrops','','navigation');">vRealize Operations</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/veeam.xml" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-veeam','','navigation');">Managed Backup</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/moznosti/images-licences.xml" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-licences','','navigation');">Diskové obrazy &amp; Licence</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/private-cloud/documentation/cloud.xml" class="title" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-UniqueOffer','','navigation');">Jedinečná služba</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/zahrnute_sluzby/vsphere.xml" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-vsphere','','navigation');">vSphere as a Service</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/documentation/certifikace.xml" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-certification','','navigation');">Certifikace</a></li>
-<li><a href="https://www.ovh.cz/private-cloud/documentation/migrace.xml" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" onclick="window.globalComponentFooter.analytics.at.track('privateCloud-howToMigrate','','navigation');">Jak migrovat</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Nová datacentra</p><p style="color: #FFF;">Speciální omezené nabídky!</p><br><p class="moreButton bgcloud" style="">Detailní informace</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-pcc" data-product="cloud"><a href="https://www.ovh.cz/private-cloud/" style="" name="Menu/privateCloud" nameat="privateCloud" data-tc-clic="privateCloud" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Private Cloud</span><br><span class="baseline">Plně dedikovaný hostovaný Cloud s vysokou dostupností</span></div><div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od: <br><span class="amount">15433.00 Kč bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/sddc/" class="title" style="" name="Menu/privateCloud-More/SDDC" nameat="privateCloud-SDDC" data-tc-clic="privateCloud-SDDC" data-tc-clic-type="navigation">SDDC</a></li><li class="separate"><li><a href="https://www.ovh.cz/private-cloud/moznosti/" class="title" style="" name="Menu/privateCloud-More/options" nameat="privateCloud-options" data-tc-clic="privateCloud-options" data-tc-clic-type="navigation">Možnosti</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/nsx.xml" class="" style="" name="Menu/privateCloud-More/nsx" nameat="privateCloud-nsx" data-tc-clic="privateCloud-nsx" data-tc-clic-type="navigation">NSX</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/vrops.xml" class="" style="" name="Menu/privateCloud-More/vrops" nameat="privateCloud-vrops" data-tc-clic="privateCloud-vrops" data-tc-clic-type="navigation">vRealize Operations</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/veeam.xml" class="" style="" name="Menu/privateCloud-More/veeam" nameat="privateCloud-veeam" data-tc-clic="privateCloud-veeam" data-tc-clic-type="navigation">Managed Backup</a></li><li><a href="https://www.ovh.cz/private-cloud/moznosti/images-licences.xml" class="" style="" name="Menu/privateCloud-More/licences" nameat="privateCloud-licences" data-tc-clic="privateCloud-licences" data-tc-clic-type="navigation">Diskové obrazy &amp; Licence</a></li><li class="separate"><li><a href="https://www.ovh.cz/private-cloud/documentation/cloud.xml" class="title" style="" name="Menu/privateCloud-More/UniqueOffer" nameat="privateCloud-UniqueOffer" data-tc-clic="privateCloud-UniqueOffer" data-tc-clic-type="navigation">Jedinečná služba</a></li><li><a href="https://www.ovh.cz/private-cloud/zahrnute_sluzby/vsphere.xml" class="" style="" name="Menu/privateCloud-More/vsphere" nameat="privateCloud-vsphere" data-tc-clic="privateCloud-vsphere" data-tc-clic-type="navigation">vSphere as a Service</a></li><li><a href="https://www.ovh.cz/private-cloud/documentation/certifikace.xml" class="" style="" name="Menu/privateCloud-More/certification" nameat="privateCloud-certification" data-tc-clic="privateCloud-certification" data-tc-clic-type="navigation">Certifikace</a></li><li><a href="https://www.ovh.cz/private-cloud/documentation/migrace.xml" class="" style="" name="Menu/privateCloud-More/howToMigrate" nameat="privateCloud-howToMigrate" data-tc-clic="privateCloud-howToMigrate" data-tc-clic-type="navigation">Jak migrovat</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-hybridCloud">
-<a href="https://www.ovh.cz/reseni/hybrid-cloud/" name="Menu/HybridCloud" nameat="HybridCloud" onclick="window.globalComponentFooter.analytics.at.track('HybridCloud','','navigation');"><div class="prDesc">
-<span class="title">Hybrid Cloud</span><br><span class="baseline">Síťová řešení OVH pro Vaše hybridní prostředí.</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/reseni/vrack/" class="title" name="Menu/HybridCloud-More/vrack" nameat="HybridCloud-vrack" onclick="window.globalComponentFooter.analytics.at.track('HybridCloud-vrack','','navigation');">vRack</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/reseni/vrack-connect/" class="title" name="Menu/HybridCloud-More/vrack-connect" nameat="HybridCloud-vrack-connect" onclick="window.globalComponentFooter.analytics.at.track('HybridCloud-vrack-connect','','navigation');">vRack Connect</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Nová datacentra</p><p style="color: #FFF;">Speciální omezené nabídky!</p><br><p class="moreButton bgcloud" style="">Detailní informace</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-database" data-product="database"><a href="https://www.ovh.cz/cloud/cloud-databases/" style="" name="Menu/database" nameat="database" data-tc-clic="database" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Databáze</span><br><span class="baseline">Ukládání a správa dat s fully-managed databází</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/mysql" nameat="database-mysql" data-tc-clic="database-mysql" data-tc-clic-type="navigation">Cloud Databases: MySQL</a></li><li class="separate"><li><a href="https://www.ovh.cz/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/postgre" nameat="database-postgre" data-tc-clic="database-postgre" data-tc-clic-type="navigation">Cloud Databases: PostgreSQL</a></li><li class="separate"><li><a href="https://www.ovh.cz/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/mariadb" nameat="database-mariadb" data-tc-clic="database-mariadb" data-tc-clic-type="navigation">Cloud Databases: MariaDB</a></li><li class="separate"><li><a href="https://www.ovh.cz/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/redis" nameat="database-redis" data-tc-clic="database-redis" data-tc-clic-type="navigation">Cloud Databases: Redis</a></li><li class="separate"><li><a href="https://www.ovh.cz/cloud/cloud-databases/" class="title" style="" name="Menu/database-More/MongoDB" nameat="database-MongoDB" data-tc-clic="database-MongoDB" data-tc-clic-type="navigation">Cloud Databases: MongoDB</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-deskaas">
-<a href="https://www.ovh.cz/cloud/cloud-desktop/" name="Menu/Cloud Desktop" nameat="Cloud Desktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop','','navigation');"><div class="prDesc">
-<span class="title">Cloud Desktop</span><br><span class="baseline">Vaše pracovní plocha, data a aplikace - vše přístupné z libovolného zařízení.
-</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Od:&nbsp;<br><span class="amount">351.07 Kč &nbsp;bez DPH</span><span class="period">/měsíc</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/cloud/cloud-desktop/#what" class="title" name="Menu/Cloud Desktop-More/whatCloudDesktop" nameat="Cloud Desktop-whatCloudDesktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-whatCloudDesktop','','navigation');" rel="nofollow">Co to je?</a></li>
-<li><a href="https://www.ovh.cz/cloud/cloud-desktop/#advantages" name="Menu/Cloud Desktop-More/advantages" nameat="Cloud Desktop-advantages" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-advantages','','navigation');" rel="nofollow">Klíčové výhody</a></li>
-<li><a href="https://www.ovh.cz/cloud/cloud-desktop/#orderDeskaaS" name="Menu/Cloud Desktop-More/orderCloudDesktop" nameat="Cloud Desktop-orderCloudDesktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-orderCloudDesktop','','navigation');" rel="nofollow">Objednat Cloud Desktop</a></li>
-<li><a href="https://www.ovh.cz/cloud/cloud-desktop/#usecase" name="Menu/Cloud Desktop-More/usecase" nameat="Cloud Desktop-usecase" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-usecase','','navigation');" rel="nofollow">Případové studie</a></li>
-<li><a href="https://www.ovh.cz/cloud/cloud-desktop/#applis" name="Menu/Cloud Desktop-More/applis" nameat="Cloud Desktop-applis" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-applis','','navigation');" rel="nofollow">Předinstalované aplikace</a></li>
-<li><a href="https://www.ovh.cz/cloud/cloud-desktop/#solution" name="Menu/Cloud Desktop-More/solution" nameat="Cloud Desktop-solution" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-solution','','navigation');" rel="nofollow">Škálovatelné řešení s garantovanými zdroji</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/cloud/cloud-desktop/infrastructure/" class="title" name="Menu/Cloud Desktop-More/cdi" nameat="Cloud Desktop-cdi" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-cdi','','navigation');">Cloud Desktop Infrastructure</a></li>
-<li><a href="https://www.ovh.cz/cloud/cloud-desktop/infrastructure/" name="Menu/Cloud Desktop-More/ManageCloudDesktop" nameat="Cloud Desktop-ManageCloudDesktop" onclick="window.globalComponentFooter.analytics.at.track('Cloud Desktop-ManageCloudDesktop','','navigation');" rel="nofollow">Správa virtuálních desktopů</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Nová datacentra</p><p style="color: #FFF;">Speciální omezené nabídky!</p><br><p class="moreButton bgcloud" style="">Detailní informace</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li><li class="icn icn-network"><a href="https://www.ovh.cz/cloud/reseni-site-a-bezpecnosti.xml" style="" name="Menu/NetworkAndSecurity" nameat="NetworkAndSecurity" data-tc-clic="NetworkAndSecurity" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Síťová a bezpečnostní řešení</span><br><span class="baseline">Vytvářejte a zabezpečujte své vlastní sítě OVH.</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/reseni/vrack/" class="" style="" name="Menu/NetworkAndSecurity-More/vRack" nameat="NetworkAndSecurity-vRack" data-tc-clic="NetworkAndSecurity-vRack" data-tc-clic-type="navigation">vRack (privátní síť)</a></li><li><a href="https://www.ovh.cz/reseni/ovhcloud-connect/" class="" style="" name="Menu/NetworkAndSecurity-More/dedicatedConnect" nameat="NetworkAndSecurity-dedicatedConnect" data-tc-clic="NetworkAndSecurity-dedicatedConnect" data-tc-clic-type="navigation">Dedicated Connect (přímé propojení mezi Vašimi datacentry a OVH)</a></li><li class="separate"><li><a href="https://www.ovh.cz/reseni/load-balancer/" class="" style="" name="Menu/NetworkAndSecurity-More/IPlb" nameat="NetworkAndSecurity-IPlb" data-tc-clic="NetworkAndSecurity-IPlb" data-tc-clic-type="navigation">Load Balancers (redistribuce datové zátěže)</a></li><li class="separate"><li><a href="https://www.ovh.cz/anti-ddos/" class="" style="" name="Menu/NetworkAndSecurity-More/antiDDos" nameat="NetworkAndSecurity-antiDDos" data-tc-clic="NetworkAndSecurity-antiDDos" data-tc-clic-type="navigation">Anti-DDoS ochrana</a></li></ul><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud"><div class="
                                     moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-database" data-product="database">
-<a href="https://www.ovh.cz/cloud/cloud-databases/" name="Menu/database" nameat="database" onclick="window.globalComponentFooter.analytics.at.track('database','','navigation');"><div class="prDesc">
-<span class="title">Databáze</span><br><span class="baseline">Ukládání a správa dat s fully-managed databází</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/cloud/cloud-databases" class="title" name="Menu/database-More/mysql" nameat="database-mysql" onclick="window.globalComponentFooter.analytics.at.track('database-mysql','','navigation');">Cloud Databases: MySQL</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/cloud/cloud-databases" class="title" name="Menu/database-More/postgre" nameat="database-postgre" onclick="window.globalComponentFooter.analytics.at.track('database-postgre','','navigation');">Cloud Databases: PostgreSQL</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/cloud/cloud-databases" class="title" name="Menu/database-More/mariadb" nameat="database-mariadb" onclick="window.globalComponentFooter.analytics.at.track('database-mariadb','','navigation');">Cloud Databases: MariaDB</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
-                                    moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-network">
-<a href="https://www.ovh.cz/cloud/reseni-site-a-bezpecnosti.xml" name="Menu/network" nameat="network" onclick="window.globalComponentFooter.analytics.at.track('network','','navigation');"><div class="prDesc">
-<span class="title">Síťová a bezpečnostní řešení</span><br><span class="baseline">Vytvářejte a zabezpečujte své vlastní sítě OVH.</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/reseni/vrack/" name="Menu/network-More/vRack" nameat="network-vRack" onclick="window.globalComponentFooter.analytics.at.track('network-vRack','','navigation');">vRack (privátní síť)</a></li>
-<li><a href="https://www.ovh.cz/reseni/vrack-connect/" name="Menu/network-More/dedicatedConnect" nameat="network-dedicatedConnect" onclick="window.globalComponentFooter.analytics.at.track('network-dedicatedConnect','','navigation');">Dedicated Connect (přímé propojení mezi Vašimi datacentry a OVH)</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/reseni/load-balancer/" name="Menu/network-More/IPlb" nameat="network-IPlb" onclick="window.globalComponentFooter.analytics.at.track('network-IPlb','','navigation');">Load Balancers (Répartition de charge)</a></li>
-<li class="separate">
-</li><li><a href="https://www.ovh.cz/anti-ddos/" name="Menu/network-More/antiDDos" nameat="network-antiDDos" onclick="window.globalComponentFooter.analytics.at.track('network-antiDDos','','navigation');">Anti-DDoS ochrana</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
-                                    moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-<li class="icn icn-hubic">
-<a href="https://hubic.com/cs/" name="Menu/hubic" nameat="hubic" onclick="window.globalComponentFooter.analytics.at.track('hubic','','navigation');" target="_blank"><div class="prDesc">
-<span class="title">hubiC cloud</span><br><span class="baseline">Ukládejte svá data do cloudu</span>
-</div>
-<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"><span style="color:#FFF; font-size:14px; font-weight:400;" qtlid="42484">25 GB</span><br><span style="color:#FFF; font-size:16px; font-weight:400;" qtlid="965916">Zdarma</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
-<li><a href="https://hubic.com/cs/" class="title" name="Menu/hubic-More/créer" nameat="hubic-créer" onclick="window.globalComponentFooter.analytics.at.track('hubic-créer','','navigation');" target="_blank">Vytvořit 25GB účet zdarma</a></li>
-<li><a href="https://hubic.com/cs/offers/" name="Menu/hubic-More/offres" nameat="hubic-offres" onclick="window.globalComponentFooter.analytics.at.track('hubic-offres','','navigation');" target="_blank">Prohlédněte si naše řešení</a></li>
-<li class="separate">
-</li><li><a href="https://hubic.com/home/" class="title" name="Menu/hubic-More/webApp" nameat="hubic-webApp" onclick="window.globalComponentFooter.analytics.at.track('hubic-webApp','','navigation');" target="_blank">Přihlásit</a></li>
-<li><a href="https://hubic.com/cs/downloads" name="Menu/hubic-More/download" nameat="hubic-download" onclick="window.globalComponentFooter.analytics.at.track('hubic-download','','navigation');" target="_blank">Stahování:</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.cz/discover/" name="Menu/Pub-Cloud" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-Cloud','','navigation');"><div class="
-                                    moreBox
-                                    callToActionTop" style="
-                                    background-image: url('/theme/img/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Nová datacentra</p>
-<p style="color: #FFF;">Speciální omezené nabídky!</p>
-<br><p class="moreButton callToActionTop" style="">Vyberte umístění</p>
-<span class="fw200" style="font-size: 9px; color: #FFF"></span>
-</div></span></div></a></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="marketplace"><a href="https://www.ovh.cz/dlp/" nameat="dlp-main" onclick="window.globalComponentFooter.analytics.at.track('dlp-main','','navigation');">Startup program</a></li>
-<li class="about">
-<a href="javascript:void(0);">O nás</a><ul><li class="products"><ul>
-<li class="icn icn-community first ">
-<a href="https://www.ovh.cz/community/" name="Menu/community" nameat="community" onclick="window.globalComponentFooter.analytics.at.track('community','','navigation');"><div class="prDesc">
-<span class="title">Potřebujete pomoci?</span><br><span class="baseline">Nalezněte odpovědi na své otázky</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/community/" class="title" name="Menu/community-More/home" nameat="community-home" onclick="window.globalComponentFooter.analytics.at.track('community-home','','navigation');" rel="nofollow">Potřebujete pomoci?</a></li>
-<li><a href="https://www.ovh.cz/community/knowledge/" name="Menu/community-More/guides" nameat="community-guides" onclick="window.globalComponentFooter.analytics.at.track('community-guides','','navigation');">Nápovědy</a></li>
-<li><a href="https://www.ovh.cz/community/status/" name="Menu/community-More/status" nameat="community-status" onclick="window.globalComponentFooter.analytics.at.track('community-status','','navigation');">Stav služby</a></li>
-<li><a href="https://www.ovh.cz/community/betas/" name="Menu/community-More/betas" nameat="community-betas" onclick="window.globalComponentFooter.analytics.at.track('community-betas','','navigation');">Beta</a></li>
-<li><a href="https://www.ovh.cz/community/api.xml" name="Menu/community-More/API" nameat="community-API" onclick="window.globalComponentFooter.analytics.at.track('community-API','','navigation');">API</a></li>
-<li><a href="https://www.ovh.cz/community/mailing.xml" name="Menu/community-More/mailing" nameat="community-mailing" onclick="window.globalComponentFooter.analytics.at.track('community-mailing','','navigation');">Zapište se do mailing listů</a></li>
-<li><a href="https://www.ovh.cz/community/forum.xml" name="Menu/community-More/forum" nameat="community-forum" onclick="window.globalComponentFooter.analytics.at.track('community-forum','','navigation');">Fórum</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                                    bgcloud" style="
+                                    background-image: url('/theme/img/images/menu/pub/background-discover-menu.jpg'); background-color: #484850;"><span><div class="moreContent"><p class="title" style="color: #FFF;">Nová datacentra</p><p style="color: #FFF;">Speciální omezené nabídky!</p><br><p class="moreButton bgcloud" style="">Detailní informace</p><span class="fw200" style="font-size: 9px; color: #FFF"></span></div></span></div></a></li></ul></li></ul></li></ul></li>
+
+
+        
+        
+
+
+        
+        
+        
+
+
+        
+        <li class="marketplace"><a href="https://www.ovh.cz/dlp/" nameat="dlp-main" data-tc-clic="dlp-main" data-tc-clic-type="navigation">Startup program</a></li>
+
+
+        
+        
+
+
+        
+        <li class="about"><a href="javascript:void(0);">O nás</a><ul><li class="products"><ul><li class="icn icn-community first "><a href="https://www.ovh.cz/community/" style="" name="Menu/community" nameat="community" data-tc-clic="community" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Potřebujete pomoci?</span><br><span class="baseline">Nalezněte odpovědi na své otázky</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/community/" class="title" style="" name="Menu/community-More/home" nameat="community-home" data-tc-clic="community-home" data-tc-clic-type="navigation" rel="nofollow">Potřebujete pomoci?</a></li><li><a href="https://www.ovh.cz/community/knowledge/" class="" style="" name="Menu/community-More/guides" nameat="community-guides" data-tc-clic="community-guides" data-tc-clic-type="navigation">Nápovědy</a></li><li><a href="https://www.ovh.cz/community/status/" class="" style="" name="Menu/community-More/status" nameat="community-status" data-tc-clic="community-status" data-tc-clic-type="navigation">Stav služby</a></li><li><a href="https://www.ovh.cz/community/api.xml" class="" style="" name="Menu/community-More/API" nameat="community-API" data-tc-clic="community-API" data-tc-clic-type="navigation">API</a></li><li><a href="https://www.ovh.cz/community/mailing.xml" class="" style="" name="Menu/community-More/mailing" nameat="community-mailing" data-tc-clic="community-mailing" data-tc-clic-type="navigation">Zapište se do mailing listů</a></li><li><a href="https://www.ovh.cz/community/forum.xml" class="" style="" name="Menu/community-More/forum" nameat="community-forum" data-tc-clic="community-forum" data-tc-clic-type="navigation">Fórum</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Poslední novinky</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">Všechny novinky OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-news">
-<a href="https://www.ovh.cz/news/" name="Menu/news" nameat="news" onclick="window.globalComponentFooter.analytics.at.track('news','','navigation');"><div class="prDesc">
-<span class="title">Z newsletteru OVH</span><br><span class="baseline">Všechny OVH novinky a publikace</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/news/" class="title" name="Menu/news-More/home" nameat="news-home" onclick="window.globalComponentFooter.analytics.at.track('news-home','','navigation');" rel="nofollow">Domovská stránka novinek</a></li>
-<li><a href="https://www.ovh.cz/news/articles/" name="Menu/news-More/all" nameat="news-all" onclick="window.globalComponentFooter.analytics.at.track('news-all','','navigation');">Všechny dokumenty</a></li>
-<li><a href="https://www.ovh.cz/news/videa/" name="Menu/news-More/video" nameat="news-video" onclick="window.globalComponentFooter.analytics.at.track('news-video','','navigation');">Videa</a></li>
-<li><a href="https://www.ovh.cz/news/photos/" name="Menu/news-More/photo" nameat="news-photo" onclick="window.globalComponentFooter.analytics.at.track('news-photo','','navigation');">Fotky</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.cz/files/featured_images/vrack-gen.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Poslední novinky</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/al312.vrack-30-nejnovejsi-design-privatni-site-ovh-predjima-pozadavky-vasich-it-projektu">vRack 3.0: nejnovější design privátní sítě OVH předjímá požadavky Vašich IT projektů</a></p><br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About">Všechny novinky OVH</a></div></span></div></li></ul></li><li class="icn icn-news"><a href="https://www.ovh.cz/news/" style="" name="Menu/news" nameat="news" data-tc-clic="news" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">OVH News</span><br><span class="baseline">Všechny OVH novinky a publikace</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/news/" class="title" style="" name="Menu/news-More/home" nameat="news-home" data-tc-clic="news-home" data-tc-clic-type="navigation" rel="nofollow">Domovská stránka novinek</a></li><li><a href="https://www.ovh.cz/news/articles/" class="" style="" name="Menu/news-More/all" nameat="news-all" data-tc-clic="news-all" data-tc-clic-type="navigation">Všechny dokumenty</a></li><li><a href="https://www.ovh.cz/news/videa/" class="" style="" name="Menu/news-More/video" nameat="news-video" data-tc-clic="news-video" data-tc-clic-type="navigation">Videa</a></li><li><a href="https://www.ovh.cz/news/photos/" class="" style="" name="Menu/news-More/photo" nameat="news-photo" data-tc-clic="news-photo" data-tc-clic-type="navigation">Fotky</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Poslední novinky</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">Všechny novinky OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-events">
-<a href="https://www.ovh.cz/events/" name="Menu/events" nameat="events" onclick="window.globalComponentFooter.analytics.at.track('events','','navigation');"><div class="prDesc">
-<span class="title">OVH Události</span><br><span class="baseline">Všechny naše události, školení a meetingy</span>
-</div></a><ul class="prMore"><li><a href="https://www.ovh.cz/events/" class="title" name="Menu/events-More/all" nameat="events-all" onclick="window.globalComponentFooter.analytics.at.track('events-all','','navigation');" rel="nofollow">Všechny naše události</a></li></ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.cz/files/featured_images/vrack-gen.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Poslední novinky</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/al312.vrack-30-nejnovejsi-design-privatni-site-ovh-predjima-pozadavky-vasich-it-projektu">vRack 3.0: nejnovější design privátní sítě OVH předjímá požadavky Vašich IT projektů</a></p><br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About">Všechny novinky OVH</a></div></span></div></li></ul></li><li class="icn icn-events"><a href="https://www.ovh.cz/events/" style="" name="Menu/events" nameat="events" data-tc-clic="events" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">OVH Události</span><br><span class="baseline">Všechny naše události, školení a meetingy</span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/events/" class="title" style="" name="Menu/events-More/all" nameat="events-all" data-tc-clic="events-all" data-tc-clic-type="navigation" rel="nofollow">Všechny naše události</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Poslední novinky</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">Všechny novinky OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-aboutus">
-<a href="https://www.ovh.cz/onas/" name="Menu/about" nameat="about" onclick="window.globalComponentFooter.analytics.at.track('about','','navigation');"><div class="prDesc">
-<span class="title">O nás</span><br><span class="baseline"></span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/onas/" class="title" name="Menu/about-More/discover" nameat="about-discover" onclick="window.globalComponentFooter.analytics.at.track('about-discover','','navigation');" rel="nofollow">Podívejte se na OVH</a></li>
-<li><a href="https://www.ovh.cz/onas/datacentra.xml" name="Menu/about-More/datacenter" nameat="about-datacenter" onclick="window.globalComponentFooter.analytics.at.track('about-datacenter','','navigation');">Datacentra</a></li>
-<li><a href="https://www.ovh.cz/onas/sit.xml" name="Menu/about-More/network" nameat="about-network" onclick="window.globalComponentFooter.analytics.at.track('about-network','','navigation');">Výhoda globální sítě OVH</a></li>
-<li><a href="https://www.ovh.cz/onas/bezpecnost.xml" name="Menu/about-More/security" nameat="about-security" onclick="window.globalComponentFooter.analytics.at.track('about-security','','navigation');">Bezpečnost</a></li>
-<li><a href="https://www.ovh.cz/onas/komponenty.xml" name="Menu/about-More/Composants" nameat="about-Composants" onclick="window.globalComponentFooter.analytics.at.track('about-Composants','','navigation');">Komponenty</a></li>
-<li><a href="https://www.ovh.cz/onas/produkce.xml" name="Menu/about-More/prod" nameat="about-prod" onclick="window.globalComponentFooter.analytics.at.track('about-prod','','navigation');">Produkce serverů</a></li>
-<li><a href="https://www.ovh.cz/onas/technicti-partneri.xml" name="Menu/about-More/partners" nameat="about-partners" onclick="window.globalComponentFooter.analytics.at.track('about-partners','','navigation');">Techničtí partneři</a></li>
-<li><a href="https://www.ovh.cz/reference/" name="Menu/about-More/refs" nameat="about-refs" onclick="window.globalComponentFooter.analytics.at.track('about-refs','','navigation');">Informace o zákaznících</a></li>
-<li><a href="https://www.ovh.cz/onas/certifikace.xml" name="Menu/about-More/certifs" nameat="about-certifs" onclick="window.globalComponentFooter.analytics.at.track('about-certifs','','navigation');">Certifikace</a></li>
-<li><a href="https://www.ovh.cz/onas/zelene-it.xml" name="Menu/about-More/green" nameat="about-green" onclick="window.globalComponentFooter.analytics.at.track('about-green','','navigation');">Green IT</a></li>
-<li><a href="https://www.ovh.cz/onas/tymy.xml" name="Menu/about-More/RDTeam" nameat="about-RDTeam" onclick="window.globalComponentFooter.analytics.at.track('about-RDTeam','','navigation');">R&amp;D tým</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.cz/files/featured_images/vrack-gen.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Poslední novinky</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/al312.vrack-30-nejnovejsi-design-privatni-site-ovh-predjima-pozadavky-vasich-it-projektu">vRack 3.0: nejnovější design privátní sítě OVH předjímá požadavky Vašich IT projektů</a></p><br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About">Všechny novinky OVH</a></div></span></div></li></ul></li><li class="icn icn-aboutus"><a href="https://www.ovh.cz/onas/" style="" name="Menu/about" nameat="about" data-tc-clic="about" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">O nás</span><br><span class="baseline"></span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/onas/" class="title" style="" name="Menu/about-More/discover" nameat="about-discover" data-tc-clic="about-discover" data-tc-clic-type="navigation" rel="nofollow">Podívejte se na OVH</a></li><li><a href="https://www.ovh.cz/onas/datacentra.xml" class="" style="" name="Menu/about-More/datacenter" nameat="about-datacenter" data-tc-clic="about-datacenter" data-tc-clic-type="navigation">Datacentra</a></li><li><a href="https://www.ovh.cz/onas/sit.xml" class="" style="" name="Menu/about-More/MondialNetwork" nameat="about-MondialNetwork" data-tc-clic="about-MondialNetwork" data-tc-clic-type="navigation">Výhoda globální sítě OVH</a></li><li><a href="https://www.ovh.cz/onas/bezpecnost.xml" class="" style="" name="Menu/about-More/security" nameat="about-security" data-tc-clic="about-security" data-tc-clic-type="navigation">Bezpečnost</a></li><li><a href="https://www.ovh.cz/onas/komponenty.xml" class="" style="" name="Menu/about-More/Composants" nameat="about-Composants" data-tc-clic="about-Composants" data-tc-clic-type="navigation">Komponenty</a></li><li><a href="https://www.ovh.cz/onas/produkce.xml" class="" style="" name="Menu/about-More/prod" nameat="about-prod" data-tc-clic="about-prod" data-tc-clic-type="navigation">Produkce serverů</a></li><li><a href="https://www.ovh.cz/onas/technicti-partneri.xml" class="" style="" name="Menu/about-More/partners" nameat="about-partners" data-tc-clic="about-partners" data-tc-clic-type="navigation">Techničtí partneři</a></li><li><a href="https://www.ovh.cz/reference/" class="" style="" name="Menu/about-More/refs" nameat="about-refs" data-tc-clic="about-refs" data-tc-clic-type="navigation">Informace o zákaznících</a></li><li><a href="https://www.ovh.cz/onas/certifikace.xml" class="" style="" name="Menu/about-More/certifs" nameat="about-certifs" data-tc-clic="about-certifs" data-tc-clic-type="navigation">Certifikace</a></li><li><a href="https://www.ovh.cz/onas/zelene-it.xml" class="" style="" name="Menu/about-More/green" nameat="about-green" data-tc-clic="about-green" data-tc-clic-type="navigation">Green IT</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Poslední novinky</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">Všechny novinky OVH</a>
-</div></span></div></li></ul>
-</li>
-<li class="icn icn-jobs">
-<a href="https://www.ovh.cz/careers/" name="Menu/careers" nameat="careers" onclick="window.globalComponentFooter.analytics.at.track('careers','','navigation');"><div class="prDesc">
-<span class="title">Práce</span><br><span class="baseline">Připojte se k OVH</span>
-</div></a><ul class="prMore">
-<li><a href="https://www.ovh.cz/careers/" class="title" name="Menu/careers-More/home" nameat="careers-home" onclick="window.globalComponentFooter.analytics.at.track('careers-home','','navigation');" rel="nofollow">Domovská stránka Práce OVH</a></li>
-<li><a href="https://www.ovh.cz/careers/offres/?country=cz" name="Menu/careers-More/home" nameat="careers-home" onclick="window.globalComponentFooter.analytics.at.track('careers-home','','navigation');" rel="nofollow">Nabídky</a></li>
-<li><a href="https://www.ovh.cz/careers/zadost.xml" name="Menu/careers-More/home" nameat="careers-home" onclick="window.globalComponentFooter.analytics.at.track('careers-home','','navigation');" rel="nofollow">Spontánní kandidatura</a></li>
-</ul>
-<ul><li class="more displayOnlyHovered"><div class="
+                        background-image: url('https://www.ovh.cz/files/featured_images/vrack-gen.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Poslední novinky</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/al312.vrack-30-nejnovejsi-design-privatni-site-ovh-predjima-pozadavky-vasich-it-projektu">vRack 3.0: nejnovější design privátní sítě OVH předjímá požadavky Vašich IT projektů</a></p><br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About">Všechny novinky OVH</a></div></span></div></li></ul></li><li class="icn icn-jobs"><a href="https://careers.ovh.com/en-gb" style="" name="Menu/careers" nameat="careers" data-tc-clic="careers" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Práce</span><br><span class="baseline">Připojte se k OVH</span></div></a><ul class="prMore"><li><a href="https://careers.ovh.com/en-gb" class="title" style="" name="Menu/careers-More/home" nameat="careers-home" data-tc-clic="careers-home" data-tc-clic-type="navigation" rel="nofollow">Domovská stránka Práce OVH</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
                         moreBox
                         bgabout" style="
-                        background-image: url('https://www.ovh.com/fr/blog/wp-content/uploads/2017/10/AC-OVH-Anti-DDoS-1280x469.png?x70472'); background-color: #333;  background-position: top center
-                    "><span><div class="moreContent">
-<p class="title" style="color: #FFF;">Poslední novinky</p>
-<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/a2536.anti-ddos-protection-why-ovh-must-keep-investing">Anti-DDoS technologies: why OVH must keep investing heavily to ensure the best protection for customers</a></p>
-<br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About" onclick="window.globalComponentFooter.analytics.at.track('ad-Pub-About','','navigation');">Všechny novinky OVH</a>
-</div></span></div></li></ul>
-</li>
-</ul></li></ul>
-</li>
-<li class="mobile first"><a href="https://www.ovh.com/manager/" title="Váš OVH Manažer">Nový Zákaznický prostor Web</a></li>
-<li class="mobile"><a href="https://www.ovh.cz/podpora/" title="Technická a obchodní podpora">Podpora</a></li>
-<li class="mobile">
-<style type="text/css">
+                        background-image: url('https://www.ovh.cz/files/featured_images/vrack-gen.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Poslední novinky</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/al312.vrack-30-nejnovejsi-design-privatni-site-ovh-predjima-pozadavky-vasich-it-projektu">vRack 3.0: nejnovější design privátní sítě OVH předjímá požadavky Vašich IT projektů</a></p><br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About">Všechny novinky OVH</a></div></span></div></li></ul></li><li class="icn icn-privacy"><a href="https://www.ovh.cz/ochrana-osobnich-udaju/" style="" name="Menu/data-protection" nameat="data-protection" data-tc-clic="data-protection" data-tc-clic-type="navigation"><div class="prDesc"><span class="title">Ochrana osobních údajů - GDPR</span><br><span class="baseline"></span></div></a><ul class="prMore"><li><a href="https://www.ovh.cz/ochrana-osobnich-udaju/" class="title" style="" name="Menu/data-protection-More/home" nameat="data-protection-home" data-tc-clic="data-protection-home" data-tc-clic-type="navigation" rel="nofollow">Ochrana osobních údajů</a></li><li><a href="https://www.ovh.cz/ochrana-osobnich-udaju/gdpr.xml" class="" style="" name="Menu/data-protection-More/gdrp" nameat="data-protection-gdrp" data-tc-clic="data-protection-gdrp" data-tc-clic-type="navigation" rel="nofollow">GDPR</a></li><li><a href="https://www.ovh.cz/ochrana-osobnich-udaju/bezpecnost.xml" class="" style="" name="Menu/data-protection-More/security" nameat="data-protection-security" data-tc-clic="data-protection-security" data-tc-clic-type="navigation" rel="nofollow">Bezpečnost dat</a></li><li><a href="https://www.ovh.cz/ochrana-osobnich-udaju/uplatneni-prav/" class="" style="" name="Menu/data-protection-More/contact" nameat="data-protection-contact" data-tc-clic="data-protection-contact" data-tc-clic-type="navigation" rel="nofollow">Uplatnění práv</a></li></ul><ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh.cz/files/featured_images/vrack-gen.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent"><p class="title" style="color: #FFF;">Poslední novinky</p><p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh.cz/news/articles/al312.vrack-30-nejnovejsi-design-privatni-site-ovh-predjima-pozadavky-vasich-it-projektu">vRack 3.0: nejnovější design privátní sítě OVH předjímá požadavky Vašich IT projektů</a></p><br><a class="moreButton bgabout" href="https://www.ovh.cz/news/" name="Menu/Pub-About">Všechny novinky OVH</a></div></span></div></li></ul></li></ul></li></ul></li>
+
+
+        
+        
+    <li class="mobile first"><a href="https://www.ovh.com/manager/" title="Váš OVH Manažer">Zákaznický prostor OVH</a></li><li class="mobile"><a href="https://www.ovh.cz/podpora/" title="Technická a obchodní podpora">Podpora</a></li><li class="mobile"><style type="text/css">
             #changeLanguage .ovhFlag,
             a#languageChooser,
             span#languageChooser {
-                background-image: url('/theme/img/ovhFlags.png') !important;
+                background-image: url('/theme/img/images/flagz/ovhFlags.png') !important;
                 width: 30px;
                 height: 26px;
-                margin: -5px 10px 0 5px !important;
+                margin: -2px 10px 0 5px !important;
                 background-size: 30px;
                 border: none;
             }
@@ -838,7 +292,7 @@
             }
 
             .mobileLanguageChooserWrapper {
-                height: 26px;
+                height: 49px;
                 margin: 0;
                 text-align: center !important;
                 border: solid #fff 1px;
@@ -846,90 +300,11 @@
                 border-right: 0px;
                 padding: 11px 0;
             }
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+               .mobileLanguageChooserWrapper{height: 26px;}
+            }
         </style>
                     <div class="mobileLanguageChooserWrapper">
-                <a href="javascript:void(0);" id="languageChooser" class="ovhFlag cz" tabindex="1"></a><div id="changeLanguage">
-<div class="contryBox">
-<span class="chLangTitl">Evropa</span><ul class="countryList">
-<li><a href="https://www.ovh.cz" name="Flagz/cz"><div class="ovhFlag cz"></div>
-<span>Česká Republika</span></a></li>
-<li><a href="https://www.ovh.de" name="Flagz/de"><div class="ovhFlag de"></div>
-<span>Německo</span></a></li>
-<li><a href="https://www.ovh-hosting.fi" name="Flagz/fi"><div class="ovhFlag fi"></div>
-<span>Finsko</span></a></li>
-<li><a href="https://www.ovh.com/fr/" name="Flagz/fr"><div class="ovhFlag fr"></div>
-<span>Francie</span></a></li>
-<li><a href="https://www.ovh.it" name="Flagz/fi"><div class="ovhFlag it"></div>
-<span>Itálie</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/ie"><div class="ovhFlag ie"></div>
-<span>Irsko</span></a></li>
-<li><a href="https://www.ovh.lt" name="Flagz/lt"><div class="ovhFlag lt"></div>
-<span>Litva</span></a></li>
-<li><a href="https://www.ovh.nl" name="Flagz/nl"><div class="ovhFlag nl"></div>
-<span>Nizozemí</span></a></li>
-<li><a href="https://www.ovh.pl" name="Flagz/pl"><div class="ovhFlag pl"></div>
-<span>Polsko</span></a></li>
-<li><a href="https://www.ovh.pt" name="Flagz/pt"><div class="ovhFlag pt"></div>
-<span>Portugalsko</span></a></li>
-<li><a href="https://www.ovh.es" name="Flagz/es"><div class="ovhFlag es"></div>
-<span>Španělsko</span></a></li>
-<li><a href="https://www.ovh.co.uk" name="Flagz/uk"><div class="ovhFlag uk"></div>
-<span>Velká Británie</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Severní Amerika</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/us"><div class="ovhFlag us"></div>
-<span>USA</span></a></li>
-<li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca"><div class="ovhFlag ca"></div>
-<span>Kanada [EN]</span></a></li>
-<li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc"><div class="ovhFlag qc"></div>
-<span>Kanada [FR]</span></a></li>
-<li><a href="https://www.ovh.com/us/es/" name="Flagz/ws"><div class="ovhFlag ws"></div>
-<span>Latinská Amerika [ES]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Afrika</span><ul class="countryList">
-<li><a href="https://www.ovh.com/ma/" name="Flagz/ma"><div class="ovhFlag ma"></div>
-<span>Maroko</span></a></li>
-<li><a href="https://www.ovh.sn" name="Flagz/sn"><div class="ovhFlag sn"></div>
-<span>Senegal</span></a></li>
-<li><a href="https://www.ovh.com/tn/" name="Flagz/tn"><div class="ovhFlag tn"></div>
-<span>Tunisko</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Océanie</span><ul class="countryList">
-<li><a href="https://www.ovh.com.au/" name="Flagz/au"><div class="ovhFlag au"></div>
-<span>Austrálie</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Asie</span><ul class="countryList">
-<li><a href="https://www.ovh.com/sg/" name="Flagz/au"><div class="ovhFlag sg"></div>
-<span>Singapur</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div class="contryBox">
-<span class="chLangTitl">Svět</span><ul class="countryList">
-<li><a href="https://www.ovh.com/us/" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Svět [$]</span></a></li>
-<li><a href="https://www.ovh.ie" name="Flagz/World"><div class="ovhFlag world"></div>
-<span>Svět [€]</span></a></li>
-<div style="clear: both;"></div>
-</ul>
-</div>
-<div style="clear: both;"></div>
-</div>
+                <a href="javascript:void(0);" id="languageChooser" class="ovhFlag cz" tabindex="1"></a><div id="changeLanguage"><div class="contryBox"><span class="chLangTitl">Evropa</span><ul class="countryList"><li><a href="https://www.ovh.cz" name="Flagz/cz" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag cz"></div><span>Česká Republika</span></a></li><li><a href="https://www.ovh.de" name="Flagz/de" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag de"></div><span>Německo</span></a></li><li><a href="https://www.ovh-hosting.fi" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fi"></div><span>Finsko</span></a></li><li><a href="https://www.ovh.com/fr/" name="Flagz/fr" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag fr"></div><span>Francie</span></a></li><li><a href="https://www.ovh.it" name="Flagz/fi" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag it"></div><span>Itálie</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/ie" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ie"></div><span>Irsko</span></a></li><li><a href="https://www.ovh.lt" name="Flagz/lt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag lt"></div><span>Litva</span></a></li><li><a href="https://www.ovh.nl" name="Flagz/nl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag nl"></div><span>Nizozemí</span></a></li><li><a href="https://www.ovh.pl" name="Flagz/pl" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pl"></div><span>Polsko</span></a></li><li><a href="https://www.ovh.pt" name="Flagz/pt" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag pt"></div><span>Portugalsko</span></a></li><li><a href="https://www.ovh.es" name="Flagz/es" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag es"></div><span>Španělsko</span></a></li><li><a href="https://www.ovh.co.uk" name="Flagz/uk" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag uk"></div><span>Velká Británie</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Severní Amerika</span><ul class="countryList"><li><a href="https://us.ovhcloud.com/" name="Flagz/us" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag us"></div><span>USA</span></a></li><li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ca"></div><span>Kanada [EN]</span></a></li><li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag qc"></div><span>Kanada [FR]</span></a></li><li><a href="https://www.ovh.com/world/es/" name="Flagz/ws" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ws"></div><span>Latinská Amerika [ES]</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Afrika</span><ul class="countryList"><li><a href="https://www.ovh.com/ma/" name="Flagz/ma" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag ma"></div><span>Maroko</span></a></li><li><a href="https://www.ovh.sn" name="Flagz/sn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sn"></div><span>Senegal</span></a></li><li><a href="https://www.ovh.com/tn/" name="Flagz/tn" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag tn"></div><span>Tunisko</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Océanie</span><ul class="countryList"><li><a href="https://www.ovh.com.au/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag au"></div><span>Austrálie</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Asie</span><ul class="countryList"><li><a href="https://www.ovh.com/sg/" name="Flagz/au" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag sg"></div><span>Singapur</span></a></li><li><a href="https://www.ovh.com/asia/" name="Flagz/asia" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag asia"></div><span>Asie</span></a></li><div style="clear: both;"></div></ul></div><div class="contryBox"><span class="chLangTitl">Svět</span><ul class="countryList"><li><a href="https://www.ovh.com/world/" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Svět [$]</span></a></li><li><a href="https://www.ovh.ie" name="Flagz/World" onclick="window.globalComponentFooter.analytics.piwik.track(this);"><div class="ovhFlag world"></div><span>Svět [€]</span></a></li><div style="clear: both;"></div></ul></div><div style="clear: both;"></div></div>
                 </div>
-            </li>
-</ul>
-</li></ul></nav>
-</div></div>
-</div>
+            </li></ul></li></ul></nav></div></div></div>
