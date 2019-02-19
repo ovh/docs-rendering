@@ -32778,10 +32778,10 @@ input[type="text"] {
   /* cause of padding-left */ }
 
 input[type="submit"] {
-  border: none;
+  /*border: none;
   width: 100%;
   height: 100%;
-  background: none;
+  background: none;*/
   outline: none;
   cursor: pointer; }
 
