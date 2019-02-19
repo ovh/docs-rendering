@@ -101,6 +101,9 @@ def get_default_ovh_entity_settings():
     settings['EXCLUDE_SLUGS'] = []
     settings['SKIP_SLUG'] = False
     settings['IS_ROOT'] = False
+    settings['OVH_HOSTS'] = {
+        'default': 'https://www.ovh.com/fr'
+    }
 
     return settings
 
@@ -199,6 +202,8 @@ class OvhEntity(Entity):
                         title = self._context['uids'][key].title
                 else:
                     value = '#legacy:' + value
+            elif what == 'ovh_www' and hasattr(self, 'lang'):
+                value = self.appendOvhHost(value)
                 
             return '<a href="{}">{}<'.format(value, title)
 
@@ -206,6 +211,17 @@ class OvhEntity(Entity):
 
     def getLang(self):
         return "%s-%s" % (self.locale, getattr(self, 'global'))
+
+    def appendOvhHost(self, value):
+        if not value:
+            return ''
+        
+        if (value[0] != '/'):
+            value = '/' + value
+
+        key = self.lang if self.lang in self.settings['OVH_HOSTS'] else 'default'
+
+        return self.settings['OVH_HOSTS'][key] + value
 
 class OvhEntityGenerator(EntityGenerator):
     class OvhSubEntityGenerator(EntityGenerator.EntitySubGenerator):

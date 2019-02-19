@@ -165,6 +165,9 @@ ENTITY_TYPES = {
         "SUBGENERATOR_CLASS": OvhEntityGenerator.OvhSubEntityGenerator,
         "CHILDREN": ["Guide"],
         "EXCLUDE_SLUGS": ["Home", "Universe"],
+        "OVH_HOSTS": {
+            'fr-fr': 'https://www.ovh.com/fr',
+        },
     },
     "NotFound": {
         "PATHS": ["404.*.md"],
