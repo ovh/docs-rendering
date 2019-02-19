@@ -21,3 +21,9 @@ class NormalizeLink(Preprocessor):
         source = '\n'.join(lines)
         source = re.sub(r'\[(.*)\]\((.*\.md)\)', '[\g<1>]({filename}\g<2>)', source)
         return source.split('\n')
+
+class NormalizeOvhLink(Preprocessor):
+    def run(self, lines, ovh_www_host):
+        source = '\n'.join(lines)
+        source = re.sub(r'{ovh_www}', ovh_www_host, source)
+        return source.split('\n')

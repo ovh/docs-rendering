@@ -27,6 +27,9 @@ class OVHMarkdownExtension(Extension):
         md.preprocessors.add(
             'normalize_link', NormalizeLink(md), '>normalize_img'
         )
+        md.preprocessors.add(
+            'normalize_ovh_link', NormalizeOvhLink(md), '>normalize_link'
+        )
 
         # Add blockprocessors 
         md.parser.blockprocessors.add(
