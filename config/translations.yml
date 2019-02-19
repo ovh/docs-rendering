@@ -1,43 +1,189 @@
 Published:
-  fr: Publié le
-  es: Publicado
+  fr: 'Publié le'
+  de: 'Veröffentlicht am'
+  cz: Zveřejněno
+  es: 'Fecha de publicación'
+  fi: Julkaistu
+  it: 'Pubblicato il'
+  nl: 'Geplaatst op'
+  pl: 'Opublikowano w dniu'
+  pt: Publicado
 
 Updated:
-  fr: Modifié le
+  fr: 'Modifié le'
   es: Modificado
+  de: 'Aktualisiert am'
+  cz: Aktualizováno
+  fi: Muokattu
+  it: 'Modificato il'
+  nl: 'Laatste update op'
+  pl: 'Zmodyfikowano w dniu'
+  pt: Atualizado
 
 By:
   fr: Par
   es: Por
+  de: Von
+  it: Da
+  nl: Door
+  pl: Autor
 
 In:
   fr: Dans
   es: En
+  de: In
+  cz: V
+  it: In
+  nl: In
+  pl: W
 
 Misc:
   fr: Divers
+  it: Varie
+  de: Verschiedenes
+  cz: Různé
+  es: Miscelánea
+  fi: Sekalaista
+  nl: Diversen
+  pl: Różne
+  pt: Diversos
 
 Telecom:
   fr: Télécom
+  it: Telecom
+  de: Telekom
+  cz: Telecom
+  es: Telecom
+  fi: Telekom
+  nl: Telecom
+  pl: Telekomunikacja
+  pt: Telecom
 
 Translations:
   fr: Traductions
   es: Traducción
+  it: Traduzioni
+  de: Übersetzungen
+  cz: Překlady
+  fi: Käännökset
+  nl: Vertalingen
+  pl: Tłumaczenia
+  pt: Traduções
 
 'OVH Guides':
-  fr: Documentation OVH
-  es: OVH Guías
+  fr: 'Documentation OVH'
+  es: 'OVH Guías'
+  cz: 'Příručky OVH'
+  it: 'Documentazione OVH'
+  de: 'OVH Dokumentation'
+  fi: 'OVH:n Ohjeet'
+  nl: 'OVH-handleidingen'
+  pl: 'Dokumentacja techniczna OVH'
+  pt: 'Manuais OVH'
 
 'Search OVH guides':
-  fr: Rechercher dans la documentation OVH
+  fr: 'Rechercher dans la documentation OVH'
+  cz: 'Prohledat příručky OVH'
+  it: 'Cerca nella documentazione OVH'
+  de: 'OVH Dokumentation durchsuchen'
+  es: 'Buscar en la documentación de OVH'
+  fi: 'Etsi OVH:n ohjeista'
+  nl: 'Zoek OVH-handleidingen'
+  pl: 'Szukaj w dokumentacji technicznej OVH'
+  pt: 'Procurar Manuais'
 
 'These guides might also interest you':
-  fr: Ces guides pourraient également vous intéresser
-  es: Otras guías que podrían interesarle
-  pl: Inne przewodniki, które mogą Cię zainteresować
+  fr: 'Ces guides pourraient également vous intéresser'
+  es: 'Otras guías que podrían interesarle'
+  cz: 'Mohlo by Vás zaujmout'
+  de: 'Diese Anleitungen könnten Sie auch interessieren'
+  it: 'Potrebbero interessarti anche'
+  fi: 'Myös nämä ohjeet saattavat kiinnostaa sinua'
+  nl: 'Deze handleidingen kunnen ook interessant zijn voor u'
+  pl: 'Inne przewodniki, które mogą Cię zainteresować'
+  pt: 'Estes manuais também podem ser úteis'
 
 Share:
   fr: Partager
+  cz: Sdílet
+  it: Condividi
+  de: Teilen
+  es: Compartir
+  fi: Jaa
+  nl: Delen
+  pl: Udostępnij
+  pt: Partilha
 
 Contribute:
   fr: Contribuer
+  cz: Přispět
+  de: Mitmachen
+  it: Modifica
+  fi: Muokkaa
+  es: Contribuir
+  nl: Bijdragen
+  pl: Współtwórz
+  pt: Contribuir
+
+'Did you find this guide useful?':
+  fr: 'Cet article vous a-t-il été utile ?'
+  es: '¿Le ha resultado útil esta guía?'
+  it: 'Questa guida è stata utile?'
+  nl: 'Vond u deze handleiding nuttig?'
+  pt: 'Este artigo foi útil?'
+  de: 'War dieser Artikel hilfreich?'
+  pl: 'Czy ten artykuł był pomocny?'
+
+'Yes':
+  fr: 'Oui'
+  es: 'Sí'
+  it: 'Sì'
+  nl: 'Ja'
+  pt: 'Sim'
+  de: 'Ja'
+  pl: 'Tak'
+
+"Great! We're glad we were able to help":
+  fr: "Génial ! Ravi d'avoir pu vous aider"
+  es: "¡Perfecto! Estamos encantados de poder ayudarle"
+  it: "Benissimo! Siamo felici di averti aiutato"
+  nl: "Geweldig! We zijn blij dat we konden helpen"
+  pt: "Ótimo! Ficamos contentes por poder ajudar"
+  de: "Schön, dass wir Ihnen helfen konnten"
+  pl: "Cieszymy się, że mogliśmy pomóc"
+
+'No':
+  fr: 'Non'
+  es: 'No'
+  it: 'No'
+  nl: 'Nee'
+  pt: 'Não'
+  de: 'Nein'
+  pl: 'Nie'
+
+'Why was it not useful?':
+  fr: "Pourquoi n'êtes-vous pas satisfait ?"
+  es: "¿Por qué no está satisfecho?"
+  it: "Perché non sei rimasto soddisfatto?"
+  nl: "Waarom was het niet nuttig?"
+  pt: "Porque é que não ficou satisfeito?"
+  de: "Warum war der Artikel nicht hilfreich?"
+  pl: "Dlaczego artykuł nie spełnił Twoich oczekiwań?"
+
+Send:
+  fr: 'Envoyer'
+  es: 'Enviar'
+  it: 'Invia'
+  nl: 'Verzenden'
+  pt: 'Enviar'
+  de: 'Absenden'
+  pl: 'Wyślij'
+
+'Thank you. Your feedback has been received':
+  fr: 'Merci votre avis a été pris en compte'
+  es: '¡Gracias! Tendremos en cuenta su opinión'
+  it: 'Grazie per averci inviato il tuo feedback'
+  nl: 'Hartelijk bedankt, uw feedback is ontvangen'
+  pt: 'Obrigado. A sua mensagem foi recebida com sucesso'
+  de: 'Vielen Dank. Ihr Feedback wurde gesendet'
+  pl: 'Dziękujemy. Twoja opinia jest dla nas bardzo cenna'
