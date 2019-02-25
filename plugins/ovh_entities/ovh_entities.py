@@ -167,6 +167,10 @@ class OvhEntity(Entity):
     def path(self):
         return os.path.relpath(self.source_path, self.settings['PATH'] + '/..')
 
+    @property
+    def hideContribute(self):
+        return self.contribute == False or self.contribute == 'False' or self.contribute == 'false'
+
     def getSections(self):
         sections = [name.strip() for name in getattr(self, 'sections', 'Misc').split(',')]
         sections += list(set([getattr(child, 'section', 'Misc').strip() for child in self.children]) - set(sections))
