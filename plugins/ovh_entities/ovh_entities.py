@@ -252,7 +252,6 @@ class OvhEntityGenerator(EntityGenerator):
             """Add the entities into the shared context"""
 
             all_entities = []
-            all_drafts = []
             files = self.get_files(
                     self.settings['PATHS'],
                     exclude=self.settings['EXCLUDES'])
@@ -295,16 +294,12 @@ class OvhEntityGenerator(EntityGenerator):
 
                 if entity_or_draft.status.lower() == "published":
                     all_entities.append(entity_or_draft)
-                else:
-                    all_drafts.append(entity_or_draft)
 
                 self.add_legacy_id_path(entity_or_draft)
                 self.add_source_path(entity_or_draft)
 
             self.entities, self.translations = process_translations(
                 all_entities)
-            self.drafts, self.drafts_translations = \
-                process_translations(all_drafts)
 
             sorter = self.settings["SORTER"]
             sorter(self.entities)
