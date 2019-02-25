@@ -162,6 +162,7 @@ ENTITY_TYPES = {
     "Guide": {
         "PATHS": ["**/guide.*.md"],
         "PATH_METADATA": r"(?P<slug>([^\/]+\/)*(?P<folder>[^\/]+))\/guide\.(?P<lang>(?P<locale>\w{2})-(?P<global>\w{2,4}))\.md",
+        "DEFAULT_METADATA": {'contribute': True},
         "SUBGENERATOR_CLASS": OvhEntityGenerator.OvhSubEntityGenerator,
         "CHILDREN": ["Guide"],
         "EXCLUDE_SLUGS": ["Home", "Universe"],
