@@ -101,6 +101,9 @@ def get_default_ovh_entity_settings():
     settings['EXCLUDE_SLUGS'] = []
     settings['SKIP_SLUG'] = False
     settings['IS_ROOT'] = False
+    settings['OVH_HOSTS'] = {
+        'default': 'https://www.ovh.com/fr'
+    }
 
     return settings
 
@@ -167,6 +170,10 @@ class OvhEntity(Entity):
     def path(self):
         return os.path.relpath(self.source_path, self.settings['PATH'] + '/..')
 
+    @property
+    def hideContribute(self):
+        return self.contribute == False or self.contribute == 'False' or self.contribute == 'false'
+
     def getSections(self):
         sections = [name.strip() for name in getattr(self, 'sections', 'Misc').split(',')]
         sections += list(set([getattr(child, 'section', 'Misc').strip() for child in self.children]) - set(sections))
@@ -199,6 +206,8 @@ class OvhEntity(Entity):
                         title = self._context['uids'][key].title
                 else:
                     value = '#legacy:' + value
+            elif what == 'ovh_www' and hasattr(self, 'lang'):
+                value = self.appendOvhHost(value)
                 
             return '<a href="{}">{}<'.format(value, title)
 
@@ -206,6 +215,17 @@ class OvhEntity(Entity):
 
     def getLang(self):
         return "%s-%s" % (self.locale, getattr(self, 'global'))
+
+    def appendOvhHost(self, value):
+        if not value:
+            return ''
+        
+        if (value[0] != '/'):
+            value = '/' + value
+
+        key = self.lang if self.lang in self.settings['OVH_HOSTS'] else 'default'
+
+        return self.settings['OVH_HOSTS'][key] + value
 
 class OvhEntityGenerator(EntityGenerator):
     class OvhSubEntityGenerator(EntityGenerator.EntitySubGenerator):
@@ -236,7 +256,6 @@ class OvhEntityGenerator(EntityGenerator):
             """Add the entities into the shared context"""
 
             all_entities = []
-            all_drafts = []
             files = self.get_files(
                     self.settings['PATHS'],
                     exclude=self.settings['EXCLUDES'])
@@ -279,16 +298,12 @@ class OvhEntityGenerator(EntityGenerator):
 
                 if entity_or_draft.status.lower() == "published":
                     all_entities.append(entity_or_draft)
-                else:
-                    all_drafts.append(entity_or_draft)
 
                 self.add_legacy_id_path(entity_or_draft)
                 self.add_source_path(entity_or_draft)
 
             self.entities, self.translations = process_translations(
                 all_entities)
-            self.drafts, self.drafts_translations = \
-                process_translations(all_drafts)
 
             sorter = self.settings["SORTER"]
             sorter(self.entities)

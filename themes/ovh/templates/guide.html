@@ -71,9 +71,11 @@
     {% if not entity.fullwidth %}
     <div id="sidebar" class="col-md-3 hidden-sm-xs">
       <nav id="sidebar-nav" data-spy="affix" data-offset-top="750">
+        {% if not entity.hideContribute %}
         <div id="edit">
           <a class="btn btn-default" href="{{GITHUB_URL}}{{entity.path}}"><i class="fab fa-github"></i> {{'Contribute'|translate(entity.global)}}</a>
         </div>
+        {% endif %}
         <div id="sharing">
           <div class="btn-group">
             <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
