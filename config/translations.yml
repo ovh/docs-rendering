@@ -126,7 +126,7 @@ Contribute:
   pt: Contribuir
 
 'Did you find this guide useful?':
-  fr: 'Cet article vous a-t-il été utile ?'
+  fr: 'Cette documentation vous a-t-elle été utile ?'
   es: '¿Le ha resultado útil esta guía?'
   it: 'Questa guida è stata utile?'
   nl: 'Vond u deze handleiding nuttig?'
@@ -162,7 +162,7 @@ Contribute:
   pl: 'Nie'
 
 'Why was it not useful?':
-  fr: "Pourquoi n'êtes-vous pas satisfait ?"
+  fr: "Images, contenu, structure... N'hésitez pas à nous dire pourquoi afin de la faire évoluer ensemble !"
   es: "¿Por qué no está satisfecho?"
   it: "Perché non sei rimasto soddisfatto?"
   nl: "Waarom was het niet nuttig?"
@@ -180,7 +180,7 @@ Send:
   pl: 'Wyślij'
 
 'Thank you. Your feedback has been received':
-  fr: 'Merci votre avis a été pris en compte'
+  fr: 'Merci beaucoup pour votre aide ! Vos retours seront étudiés au plus vite par nos équipes.'
   es: '¡Gracias! Tendremos en cuenta su opinión'
   it: 'Grazie per averci inviato il tuo feedback'
   nl: 'Hartelijk bedankt, uw feedback is ontvangen'
