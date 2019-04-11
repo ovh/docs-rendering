@@ -227,7 +227,10 @@
   color: #d0d0c6; }
 
 .highlight .hll {
-  background-color: #49483e; }
+  display: block;
+  margin: 0 -.6rem;
+  padding: 0 .6rem;
+  background-color: #0e6198; }
 
 .highlight .c {
   color: #75715e; }
