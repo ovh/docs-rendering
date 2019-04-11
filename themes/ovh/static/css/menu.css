@@ -245,6 +245,7 @@ body{margin:0}
 #header .icn-ovhlabs.icn:before{background-position:-2816px 0}
 #header .icn-ai.icn:before{background:url(/theme/img/menu/icn-menu-ai.png) center center no-repeat!important}
 #header .icn-privacy.icn:before{background-position:-2878px 0}
+#header .icn-kubernetes.icn::before {background-position: -3008px 0}
 #header .disabled ul li{pointer-events:none}
 #header .disabled ul li .hovered{pointer-events:all}
 #header #navigation>ul>li a{-webkit-transition:background .2s ease;-moz-transition:background .2s ease;-ms-transition:background .2s ease;-o-transition:background .2s ease;transition:background .2s ease}
