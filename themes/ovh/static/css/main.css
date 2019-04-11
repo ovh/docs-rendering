@@ -228,9 +228,7 @@
 
 .highlight .hll {
   display: block;
-  margin: 0 -.6rem;
-  padding: 0 .6rem;
-  background-color: #0e6198; }
+  background-color: #333; }
 
 .highlight .c {
   color: #75715e; }

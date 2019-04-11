@@ -45,7 +45,7 @@ div.carousel .slick-list{
     padding: 5px;
     font-size: 14px;
     font-family: monospace !important;
-    background-color: #444;
+    background-color: #222;
     white-space: pre;
     overflow: auto !important;
     word-break: normal;
@@ -300,10 +300,6 @@ div.breadcrumbs {padding-top: 2px;}
 
 #sharing .dropdown-item i{
     margin-right: 3px;
-}
-
-.highlight pre span {
-    color: #f8f8f2 !important;
 }
 
 .highlight pre * {
