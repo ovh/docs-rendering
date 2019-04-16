@@ -54,7 +54,7 @@
   color: #00A000; }
 
 .go {
-  color: #303030; }
+  color: #e8d8b9; }
 
 .gp {
   color: #C65D09;
@@ -228,9 +228,7 @@
 
 .highlight .hll {
   display: block;
-  margin: 0 -.6rem;
-  padding: 0 .6rem;
-  background-color: #0e6198; }
+  background-color: #111; }
 
 .highlight .c {
   color: #75715e; }
