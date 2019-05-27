@@ -127,8 +127,8 @@ body{margin:0}
 #header #navigation .moreBox>span{display:block;height:100%;width:100%}
 #header #navigation .moreBox .moreContent{position:absolute;bottom:0;width:100%;text-align:center;background:rgba(0,0,0,.65);padding:10px 5px;box-sizing:border-box}
 #header #navigation .cloud .callToActionTop .moreContent{top:0;bottom:inherit}
-#header #navigation .cloud .callToActionTop{background-color:#e0ae00;background-position:center 145px}
-#header #navigation .cloud .callToActionTop .moreButton{background-color:#e0ae00!important}
+#header #navigation .cloud .callToActionTop{background-color:#48a300;background-position:center 145px}
+#header #navigation .cloud .callToActionTop .moreButton{background-color:#48a300!important}
 #header #navigation .moreBox .title{margin:0;padding:5px 8px;color:#fff;font-weight:400;font-size:24px;line-height:34px;text-align:center;display:block;background:0 0}
 #header #navigation .moreBox a,#header #navigation .moreBox p{margin:0;text-align:center;padding:5px 0;color:#fff;font-weight:300;font-size:18px}
 #header #navigation .moreBox .priceButton{display:block;width:90%;height:38px;line-height:38px;font-size:12px;padding:0 15px;margin:0 0 0 15px;background:#4c6569;color:#fff;text-decoration:none;font-weight:300;border-radius:3px;border:none;-webkit-box-shadow:0 1px 3px 0 rgba(0,0,0,.5);-moz-box-shadow:0 1px 3px 0 rgba(0,0,0,.5);box-shadow:0 1px 3px 0 rgba(0,0,0,.5);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
@@ -171,10 +171,10 @@ body{margin:0}
 #header .bgmobileHost{background-color:#ee4036!important}
 #header #menu .dedicated a:hover~ul li.products ul li:first-child .prMore,#header #navigation .dedicated .products li.hovered .prMore,#header #navigation .dedicated .products li:hover .prMore{background:#477583;opacity:1;left:50%;display:block}
 #header #navigation .ccloud,#header #navigation .prMore a.ccloud{color:#ffc303;color:rgba(255,195,3,1)}
-#header #menu .cloud a:hover~ul li.products ul li:first-child .prMore,#header #menu .cloud a:hover~ul>li.products>ul>li:first-child,#header #navigation .cloud .products li.hovered,#header #navigation .cloud .products li:hover{background-color:#e0ae00}
+#header #menu .cloud a:hover~ul li.products ul li:first-child .prMore,#header #menu .cloud a:hover~ul>li.products>ul>li:first-child,#header #navigation .cloud .products li.hovered,#header #navigation .cloud .products li:hover{background-color:#48a300}
 #header #navigation .cloud .products li:hover .prPrice:after{background-position:-420px 0;right:0}
-#header .bgcloud{background-color:#e0ae00!important}
-#header #menu .cloud a:hover~ul li.products ul li:first-child .prMore,#header #navigation .cloud .products li.hovered .prMore,#header #navigation .cloud .products li:hover .prMore{background:#e0ae00;opacity:1;left:50%;display:block}
+#header .bgcloud{background-color:#48a300!important}
+#header #menu .cloud a:hover~ul li.products ul li:first-child .prMore,#header #navigation .cloud .products li.hovered .prMore,#header #navigation .cloud .products li:hover .prMore{background:#48a300;opacity:1;left:50%;display:block}
 #header #navigation .cmobile-hosting,#header #navigation .prMore a.cmobile-hosting{color:rgba(255,195,3,1)}
 #header #menu .mobile-hosting a:hover~ul li.products ul li:first-child .prMore,#header #menu .mobile-hosting a:hover~ul>li.products>ul>li:first-child,#header #navigation .mobile-hosting .products li.hovered,#header #navigation .mobile-hosting .products li:hover{background-color:#ee4036}
 #header #navigation .mobile-hosting .products li:hover .prPrice:after{background-position:-420px 0;right:0}
@@ -245,13 +245,22 @@ body{margin:0}
 #header .icn-ovhlabs.icn:before{background-position:-2816px 0}
 #header .icn-ai.icn:before{background:url(/theme/img/menu/icn-menu-ai.png) center center no-repeat!important}
 #header .icn-privacy.icn:before{background-position:-2878px 0}
-#header .icn-kubernetes.icn::before {background-position: -3008px 0}
+#header .icn-kubernetes.icn:before {background-position: -3008px 0;}
+#header .icn-cloudcmp.icn:before{background-position:-3072px 0}
+#header .icn-cloudsto.icn:before{background-position:-3136px 0}
+#header .icn-cloudnet.icn:before{background-position:-3200px 0}
+#header .icn-cloudorc.icn:before{background-position:-3264px 0}
+#header .icn-clouddat.icn:before{background-position:-3328px 0}
+#header .icn-clouddb.icn:before{background-position:-3392px 0}
+#header .icn-cloudwhy.icn:before{background-position:-3456px 0}
+#header .icn-cloudpr.icn:before{background-position:-3520px 0}
+#header .icn-clouddoc.icn:before{background-position:-3584px 0}
 #header .disabled ul li{pointer-events:none}
 #header .disabled ul li .hovered{pointer-events:all}
 #header #navigation>ul>li a{-webkit-transition:background .2s ease;-moz-transition:background .2s ease;-ms-transition:background .2s ease;-o-transition:background .2s ease;transition:background .2s ease}
 #header #navigation>ul>li.web.hovered>a,#header #navigation>ul>li.web:hover>a{background:#27b9a2}
 #header #navigation>ul>li.mobile-hosting.hovered>a,#header #navigation>ul>li.mobile-hosting:hover>a{background:#ee4036}
-#header #navigation>ul>li.cloud.hovered>a,#header #navigation>ul>li.cloud:hover>a{background:#e0ae00}
+#header #navigation>ul>li.cloud.hovered>a,#header #navigation>ul>li.cloud:hover>a{background:#48a300}
 #header #navigation>ul>li.dedicated.hovered>a,#header #navigation>ul>li.dedicated:hover>a{background:#477583}
 #header #navigation>ul>li.telecom.hovered>a,#header #navigation>ul>li.telecom:hover>a{background:#33acff}
 #header #navigation>ul>li.about.hovered>a,#header #navigation>ul>li.about:hover>a{background:#00a2bf}
@@ -362,3 +371,10 @@ html #changeLanguage.active{width:50%}
 #changeLanguage ul.countryList li{width:31%}
 html #changeLanguage.active{width:75%}
 }
+
+#header #navigation li.pbcloud:hover>a:first-child,#header #menu .pbcloud a:hover ~ ul>li.products>ul>li:first-child,#header #menu .pbcloud a:hover ~ ul li.products ul li:first-child .prMore,#header #navigation .pbcloud .products li:hover,#header #navigation .pbcloud .products li.hovered{background:#0547dc}
+#header #menu .pbcloud a:hover ~ ul li.products ul li:first-child .prMore,#header #navigation .pbcloud .products li:hover .prMore,#header #navigation .pbcloud .products li.hovered .prMore{opacity:1;left:50%;display:block;background:#0547dc}
+#header #navigation .pbcloud .moreBox .moreButton{background:#0547dc!important}
+#header #navigation .prMore li:hover{background:rgba(0,0,0,0.1)!important}
+#header #navigation .cloud .prMore li:hover{background:#00a3a0!important}
+#header #navigation .pbcloud .prMore li:hover{background:#1e40a5!important}
