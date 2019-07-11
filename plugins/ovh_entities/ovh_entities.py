@@ -104,6 +104,19 @@ def get_default_ovh_entity_settings():
     settings['OVH_HOSTS'] = {
         'default': 'https://www.ovh.com/fr'
     }
+    settings['OVH_DOCS'] = {
+        'default': 'https://docs.ovh.com/fr'
+    }
+    settings['OVH_MANAGER'] = {
+        'en-asia': 'https://ca.ovh.com/auth/?action=gotomanager',
+        'en-au': 'https://ca.ovh.com/auth/?action=gotomanager',
+        'en-ca': 'https://ca.ovh.com/auth/?action=gotomanager',
+        'en-sg': 'https://ca.ovh.com/auth/?action=gotomanager',
+        'en-us': 'https://ca.ovh.com/auth/?action=gotomanager',
+        'es-us': 'https://ca.ovh.com/auth/?action=gotomanager',
+        'fr-ca': 'https://ca.ovh.com/auth/?action=gotomanager',
+        'default': 'https://www.ovh.com/auth/?action=gotomanager'
+    }
 
     return settings
 
@@ -185,10 +198,10 @@ class OvhEntity(Entity):
         instrasite_link_regex = self.settings['INTRASITE_LINK_REGEX']
         regex = r"""
             (?P<markup><[^\>]+  # match tag with all url-value attributes
-                (?:href)\s*=\s*)
+                (?:href|src)\s*=\s*)
             (?P<quote>["\'])      # require value to be quoted
-            (?P<path>{0}(?P<value>.*?))  # the url value
-            \2>(?P<text>.*?)<""".format(instrasite_link_regex)
+            (?P<path>{0}(?P<value>[^\2]*?))  # the url value
+            \2(?P<attrs>[^>]*?)>(?P<text>[^<]*?)<""".format(instrasite_link_regex)
         hrefs = re.compile(regex, re.X)
 
         def replacer(m):
@@ -196,6 +209,7 @@ class OvhEntity(Entity):
             what = m.group('what')
             value = m.group('value')
             path = m.group('path')
+            attrs = m.group('attrs')
             title = m.group('text')
             
             if what == 'legacy' and hasattr(self, 'lang'):
@@ -207,25 +221,29 @@ class OvhEntity(Entity):
                 else:
                     value = '#legacy:' + value
             elif what == 'ovh_www' and hasattr(self, 'lang'):
-                value = self.appendOvhHost(value)
+                value = self.appendOvhHost(value, 'OVH_HOSTS')
+            elif what == 'ovh_docs' and hasattr(self, 'lang'):
+                value = self.appendOvhHost(value, 'OVH_DOCS')
+            elif what == 'ovh_manager' and hasattr(self, 'lang'):
+                value = self.appendOvhHost(value, 'OVH_MANAGER')
                 
-            return '<a href="{}">{}<'.format(value, title)
+            return '{}"{}"{}>{}<'.format(markup, value, attrs, title)
 
         return hrefs.sub(replacer, content)
 
     def getLang(self):
         return "%s-%s" % (self.locale, getattr(self, 'global'))
 
-    def appendOvhHost(self, value):
+    def appendOvhHost(self, value, keyType):
         if not value:
             return ''
         
         if (value[0] != '/'):
             value = '/' + value
 
-        key = self.lang if self.lang in self.settings['OVH_HOSTS'] else 'default'
+        key = self.lang if self.lang in self.settings[keyType] else 'default'
 
-        return self.settings['OVH_HOSTS'][key] + value
+        return self.settings[keyType][key] + value
 
 class OvhEntityGenerator(EntityGenerator):
     class OvhSubEntityGenerator(EntityGenerator.EntitySubGenerator):
@@ -320,3 +338,4 @@ class OvhEntityGenerator(EntityGenerator):
 
     def __init__(self, *args, **kwargs):
         super(OvhEntityGenerator, self).__init__(*args, **kwargs)
+
