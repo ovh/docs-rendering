@@ -103,7 +103,7 @@ div.wrapper, div.row {
 .half {
   width: 50% !important; }
 
-p,
+/*p,
 span,
 h1,
 h2,
@@ -112,7 +112,7 @@ h4,
 h5,
 h6 {
   color: #122844; }
-
+*/
 .Title {
   font-size: 50px;
   line-height: 54px; }
@@ -33358,13 +33358,13 @@ input[type="button"], .newButton {
     top: -26px;
     left: 50%;
     margin-left: -63px; }
-  .config.ovhDeals, 
+  .config.ovhDeals,
   .config.ovhDeals * {
     border-color: #291876 !important;
   }
   .config.ovhDeals.ovhDealsNoTop:before {
     top: 0;
-    left: 0; 
+    left: 0;
     margin-left: 0;
   }
 
@@ -34358,7 +34358,7 @@ body {
             z-index:-1;
             right: -40px;
             top: -20px;       */
-  /* right: 0;        
+  /* right: 0;
      left: -45px;*/
   /*-----------------------------------
           threeProductsRow
@@ -52245,7 +52245,7 @@ body {
     font-family: "SourceSansPro" !important;
     font-size: 17px;
     line-height: 27px;
-    color: #122844;
+    /*color: #122844;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: antialiased; }
