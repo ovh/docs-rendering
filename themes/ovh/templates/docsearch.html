@@ -58,31 +58,12 @@
         "lang-{{ translation.lang }}"
       ],
       "page_rank": 1
-    },
-    {% endfor %}
-  {% endfor %}
-  {% for entity in home.entities %}
-    {
-      "url": "{{ SITEURL }}/{{ entity.url }}",
-      "tags": [
-        "lang-{{ entity.lang }}"
-      ],
-      "page_rank": 0
-    },
-    {% for translation in entity.translations %}
-    {
-      "url": "{{ SITEURL }}/{{ translation.url }}",
-      "tags": [
-        "lang-{{ translation.lang }}"
-      ],
-      "page_rank": 0
     }{{ ',' if not loop.last }}
     {% endfor %}
   {% endfor %}
   ],
   "stop_urls": [
-    "https://docs.ovh.com/[^/]+?/[^/]+?/[^/]+?/[^/]+?/[^/]+?/$",
-    "/$"
+    "https://docs.ovh.com/[^/]+?/[^/]+?/[^/]+?/[^/]+?/[^/]+?/$"
   ],
   "allowed_domains": [
     "docs.ovh.com"
