@@ -105,7 +105,7 @@
       {% if banner %}
       <div class="ovh-banner">
         {% set folder = entity.metadata.get("folder") %}
-        <a href="{{banner.url}}" onclick="window.globalComponentFooter.analytics.at.track('{{ folder }}','','action');">
+        <a href="{{banner.url}}" data-tc-clic="banner-[{{ folder }}]">
           <img alt="{{banner.description}}" src="{{banner.image}}">
         </a>
       </div>
