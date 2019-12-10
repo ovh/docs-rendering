@@ -17,6 +17,7 @@ STATIC_PATHS = ['.']
 THEME = "themes/ovh"
 
 TRANSLATIONS_FILE = "config/translations.yml"
+BANNERS_FILE = "config/banners.yml"
 
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = False
@@ -26,7 +27,7 @@ REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
 DEFAULT_PAGINATION = False
 DEFAULT_DATE = (2012, 3, 2, 14, 1, 1)
-DEFAULT_LANG = "fr-fr" 
+DEFAULT_LANG = "fr-fr"
 
 PAGE_PATHS = []
 ARTICLE_PATHS = []
