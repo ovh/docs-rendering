@@ -164,16 +164,16 @@ div.carousel .slick-list{
     word-wrap: break-word;
     text-align: left;
     vertical-align: top;
-}   
+}
 
 .table-meltown-spectre td p, .table-meltown-spectre th p {
     margin-bottom: 5px;
-}           
+}
 
 .table-meltown-spectre td p a {
     display: block;
     text-align: left;
-}   
+}
 
 .table-meltown-spectre .status-macro {
     background: red;
@@ -202,11 +202,11 @@ div.carousel .slick-list{
 }
 
 #overlay{
-    position: fixed; 
-    width: 100%; 
+    position: fixed;
+    width: 100%;
     height: 100%;
-    top: 0px; 
-    left: 0px; 
+    top: 0px;
+    left: 0px;
     background-color: #000;
     opacity: 0.7;
     filter: alpha(opacity = 70) !important;
@@ -215,7 +215,7 @@ div.carousel .slick-list{
 }
 
 #overlayContent{
-    position: fixed; 
+    position: fixed;
     width: 100%;
     top: 200px;
     left: 0;
@@ -332,4 +332,12 @@ div.breadcrumbs {padding-top: 2px;}
     text-decoration: none !important;
     background: #f5f5f5;
     color: #111 !important;
+}
+
+.ovh-banner {
+  margin: 10px 0;
+}
+
+.ovh-banner img {
+  margin-bottom: 0px !important;
 }

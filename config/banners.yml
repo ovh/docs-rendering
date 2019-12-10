@@ -1,0 +1,25 @@
+pages/web/hosting/hosting_first_steps_with_web_hosting:
+  fr-fr:
+    url: https://www.ovh.com/fr/hebergement-web/
+    image: https://www.ovh.com/fr/images/docs/hosting_first_steps_with_web_hosting.png
+    description: "Vous souhaitez créer un site, un blog ou encore développer une plateforme e-commerce ? Découvrez les solutions d'hébergement OVH."
+pages/web/domains/dns_zone_edit:
+  fr-fr:
+    url: https://www.ovh.com/fr/domaines
+    image: https://www.ovh.com/fr/images/docs/dns_zone_edit.png
+    description: "Démarrez votre projet web."
+pages/web/domains/redirect_domain_name:
+  fr-fr:
+    url: https://www.ovh.com/fr/domaines
+    image: https://www.ovh.com/fr/images/docs/redirect_domain_name.png
+    description: "Vous souhaitez réserver, renouveler ou transférer un nom de domaine ?"
+pages/web/hosting/ssl-activate-https-website:
+  fr-fr:
+    url: https://www.ovh.com/fr/ssl
+    image: https://www.ovh.com/fr/images/docs/ssl-activate-https-website.png
+    description: Choisissez le certificat SSL le plus adapté à votre activité.
+pages/web/domains/dns_server_general_information:
+  fr-fr:
+    url: https://www.ovh.com/fr/domaines
+    image: https://www.ovh.com/fr/images/docs/dns_server_general_information.png
+    description: Réservez votre nom de domaine en un clic.

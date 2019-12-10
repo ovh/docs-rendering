@@ -100,6 +100,17 @@
     {% endif %}
     <div id="content" class="col-md-{% if not entity.fullwidth %}9{%else%}12{% endif %}">
       <div id="page-top"></div>
+
+      {% set banner = entity|banner %}
+      {% if banner %}
+      <div class="ovh-banner">
+        {% set folder = entity.metadata.get("folder") %}
+        <a href="{{banner.url}}" onclick="window.globalComponentFooter.analytics.at.track('{{ folder }}','','action');">
+          <img alt="{{banner.description}}" src="{{banner.image}}">
+        </a>
+      </div>
+      {% endif %}
+
       {{ entity.content }}
 
       {% if entity.summary and entity.children|count > 0 %}
@@ -208,7 +219,7 @@
 
     <script type="text/javascript">
       jQuery(document).ready(function() {
-        $("img.thumbnail").click(function() { 
+        $("img.thumbnail").click(function() {
           $("#imgBig").attr("src",$(this).attr("src"));
           $("#overlay").show();
           $("#overlayContent").show();
