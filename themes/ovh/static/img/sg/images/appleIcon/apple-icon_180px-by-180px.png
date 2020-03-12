@@ -12,10 +12,10 @@
                 https://careers.ovh.com/
             --><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>404 - Page not found - OVH</title>
-<link rel="apple-touch-icon" href="/theme/img/sg/images/appleIcon/apple-icon_152px-by-152px.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/theme/img/sg/images/appleIcon/apple-icon_152px-by-152px.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/theme/img/sg/images/appleIcon/apple-icon_180px-by-180px.png">
-<link rel="apple-touch-icon" sizes="167x167" href="/theme/img/sg/images/appleIcon/apple-icon_167px-by-167px.png">
+<link rel="apple-touch-icon" href="/sg/images/appleIcon/apple-icon_152px-by-152px.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/sg/images/appleIcon/apple-icon_152px-by-152px.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/sg/images/appleIcon/apple-icon_180px-by-180px.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/sg/images/appleIcon/apple-icon_167px-by-167px.png">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="google-site-verification" content="J3fSHAVfI5uZPzM4rlKtSiBnE5iC0lxi0k2-pn0aM1U">
 <meta name="msvalidate.01" content="9571C6C1172FA240D5DC7B902DD1F2A9">
@@ -26,10 +26,10 @@
 <meta name="twitter:site" content="@ovh">
 <meta name="twitter:title" content="404 - Page not found...">
 <meta name="twitter:description" content="...">
-<meta name="twitter:image" content="/theme/img/fr/images/logos/logo-ovh-twitter.jpg">
+<meta name="twitter:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
 <meta property="og:title" content="404 - Page not found">
 <meta property="og:description" content="">
-<meta property="og:image" content="/theme/img/fr/images/logos/logo-ovh-twitter.jpg">
+<meta property="og:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
 <meta name="Geography" content="Singapore">
 <meta name="country" content="Singapore">
 <meta name="Language" content="English">
@@ -52,7 +52,7 @@
                     "@type": "Organization",
                     "url": "https://www.ovh.com/sg",
                     "name": "OVH",
-                    "logo" : "/theme/img/images/logo-ovh.jpg",
+                    "logo" : "https://www.ovh.com/images/logo-ovh.jpg",
                     "sameAs" : [
                         "https://plus.google.com/u/0/+OvhGroup/ ",
                         "https://plus.google.com/u/0/113241908030576578981/",
@@ -301,7 +301,7 @@
 <div class="errors-icn errors-icn-404"></div>
 <div class="marginTop30 marginBottom30"><div class="col-s-center separationBorder backgroundBleuVif"></div></div>
 <h2 class="fspx33">Sorry, the page you were looking for was not found </h2>
-<div class="center"><a href="https://www.ovh.com/sg/" class="newButton16 center marginTop30 marginBottom30 secondaryButton">Go back home</a></div>
+<div class="center"><a href="/sg/" class="newButton16 center marginTop30 marginBottom30 secondaryButton">Go back home</a></div>
 <p>
             You have encountered a 404 "File Not Found" error.  
           <br>
@@ -311,14 +311,14 @@
 <div class="full backgroundBeige">
 <div class="row"><div class="col-s-12 col-l-8 col-s-center center marginTop80 marginBottom40"><h2 qtlid="1109278">May we direct you to another page?</h2></div></div>
 <div class="row"><div class="col-s-12 col-l-6 col-s-center clear marginBottom80">
-<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh.com/sg/cloud/" class="inline-block"><div class="errors-icn errors-icn-cloud"></div>Cloud</a></div>
-<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh.com/sg/dedicated-servers/" class="inline-block"><div class="errors-icn errors-icn-dedicated"></div>Dedicated</a></div>
+<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="/sg/cloud/" class="inline-block"><div class="errors-icn errors-icn-cloud"></div>Cloud</a></div>
+<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="/sg/dedicated-servers/" class="inline-block"><div class="errors-icn errors-icn-dedicated"></div>Dedicated</a></div>
 </div></div>
 </div>
     </div>
 <input type="hidden" id="rootUrl" value="https://www.ovh.com/sg"><div id="header" class="global-component-menu sg">
 <input id="main-language" type="hidden" value="sg"><div class="header_wrapper">
-<a href="https://www.ovh.com/sg/" title="OVHcloud - Dedicated Infrastructure for your Business" style="display: flex;" class="main_logo" data-tc-clic="TopHeader-mainLogo"><img src="/theme/img/sg/images/logo/ovhLogoColor.svg" alt="OVH.com logo" style="height: 35px; margin: 16px 10px;"></a><div class="support" style="padding: 0;">
+<a href="https://www.ovh.com/sg/" title="OVHcloud - Dedicated Infrastructure for your Business" style="display: flex;" class="main_logo" data-tc-clic="TopHeader-mainLogo"><img src="https://www.ovh.com/sg/images/logo/ovhLogoColor.svg" alt="OVH.com logo" style="height: 35px; margin: 16px 10px;"></a><div class="support" style="padding: 0;">
 <a id="menu_customer_not_logged" class="menu_link" href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/sg/&amp;ovhSubsidiary=sg" data-tc-clic="TopHeader-Manager" title="Your OVH Control panel ">My customer account</a><a id="menu_customer_logged_in" class="menu_link" href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/sg/&amp;ovhSubsidiary=sg" style="display: none;" data-tc-clic="TopHeader-NIC" title="Your OVH Control panel ">My customer account (#NIC#)
                             </a><a id="menu_customer_num_pending_order" class="menu_badge" href="https://ca.ovh.com/manager/dedicated/index.html#/billing/orders?status=in-progress" data-tc-clic="TopHeader-Billing" title="Ongoing orders "></a><a id="menu_customer_num_unpaid_order" class="menu_badge" href="https://ca.ovh.com/manager/dedicated/index.html#/billing/orders?status=unpaid" data-tc-clic="TopHeader-UnpaidBilling" title="Unpaid invoices"></a> 
 
@@ -556,7 +556,7 @@
 
                         </style>
 <nav id="nav" role="navigation"><ul><li id="navigation">
-<a href="https://www.ovh.com/sg/" class="mobileLogo" data-tc-clic="TopHeader-Logo-mobile" data-tc-clic-type="navigation"><img src="/theme/img/sg/images/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" data-tc-clic="TopHeader-Toggle-mobile" translate="none">≡</label><input type="checkbox" id="menu-toggle"><ul id="menu" role="menubar">
+<a href="https://www.ovh.com/sg/" class="mobileLogo" data-tc-clic="TopHeader-Logo-mobile" data-tc-clic-type="navigation"><img src="https://www.ovh.com/sg/images/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" data-tc-clic="TopHeader-Toggle-mobile" translate="none">≡</label><input type="checkbox" id="menu-toggle"><ul id="menu" role="menubar">
 <li class="menuLogo"><a href="https://www.ovh.com/sg/"><span class="sprite-logo"></span></a></li>
         
         <li class="cloud">
@@ -587,7 +587,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/dedicated-servers/advance/" name="Menu/Pub-Advance"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">New Advance range of dedicated servers</p>
 <br><p class="moreButton bgcloud" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -612,7 +612,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/dedicated-servers/advance/" name="Menu/Pub-Advance"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">New Advance range of dedicated servers</p>
 <br><p class="moreButton bgcloud" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -639,7 +639,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/dedicated-servers/advance/" name="Menu/Pub-Advance"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">New Advance range of dedicated servers</p>
 <br><p class="moreButton bgcloud" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -652,7 +652,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/dedicated-servers/advance/" name="Menu/Pub-Advance"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">New Advance range of dedicated servers</p>
 <br><p class="moreButton bgcloud" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -674,7 +674,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/dedicated-servers/advance/" name="Menu/Pub-Advance"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/dedicated/adv/advAd.png'); background-color: #173976;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">New Advance range of dedicated servers</p>
 <br><p class="moreButton bgcloud" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -698,7 +698,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -718,7 +718,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -732,7 +732,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -750,7 +750,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -769,7 +769,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -782,7 +782,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -795,7 +795,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -808,7 +808,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -821,7 +821,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/get-your-free-trial.xml" name="Menu/Pub-Cloud"><div class="
                                     moreBox
                                     bgcloud" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/Megamenu_PublicCloudVoucher-1MonthTrial_APAC.png'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Try OVH Public Cloud for free!</p>
 <br><p class="moreButton bgcloud" style="">Claim yours now</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
@@ -849,7 +849,7 @@
 </div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovhcloud.com/en-sg/enterprise/" name="Menu/Pub-Enterprise"><div class="
                                     moreBox
                                     enterprise" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
 <br><p class="moreButton enterprise" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -865,7 +865,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovhcloud.com/en-sg/enterprise/" name="Menu/Pub-Enterprise"><div class="
                                     moreBox
                                     enterprise" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
 <br><p class="moreButton enterprise" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -881,7 +881,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovhcloud.com/en-sg/enterprise/" name="Menu/Pub-Enterprise"><div class="
                                     moreBox
                                     enterprise" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
 <br><p class="moreButton enterprise" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -897,7 +897,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovhcloud.com/en-sg/enterprise/" name="Menu/Pub-Enterprise"><div class="
                                     moreBox
                                     enterprise" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
 <br><p class="moreButton enterprise" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -909,7 +909,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovhcloud.com/en-sg/enterprise/" name="Menu/Pub-Enterprise"><div class="
                                     moreBox
                                     enterprise" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
 <br><p class="moreButton enterprise" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -924,7 +924,7 @@
 <ul><li class="more displayOnlyHovered"><a href="https://www.ovhcloud.com/en-sg/enterprise/" name="Menu/Pub-Enterprise"><div class="
                                     moreBox
                                     enterprise" style="
-                                    background-image: url('/theme/img/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/pub/MenuEnterprise.png'); background-color: #1dafd2;"><span><div class="moreContent">
 <br><p class="moreButton enterprise" style="">Find out more</p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -945,7 +945,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://partner.ovhcloud.com/en-sg/" name="Menu/Programs"><div class="
                                     moreBox
                                     marketplace" style="
-                                    background-image: url('/theme/img/sg/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
 <br><p class="moreButton marketplace" style="">See website </p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -958,7 +958,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.com/sg/startup/" name="Menu/Programs"><div class="
                                     moreBox
                                     marketplace" style="
-                                    background-image: url('/theme/img/sg/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
 <br><p class="moreButton marketplace" style="">See website </p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -971,7 +971,7 @@
 <div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://labs.ovh.com/" name="Menu/Programs"><div class="
                                     moreBox
                                     marketplace" style="
-                                    background-image: url('/theme/img/sg/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
+                                    background-image: url('https://www.ovh.com/sg/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
 <br><p class="moreButton marketplace" style="">See website </p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
@@ -1263,7 +1263,7 @@
 <span class="block fs18">OVH is recruiting!</span><a href="https://careers.ovh.com/en-gb" class="sprite-img-careers" target="_blank" nameat="Careers" data-tc-clic="Footer-Careers" data-tc-clic-type="navigation" data-product=""></a><br>
 </div>
 <div class="socialLink" style="width: 100%;">
-<a target="_blank" title="Twitter" rel="nofollow" style="display: inline-block; width: 12%;" href="https://twitter.com/ovhcloud_seasia"><img src="/theme/img/sg/sg/images/index2014/brandTwitter_20px-bkg-dark.svg"></a><a target="_blank" title="Linkedin" rel="nofollow" style="display: inline-block; width: 12%;" href="https://www.linkedin.com/company/ovh/"><img src="/theme/img/sg/sg/images/index2014/brandLinkedin_20px-bkg-dark.svg"></a>
+<a target="_blank" title="Twitter" rel="nofollow" style="display: inline-block; width: 12%;" href="https://twitter.com/ovhcloud_seasia"><img src="https://www.ovh.com/sg/sg/images/index2014/brandTwitter_20px-bkg-dark.svg"></a><a target="_blank" title="Linkedin" rel="nofollow" style="display: inline-block; width: 12%;" href="https://www.linkedin.com/company/ovh/"><img src="https://www.ovh.com/sg/sg/images/index2014/brandLinkedin_20px-bkg-dark.svg"></a>
 </div>
 </div>
 <div class="half25 Fleft" id="serviceClientOVH">
@@ -1374,6 +1374,6 @@
 </div>
 <br><br><br><br>
 </div>
-<br></footer><link rel="stylesheet" type="text/css" href="https://www.ovh.com/sg/errors/css/errors.css">
+<br></footer><link rel="stylesheet" type="text/css" href="/sg/errors/css/errors.css">
 </body>
 </html>
