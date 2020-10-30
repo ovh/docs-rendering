@@ -1,5 +1,13 @@
 {% extends "entity.html" %}
 
+{% block canonical %}
+  {% if entity.metadata.get('routes') %}
+    {% if entity.metadata.get('routes').get('canonical') %}
+      <link rel="canonical" href="{{ entity.metadata.get('routes').get('canonical') }}">
+    {% endif %}
+  {% endif %}
+{% endblock %}
+
 {% block metas %}
     {{- super() -}}
 
