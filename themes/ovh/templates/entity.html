@@ -1,14 +1,33 @@
 {% extends "base.html" %}
 
+{% import 'macros/hreflang.html' as hreflang %}
+
 {% block html_lang_attr%}{{entity.locale}}-{{entity.global|upper}}{% endblock %}
 
 {% block translations%}
-    <link rel="alternate" href="{{ SITEURL }}/{{ entity.url }}" hreflang="{{ entity.lang if entity.locale != entity.global else entity.locale }}" />
-{% if entity.translations %}
-{% for translation in entity.translations %}
-    <link rel="alternate" href="{{ SITEURL }}/{{ translation.url }}" hreflang="{{ translation.lang if translation.locale != translation.global else translation.locale }}" />
-{% endfor %}
-{% endif %}
+  {# entity hreflang tag #}
+  {{
+    hreflang.generateHreflang(
+      SITEURL + '/' + entity.url,
+      entity.lang,
+      entity.locale,
+      entity.global,
+      HREFLANG_CONFIG
+    )
+  }}
+
+  {# translations hreflang tags #}
+  {% if entity.translations %}
+    {% for translation in entity.translations %}
+      {{ hreflang.generateHreflang(
+          SITEURL + '/' + translation.url,
+          translation.lang,
+          translation.locale,
+          translation.global,
+          HREFLANG_CONFIG)
+      }}
+    {% endfor %}
+  {% endif %}
 {% endblock %}
 
 {% block title %}{{ entity.title }} | {{ SITENAME|translate(entity.global) }}{% endblock %}
@@ -24,7 +43,6 @@
     {% if entity.metadata.get('hidden') %}
     <meta name="robots" content="noindex">
     {% endif %}
-
 {% endblock %}
 
 {% block menu%}
