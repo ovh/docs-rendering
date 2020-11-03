@@ -135,6 +135,9 @@ LANGS = {
     'pl-pl': 'Polski',
     'pt-pt': 'Português',
     'en-us': 'English (US)',
+    'en-asia': 'English (Asia)',
+    'en-sg': 'English (Singapore)',
+    'es-us': 'Español (World)',
 }
 
 ENTITY_TYPES = {
