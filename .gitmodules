@@ -1,0 +1,6 @@
+[submodule "plugins/contrib/pelican-md-metayaml"]
+	path = plugins/contrib/pelican-md-metayaml
+	url = https://github.com/joachimneu/pelican-md-metayaml
+[submodule "plugins/contrib/pelican-toc"]
+	path = plugins/contrib/pelican-toc
+	url = https://github.com/ingwinlu/pelican-toc

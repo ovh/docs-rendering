@@ -84,8 +84,8 @@ DIRECT_TEMPLATES = ['sitemap']
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
 # plugins
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['ovh_entities', 'ovh_filters', 'ovh_markdown']
+PLUGIN_PATHS = ['plugins', 'plugins/contrib']
+PLUGINS = ['ovh_entities', 'ovh_filters', 'ovh_markdown', 'pelican-toc', 'pelican-md-metayaml']
 
 MARKDOWN = {
     'extensions': ['markdown.extensions.codehilite', 'markdown.extensions.extra'],
