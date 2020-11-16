@@ -1,0 +1,48 @@
+{#
+    Generate the hreflang tag 
+
+    Args:
+        url (string): the link target URL
+        hreflangValue (string): the hreflang value
+#}
+{% macro _hreflang(url, hreflangValue) -%}
+    <link rel="alternate" 
+        href="{{ url }}" 
+        hreflang="{{ hreflangValue }}" />
+{%- endmacro %}
+
+{#
+    Generate hreflang link tag based on given arguments
+
+    The macro uses the HREFLANG_CONFIG setting to adapt the hreflang value
+    for specific cases, using the lang argument as key.
+    The HREFLANG_CONFIG value for a key can be a string or a list of strings,
+    for the latter, mutiple hreflang tags will be generated, using each string
+    as the hreflang attribute value.
+
+    Args:
+        url (string): the link target URL
+        lang (string): the entiity lang, eg: en-us
+        locale (string): the entity locale, eg: en
+        global (string): the entity global, eg: us
+        config (dict): a dict containing specific rules for lang
+#}
+{% macro generateHreflang(url, lang, locale, global, config = None) -%}
+    {% set default = _hreflang(url, lang if locale != global else locale) %}
+
+    {% if config is not defined %}
+        {{ default }}
+    {% elif config[lang] is not defined %}
+        {{ default }}
+    {% else %}
+        {% set value = config[lang] %}
+
+        {% if value is iterable and value is not string %}
+            {% for v in value %}
+                {{ _hreflang(url, v) }}
+            {% endfor %}
+        {% else %}
+            {{ _hreflang(url, value) }}
+        {% endif %}
+    {% endif %}
+{%- endmacro %}
