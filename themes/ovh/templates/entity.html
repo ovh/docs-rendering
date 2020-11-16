@@ -13,6 +13,14 @@
 
 {% block title %}{{ entity.title }} | {{ SITENAME|translate(entity.global) }}{% endblock %}
 
+{% block css %}
+    {{- super() -}}
+
+    {% if entity.metadata.get('deprecated') == 'true' %}
+      <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/components/deprecated.css" />
+    {% endif %}
+{% endblock %}
+
 {% block metas %}
     {{- super() -}}
 
@@ -25,6 +33,14 @@
     <meta name="robots" content="noindex">
     {% endif %}
 
+{% endblock %}
+
+{% block body %}
+  {{- super() -}}
+    
+  {% if entity.metadata.get('deprecated') == 'true' %}
+    {% include 'components/deprecated/modal.html' %}
+  {% endif %} 
 {% endblock %}
 
 {% block menu%}
@@ -122,7 +138,12 @@
             </div>
           </div>
         </div>
+
+        {% if entity.metadata.get('deprecated') == 'true' %}
+          {% include 'components/deprecated/block.html' %}
+        {% endif %} 
         {% endblock %}
+        
         <div id="page" class="row">
           {% block content %}
           {% endblock %}
@@ -134,14 +155,19 @@
 {% endblock %}
 
 {% block scripts_bottom %}
-    {{- super() -}}
-    <script type="text/javascript">
-      jQuery(document).ready(function() {
-        $('select#docs-lang-selector').change(function(e) {
-          window.location = $(this).find('option:selected').val();
-        });
+  {{- super() -}}
+
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      $('select#docs-lang-selector').change(function(e) {
+        window.location = $(this).find('option:selected').val();
       });
-    </script>
+    });
+  </script>
+
+  {% if entity.metadata.get('deprecated') == 'true' %}
+    <script src="/{{ THEME_STATIC_DIR }}/js/components/deprecated.js"></script>
+  {% endif %} 
 {% endblock %}
 
 {% block analytics %}
