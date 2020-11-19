@@ -135,6 +135,40 @@ LANGS = {
     'pl-pl': 'Polski',
     'pt-pt': 'Português',
     'en-us': 'English (US)',
+    'en-asia': 'English (Asia)',
+    'en-sg': 'English (Singapore)',
+    'es-us': 'Español (World)',
+}
+
+HREFLANG_CONFIG = {
+    'es-es': 'es-es',
+    'es-us': 'es',
+    'en-asia': [
+        'en-vn',
+        'en-id',
+        'en-my',
+        'en-pk',
+        'en-th',
+        'en-hk',
+        'en-ph',
+        'en-jp',
+        'en-bd',
+        'en-tw',
+        'en-lk',
+        'en-kh',
+        'en-bn',
+        'en-fj',
+        'en-kr',
+        'en-la',
+        'en-mo',
+        'en-np',
+        'en-ws',
+        'en-tl'
+    ],
+    'en-au': [
+        'en-au',
+        'en-nz',
+    ]
 }
 
 ENTITY_TYPES = {
