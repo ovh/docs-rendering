@@ -50,7 +50,6 @@ docker run --rm \
     -d \
     --name ovh-docs-dev-env \
     -p $PORT:8080 \
-    -u $(id -u ${USER}):$(id -g ${USER}) \
     ovh-docs-dev-env
 docker logs -f ovh-docs-dev-env
 

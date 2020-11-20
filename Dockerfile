@@ -10,7 +10,6 @@ COPY ./ $WORKDIR
 WORKDIR $WORKDIR
 RUN mkdir -p $PAGES_DIR
 RUN mkdir -p $OUTPUT_DIR
-RUN chmod 777 $OUTPUT_DIR
 
 VOLUME ["$PAGES_DIR"]
 VOLUME ["$WORKDIR/themes/", "$WORKDIR/plugins/"]
