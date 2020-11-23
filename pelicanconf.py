@@ -14,6 +14,9 @@ TIMEZONE = "Europe/Paris"
 PATH = "pages"
 STATIC_PATHS = ['.']
 
+LOAD_CONTENT_CACHE = True
+CACHE_CONTENT = True
+
 THEME = "themes/ovh"
 
 TRANSLATIONS_FILE = "config/translations.yml"
