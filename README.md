@@ -8,7 +8,16 @@ Our CI Pipe is managed by [CDS](https://github.com/ovh/cds)
 All modifications to this repository, will automatically trigger a new build to docs.ovh.com.
 
 ## Test it 
-Test if with our developer environment [docs-developer-env](https://github.com/ovh/docs-developer-env)
+
+Build the docker image
+```sh
+docker build -t ovh-docs-dev-env .
+```
+
+Run the container with the helper script:
+```sh
+./run-container.sh [-f /path/to/docs] [-p port]
+```
 
 ## Technical specs
 
