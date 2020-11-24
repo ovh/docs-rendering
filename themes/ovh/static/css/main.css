@@ -4467,20 +4467,6 @@ table.hover tbody tr:nth-of-type(even):hover {
 .long-delay {
   animation-delay: 700ms !important; }
 
-@font-face {
-  font-family: 'SourceSansPro';
-  src: url("/theme/fonts/Source_Sans_Pro/sourcesanspro-regular.eot");
-  src: url("/theme/fonts/Source_Sans_Pro/sourcesanspro-regular.eot?#iefix") format("embedded-opentype"), url("/theme/fonts/Source_Sans_Pro/sourcesanspro-regular.woff2") format("woff2"), url("/theme/fonts/Source_Sans_Pro/sourcesanspro-regular.woff") format("woff"), url("/theme/fonts/Source_Sans_Pro/sourcesanspro-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'SourceSansPro';
-  src: url("/theme/fonts/Source_Sans_Pro/sourcesanspro-semibold.eot");
-  src: url("/theme/fonts/Source_Sans_Pro/sourcesanspro-semibold?#iefix") format("embedded-opentype"), url("/theme/fonts/Source_Sans_Pro/sourcesanspro-semibold.woff2") format("woff2"), url("/theme/fonts/Source_Sans_Pro/sourcesanspro-semibold.woff") format("woff"), url("/theme/fonts/Source_Sans_Pro/sourcesanspro-semibold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
-
 .fw100 {
   font-weight: 100; }
 

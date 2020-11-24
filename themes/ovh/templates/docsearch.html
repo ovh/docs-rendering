@@ -14,7 +14,7 @@
         "lang-{{ entity.lang }}"
       ],
       "page_rank": 2
-    },
+    }{{ ',' if not loop.last or universe.entities|length > 0}}
     {% for translation in entity.translations %}
     {
       "url": "{{ SITEURL }}/{{ translation.url }}",
@@ -28,10 +28,11 @@
         "lang-{{ translation.lang }}"
       ],
       "page_rank": 2
-    },
+    }{{ ',' if not loop.last or universe.entities|length > 0}}
     {% endfor %}
   {% endfor %}
   {% for entity in universe.entities %}
+    {% set outer_loop = loop %}
     {
       "url": "{{ SITEURL }}/{{ entity.url }}",
       "tags": [
@@ -44,7 +45,7 @@
         "lang-{{ entity.lang }}"
       ],
       "page_rank": 1
-    },
+    }{{',' if not loop.last or entity.translations|length > 0}}
     {% for translation in entity.translations %}
     {
       "url": "{{ SITEURL }}/{{ translation.url }}",
@@ -58,7 +59,7 @@
         "lang-{{ translation.lang }}"
       ],
       "page_rank": 1
-    }{{ ',' if not loop.last }}
+    }{{ ',' if not loop.last or not outer_loop.last}}
     {% endfor %}
   {% endfor %}
   ],
