@@ -33,3 +33,7 @@
     display: none;
 }
 
+.feedbacks #form .yes,
+.feedbacks #form .no {
+    color: var(--black);
+}
