@@ -4900,35 +4900,6 @@ dl.docutils .classifier-delimiter {
       background: #39BEE0;
       color: white; }
 
-/*
- * Doorbell.io integration
- */
-.feedbacks {
-  margin: 40px 0; }
-  .feedbacks button {
-    border: solid 1px #59D2ED;
-    border-radius: 3px;
-    display: inline-block;
-    width: 100px;
-    height: 50px; }
-    .feedbacks button:not(:nth-of-type(1)) {
-      margin-left: 15px; }
-    .feedbacks button:hover {
-      background-color: rgba(89, 210, 239, 0.15); }
-      .feedbacks button.disabled {
-        pointer-events: none;
-        opacity: 0.5; }
-  .feedbacks textarea:focus {
-    background-color: rgba(89, 210, 239, 0.15);
-    border: solid 1px #59D2ED; }
-  .feedbacks #yes,
-  .feedbacks #no,
-  .feedbacks #thanks {
-    display: none; }
-  /*
-   * End Doorbell.io
-   */
-
 .menu-icon::after {
   background: none !important;
   box-shadow: none !important; }

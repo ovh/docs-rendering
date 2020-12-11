@@ -1,0 +1,29 @@
+<hr/>
+<div class="feedbacks">
+    <h3>{{ 'Did you find this guide useful?' | translate(entity.global) }}</h3>
+    <div id="question">
+        <button type="button" onclick="OvhDoorbell.helpful();">
+            {{ 'Yes' | translate(entity.global) }}
+        </button>
+        <button type="button" onclick="OvhDoorbell.unhelpful();">
+            {{ 'No' | translate(entity.global) }}
+        </button>
+    </div>
+    <div id="form">
+        <p class="yes bold">
+            {{ 'Please feel free to make suggestions to enhance this documentation' | translate(entity.global) }}
+        </p>
+        <p class="no bold">
+            {{ 'Why was it not useful?' | translate(entity.global) }}
+        </p>
+        <textarea rows="2"></textarea>
+        <button type="button" class="disabled" onclick="OvhDoorbell.sendFeedback();">
+            {{ 'Send' | translate(entity.global) }}
+        </button>
+    </div>
+    <div id="thanks">
+        <p class="bold">
+        {{ 'Thank you. Your feedback has been received' | translate(entity.global) }}.
+        </p>
+    </div>
+</div>
