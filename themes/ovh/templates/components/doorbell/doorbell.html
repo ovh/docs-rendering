@@ -13,9 +13,16 @@
         <p class="yes bold">
             {{ 'Please feel free to make suggestions to enhance this documentation' | translate(entity.global) }}
         </p>
-        <p class="no bold">
-            {{ 'Why was it not useful?' | translate(entity.global) }}
-        </p>
+
+        <div class="no bold">
+            <p>
+                {{ 'Why was it not useful?' | translate(entity.global) }}
+            </p>
+            <p>
+                {{ 'Support is not handled through this form, please use the form' | translate(entity.global) }}
+                <a target="_blank" href="https://www.ovh.com/auth/?onsuccess=https%3A//www.ovh.com/manager&ovhSubsidiary=FR">"{{ 'Create a support request' | translate(entity.global) }}"</a>.
+            </p>
+        </div>
         <textarea rows="2"></textarea>
         <button type="button" class="disabled" onclick="OvhDoorbell.sendFeedback();">
             {{ 'Send' | translate(entity.global) }}
