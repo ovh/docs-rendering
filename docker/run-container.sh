@@ -40,6 +40,7 @@ SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 DOCSRENDERING_PATH="${SCRIPTPATH}/../"
 THEMES_PATH="${DOCSRENDERING_PATH}/themes/"
 PLUGINS_PATH="${DOCSRENDERING_PATH}/plugins/"
+SETTINGS_PATH="${DOCSRENDERING_PATH}/pelicanconf.py"
 
 trap "echo 'stoping container...' && docker stop ovh-docs-dev-env" 2
 
@@ -47,6 +48,7 @@ docker run --rm \
     -v $DOCS_FOLDER/pages:/src/pages \
     -v $THEMES_PATH:/src/docs/themes \
     -v $PLUGINS_PATH:/src/docs/plugins \
+    -v $SETTINGS_PATH:/src/docs/pelicanconf.py \
     -d \
     --name ovh-docs-dev-env \
     -p $PORT:8080 \
