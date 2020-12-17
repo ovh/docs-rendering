@@ -1,13 +1,23 @@
 # OVH - Docs rendering engine
-This repository contains our official Documentation Rendering Engine. 
+This repository contains our official Documentation Rendering Engine.
 
 ## Continuous integration
 Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/docs), we build docs.ovh.com and template all markdown with our rendering engine. Our build contains a bunch of static HTML files, deployed in ours front webfarms.
 
-Our CI Pipe is managed by [CDS](https://github.com/ovh/cds) 
+Our CI Pipe is managed by [CDS](https://github.com/ovh/cds)
 All modifications to this repository, will automatically trigger a new build to docs.ovh.com.
 
-## Test it 
+## Test it
+
+Clone the repository
+```sh
+git clone --recurse-submodules https://github.com/ovh/docs-rendering.git
+```
+
+Go to the project root
+```sh
+cd docs-rendering
+```
 
 Build the docker image
 ```sh
@@ -16,7 +26,7 @@ docker build -t ovh-docs-dev-env .
 
 Run the container with the helper script:
 ```sh
-./run-container.sh [-f /path/to/docs] [-p port]
+./docker/run-container.sh [-f /path/to/docs] [-p port]
 ```
 
 ## Technical specs
@@ -37,7 +47,7 @@ Description from the Pelican repository:
 >    - Easy to interface with version control systems and web hooks
 >    - Completely static output is simple to host anywhere
 
-The choice of Pelican was done for its great extensible capabilities. 
+The choice of Pelican was done for its great extensible capabilities.
 
 1. We could easily create plugins that manage our hierachical files structure:
     - for custom url generation.
@@ -111,10 +121,10 @@ When needed, for each entity, we add a children property that lists all authoriz
 # entities children configuration in pelicanconf.py
 ENTITY_TYPES = {
     "Home": {
-        "CHILDREN": ["Universe"], 
+        "CHILDREN": ["Universe"],
     },
     "Universe": {
-        "CHILDREN": ["Universe", "Product"], 
+        "CHILDREN": ["Universe", "Product"],
     },
     "Product": {
         "CHILDREN": ["Guide"],
@@ -126,7 +136,7 @@ ENTITY_TYPES = {
 ```
 
 ##### url building
-We needed to exclude some part of the default generated url by pelican without the need to include 
+We needed to exclude some part of the default generated url by pelican without the need to include
 the `override_url` and `override_save_as` properties in each file.
 
 Those properties are generated for each entity using the config property `EXCLUDE_SLUGS`.
@@ -192,7 +202,7 @@ get an array of related guides for a given guide
 {% endfor %}
 ```
 
-##### visible 
+##### visible
 filter visible entities (visible property of entity == True)
 
 ```jinja
