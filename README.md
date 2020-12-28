@@ -21,8 +21,11 @@ cd docs-rendering
 
 Build the docker image
 ```sh
-docker build -t ovh-docs-dev-env .
+./docker/build.sh
 ```
+
+> This build the docker image using the current user's ID and group ID.  
+> The resulting image name is `ovh-docs-dev-env`
 
 Run the container with the helper script:
 ```sh
