@@ -8,6 +8,12 @@
   {% endif %}
 {% endblock %}
 
+{% block css %}
+    {{- super() -}}
+
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/guides.css" />
+{% endblock %}
+
 {% block metas %}
     {{- super() -}}
 
@@ -139,37 +145,7 @@
       <div id="page-bottom"></div>
 
       {% if entity.locale == 'fr' %}
-      <hr/>
-      <div class="feedbacks">
-        <h3>{{ 'Did you find this guide useful?' | translate(entity.global) }}</h3>
-        <div id="question">
-          <button type="button" onclick="helpful();">
-            {{ 'Yes' | translate(entity.global) }}
-          </button>
-          <button type="button" onclick="$('#question, #yes').empty().hide(); $('#no').fadeIn();">
-            {{ 'No' | translate(entity.global) }}
-          </button>
-        </div>
-        <div id="yes">
-          <p class="bold">
-            {{ "Great! We're glad we were able to help" | translate(entity.global) }}.
-          </p>
-        </div>
-        <div id="no">
-          <p class="bold">
-            {{ 'Why was it not useful?' | translate(entity.global) }}
-          </p>
-          <textarea rows="2"></textarea>
-          <button type="button" class="disabled" onclick="unhelpful();">
-            {{ 'Send' | translate(entity.global) }}
-          </button>
-        </div>
-        <div id="thanks">
-          <p class="bold">
-            {{ 'Thank you. Your feedback has been received' | translate(entity.global) }}.
-          </p>
-        </div>
-      </div>
+        {% include 'components/doorbell/doorbell.html' %}
       {% endif %}
 
       {% set related_entities = entity|related %}
