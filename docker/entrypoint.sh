@@ -8,7 +8,7 @@ OUTPUT_DIR=$BASEDIR/../output
 CFG_FILE=$BASEDIR/pelicanconf.py
 
 cd $BASEDIR;
-$PELICAN --debug -r $SRC_DIR -o $OUTPUT_DIR -s $CFG_FILE &
+$PELICAN --debug --fatal errors -r -o $OUTPUT_DIR -s $CFG_FILE &
 pid=$!
 cd $OUTPUT_DIR;
 $PY -m pelican.server 8080
