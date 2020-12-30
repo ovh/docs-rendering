@@ -1,0 +1,17 @@
+.subguides {
+    margin: 1.5rem 30px;
+}
+
+.subguides::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #d3d3d3;
+    margin-bottom: 1.5rem;
+}
+
+#sidebar-nav a.subguides__link {
+    font-weight: normal;
+    padding-left: 0;
+}

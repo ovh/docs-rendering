@@ -12,6 +12,7 @@
     {{- super() -}}
 
     <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/guides.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/components/subguides.css" />
 {% endblock %}
 
 {% block metas %}
@@ -106,10 +107,15 @@
             </div>
           </div>
         </div>
+
         {% if entity.toc %}
           {{entity.toc.replace('<div id="toc"><ul>', '<div id="toc"><ul class="nav">')}}
         {% endif %}
-        </nav>
+
+        {% if entity.children %}
+          {% include 'components/subguides/subguides.html' %}
+        {% endif %}
+      </nav>
     </div>
     {% endif %}
     <div id="content" class="col-md-{% if not entity.fullwidth %}9{%else%}12{% endif %}">
