@@ -128,7 +128,6 @@ LANGS = {
     'en-au': 'English (Australia)',
     'en-ca': 'English (Canada)',
     'fr-ca': 'Français (Canada)',
-    'cs-cz': 'Česky',
     'de-de': 'Deutsch',
     'es-es': 'Español',
     'fr-fr': 'Français',
