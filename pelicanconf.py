@@ -134,7 +134,6 @@ LANGS = {
     'en-gb': 'English (GB)',
     'en-ie': 'English (Ireland)',
     'it-it': 'Italiano',
-    'lt-lt': 'Lietuvių kalba',
     'nl-nl': 'Nederlands',
     'pl-pl': 'Polski',
     'pt-pt': 'Português',
