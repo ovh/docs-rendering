@@ -8,6 +8,13 @@
   {% endif %}
 {% endblock %}
 
+{% block css %}
+    {{- super() -}}
+
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/guides.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/components/subguides.css" />
+{% endblock %}
+
 {% block metas %}
     {{- super() -}}
 
@@ -91,7 +98,7 @@
               {{'Share'|translate(entity.global)}}
             </button>
             <div class="dropdown-menu">
-              <a class="dropdown-item" target="_blank" href="http://twitter.com/share?text={{entity.title}} %23OVHguides&url={{SITEURL}}/{{entity.url}}">
+              <a class="dropdown-item" target="_blank" href="https://twitter.com/share?text={{entity.title}} %23OVHguides&url={{SITEURL}}/{{entity.url}}">
                 <i class="fab fa-twitter-square"></i> Twitter</a>
               <a class="dropdown-item" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{SITEURL}}/{{entity.url}}">
                 <i class="fab fa-facebook-square"></i> Facebook</a>
@@ -100,10 +107,15 @@
             </div>
           </div>
         </div>
+
         {% if entity.toc %}
           {{entity.toc.replace('<div id="toc"><ul>', '<div id="toc"><ul class="nav">')}}
         {% endif %}
-        </nav>
+
+        {% if entity.children %}
+          {% include 'components/subguides/subguides.html' %}
+        {% endif %}
+      </nav>
     </div>
     {% endif %}
     <div id="content" class="col-md-{% if not entity.fullwidth %}9{%else%}12{% endif %}">
@@ -139,37 +151,7 @@
       <div id="page-bottom"></div>
 
       {% if entity.locale == 'fr' %}
-      <hr/>
-      <div class="feedbacks">
-        <h3>{{ 'Did you find this guide useful?' | translate(entity.global) }}</h3>
-        <div id="question">
-          <button type="button" onclick="helpful();">
-            {{ 'Yes' | translate(entity.global) }}
-          </button>
-          <button type="button" onclick="$('#question, #yes').empty().hide(); $('#no').fadeIn();">
-            {{ 'No' | translate(entity.global) }}
-          </button>
-        </div>
-        <div id="yes">
-          <p class="bold">
-            {{ "Great! We're glad we were able to help" | translate(entity.global) }}.
-          </p>
-        </div>
-        <div id="no">
-          <p class="bold">
-            {{ 'Why was it not useful?' | translate(entity.global) }}
-          </p>
-          <textarea rows="2"></textarea>
-          <button type="button" class="disabled" onclick="unhelpful();">
-            {{ 'Send' | translate(entity.global) }}
-          </button>
-        </div>
-        <div id="thanks">
-          <p class="bold">
-            {{ 'Thank you. Your feedback has been received' | translate(entity.global) }}.
-          </p>
-        </div>
-      </div>
+        {% include 'components/doorbell/doorbell.html' %}
       {% endif %}
 
       {% set related_entities = entity|related %}

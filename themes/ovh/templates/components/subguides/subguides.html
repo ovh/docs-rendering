@@ -1,0 +1,9 @@
+<div class="subguides">
+  <ul class="subguides__list">
+    {% for child in entity.children %}
+    <li class="subguides__list__element">
+      <a class="subguides__link" href="/{{ child.url }}">{{ child.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -129,7 +129,6 @@ LANGS = {
     'cs-cz': 'Česky',
     'de-de': 'Deutsch',
     'es-es': 'Español',
-    'fi-fi': 'Suomen kieli',
     'fr-fr': 'Français',
     'en-gb': 'English (GB)',
     'en-ie': 'English (Ireland)',

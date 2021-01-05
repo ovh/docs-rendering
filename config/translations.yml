@@ -187,3 +187,12 @@ Send:
   pt: 'Obrigado. A sua mensagem foi recebida com sucesso'
   de: 'Vielen Dank. Ihr Feedback wurde gesendet'
   pl: 'Dziękujemy. Twoja opinia jest dla nas bardzo cenna'
+
+'Please feel free to make suggestions to enhance this documentation':
+  fr: "N'hésitez pas à nous proposer des suggestions d'amélioration afin de faire évoluer cette documentation"
+
+'Support is not handled through this form, please use the form':
+  fr: "Vos demandes d'assistance ne seront pas traitées par ce formulaire. Pour cela, utilisez le formulaire"
+
+'Create a support request':
+  fr: "Créer un ticket"
