@@ -150,9 +150,7 @@
 
       <div id="page-bottom"></div>
 
-      {% if entity.locale == 'fr' %}
-        {% include 'components/doorbell/doorbell.html' %}
-      {% endif %}
+      {% include 'components/doorbell/doorbell.html' %}
 
       {% set related_entities = entity|related %}
       {% if related_entities|length > 0 %}
@@ -182,30 +180,32 @@
 
 {% block scripts_bottom %}
     {{- super() -}}
-    {% if entity.locale == 'fr' %}
-      <!-- Doorbell.io script -->
-      <script type="text/javascript">
+
+    {% set doorbell = entity|doorbell %}
+    <!-- Doorbell.io script -->
+    <script type="text/javascript">
         window.doorbellOptions = {
-          id: '9415',
-          appKey: '2ncJfsqNkuKcM55B5z9cUKTqX0MAjKZaqn0tjdCADQpy80mWQv711zhTcrdxy8zg',
-          hideButton: true,
-          tags: [
-            "{{ entity.lang if entity.locale != entity.global else entity.locale }}",
-            {% for parent in entity.parents %}
-              "{{ parent.slug }}",
-            {% endfor %}
-            "{{entity.slug}}"
-          ]
+            id: '{{ doorbell.id }}',
+            appKey: '{{ doorbell.key }}',
+            hideButton: true,
+            tags: [
+                "{{ entity.lang if entity.locale != entity.global else entity.locale }}",
+                {% for parent in entity.parents %}
+                "{{ parent.slug }}",
+                {% endfor %}
+                "{{entity.slug}}"
+            ]
         };
-        (function(w, d, t) {
-          var hasLoaded = false;
-          function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
-            if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
-            if (d.readyState == 'complete') { l(); }
-        }(window, document, 'script'));
-      </script>
-      <script src="/{{ THEME_STATIC_DIR }}/js/doorbell.js"></script>
-    {% endif %}
+(function(w, d, t) {
+    var hasLoaded = false;
+    function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+    if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+    if (d.readyState == 'complete') { l(); }
+}(window, document, 'script'));
+    </script>
+
+    <!-- Doorbell.io custom script -->
+    <script src="/{{ THEME_STATIC_DIR }}/js/doorbell.js"></script>
 
     <script type="text/javascript">
       jQuery(document).ready(function() {
