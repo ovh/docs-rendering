@@ -4,6 +4,8 @@
 
 var OvhDoorbell = (function() {
 
+    var $sendButton = $('#form button');
+
     var hideInitialQuestion = function() {
         $('#question').empty().hide();
     }
@@ -24,11 +26,20 @@ var OvhDoorbell = (function() {
         return $('#form button').data('sentiment');
     }
 
+    var enableSend = function() {
+        $sendButton.removeClass('disabled');
+    }
+
+    var disableSend = function() {
+        $sendButton.addClass('disabled');
+    }
+
     return {
         helpful: function() {
             hideInitialQuestion();
             showYesText();
             setSentiment('positive');
+            enableSend();
         },
         unhelpful: function() {
             hideInitialQuestion();
@@ -49,13 +60,18 @@ var OvhDoorbell = (function() {
                         alert(error);
                     });
             }
-        }
+        },
+        disableSend: disableSend,
+        enableSend: enableSend,
+        getSentiment: getSentiment,
     }
 
 })()
 
 $(document).ready(function() {
     $('#form textarea').on('input', function() {
-    $(this).val() ? $('#form button').removeClass('disabled') : $('#form button').addClass('disabled');
-  });
+        if (OvhDoorbell.getSentiment() === 'negative') {
+            $(this).val() ? OvhDoorbell.enableSend() : OvhDoorbell.disableSend();
+        }
+    });
 });
