@@ -174,37 +174,6 @@ HREFLANG_CONFIG = {
     ]
 }
 
-DOORBELL_API = {
-    'en': {
-        'id': 'doorbell_id_en',
-        'key': 'doorbell_key_en',
-    },
-    'de': {
-        'id': 'doorbell_id_de',
-        'key': 'doorbell_key_de',
-    },
-    'fr': {
-        'id': 'doorbell_id_fr',
-        'key': 'doorbell_key_fr',
-    },
-    'es': {
-        'id': 'doorbell_id_es',
-        'key': 'doorbell_key_es',
-    },
-    'it': {
-        'id': 'doorbell_id_it',
-        'key': 'doorbell_key_it',
-    },
-    'pl': {
-        'id': 'doorbell_id_pl',
-        'key': 'doorbell_key_pl',
-    },
-    'pt': {
-        'id': 'doorbell_id_pt',
-        'key': 'doorbell_key_pt',
-    },
-}
-
 ENTITY_TYPES = {
     "Home": {
         "PATHS": ["home.*.md"],

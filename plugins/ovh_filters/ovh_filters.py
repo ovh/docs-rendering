@@ -8,7 +8,6 @@ from .banner import Banner
 from .breadcrumbs import breadcrumbs
 from .related import related
 from .visible import visible
-from .doorbell import doorbell
 
 def add_filter(generator):
     translator = Translator(generator.settings)
@@ -18,7 +17,6 @@ def add_filter(generator):
     generator.env.filters.update({'breadcrumbs': breadcrumbs})
     generator.env.filters.update({'related': related})
     generator.env.filters.update({'visible': visible})
-    generator.env.filters.update({'doorbell': doorbell})
 
 def register():
     """Plugin registration."""

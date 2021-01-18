@@ -24,8 +24,7 @@ Build the docker image
 ./docker/build.sh
 ```
 
-> This build the docker image using the current user's ID and group ID.
-
+> This build the docker image using the current user's ID and group ID.  
 > The resulting image name is `ovh-docs-dev-env`
 
 Run the container with the helper script:
@@ -232,19 +231,6 @@ translate a content according to a given language. Dictionary defined in [config
 ```jinja
 <!-- usage example -->
 <h3>{{section|translate(entity.global)}}</h3>
-```
-
-##### doorbell
-return a dictionary with the doorbell's ID and API_KEY for the current language
-
-this filter relies on the `DOORBELL_API` setting, specifying an ID and a key for each available language
-
-```jinja
-<!-- usage example -->
-{% set doorbell = entity|doorbell %}
-...
-{{ doorbell.id }}
-{{ doorbell.key }}
 ```
 
 ### Themes - OVH
