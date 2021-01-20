@@ -34,32 +34,50 @@ var OvhDoorbell = (function() {
         $sendButton.addClass('disabled');
     }
 
+    var sendDoorbell = function(sentiment, message, email, success, error) {
+        if (sentiment) {
+            doorbell.setOption('sentiment', sentiment);
+            doorbell.send( message, email, success, error);
+        }
+    }
+
     return {
         helpful: function() {
             hideInitialQuestion();
             showYesText();
             setSentiment('positive');
-            enableSend();
         },
         unhelpful: function() {
             hideInitialQuestion();
             showNoText();
             setSentiment('negative');
         },
+        sendEmptyFeedback: function() {
+            var sentiment = getSentiment();
+            sendDoorbell(sentiment, '', '');
+        },
         sendFeedback: function() {
             var sentiment = getSentiment();
-            if (sentiment) {
-                doorbell.setOption('sentiment', sentiment);
-                doorbell.send(
-                    $('#form textarea').val(),
-                    '',
-                    function() {
-                        $('#form').empty().hide();
-                        $('#thanks').fadeIn();
-                    }, function(error) {
-                        alert(error);
-                    });
-            }
+
+            var success = function() {
+                $('#form').empty().hide();
+                $('#thanks').fadeIn();
+            };
+
+            var error = function() {
+                console.log(error);
+            };
+
+            var messagePrefix = sentiment === 'positive' ?
+                "[yes-comment] " : "";
+
+            sendDoorbell(
+                sentiment,
+                messagePrefix + $('#form textarea').val(),
+                '',
+                success,
+                error
+            );
         },
         disableSend: disableSend,
         enableSend: enableSend,
@@ -70,8 +88,6 @@ var OvhDoorbell = (function() {
 
 $(document).ready(function() {
     $('#form textarea').on('input', function() {
-        if (OvhDoorbell.getSentiment() === 'negative') {
-            $(this).val() ? OvhDoorbell.enableSend() : OvhDoorbell.disableSend();
-        }
+        $(this).val() ? OvhDoorbell.enableSend() : OvhDoorbell.disableSend();
     });
 });
