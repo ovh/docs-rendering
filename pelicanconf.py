@@ -10,6 +10,7 @@ AUTHOR = 'OVH'
 SITENAME = "OVH Guides"
 SITEURL = ''
 TIMEZONE = "Europe/Paris"
+ENVIRONMENT='dev'
 
 PATH = "pages"
 STATIC_PATHS = ['.']
