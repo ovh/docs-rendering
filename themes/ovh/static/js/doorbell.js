@@ -52,9 +52,9 @@ var OvhDoorbell = (function() {
             showNoText();
             setSentiment('negative');
         },
-        sendEmptyFeedback: function() {
+        sendPositiveFeedback: function() {
             var sentiment = getSentiment();
-            sendDoorbell(sentiment, '', '');
+            sendDoorbell(sentiment, 'Positive feedback!', '');
         },
         sendFeedback: function() {
             var sentiment = getSentiment();
