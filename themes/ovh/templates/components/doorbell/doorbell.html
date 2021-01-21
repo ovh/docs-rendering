@@ -3,7 +3,7 @@
     <h3>{{ 'Did you find this guide useful?' | translate(entity.global) }}</h3>
     <div id="question">
         <button type="button"
-            onclick="OvhDoorbell.helpful();OvhDoorbell.sendEmptyFeedback();">
+            onclick="OvhDoorbell.helpful();OvhDoorbell.sendPositiveFeedback();">
             {{ 'Yes' | translate(entity.global) }}
         </button>
         <button type="button" onclick="OvhDoorbell.unhelpful();">
