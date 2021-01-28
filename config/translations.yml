@@ -128,11 +128,11 @@ Contribute:
 'Did you find this guide useful?':
   fr: 'Cette documentation vous a-t-elle été utile ?'
   es: '¿Le ha resultado útil esta guía?'
-  it: 'Questa guida è stata utile?'
+  it: 'Questa documentazione ti è stata utile?'
   nl: 'Vond u deze handleiding nuttig?'
-  pt: 'Este artigo foi útil?'
-  de: 'War dieser Artikel hilfreich?'
-  pl: 'Czy ten artykuł był pomocny?'
+  pt: 'Esta documentação foi-lhe útil?'
+  de: 'Haben Ihnen die Anleitungen geholfen?'
+  pl: 'Czy ten przewodnik był pomocny?'
 
 'Yes':
   fr: 'Oui'
@@ -161,14 +161,14 @@ Contribute:
   de: 'Nein'
   pl: 'Nie'
 
-'Why was it not useful?':
-  fr: "Images, contenu, structure... N'hésitez pas à nous dire pourquoi afin de la faire évoluer ensemble !"
-  es: "¿Por qué no está satisfecho?"
-  it: "Perché non sei rimasto soddisfatto?"
+'Whether your feedback is about images, content, or structure, please share it, so that we can improve it together.':
+  fr: "Images, contenu, structure… N’hésitez pas à nous dire pourquoi afin de la faire évoluer ensemble !"
+  es: "Imágenes, contenido, estructura...: ayúdenos a mejorar nuestra documentación con sus sugerencias."
+  it: "Immagini, contenuti, struttura... Spiegaci perché, così possiamo migliorarla insieme!"
   nl: "Waarom was het niet nuttig?"
-  pt: "Porque é que não ficou satisfeito?"
-  de: "Warum war der Artikel nicht hilfreich?"
-  pl: "Dlaczego artykuł nie spełnił Twoich oczekiwań?"
+  pt: "Imagens, conteúdo, estrutura... Não hesite em dizer-nos porquê para evoluirmos em conjunto!"
+  de: "Woran liegt es? An den Bildern, dem Inhalt oder Aufbau der Anleitungen? Schreiben Sie es uns gerne, dann machen wir es zusammen besser."
+  pl: "Obrazy, zawartość, struktura - podziel się swoim pomysłem, my dołożymy wszelkich starań, aby wprowadzić ulepszenia."
 
 Send:
   fr: 'Envoyer'
@@ -188,11 +188,26 @@ Send:
   de: 'Vielen Dank. Ihr Feedback wurde gesendet'
   pl: 'Dziękujemy. Twoja opinia jest dla nas bardzo cenna'
 
-'Please feel free to make suggestions to enhance this documentation':
-  fr: "N'hésitez pas à nous proposer des suggestions d'amélioration afin de faire évoluer cette documentation"
+'Please feel free to give any suggestions in order to improve this documentation.':
+  fr: "N’hésitez pas à nous proposer des suggestions d’amélioration afin de faire évoluer cette documentation."
+  de: "Bevor Sie Ihre Meinung abgeben, nehmen wir gerne Ihre Vorschläge auf, wie wir diese Dokumente verbessern können."
+  es: "Si lo desea, también puede enviarnos sus sugerencias para ayudarnos a mejorar nuestra documentación."
+  it: "Prima di inviare la valutazione, proponici dei suggerimenti per migliorare la documentazione."
+  pl: "Zachęcamy do przesyłania sugestii, które pomogą nam ulepszyć naszą dokumentację."
+  pt: "Não hesite em propor-nos sugestões de melhoria para fazer evoluir este manual."
 
-'Support is not handled through this form, please use the form':
-  fr: "Vos demandes d'assistance ne seront pas traitées par ce formulaire. Pour cela, utilisez le formulaire"
+'Your support requests will not be processed via this form. To do this, please use the':
+  fr: "Vos demandes d’assistance ne seront pas traitées par ce formulaire. Pour cela, utilisez le formulaire"
+  de: "Ihre Support-Anfragen werden in diesem Formular nicht entgegengenommen. Verwenden Sie hierfür bitte das Formular"
+  es: "No podemos tratar sus solicitudes de asistencia a través de este formulario. Para ello, haga clic en"
+  it: "Le richieste di assistenza non sono gestite con questo form. Se ti serve supporto, utilizza il form"
+  pl: "Zgłoszenie przesłane za pomocą tego formularza nie zostanie obsłużone. Skorzystaj z formularza"
+  pt: "Os seus pedidos de assistência não serão tratados através deste formulário. Para isso, utilize o formulário"
 
-'Create a support request':
+'Create a ticket':
   fr: "Créer un ticket"
+  de: "Ein Ticket erstellen"
+  es: "Crear un tíquet"
+  it: "Crea un ticket"
+  pl: "Utwórz zgłoszenie"
+  pt: "Criar um ticket"
