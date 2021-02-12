@@ -37,3 +37,53 @@
 .feedbacks #form .no {
     color: var(--black);
 }
+
+#edit,
+#print,
+#sharing {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#print {
+  margin-bottom: 20px;
+}
+
+#sharing a:hover i {
+    text-decoration: none;
+}
+
+#sharing .dropdown-item {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#sharing .dropdown-item i{
+    margin-right: 3px;
+}
+
+#edit a.btn-default {
+  display: inline-block;
+  margin: 0;
+  border: 1px solid #ccc!important;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#edit a.btn-default,
+#edit a.btn-default:hover,
+#edit a.btn-default:hover i {
+  color: #333!important;
+  text-decoration: none;
+}
+
+#edit a.btn-default:hover {
+  background-color: #e6e6e6;
+}
+
+#edit i,
+#print i,
+#sharing i {
+  margin-right: 5px;
+}
