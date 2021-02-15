@@ -3,6 +3,7 @@
 #searchZone,
 .feedbacks,
 .site-title,
+.ovh-banner,
 a::after {
   display: none
 }
