@@ -211,3 +211,11 @@ Send:
   it: "Crea un ticket"
   pl: "Utwórz zgłoszenie"
   pt: "Criar um ticket"
+
+Print:
+  fr: Imprimer
+  de: Drucken
+  es: Imprimir
+  it: Stampare
+  pl: Drukuj
+  pt: Imprimir

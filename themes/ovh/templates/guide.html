@@ -109,6 +109,12 @@
             </div>
           </div>
         </div>
+        <div id="print">
+          <button class="btn btn-default" onclick="window.print();">
+            <i class="fas fa-print"></i>
+              {{'Print'|translate(entity.global)}}
+          </button>
+        </div>
 
         {% if entity.toc %}
           {{entity.toc.replace('<div id="toc"><ul>', '<div id="toc"><ul class="nav">')}}

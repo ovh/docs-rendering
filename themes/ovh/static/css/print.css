@@ -1,0 +1,55 @@
+#header20,
+#footer,
+#searchZone,
+.feedbacks,
+.site-title,
+.ovh-banner,
+a::after {
+  display: none
+}
+
+.entry-title .excerpt p {
+  color: #000 !important;
+}
+
+.action {
+  border: solid 2px var(--action);
+}
+
+@page {
+  size: auto;
+  margin: 0;
+}
+
+p,
+ul,
+ol,
+table,
+pre,
+.callout {
+  page-break-inside: avoid;
+}
+
+p ~ h3 {
+  page-break-before: always;
+}
+
+h2 + h3 {
+  page-break-before: avoid;
+}
+
+h2:first-of-type {
+  page-break-before: always;
+}
+
+h2:nth-of-type(2) {
+  page-break-before: avoid;
+}
+
+h2:nth-of-type(3) {
+  page-break-before: always;
+}
+
+.action {
+  white-space: nowrap;
+}
