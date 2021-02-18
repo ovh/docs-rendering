@@ -1,17 +1,45 @@
 .subguides {
-    margin: 1.5rem 30px;
+  margin: 1.5rem 30px;
 }
 
 .subguides::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #d3d3d3;
-    margin-bottom: 1.5rem;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin-bottom: 1.5rem;
 }
 
 #sidebar-nav a.subguides__link {
-    font-weight: normal;
-    padding-left: 0;
+  font-weight: normal;
+  padding-left: 0;
 }
+
+.subguides__parent {
+  font-weight: bold;
+}
+
+#sidebar-nav a.subguides__parent {
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.subguides__list__element {
+  position: relative;
+  padding-left: 1rem;
+}
+
+#sidebar-nav .subguides__list__element--active > a.subguides__link {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.subguides__list__element::before {
+  position: absolute;
+  left: 0;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0da'
+}
+

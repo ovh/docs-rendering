@@ -1,9 +1,21 @@
+{% set items = entity|tree %}
+
+{% if items.children %}
 <div class="subguides">
+  <a class="subguides__parent" href="/{{ items.url }}">{{ items.title }}</a>
   <ul class="subguides__list">
-    {% for child in entity.children %}
-    <li class="subguides__list__element">
-      <a class="subguides__link" href="/{{ child.url }}">{{ child.title }}</a>
-    </li>
+    {% for item in items.children recursive %}
+      <li class="subguides__list__element
+              {% if item.active %}subguides__list__element--active{% endif %}">
+        <a class="subguides__link" href="/{{ item.url }}">{{ item.title }}</a>
+      </li>
+
+      {% if item.children %}
+        <ul class="subguides__list">
+          {{ loop(item.children) }}
+        </ul>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
+{% endif %}
