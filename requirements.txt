@@ -4,3 +4,4 @@ pelican-entities==0.3.0
 markdown==2.6.11
 PyYAML
 beautifulsoup4==4.6.0
+mdx-include==1.4.1

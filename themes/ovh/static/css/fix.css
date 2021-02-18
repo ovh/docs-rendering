@@ -321,3 +321,7 @@ div.breadcrumbs {padding-top: 2px;}
 .ovh-banner img {
   margin-bottom: 0px !important;
 }
+
+.tabs-title > a .caps {
+  line-height: inherit;
+}
