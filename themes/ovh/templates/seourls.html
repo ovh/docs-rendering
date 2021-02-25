@@ -1,23 +1,12 @@
+{% import 'macros/entityurls.html' as entityurl %}
 {
-{% for entity in product.entities %}
-  "{{ entity.title|escape }}": {
-    {% set cur = 1 %}
-    {% set child_length = 1 %}
-    {% if entity.children %}
-      {% set child_length = entity.children|length %}
-    {% endif %}
-    {% for child in entity.children recursive %}
-    {% if loop.depth == 1 %}
-      {% set cur = loop.index %}
-    {% endif %}
-    "{{ child.title|escape }}": [
-      "{{ child.url }}"{{ ',' if child.translations }}
-      {% for translation in child.translations %}
-      "{{ translation.url }}"{{ ',' if not loop.last }}
-      {% endfor %}
-    ]{{ ',' if not loop.last or child.children or cur < child_length }}
-    {% if child.children %}{{loop(child.children)}}{% endif %}
-    {% endfor %}
-  }{{ ',' if not loop.last }}
-{% endfor %}
+  "universes": {
+{{ entityurl.entityurl(universe.entities) }}
+  },
+  "products": {
+{{ entityurl.entityurl(product.entities) }}
+  },
+  "guides": {
+{{ entityurl.entityurl(guide.entities) }}
+  }
 }
