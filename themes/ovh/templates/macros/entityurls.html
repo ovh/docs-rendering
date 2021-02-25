@@ -1,0 +1,10 @@
+{% macro entityurl(entities) -%}
+  {%- for entity in entities %}
+    "{{ entity.title|escape }}": [
+      "{{ entity.url }}"{{ "," if entity.translations }}
+      {% for translation in entity.translations %}
+      "{{ translation.url }}"{{ "," if not loop.last }}
+      {% endfor %}
+    ]{{ "," if not loop.last }}
+  {%- endfor %}
+{%- endmacro %}
