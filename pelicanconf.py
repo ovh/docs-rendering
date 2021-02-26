@@ -84,9 +84,10 @@ TRANSLATION_AUTHOR_FEED_RSS = None
 TRANSLATION_CATEGORY_FEED_RSS = None
 TRANSLATION_TAG_FEED_RSS = None
 
-DIRECT_TEMPLATES = ['sitemap', 'docsearch']
+DIRECT_TEMPLATES = ['sitemap', 'docsearch', 'seourls']
 SITEMAP_SAVE_AS = 'sitemap.xml'
 DOCSEARCH_SAVE_AS = 'docsearch.json'
+SEOURLS_SAVE_AS = 'seourls.json'
 
 # plugins
 PLUGIN_PATHS = ['plugins', 'plugins/contrib']
