@@ -1,0 +1,12 @@
+{% import 'macros/entityurls.html' as entityurl %}
+{
+  "universes": {
+{{ entityurl.entityurl(universe.entities) }}
+  },
+  "products": {
+{{ entityurl.entityurl(product.entities) }}
+  },
+  "guides": {
+{{ entityurl.entityurl(guide.entities) }}
+  }
+}
