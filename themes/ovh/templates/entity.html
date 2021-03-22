@@ -55,10 +55,10 @@
 
 {% block body %}
   {{- super() -}}
-    
+
   {% if entity.metadata.get('deprecated') == 'true' %}
     {% include 'components/deprecated/modal.html' %}
-  {% endif %} 
+  {% endif %}
 {% endblock %}
 
 {% block menu%}
@@ -162,20 +162,24 @@
 
         {% if entity.metadata.get('deprecated') == 'true' %}
           {% include 'components/deprecated/block.html' %}
-        {% endif %} 
+        {% endif %}
         {% endblock %}
-        
+
+        {% block above_content %}{% endblock %}
+
         <div id="page" class="row">
           {% block content %}
           {% endblock %}
         </div>
+
+        {% block after_content %}{% endblock %}
 {% endblock %}
 
 {% block community %}
   <div class="community-block">
     <div class="community-block-content text-center">
       <h2>{{'OVHcloud Community'|translate(entity.global)}}</h2>
-      <p>{{"Access your community space. Ask questions, search for information, post content, and interact with other OVHcloud Community members.y"|translate(entity.global)}}</p>
+      <p>{{"Access your community space. Ask questions, search for information, post content, and interact with other OVHcloud Community members."|translate(entity.global)}}</p>
       <a class="link" href="https://community.ovh.com/">{{'Visit OVHcloud Community'|translate(entity.global)}}</a>
     </div>
   </div>
@@ -198,7 +202,7 @@
 
   {% if entity.metadata.get('deprecated') == 'true' %}
     <script src="/{{ THEME_STATIC_DIR }}/js/components/deprecated.js"></script>
-  {% endif %} 
+  {% endif %}
 {% endblock %}
 
 {% block analytics %}
