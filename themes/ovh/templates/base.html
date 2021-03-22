@@ -34,6 +34,7 @@
     <script type="text/javascript">jQuery.noConflict();</script>
     <script src="https://www.ovh.com/fr/js/jquery.cookie.js"></script>
     <script src="https://www.ovh.com/fr/components/menu/menu.js"></script>
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/selectric.css" />
     <script type="text/javascript">
       (function($) {
         var pop = $('#cookiesPop');
@@ -61,6 +62,9 @@
         {% endblock %}
       </div>
 
+      {% block community %}
+      {% endblock %}
+
       {% block footer %}
       {% endblock %}
     </section>
@@ -73,7 +77,12 @@
       <script src="/{{ THEME_STATIC_DIR }}/js/mocks/doorbellMock.js"></script>
     {% endif %}
     <script src="/{{ THEME_STATIC_DIR }}/js/app.js"></script>
-
+    <script src="/{{ THEME_STATIC_DIR }}/js/jquery.selectric.min.js"></script>
+    <script>
+      $(function() {
+        $('select[data-selectric]').selectric();
+      });
+    </script>
     {% block scripts_bottom %}
     {% endblock %}
   {% endblock %}
