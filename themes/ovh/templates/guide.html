@@ -187,6 +187,9 @@
     </div>
 {% endblock %}
 
+{% block after_content %}
+    {% include 'components/topguides/topguides.html' %}
+{% endblock %}
 
 {% block scripts_bottom %}
     {{- super() -}}

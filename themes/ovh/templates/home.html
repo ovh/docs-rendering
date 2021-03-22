@@ -19,6 +19,10 @@
   </div>
 {% endblock %}
 
+{% block above_content %}
+    {% include 'components/topguides/topguides.html' %}
+{% endblock %}
+
 {% block content %}
 
     {{ super() }}
