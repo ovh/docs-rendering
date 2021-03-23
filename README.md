@@ -167,6 +167,7 @@ This plugin contains all custom processors for rendering content like `notices` 
 - `BlockApiProcessor` for ovh api calls
 - `BlockCarouselProcessor` for carousels
 - `BlockFaqProcessor` for FAQ sections
+- `BlockTabsProcessor` for tabs elements
 
 see markdown usages [here](https://github.com/ovh/docs/blob/master/docs-guideline/markdown-custom.md)
 
@@ -227,7 +228,7 @@ filter visible entities (visible property of entity == True)
 ```
 
 ##### translate
-translate a content according to a given language. Dictionary defined in [config/translations.yml](./config/translation.yml)
+translate a content according to a given language. Dictionary defined in [config/translations.yml](./config/translations.yml)
 
 ```jinja
 <!-- usage example -->

@@ -46,7 +46,7 @@ TRANSLATIONS_PATH="${DOCSRENDERING_PATH}/config/"
 trap "echo 'stoping container...' && docker stop ovh-docs-dev-env" 2
 
 docker run --rm \
-    -v $DOCS_FOLDER/pages:/home/python/src/pages \
+    -v $DOCS_FOLDER/pages:/home/python/src/docs/pages \
     -v $THEMES_PATH:/home/python/src/docs/themes \
     -v $PLUGINS_PATH:/home/python/src/docs/plugins \
     -v $SETTINGS_PATH:/home/python/src/docs/pelicanconf.py \

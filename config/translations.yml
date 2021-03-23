@@ -81,15 +81,15 @@ Translations:
   pl: 'Dokumentacja techniczna OVH'
   pt: 'Manuais OVH'
 
-'Search OVH guides':
-  fr: 'Rechercher dans la documentation OVH'
-  cz: 'Prohledat příručky OVH'
-  it: 'Cerca nella documentazione OVH'
-  de: 'OVH Dokumentation durchsuchen'
-  es: 'Buscar en la documentación de OVH'
+'Search OVHcloud guides':
+  fr: 'Rechercher dans la documentation OVHcloud'
+  cz: 'Prohledat příručky OVHcloud'
+  it: 'Cerca nella documentazione OVHcloud'
+  de: 'OVHcloud Dokumentation durchsuchen'
+  es: 'Buscar en la documentación de OVHcloud'
   fi: 'Etsi OVH:n ohjeista'
-  nl: 'Zoek OVH-handleidingen'
-  pl: 'Szukaj w dokumentacji technicznej OVH'
+  nl: 'Zoek OVHcloud-handleidingen'
+  pl: 'Szukaj w dokumentacji technicznej OVHcloud'
   pt: 'Procurar Manuais'
 
 'These guides might also interest you':
@@ -226,8 +226,8 @@ Print:
 "Access your community space. Ask questions, search for information, post content, and interact with other OVHcloud Community members.":
   fr: "Accédez à votre espace communautaire. Posez vos questions, recherchez des informations, publiez du contenu et interagissez avec d'autres membres d'OVHcloud Community."
 
-'Visit OVHcloud Community':
-  fr: 'Visitez OVHcloud Community'
+'Discuss with the OVHcloud community':
+  fr: 'Echanger sur OVHcloud Community'
 
 'IP management':
   fr: 'Gestion des IP'
@@ -235,7 +235,7 @@ Print:
   it: 'Gestione degli IP'
 
 'Customer data protection':
-  fr: 'Protection de données client'
+  fr: 'Protection des données client'
   es: 'Protección de datos del cliente'
   it: 'Protezione dei dati dei clienti'
 
@@ -253,6 +253,21 @@ Print:
   fr: 'Gestion des VPS'
   es: 'Gestión de VPS'
   it: 'Gestione dei VPS'
+
+'Managing Hosted Private Cloud':
+  fr: 'Gestion des services Hosted Private Cloud'
+
+'Restoring backups via the OVHcloud API':
+  fr: 'Restaurer des sauvegardes via les API OVHcloud'
+
+'Reregister VMs in a new Hosted Private Cloud':
+  fr: 'Restaurer des VM via vSphere'
+
+'https://docs.ovh.com/gb/en/private-cloud/veeam-backup-restoration/':
+  fr: 'https://docs.ovh.com/fr/private-cloud/veeam-backup-restoration/'
+
+'https://docs.ovh.com/gb/en/private-cloud/vsphere-register-vm-vmx/':
+  fr: 'https://docs.ovh.com/fr/private-cloud/vsphere-register-vm-vmx/'
 
 'https://docs.ovh.com/gb/en/dedicated/ip-fo-move/':
   fr: 'https://docs.ovh.com/fr/dedicated/ip-fo-move/'
@@ -352,3 +367,6 @@ Print:
 
 'Most consulted guides':
   fr: 'Les tutoriels les plus consultés'
+
+'Our tutorials by cloud universe':
+  fr: 'Tous nos tutoriels par univers cloud'

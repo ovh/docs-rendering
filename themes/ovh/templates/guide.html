@@ -120,9 +120,7 @@
           {{entity.toc.replace('<div id="toc"><ul>', '<div id="toc"><ul class="nav">')}}
         {% endif %}
 
-        {% if entity.children %}
-          {% include 'components/subguides/subguides.html' %}
-        {% endif %}
+        {% include 'components/subguides/subguides.html' %}
       </nav>
     </div>
     {% endif %}
