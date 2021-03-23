@@ -5,6 +5,24 @@
     <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/home.css" />
 {% endblock %}
 
+{% block hero %}
+  <div class="entry-content text-left">
+    <div class="columns large-8">
+      <h1>{{entity.title}}</h1>
+      <div class="excerpt">
+        <p class="first last">{{entity.excerpt}}</p>
+      </div>
+    </div>
+    <div class="columns large-4">
+      <img src="/{{ THEME_STATIC_DIR }}/img/header.svg" alt="">
+    </div>
+  </div>
+{% endblock %}
+
+{% block above_content %}
+    {% include 'components/topguides/topguides.html' %}
+{% endblock %}
+
 {% block content %}
 
     {{ super() }}
@@ -15,19 +33,21 @@
               <div class="row">
               {% for l1item in entity.children|sort(attribute='order') %}
                 <div class="columns large-4 medium-4 small-12">
-                  <div class="splash {{l1item.color}}">
-                    <img src="/{{ THEME_STATIC_DIR }}/img/universe/{{l1item.img}}" alt="{{l1item.title}}">
-                    <h2>
-                      <span class="caps">{{l1item.title}}</span>
-                    </h2>
+                  <div class="card">
+                    <div class="splash">
+                      <img src="/{{ THEME_STATIC_DIR }}/img/universe/{{l1item.img}}" alt="{{l1item.title}}">
+                      <h2>
+                        <span class="caps">{{l1item.title}}</span>
+                      </h2>
+                    </div>
+                    <ul>
+                      {% for l2item in l1item.children %}
+                      <li>
+                        <a href="/{{l2item.url}}">{{l2item.title}}</a>
+                      </li>
+                      {% endfor %}
+                    </ul>
                   </div>
-                  <ul>
-                    {% for l2item in l1item.children %}
-                    <li>
-                      <a href="/{{l2item.url}}">{{l2item.title}}</a>
-                    </li>
-                    {% endfor %}
-                  </ul>
                 </div>
               {% if loop.index > 0 and loop.index % 3 == 0 %}
               </div>

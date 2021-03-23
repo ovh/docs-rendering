@@ -219,3 +219,136 @@ Print:
   it: Stampare
   pl: Drukuj
   pt: Imprimir
+
+'OVHcloud Community':
+  fr: 'OVHcloud Community'
+
+"Access your community space. Ask questions, search for information, post content, and interact with other OVHcloud Community members.":
+  fr: "Accédez à votre espace communautaire. Posez vos questions, recherchez des informations, publiez du contenu et interagissez avec d'autres membres d'OVHcloud Community."
+
+'Visit OVHcloud Community':
+  fr: 'Visitez OVHcloud Community'
+
+'IP management':
+  fr: 'Gestion des IP'
+  es: 'Gestión de direcciones IP'
+  it: 'Gestione degli IP'
+
+'Customer data protection':
+  fr: 'Protection de données client'
+  es: 'Protección de datos del cliente'
+  it: 'Protezione dei dati dei clienti'
+
+'Instance management':
+  fr: 'Gestion des instances'
+  es: 'Gestión de instancias'
+  it: 'Gestione delle istanze'
+
+'Managing dedicated servers':
+  fr: 'Gestion des serveurs dédiés'
+  es: 'Gestión de servidores dedicados'
+  it: 'Gestione dei server dedicati'
+
+'VPS management':
+  fr: 'Gestion des VPS'
+  es: 'Gestión de VPS'
+  it: 'Gestione dei VPS'
+
+'https://docs.ovh.com/gb/en/dedicated/ip-fo-move/':
+  fr: 'https://docs.ovh.com/fr/dedicated/ip-fo-move/'
+
+'https://docs.ovh.com/gb/en/public-cloud/make-failover-ip-configuration-persistent/':
+  fr: 'https://docs.ovh.com/fr/public-cloud/rendre-la-configuration-ip-fail-over-persistante/#configuration-de-lip-fail-over_1'
+
+'https://docs.ovh.com/gb/en/public-cloud/configure_a_failover_ip/':
+  fr: 'https://docs.ovh.com/fr/public-cloud/configurer_une_ip_failover/'
+
+'https://docs.ovh.com/gb/en/customer/scams-fraud-phishing/':
+  fr: 'https://docs.ovh.com/fr/customer/arnaques-fraude-phishing/'
+
+'https://docs.ovh.com/gb/en/customer/secure-account-with-2FA/':
+  fr: 'https://docs.ovh.com/fr/customer/securiser-son-compte-avec-une-2FA/'
+
+'https://docs.ovh.com/gb/en/public-cloud/increase-public-cloud-quota/':
+  fr: 'https://docs.ovh.com/fr/public-cloud/augmenter-le-quota-public-cloud/'
+
+'https://docs.ovh.com/gb/en/public-cloud/get-started-with-a-public-cloud-instance/#reboot-an-instance':
+  fr: 'https://docs.ovh.com/fr/public-cloud/debuter-avec-une-instance-public-cloud/#redemarrer-une-instance'
+
+'https://docs.ovh.com/gb/en/dedicated/ovh-rescue/#instructions':
+  fr: 'Https://docs.ovh.com/fr/dedicated/ovh-rescue/#en-pratique'
+
+'https://docs.ovh.com/gb/en/dedicated/use-ipmi-dedicated-servers/':
+  fr: 'https://docs.ovh.com/fr/dedicated/utilisation-ipmi-serveurs-dedies/'
+
+'https://docs.ovh.com/gb/en/dedicated/services-backup-storage/#accessbackup':
+  fr: 'https://docs.ovh.com/fr/dedicated/services-backup-storage/#accessbackup'
+
+'https://docs.ovh.com/gb/en//vps/vps-faq/#backupstorage':
+  fr: 'https://docs.ovh.com/fr/vps/vps-faq/#backupstorage'
+
+'https://docs.ovh.com/gb/en/vps/getting-started-vps/#reboot-current-range':
+  fr: 'https://docs.ovh.com/fr/vps/debuter-avec-vps/#reboot-current-range'
+
+'Move a failover IP':
+  fr: 'Déplacer une IP Failover'
+  es: 'Mover una IP Failover'
+  it: 'Trasferisci un IP failover'
+
+'Make a failover IP configuration persistent':
+  fr: 'Rendre la configuration IP Failover persistante'
+  es: 'Hacer persistente la configuración de IP Failover'
+  it: 'Configura un IP Failover permanente'
+
+'Import a failover IP':
+  fr: 'Configurer une IP Failover'
+  es: 'Configurar una IP Failover'
+  it: 'Importa un IP Failover'
+
+'Recognising fraud and phishing emails/SMS messages':
+  fr: 'Reconnaître des e-mails ou SMS de fraude et de phishing'
+  es: 'Detectar los mensajes de correo o SMS fraudulentos y el phishing'
+  it: 'Come riconoscere email fraudolente e di phishing'
+
+'Securing OVHcloud accounts with two-factor authentication':
+  fr: 'Sécuriser son compte OVHcloud avec la double authentification'
+  es: 'Proteger su cuenta de OVHcloud con la doble autenticación'
+  it: 'Rendere sicuro il tuo account OVHcloud con la doppia autenticazione'
+
+'Increasing the quota of Public Cloud instances':
+  fr: 'Augmenter le quota des instances Public Cloud'
+  es: 'Aumentar el límite de las instancias Public Cloud'
+  it: 'Aumentare la quota delle istanze Public Cloud'
+
+'Rebooting a Public Cloud instance':
+  fr: 'Redémarrer une instance Public Cloud'
+  es: 'Reiniciar una instancia Public Cloud'
+  it: "Riavviare un'istanza Public Cloud"
+
+'Activating and using rescue mode':
+  fr: 'Activer et utiliser le mode rescue'
+  es: 'Activar y utilizar el modo de rescate'
+  it: 'Attivare e utilizzare la modalità Rescue'
+
+'Using the IPMI with dedicated servers':
+  fr: 'Utiliser l’IPMI pour les serveurs dédiés'
+  es: 'Utilizar IPMI en un servidor dedicado'
+  it: "Utilizzare l'IPMI sui server dedicati"
+
+'Enabling backup storage on a dedicated server':
+  fr: 'Activer Backup Storage sur un serveur dédié'
+  es: 'Utilizar Backup Storage en un servidor dedicado'
+  it: "Attivare il Backup Storage su un server dedicato"
+
+'Access your backup':
+  fr: 'Accéder à votre backup'
+  es: 'Acceder a su backup'
+  it: 'Accedi al backup'
+
+'Reboot a VPS':
+  fr: 'Redemarrer un VPS'
+  es: 'Reiniciar un VPS'
+  it: 'Riavvia un VPS'
+
+'Most consulted guides':
+  fr: 'Les tutoriels les plus consultés'

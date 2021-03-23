@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
     <link rel="stylesheet" media="print" href="/{{ THEME_STATIC_DIR }}/css/print.css" />
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/components/topguides.css" />
     {% endblock %}
     {% block canonical %}{% endblock %}
     {% block metas %}
@@ -34,6 +35,8 @@
     <script type="text/javascript">jQuery.noConflict();</script>
     <script src="https://www.ovh.com/fr/js/jquery.cookie.js"></script>
     <script src="https://www.ovh.com/fr/components/menu/menu.js"></script>
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/selectric.css" />
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
     <script type="text/javascript">
       (function($) {
         var pop = $('#cookiesPop');
@@ -61,6 +64,9 @@
         {% endblock %}
       </div>
 
+      {% block community %}
+      {% endblock %}
+
       {% block footer %}
       {% endblock %}
     </section>
@@ -74,6 +80,13 @@
       <script src="/{{ THEME_STATIC_DIR }}/js/mocks/doorbellMock.js"></script>
     {% endif %}
     <script src="/{{ THEME_STATIC_DIR }}/js/app.js"></script>
+    <script src="/{{ THEME_STATIC_DIR }}/js/jquery.selectric.min.js"></script>
+    <script>
+      $(function() {
+        $('select[data-selectric]').selectric();
+      });
+    </script>
+    <script src="/{{ THEME_STATIC_DIR }}/js/components/embla.js"></script>
 
     {% block scripts_bottom %}
     {% endblock %}
