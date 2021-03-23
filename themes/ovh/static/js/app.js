@@ -21,4 +21,7 @@ $(function(){
     $('#cookiesPop').remove();
   });
 
+  $('.tabs').each(function(_, el) {
+    new Foundation.Tabs($(el));
+  });
 });

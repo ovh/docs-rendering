@@ -4,6 +4,8 @@ from __future__ import unicode_literals
 
 import re
 import sys, traceback
+import collections
+import uuid
 
 from markdown.blockprocessors import BlockProcessor
 from markdown import util
@@ -45,7 +47,7 @@ class BlockCalloutProcessor(DefaultBlockProcessor):
             block = '\n'.join(
                 [self.clean(line) for line in block[m.start():].split('\n')][1:]
             )
-        
+
         div = util.etree.SubElement(parent, 'div')
         div.attrib = { 'class': 'callout {}'.format(css_class) }
 
@@ -119,8 +121,9 @@ class BlockApiProcessor(DefaultBlockProcessor):
                     block = """<div class="ovh-api-main">
                                    <a target="_blank" href="https://eu.api.ovh.com/console/#{0}#{1}">
                                        <span class="ovh-api-verb ovh-api-verb-{1}">{2}</span>
-                                       <span class="ovh-api-endpoint">{0}</span></a>""".format(endpoint, method.upper(), method)
-                    
+                                       <span class="ovh-api-endpoint">{0}</span></a>
+                                </div>""".format(endpoint, method.upper(), method)
+
                     self.parser.state.set('div')
                     self.parser.parseChunk(div, block)
                     self.parser.state.reset()
@@ -143,7 +146,7 @@ class BlockCarouselProcessor(DefaultBlockProcessor):
 
         root = util.etree.SubElement(parent, 'div')
         root.attrib = { 'class': 'carousel' }
-    
+
         for line in lines:
             m = self.RE_IMG.match(line)
             if m:
@@ -201,9 +204,9 @@ class BlockFaqProcessor(DefaultBlockProcessor):
                 else:
                     self.append_answer_and_table(element, answer, item)
                     answer = []
-            
+
             self.append_answer_and_table(element, answer, [])
-    
+
     def append_answer_and_table(self, element, answer, table):
         if len(answer):
             dd = util.etree.SubElement(element, 'dd')
@@ -213,15 +216,15 @@ class BlockFaqProcessor(DefaultBlockProcessor):
             dd = util.etree.SubElement(element, 'dd')
             t = util.etree.SubElement(dd, 'table')
             t.attrib = {'class': 'first last docutils field-list'}
-            
+
             for (name, body) in table:
                 tr = util.etree.SubElement(t, 'tr')
                 tr.attrib = {'class': 'field'}
-                
+
                 th = util.etree.SubElement(tr, 'th')
                 th.attrib = {'class': 'field-name'}
                 th.text = name
-                
+
                 td = util.etree.SubElement(tr, 'td')
                 td.attrib = {'class': 'field-body'}
                 self.parser.parseChunk(td, '\n'.join([l for l in body]))
@@ -258,3 +261,106 @@ class BlockFaqProcessor(DefaultBlockProcessor):
 
         self.parser.state.set('dl')
         self.parser.state.reset()
+
+
+class BlockTabsProcessor(DefaultBlockProcessor):
+    RE = re.compile(r"(^|\n)\>[ ]?\[\!tabs\]")
+
+    def __init__(self, parser, extension):
+        super(BlockTabsProcessor, self).__init__(parser, extension)
+
+    def test(self, parent, block):
+        return bool(self.RE.match(block))
+
+    def build_tabs_object(self, lines):
+        tabs = collections.OrderedDict()
+        currentTitle = None
+
+        for line in lines:
+            if line[0] != ">":
+                currentTitle = line
+                if currentTitle not in tabs:
+                    tabs[currentTitle] = []
+            elif line[0] == ">" and currentTitle is not None:
+                tabs[currentTitle].append(self.clean(line))
+
+        return tabs
+
+    def run(self, parent, blocks):
+        block = blocks.pop(0)
+        m = self.RE.search(block)
+
+        if m:
+            before = block[:m.start()]
+            self.parser.parseBlocks(parent, [before])
+            lines = [self.clean(line) for line in
+                    block[m.start():].split('\n')][1:]
+        else:
+            lines = []
+
+        if lines:
+            try:
+                tabs = self.build_tabs_object(lines)
+                uid = uuid.uuid1()
+
+                # main div
+                root = util.etree.SubElement(parent, 'div')
+                root.attrib = { 'class': 'ovh__tabs' }
+
+                # tabs titles
+                titles = util.etree.SubElement(root, 'ul')
+                titles.attrib = {
+                    'class': 'tabs',
+                    'data-tabs': '',
+                    'id': 'collapsing-tabs-{}'.format(uid)
+                }
+
+                # tabs content
+                content = util.etree.SubElement(root, 'div')
+                content.attrib = {
+                    'class': 'tabs-content',
+                    'data-tabs-content': 'collapsing-tabs-{}'.format(uid)
+                }
+
+                for index, tab in enumerate(tabs):
+                    is_active = index == 0
+                    panel = 'panel-{}-{}'.format(uid, index)
+
+                    # append titles
+                    titles_li = util.etree.SubElement(titles, 'li')
+                    titles_li.attrib = {
+                        'class': 'tabs-title' +
+                            (' is-active' if is_active else '')
+                    }
+
+                    link = util.etree.SubElement(titles_li, 'a')
+                    link.attrib = {
+                        'href': '#{}'.format(panel)
+                    }
+
+                    if index == 0:
+                        link.attrib['aria-selected'] = 'true'
+
+                    link.text = tab
+
+                    # append content
+                    children = tabs[tab]
+
+                    wrapper = util.etree.SubElement(content, 'div')
+                    wrapper.attrib = {
+                        'class': 'tabs-panel' +
+                            (' is-active' if is_active else ''),
+                        'id': '{}'.format(panel)
+                    }
+
+                    # run preprocessors on tabs content
+                    for prep in self.parser.markdown.preprocessors.values():
+                        children = prep.run(children)
+
+                    self.parser.parseChunk(wrapper, '\n'.join(children))
+
+            except Exception as e:
+                ex_type, ex, tb = sys.exc_info()
+                del ex_type, ex
+                traceback.print_tb(tb)
+

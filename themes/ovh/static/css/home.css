@@ -1,3 +1,7 @@
+#homepage {
+	max-width: 1380px;
+	margin: 0 auto;
+}
 #homepage > div {
 	list-style: outside none none;
 	padding: 0 5 !important;
@@ -19,45 +23,56 @@
 	margin-bottom: 5px;
 }
 #homepage > div ul {
-	background-color: #2b292a;
 	list-style-type: none;
-	margin: 0;
+	margin: 10px 0;
 	padding: 0;
 }
 #homepage > div ul li a {
-	border-bottom: 1px solid #3c3b3c;
-}
-#homepage > div ul li a {
-	color: #fff;
-	display: block;
-	font-family: "SourceSansPro",sans-serif !important;
-	font-size: 20px;
-	letter-spacing: 0.2px;
-	line-height: 24px;
-	padding: 10px 20px;
-	text-align: left;
-	text-decoration: none;
-	text-transform: uppercase;
+    color: #0050D7;
+    display: block;
+    font-family: "SourceSansPro",sans-serif !important;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 4px 15px;
+    text-align: left;
+    text-decoration: none;}
+#homepage > div ul li a::after {
+    content: url(../img/arrow-right.svg);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transform: scale(0.6);
 }
 #homepage > div ul li a:hover {
 	color: #66c9f0;
 }
 #homepage .splash {
 	text-align: center;
-	height: 250px;
+	padding: 15px 0;
 }
 #homepage .splash img {
 	position: relative;
-	top: 40px;
+	margin: 0;
+	max-width: 100px;
+	margin-bottom: 16px;
 }
 #homepage .splash h2 {
-	color: white;
+	color: #00185E;
 	font-family: "SourceSansPro",sans-serif !important;
 	font-size: 34px;
-	font-weight: normal;
-	line-height: 40px;
+	font-weight: bold;
 	position: relative;
-	top: 25px;
+	margin: 0 !important;
+}
+#homepage .card {
+	border: 1px solid #85D9FD;
+	overflow: hidden;
+	border-radius: 13px;
+}
+#homepage .card .splash {
+  background-color: #F5FEFF;
 }
 #homepage .splash.green {
 	background: #5da999 none repeat scroll 0 0;
@@ -82,4 +97,21 @@
 }
 #homepage .splash.orange {
 	background: #FF3300 none repeat scroll 0 0;
+}
+#homepage .section-title {
+  height: 56px;
+  margin-bottom: -2rem;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #00185E;
+}
+#homepage .columns:last-child:not(:first-child) {
+  float: left;
+}
+@media (min-width: 768px) {
+  #homepage .section-title {
+  	text-align: left;
+    padding-left: 8rem;
+  }
 }

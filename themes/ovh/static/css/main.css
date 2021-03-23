@@ -4589,40 +4589,40 @@ h6, h6 * {
   line-height: 1em;
   font-size: 2.8rem;
   display: block;
-  padding: 32px 32px 80px 32px;
+  padding: 0 32px 55px 32px;
   color: white;
-  background: #000 url("../img/Illu_guide.jpg") top center no-repeat;
-  background-size: cover;
+  background: url(../img/header-background.png) no-repeat center, linear-gradient(90deg,#000e9c,#0050d7) no-repeat padding-box;
   margin: 112px 0 0 0; }
   .entry-title .site-title {
     text-align: left;
     color: white;
     font-size: 17px; }
   .entry-title .excerpt {
-    max-width: 800px;
     margin: 0 auto; }
     .entry-title .excerpt p {
       color: white !important;
-      text-align: center;
+      line-height: 38px;
       font-size: 1.8rem; }
     .entry-title .excerpt a {
       font-size: 1.8rem;
       color: #1db9de !important; }
   .entry-title h1 {
     display: block;
-    padding: 60px 32px 32px 32px;
+    margin-bottom: 36px !important;
+    font-weight: bold;
     color: #FFF;
-    margin: 0;
-    text-align: center; }
-    .entry-title h1:after {
-      content: '';
-      height: 3px;
-      background: #1db9de;
-      width: 128px;
-      margin: auto;
-      display: block;
-      margin-top: 44px; }
-
+    font-size: 58px !important;
+    margin: 0;}
+.entry-content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 35px;
+}
+.entry-content.text-left {
+    text-align: left;
+    max-width: 1000px;
+}
 .section {
   margin: 50px 0 0 0; }
   .section h1 a[href^="#"], .section h2 a[href^="#"], .section h3 a[href^="#"], .section h4 a[href^="#"], .section h5 a[href^="#"], .section h6 a[href^="#"] {
@@ -4781,8 +4781,7 @@ dl.docutils .classifier-delimiter {
 .breadcrumbs {
   margin: 0 !important;
   display: block;
-  width: 100%;
-  border-top: solid #39BEE0 1px; }
+  width: 100%; }
   .breadcrumbs li {
     margin-top: 10px; }
     .breadcrumbs li:not(:last-child):after {
@@ -4995,13 +4994,19 @@ dl.docutils .classifier-delimiter {
   text-decoration: line-through; }
 
 #searchZone {
-  background: #E9EBE6; }
+  background: #000A83; }
 
 #search {
   position: relative;
-  padding: 35px 0 30px 0;
+  padding: 22px 0;
   font-size: 17px;
   line-height: 1.5; }
+  #search::after {
+    content: url('../img/search.png');
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-40%); }
   #search .input-group {
     margin-bottom: 0px;
     display: inline; }
@@ -5018,17 +5023,18 @@ dl.docutils .classifier-delimiter {
   #search span, #search span.algolia-autocomplete {
     width: 100%; }
   #search .algoliaSearch {
-    background: white;
-    width: 100%;
-    border-radius: 3px;
-    border: 1px solid #143F6C;
-    font-weight: 200;
-    line-height: 56px;
-    font-size: 24px;
-    height: 56px;
-    text-indent: 24px;
-    padding: 3px;
-    color: #687689; }
+      background: white;
+      width: 100%;
+      border-radius: 18px;
+      border: 1px solid #85D9FD;
+      font-weight: 200;
+      height: 56px;
+      text-indent: 24px;
+      padding: 3px;
+      color: #687689;
+      margin: 0; }
+    #search .algoliaSearch::placeholder {
+        color: #4D5592; }
     #search .algoliaSearch:focus {
       color: #143F6C;
       outline: none; }
@@ -5112,3 +5118,110 @@ dl.docutils .classifier-delimiter {
     color: #eee; }
   .command-prompt .output {
     color: #999; }
+
+.community-block {
+  padding: 90px 0;
+  color: #ffffff;
+  background: url(../img/community.png) no-repeat center, linear-gradient(90deg,#000e9c,#0050d7) no-repeat padding-box;
+  background-size: cover;
+}
+.community-block h2 {
+  font-weight: bold;
+  font-size: 72px !important;
+  color: #fff;
+  margin-bottom: 36px;
+}
+.community-block p {
+  font-size: 34px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.community-block .link {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px 35px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #0050D7;
+}
+.community-block .link:hover,
+.community-block .link:active {
+  background-color: #f5feff;
+  color: #0050D7 !important;
+  text-decoration: none;
+}
+.community-block .community-block-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.selectric-wrapper .selectric {
+  border: 1px solid #85D9FD;
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.selectric-wrapper.selectric-open .selectric {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-color: #85D9FD;
+}
+.selectric-wrapper .selectric .label {
+  font-size: 16px !important;
+  padding: 0 10px;
+  text-align: left;
+  color: #0050D7;
+  font-weight: bold;
+  line-height: 37px;
+  background: none;
+}
+.selectric-wrapper .selectric .button {
+  background: none;
+}
+
+.selectric-wrapper .selectric .button:after {
+  content: url(../img/chevronDown.svg);
+  top: 5px;
+  right: 0;
+  width: auto;
+  height: auto;
+  border: none;
+  transition: 0.2s ease;
+  transform-origin: 50% 40%;
+}
+.selectric-wrapper.selectric-open .selectric .button:after {
+  transform: rotateX(180deg);
+}
+.selectric-wrapper .selectric-items {
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #85D9FD;
+  border-top: none;
+}
+.selectric-wrapper .selectric-items li {
+  float: none;
+  background: #fff !important;
+  font-size: 16px;
+}
+.docs-lang-selector {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.selectric-wrapper .selectric-items li {
+  color: #0050D7;
+  padding: 10px 10px;
+}
+.selectric-wrapper .selectric-items li.selected {
+  color: #0050D7 !important;
+  background: #DEF8FF !important;
+}
+.selectric-wrapper .selectric-items li:hover {
+  color: #0050D7;
+  background: #BEF1FF !important;
+}
+.selectric-wrapper .selectric-items li + li {
+  border-top: 1px solid #85D9FD;
+}

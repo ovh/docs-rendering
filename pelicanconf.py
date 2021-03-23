@@ -94,10 +94,17 @@ PLUGIN_PATHS = ['plugins', 'plugins/contrib']
 PLUGINS = ['ovh_entities', 'ovh_filters', 'ovh_markdown', 'pelican-toc', 'pelican-md-metayaml']
 
 MARKDOWN = {
-    'extensions': ['markdown.extensions.codehilite', 'markdown.extensions.extra'],
+    'extensions': [
+        'markdown.extensions.codehilite',
+        'markdown.extensions.extra',
+        'mdx_include'
+    ],
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
+        'mdx_include': {
+            'base_path': 'pages',
+        }
     },
 }
 

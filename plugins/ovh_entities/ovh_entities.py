@@ -64,7 +64,7 @@ def handle_entity_generator_finalized(generator):
         items = [entity]
         items += entity.translations
         parent = [e for e in generator.entities if e.dir == entity.parent_dir and entity.type in e.settings['CHILDREN']]
-        
+
         if len(parent) == 0 and not entity.settings['IS_ROOT']:
             logger.warning("No parent found for file %s", entity.source_path)
 
@@ -131,7 +131,7 @@ class OvhEntity(Entity):
                 parents_found = [t for t in e.parent.translations if t.getLang() == lang]
                 if len(parents_found) > 0:
                     e.parent = parents_found[0]
-                
+
             self._parents.insert(0, e.parent)
             e = e.parent
 
@@ -161,7 +161,7 @@ class OvhEntity(Entity):
         self._override_url = generated_url
 
         return self._override_url
-    
+
     @property
     def override_save_as(self):
         return self.override_url + 'index.html'
@@ -197,7 +197,7 @@ class OvhEntity(Entity):
             value = m.group('value')
             path = m.group('path')
             title = m.group('text')
-            
+
             if what == 'legacy' and hasattr(self, 'lang'):
                 key = '{}-{}'.format(self.lang, value)
                 if key in self._context['uids']:
@@ -208,7 +208,7 @@ class OvhEntity(Entity):
                     value = '#legacy:' + value
             elif what == 'ovh_www' and hasattr(self, 'lang'):
                 value = self.appendOvhHost(value)
-                
+
             return '<a href="{}">{}<'.format(value, title)
 
         return hrefs.sub(replacer, content)
@@ -219,7 +219,7 @@ class OvhEntity(Entity):
     def appendOvhHost(self, value):
         if not value:
             return ''
-        
+
         if (value[0] != '/'):
             value = '/' + value
 
@@ -251,7 +251,7 @@ class OvhEntityGenerator(EntityGenerator):
                     files.append(filepath)
 
             return files
-        
+
         def generate_context(self):
             """Add the entities into the shared context"""
 

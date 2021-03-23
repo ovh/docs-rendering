@@ -4,7 +4,8 @@
 .feedbacks,
 .site-title,
 .ovh-banner,
-a::after {
+a::after,
+#newHelpbox {
   display: none
 }
 
@@ -52,4 +53,26 @@ h2:nth-of-type(3) {
 
 .action {
   white-space: nowrap;
+}
+
+.tabs-panel {
+  page-break-inside: avoid;
+  display: block;
+  border: 1px solid lightgray;
+}
+
+.tabs-panel:not(:first-of-type) {
+  margin-top: 1rem;
+}
+
+.tabs {
+  display: none;
+}
+
+.tabs-content {
+  border: none;
+}
+
+.highlight pre {
+  white-space: pre-wrap;
 }

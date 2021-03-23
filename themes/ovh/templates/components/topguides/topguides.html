@@ -1,0 +1,89 @@
+{% set data = [
+  {
+    'title': 'IP management',
+    'data': [
+      {'title': 'Move a failover IP', 'url': 'https://docs.ovh.com/gb/en/dedicated/ip-fo-move/'},
+      {'title': 'Make a failover IP configuration persistent', 'url': 'https://docs.ovh.com/gb/en/public-cloud/make-failover-ip-configuration-persistent/'},
+      {'title': 'Import a failover IP', 'url': 'https://docs.ovh.com/gb/en/public-cloud/configure_a_failover_ip/'}
+    ]
+  },
+  {
+    'title': 'Customer data protection',
+    'data': [
+      {'title': 'Recognising fraud and phishing emails/SMS messages', 'url': 'https://docs.ovh.com/gb/en/customer/scams-fraud-phishing/'},
+      {'title': 'Securing OVHcloud accounts with two-factor authentication', 'url': 'https://docs.ovh.com/gb/en/customer/secure-account-with-2FA/'}
+    ]
+  },
+  {
+    'title': 'Instance management',
+    'data' : [
+      {'title': 'Increasing the quota of Public Cloud instances', 'url': 'https://docs.ovh.com/gb/en/public-cloud/increase-public-cloud-quota/'},
+      {'title': 'Rebooting a Public Cloud instance', 'url': 'https://docs.ovh.com/gb/en/public-cloud/get-started-with-a-public-cloud-instance/#reboot-an-instance'}
+    ]
+  },
+  {
+    'title': 'Managing dedicated servers',
+    'data': [
+      {'title': 'Activating and using rescue mode', 'url': 'https://docs.ovh.com/gb/en/dedicated/ovh-rescue/#instructions'},
+      {'title': 'Using the IPMI with dedicated servers', 'url': 'https://docs.ovh.com/gb/en/dedicated/use-ipmi-dedicated-servers/'},
+      {'title': 'Enabling backup storage on a dedicated server', 'url': 'https://docs.ovh.com/gb/en/dedicated/services-backup-storage/#accessbackup'},
+    ]
+  },
+  {
+    'title': 'VPS management',
+    'data': [
+      {'title': 'Access your backup', 'url': 'https://docs.ovh.com/gb/en//vps/vps-faq/#backupstorage'},
+      {'title': 'Reboot a VPS', 'url': 'https://docs.ovh.com/gb/en/vps/getting-started-vps/#reboot-current-range'}
+    ]
+  },
+  {
+    'title': 'Managing Hosted Private Cloud',
+    'data': [
+      {'title': 'Restoring backups via the OVHcloud API', 'url': 'https://docs.ovh.com/gb/en/private-cloud/veeam-backup-restoration/'},
+      {'title': 'Reregister VMs in a new Hosted Private Cloud', 'url': 'https://docs.ovh.com/gb/en/private-cloud/vsphere-register-vm-vmx/'}
+    ]
+  }
+] %}
+
+<div class="top-guides">
+  <div class="embla-wrapper">
+    <div class="top-guides__title">{{ 'Most consulted guides'|translate(entity.global) }}</div>
+
+    <div class="embla">
+      <div class="embla__viewport">
+        <div class="embla__container">
+          {% for i in data %}
+          <div class="embla__slide">
+            <div class="top-guide">
+              <div class="top-guide__title">{{ i.title|translate(entity.global) }}</div>
+              <ul class="top-guide__links">
+                {% for d in i.data %}
+                  <li class="top-guide__links__item">
+                    <a href="{{ d.url|translate(entity.global) }}"
+                      class="top-guide__link">{{ d.title|translate(entity.global) }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        <button class="embla__button embla__button--prev">
+          <i class="embla__button__icon"></i>
+        </button>
+
+        <button class="embla__button embla__button--next">
+          <i class="embla__button__icon"></i>
+        </button>
+
+      </div>
+    </div>
+
+    <div class='embla__dots'>
+    </div>
+    <script type="text/template" id="embla-dot-template">
+      <button class="embla__dot"></button>
+    </script>
+  </div>
+</div>
