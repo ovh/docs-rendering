@@ -94,3 +94,20 @@
 #homepage .splash.orange {
 	background: #FF3300 none repeat scroll 0 0;
 }
+#homepage .section-title {
+  height: 56px;
+  margin-bottom: -2rem;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #00185E;
+}
+#homepage .columns:last-child:not(:first-child) {
+  float: left;
+}
+@media (min-width: 768px) {
+  #homepage .section-title {
+  	text-align: left;
+    margin-left: 10rem;
+  }
+}

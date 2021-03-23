@@ -116,7 +116,7 @@
         <div id="searchZone">
           <div class="row">
             <div id="search" class="columns small-12 medium-8 small-centered">
-              <input class="algoliaSearch" placeholder="{{ 'Search OVH guides'|translate(entity.global)  }}" type="search" id="q" autocomplete="off">
+              <input class="algoliaSearch" placeholder="{{ 'Search OVHcloud guides'|translate(entity.global)  }}" type="search" id="q" autocomplete="off">
               <script type="text/javascript">
                 var search = docsearch({
                     appId: 'M7SCQID0YP',
@@ -166,12 +166,12 @@
         {% endblock %}
 
         {% block above_content %}{% endblock %}
-
+        {% block content_wrapper %}
         <div id="page" class="row">
           {% block content %}
           {% endblock %}
         </div>
-
+        {% endblock %}
         {% block after_content %}{% endblock %}
 {% endblock %}
 
@@ -180,7 +180,7 @@
     <div class="community-block-content text-center">
       <h2>{{'OVHcloud Community'|translate(entity.global)}}</h2>
       <p>{{"Access your community space. Ask questions, search for information, post content, and interact with other OVHcloud Community members."|translate(entity.global)}}</p>
-      <a class="link" href="https://community.ovh.com/">{{'Visit OVHcloud Community'|translate(entity.global)}}</a>
+      <a class="link" href="https://community.ovh.com/">{{'Discuss with the OVHcloud community'|translate(entity.global)}}</a>
     </div>
   </div>
 {% endblock %}

@@ -23,39 +23,45 @@
     {% include 'components/topguides/topguides.html' %}
 {% endblock %}
 
-{% block content %}
+{% block content_wrapper %}
+  {% block content %}
 
-    {{ super() }}
+      {{ super() }}
 
-          <div id="content" class="columns medium-12 large-12">
-            <div class="page-top"></div>
-            <div id="homepage">
-              <div class="row">
-              {% for l1item in entity.children|sort(attribute='order') %}
-                <div class="columns large-4 medium-4 small-12">
-                  <div class="card">
-                    <div class="splash">
-                      <img src="/{{ THEME_STATIC_DIR }}/img/universe/{{l1item.img}}" alt="{{l1item.title}}">
-                      <h2>
-                        <span class="caps">{{l1item.title}}</span>
-                      </h2>
+            <div id="content">
+              <div class="page-top"></div>
+              <div id="homepage">
+                <div class="section-title">{{'Our tutorials by cloud universe'|translate(entity.global)}}</div>
+                <div class="row">
+                {% for l1item in entity.children|sort(attribute='order') %}
+                  {% if l1item.order == "2" %}
+                    {# {% include 'components/custom/customCard.html' %} @TODO, remove comments when translation are ready #}
+                  {% endif %}
+                  <div class="columns large-4 medium-4 small-12">
+                    <div class="card">
+                      <div class="splash">
+                        <img src="/{{ THEME_STATIC_DIR }}/img/universe/{{l1item.img}}" alt="{{l1item.title}}">
+                        <h2>
+                          <span class="caps">{{l1item.title}}</span>
+                        </h2>
+                      </div>
+                      <ul>
+                        {% for l2item in l1item.children %}
+                        <li>
+                          <a href="/{{l2item.url}}">{{l2item.title}}</a>
+                        </li>
+                        {% endfor %}
+                      </ul>
                     </div>
-                    <ul>
-                      {% for l2item in l1item.children %}
-                      <li>
-                        <a href="/{{l2item.url}}">{{l2item.title}}</a>
-                      </li>
-                      {% endfor %}
-                    </ul>
                   </div>
+                {% if loop.index > 0 and loop.index % 3 == 0 %}
                 </div>
-              {% if loop.index > 0 and loop.index % 3 == 0 %}
+                <div class="row">
+                {% endif %}
+                {% endfor %}
+                </div>
               </div>
-              <div class="row">
-              {% endif %}
-              {% endfor %}
-              </div>
+              <div class="page-bottom"></div>
             </div>
-            <div class="page-bottom"></div>
-          </div>
+  {% endblock %}
 {% endblock %}
