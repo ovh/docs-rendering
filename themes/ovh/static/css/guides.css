@@ -87,3 +87,28 @@
 #sharing i {
   margin-right: 5px;
 }
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+  cursor: pointer;
+}
+
+#content h1:hover::after,
+#content h2:hover::after,
+#content h3:hover::after,
+#content h4:hover::after,
+#content h5:hover::after,
+#content h6:hover::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0c1';
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}

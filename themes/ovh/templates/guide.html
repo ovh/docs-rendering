@@ -1,6 +1,8 @@
 {% extends "entity.html" %}
 
 {% set doorbell = entity|doorbell %}
+{% set tree = entity|tree %}
+{% set hasChildren = tree.children|length %}
 
 {% block canonical %}
   {% if entity.metadata.get('routes') %}
@@ -87,7 +89,7 @@
 {% block content %}
     {% if not entity.fullwidth %}
     <div id="sidebar" class="col-md-3 hidden-sm-xs">
-      <nav id="sidebar-nav" data-spy="affix" data-offset-top="750">
+      <nav id="sidebar-nav" class="{% if hasChildren %}toc-first-level{% endif %}" {% if not hasChildren %}data-spy="affix" data-offset-top="750"{% endif %}>
         {% if not entity.hideContribute %}
         <div id="edit">
           <a class="btn btn-default" href="{{GITHUB_URL}}{{entity.path}}"><i class="fab fa-github"></i> {{'Contribute'|translate(entity.global)}}</a>
@@ -191,6 +193,8 @@
 
 {% block scripts_bottom %}
     {{- super() -}}
+
+    <script src="/{{ THEME_STATIC_DIR }}/js/components/anchors.js"></script>
 
     {% if doorbell %}
         <!-- Doorbell.io script -->
