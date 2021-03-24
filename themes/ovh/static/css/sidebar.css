@@ -11,3 +11,5 @@
 #sidebar-nav ul ul ul a{font-size: 1em; }
 
 .actions a{font-weight: normal!important; font-size: 0.9em!important;}
+
+#sidebar-nav.affix-bottom { position: absolute; }
