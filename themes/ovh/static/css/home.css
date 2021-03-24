@@ -70,6 +70,18 @@
 	border: 1px solid #85D9FD;
 	overflow: hidden;
 	border-radius: 13px;
+	margin-bottom: 20px;
+}
+#homepage .row {
+	margin-top: 0px;
+}
+@media (min-width: 768px) {
+	#homepage .card {
+		margin-bottom: 0;
+	}
+	#homepage .row {
+		margin-top: 40px;
+	}
 }
 #homepage .card .splash {
   background-color: #F5FEFF;
@@ -100,7 +112,7 @@
 }
 #homepage .section-title {
   height: 56px;
-  margin-bottom: -2rem;
+  margin-bottom: 2rem;
   font-size: 28px;
   font-weight: 700;
   text-align: center;

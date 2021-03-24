@@ -32,9 +32,13 @@
 
 .embla__slide {
   position: relative;
-  flex: 0 0 100%;
+  min-width: 90%;
 }
-
+@media (min-width: 1120px) {
+  .embla__slide {
+    min-width: 150px;
+  }
+}
 .embla__button {
   display: none;
   position: absolute;
@@ -81,9 +85,15 @@
   border: solid 1px #85D9FD;
   border-radius: 1rem;
   height: 290px;
-  margin: 0 10px;
+  margin: 0 5px;
   padding: 20px;
   background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .top-guide {
+    margin: 0 10px;
+  }
 }
 
 .top-guide__title {

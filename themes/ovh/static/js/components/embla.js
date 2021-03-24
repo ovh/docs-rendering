@@ -10,6 +10,11 @@ $(function() {
         return 1;
     };
 
+    const detectAlign = () => {
+        if (match('(min-width: 768px)')) return 'start';
+        return 'center';
+    };
+
     const setupPrevNextButton = (prevBtn, nextBtn, embla) => {
         prevBtn.addEventListener('click', embla.scrollPrev, false);
         nextBtn.addEventListener('click', embla.scrollNext, false);
@@ -45,27 +50,31 @@ $(function() {
     };
 
     const nb = detectSlidesToScroll();
-    const options = { loop: false, slidesToScroll: nb, align: 'start' }
+    const align = detectAlign();
+    const options = { loop: false, slidesToScroll: nb, align: align }
 
     const wrap = document.querySelector('.embla');
-    const emblaNode = wrap.querySelector('.embla__viewport')
-    const prevBtn = wrap.querySelector('.embla__button--prev');
-    const nextBtn = wrap.querySelector('.embla__button--next');
-    const dots = document.querySelector('.embla__dots');
-    const embla = EmblaCarousel(emblaNode, options)
+    if (wrap) {
+        const emblaNode = wrap.querySelector('.embla__viewport')
+        const prevBtn = wrap.querySelector('.embla__button--prev');
+        const nextBtn = wrap.querySelector('.embla__button--next');
+        const dots = document.querySelector('.embla__dots');
+        const embla = EmblaCarousel(emblaNode, options)
 
-    const dotsArray = generateDotBtns(dots, embla);
-    const setSelectedDotBtn = selectDotBtn(dotsArray, embla);
-    const disablePrevAndNext = disablePrevNextBtns(prevBtn, nextBtn, embla);
-    setupPrevNextButton(prevBtn, nextBtn, embla);
-    setupDotBtns(dotsArray, embla);
+        const dotsArray = generateDotBtns(dots, embla);
+        const setSelectedDotBtn = selectDotBtn(dotsArray, embla);
+        const disablePrevAndNext = disablePrevNextBtns(prevBtn, nextBtn, embla);
+        setupPrevNextButton(prevBtn, nextBtn, embla);
+        setupDotBtns(dotsArray, embla);
 
-    embla.on('resize', () => {
-        const slidesToScroll = detectSlidesToScroll();
-        embla.reInit({ slidesToScroll });
-    });
-    embla.on('select', setSelectedDotBtn);
-    embla.on('select', disablePrevAndNext);
-    embla.on('init', setSelectedDotBtn);
-    embla.on('init', disablePrevAndNext);
+        embla.on('resize', () => {
+            const slidesToScroll = detectSlidesToScroll();
+            const align = detectAlign();
+            embla.reInit({ slidesToScroll: slidesToScroll, align: align });
+        });
+        embla.on('select', setSelectedDotBtn);
+        embla.on('select', disablePrevAndNext);
+        embla.on('init', setSelectedDotBtn);
+        embla.on('init', disablePrevAndNext);
+    }
 });
