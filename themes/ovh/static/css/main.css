@@ -4589,10 +4589,11 @@ h6, h6 * {
   line-height: 1em;
   font-size: 2.8rem;
   display: block;
-  padding: 0 32px 55px 32px;
+  text-align: center;
+  padding: 0 10px 55px;
   color: white;
   background: url(../img/header-background.png) no-repeat center, linear-gradient(90deg,#000e9c,#0050d7) no-repeat padding-box;
-  margin: 112px 0 0 0; }
+  margin: 59px 0 0 0; }
   .entry-title .site-title {
     text-align: left;
     color: white;
@@ -4602,6 +4603,7 @@ h6, h6 * {
     .entry-title .excerpt p {
       color: white !important;
       line-height: 38px;
+      margin-bottom: 20px;
       font-size: 1.8rem; }
     .entry-title .excerpt a {
       font-size: 1.8rem;
@@ -4609,10 +4611,20 @@ h6, h6 * {
   .entry-title h1 {
     display: block;
     margin-bottom: 36px !important;
+    line-height: 1em !important;
     font-weight: bold;
     color: #FFF;
-    font-size: 58px !important;
+    font-size: 38px !important;
     margin: 0;}
+    @media (min-width: 768px) {
+      .entry-title {
+        text-align: left;
+      }
+      .entry-title h1 {
+        line-height: 1.2em; !important;
+        font-size: 58px !important;
+      } 
+    } 
 .entry-content {
     text-align: center;
     margin: 0 auto;
@@ -5029,10 +5041,17 @@ dl.docutils .classifier-delimiter {
       border: 1px solid #85D9FD;
       font-weight: 200;
       height: 56px;
-      text-indent: 24px;
+      text-indent: 10px;
+      font-size: 12px;
       padding: 3px;
       color: #687689;
       margin: 0; }
+    @media (min-width: 1120px) {
+      #search .algoliaSearch {
+        text-indent: 24px;
+        font-size: 16px;
+      }
+    }
     #search .algoliaSearch::placeholder {
         color: #4D5592; }
     #search .algoliaSearch:focus {
@@ -5120,21 +5139,32 @@ dl.docutils .classifier-delimiter {
     color: #999; }
 
 .community-block {
-  padding: 90px 0;
+  padding: 90px 25px;
   color: #ffffff;
   background: url(../img/community.png) no-repeat center, linear-gradient(90deg,#000e9c,#0050d7) no-repeat padding-box;
   background-size: cover;
 }
 .community-block h2 {
   font-weight: bold;
-  font-size: 72px !important;
+  font-size: 46px !important;
   color: #fff;
   margin-bottom: 36px;
 }
+@media (min-width: 768px) {
+  .community-block h2 {
+    font-size: 72px !important;
+  }
+}
 .community-block p {
-  font-size: 34px;
-  line-height: 48px;
   margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+@media (min-width: 768px) {
+  .community-block p {
+    font-size: 34px;
+    line-height: 48px;
+  }
 }
 .community-block .link {
   background: #fff;
