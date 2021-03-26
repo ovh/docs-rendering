@@ -1,6 +1,6 @@
 {% set data = [
   {
-    'title': 'IP management',
+    'title': 'IP Management',
     'data': [
       {'title': 'Move a failover IP', 'url': 'https://docs.ovh.com/gb/en/dedicated/ip-fo-move/'},
       {'title': 'Make a failover IP configuration persistent', 'url': 'https://docs.ovh.com/gb/en/public-cloud/make-failover-ip-configuration-persistent/'},
@@ -47,7 +47,7 @@
 
 <div class="top-guides">
   <div class="embla-wrapper">
-    <div class="top-guides__title">{{ 'Most consulted guides'|translate(entity.global) }}</div>
+    <div class="top-guides__title">{{ 'Most viewed tutorials'|translate(entity.locale) }}</div>
 
     <div class="embla">
       <div class="embla__viewport">
@@ -55,12 +55,12 @@
           {% for i in data %}
           <div class="embla__slide">
             <div class="top-guide">
-              <div class="top-guide__title">{{ i.title|translate(entity.global) }}</div>
+              <div class="top-guide__title">{{ i.title|translate(entity.locale) }}</div>
               <ul class="top-guide__links">
                 {% for d in i.data %}
                   <li class="top-guide__links__item">
                     <a href="{{ d.url|translate(entity.global) }}"
-                      class="top-guide__link">{{ d.title|translate(entity.global) }}</a>
+                      class="top-guide__link">{{ d.title|translate(entity.locale) }}</a>
                   </li>
                 {% endfor %}
               </ul>
