@@ -81,7 +81,7 @@ Translations:
   pl: 'Dokumentacja techniczna OVH'
   pt: 'Manuais OVH'
 
-'Search OVHcloud guides':
+'Search OVHcloud documentation':
   fr: 'Rechercher dans la documentation OVHcloud'
   cz: 'Prohledat příručky OVHcloud'
   it: 'Cerca nella documentazione OVHcloud'
@@ -89,8 +89,8 @@ Translations:
   es: 'Buscar en la documentación de OVHcloud'
   fi: 'Etsi OVH:n ohjeista'
   nl: 'Zoek OVHcloud-handleidingen'
-  pl: 'Szukaj w dokumentacji technicznej OVHcloud'
-  pt: 'Procurar Manuais'
+  pl: 'Szukaj w dokumentacji OVHcloud'
+  pt: 'Procurar na documentação OVH'
 
 'These guides might also interest you':
   fr: 'Ces guides pourraient également vous intéresser'
@@ -224,44 +224,81 @@ Print:
   fr: 'OVHcloud Community'
 
 "Access your community space. Ask questions, search for information, post content, and interact with other OVHcloud Community members.":
-  fr: "Accédez à votre espace communautaire. Posez vos questions, recherchez des informations, publiez du contenu et interagissez avec d'autres membres d'OVHcloud Community."
+  fr: "Accedez à votre espace communautaire. Posez des questions, recherchez des informations, publiez du contenu et interagissez avec d’autres membres d'OVHcloud Community."
+  it: "Accedi al tuo spazio nella Community Fai domande, cerca informazioni, pubblica contenuti e interagisci con gli altri membri della Community OVHcloud"
+  es: '¡Acceda al espacio de la OVHcloud Community! Resuelva sus dudas, busque información, publique contenido e interactúe con otros miembros de la comunidad.'
+  pt: 'Aceda ao seu espaço comunitário. Coloque as suas questões, procure informações e interaja com outros membros do OVHcloud Community.'
+  pl: 'Dostęp do OVHcloud Community Przesyłaj pytania, zdobywaj informacje, publikuj treści i kontaktuj się z innymi użytkownikami OVHcloud Community.'
+  de: 'Besuchen Sie Ihren Community-Bereich und tauschen Sie sich mit anderen Mitgliedern der OVHcloud Community aus. Hier können Sie Fragen stellen, zusätzliche Informationen finden und eigene Inhalte veröffentlichen.'
 
 'Discuss with the OVHcloud community':
   fr: 'Echanger sur OVHcloud Community'
+  pl: 'Porozmawiaj ze społecznością OVHcloud'
+  de: 'Tauschen Sie sich mit der Community aus'
 
-'IP management':
+'IP Management':
   fr: 'Gestion des IP'
   es: 'Gestión de direcciones IP'
   it: 'Gestione degli IP'
+  pt: 'Gestão dos IP'
+  pl: 'Zarządzanie adresami IP'
+  de: 'IP Verwaltung'
 
 'Customer data protection':
   fr: 'Protection des données client'
   es: 'Protección de datos del cliente'
   it: 'Protezione dei dati dei clienti'
+  pt: 'Proteção dos dados do cliente'
+  pl: 'Ochrona danych klienta'
+  de: 'Schutz von Kundendaten'
 
 'Instance management':
   fr: 'Gestion des instances'
   es: 'Gestión de instancias'
   it: 'Gestione delle istanze'
+  pt: 'Gestão das instâncias'
+  pl: 'Zarządzanie instancjam'
+  de: 'Verwaltung von Instanzen'
 
 'Managing dedicated servers':
   fr: 'Gestion des serveurs dédiés'
   es: 'Gestión de servidores dedicados'
   it: 'Gestione dei server dedicati'
+  pt: 'Gestão dos servidores dedicados'
+  pl: 'Zarządzanie serwerami dedykowanymi'
+  de: 'Dedicated Server verwalten'
 
 'VPS management':
   fr: 'Gestion des VPS'
   es: 'Gestión de VPS'
   it: 'Gestione dei VPS'
+  pt: 'Gestão dos VPS'
+  pl: 'Zarządzanie serwerami VPS'
+  de: 'VPS verwalten'
 
 'Managing Hosted Private Cloud':
   fr: 'Gestion des services Hosted Private Cloud'
+  it: 'Gestione del Hosted Private Cloud'
+  es: 'Gestión de Hosted Private Cloud'
+  pt: 'Gestão dos Cloud Privado'
+  pl: 'Zarządzanie usługą Hosted Private Cloud'
+  de: 'Hosted Private Cloud verwalten'
 
 'Restoring backups via the OVHcloud API':
   fr: 'Restaurer des sauvegardes via les API OVHcloud'
+  it: 'Ripristinare i backup tramite le API OVHcloud'
+  es: 'Restaurar backups a través de la API de OVHcloud'
+  pt: 'Restaurar cópia de segurança por meio da API OVHcloud'
+  pl: 'Przywracanie kopii zapasowych poprzez API OVHcloud'
+  de: 'Backups über die OVHcloud API wiederherstellen'
 
 'Reregister VMs in a new Hosted Private Cloud':
   fr: 'Restaurer des VM via vSphere'
+  it: 'Ripristino delle VM tramite vSphere'
+  es: 'Restaurar las VM a través de vSphere'
+  pt: 'Re-registrar as VMs numa nova Cloud Privada'
+  pl: 'Odtworzenie maszyn wirtualnych (VMs) poprzez vSphere'
+  de: 'PCC VMs neu registrieren'
 
 'https://docs.ovh.com/gb/en/private-cloud/veeam-backup-restoration/':
   fr: 'https://docs.ovh.com/fr/private-cloud/veeam-backup-restoration/'
@@ -271,102 +308,202 @@ Print:
 
 'https://docs.ovh.com/gb/en/dedicated/ip-fo-move/':
   fr: 'https://docs.ovh.com/fr/dedicated/ip-fo-move/'
+  it: 'https://docs.ovh.com/it/dedicated/ip-fo-move/'
+  es: 'https://docs.ovh.com/es/dedicated/ip-fo-move/'
+  pt: 'https://docs.ovh.com/pt/dedicated/ip-fo-move/'
+  pl: 'https://docs.ovh.com/pl/dedicated/ip-fo-move/'
+  de: 'https://docs.ovh.com/de/dedicated/ip-fo-move/'
 
 'https://docs.ovh.com/gb/en/public-cloud/make-failover-ip-configuration-persistent/':
   fr: 'https://docs.ovh.com/fr/public-cloud/rendre-la-configuration-ip-fail-over-persistante/#configuration-de-lip-fail-over_1'
+  it: 'https://docs.ovh.com/it/public-cloud/configura_un_ip_failover_permanente/'
+  es: 'https://docs.ovh.com/es/public-cloud/hacer_persistente_la_configuracion_de_ip_failover/'
+  pt: 'https://docs.ovh.com/pt/public-cloud/configuracao_de_um_ip_failover_de_forma_permanente/'
+  pl: 'https://docs.ovh.com/pl/public-cloud/trwala_konfiguracja_ip_fail_over/'
+  de: 'https://docs.ovh.com/de/public-cloud/persistente_konfiguration_der_failover-ip/'
 
 'https://docs.ovh.com/gb/en/public-cloud/configure_a_failover_ip/':
   fr: 'https://docs.ovh.com/fr/public-cloud/configurer_une_ip_failover/'
 
 'https://docs.ovh.com/gb/en/customer/scams-fraud-phishing/':
   fr: 'https://docs.ovh.com/fr/customer/arnaques-fraude-phishing/'
+  it: 'https://docs.ovh.com/it/customer/truffe-frode-phishing/'
+  es: 'https://docs.ovh.com/es/customer/proteccion-ataque-phishing/'
+  pt: 'https://docs.ovh.com/pt/customer/fraudes-online-phishing/'
+  pl: 'https://docs.ovh.com/pl/customer/oszustwa-phishing/'
+  de: 'https://docs.ovh.com/de/customer/e-mail-betrug-phishing/'
 
 'https://docs.ovh.com/gb/en/customer/secure-account-with-2FA/':
   fr: 'https://docs.ovh.com/fr/customer/securiser-son-compte-avec-une-2FA/'
+  it: 'https://docs.ovh.com/it/customer/proteggi_il_tuo_account_con_2FA/'
+  es: 'https://docs.ovh.com/es/customer/proteger-su-cuenta-con-una-2FA/'
+  pt: 'https://docs.ovh.com/pt/customer/proteger-a-sua-conta-com-uma-2FA/'
+  pl: 'https://docs.ovh.com/pl/customer/zabezpieczenie-konta-za-pomoca-2FA/'
+  de: 'https://docs.ovh.com/de/customer/Account-mit-2FA-absichern/'
 
 'https://docs.ovh.com/gb/en/public-cloud/increase-public-cloud-quota/':
   fr: 'https://docs.ovh.com/fr/public-cloud/augmenter-le-quota-public-cloud/'
+  it: 'https://docs.ovh.com/it/public-cloud/aumenta_la_quota_del_tuo_public_cloud/'
+  es: 'https://docs.ovh.com/es/public-cloud/aumentar_el_limite_de_public_cloud/'
+  pt: 'https://docs.ovh.com/pt/public-cloud/aumentar_a_quota_public_cloud/'
+  pl: 'https://docs.ovh.com/pl/public-cloud/zwiekszenie_limitow_public_cloud/'
+  de: 'https://docs.ovh.com/de/public-cloud/public-cloud-quota-erhoehen/'
 
 'https://docs.ovh.com/gb/en/public-cloud/get-started-with-a-public-cloud-instance/#reboot-an-instance':
   fr: 'https://docs.ovh.com/fr/public-cloud/debuter-avec-une-instance-public-cloud/#redemarrer-une-instance'
+  it: 'https://docs.ovh.com/it/public-cloud/come_utilizzare_la_tua_istanza_public_cloud/'
+  es: 'https://docs.ovh.com/es/public-cloud/empezar-con-una-instancia-public-cloud/'
+  pt: 'https://docs.ovh.com/pt/public-cloud/comecar-com-uma-instancia-public-cloud/'
+  pl: 'https://docs.ovh.com/pl/public-cloud/rozpoczecie_pracy_z_instancja_public_cloud/'
+  de: 'https://docs.ovh.com/de/public-cloud/die_ersten_schritte_mit_ihrer_public_cloud_instanz/'
 
 'https://docs.ovh.com/gb/en/dedicated/ovh-rescue/#instructions':
   fr: 'Https://docs.ovh.com/fr/dedicated/ovh-rescue/#en-pratique'
+  it: 'https://docs.ovh.com/it/dedicated/rescue_mode/#procedura'
+  es: 'https://docs.ovh.com/es/dedicated/modo_de_rescate/#procedimiento'
+  pt: 'https://docs.ovh.com/pt/dedicated/rescue_mode/#instrucoes'
+  pl: 'https://docs.ovh.com/pl/dedicated/ovh-rescue/#w-praktyce'
+  de: 'https://docs.ovh.com/de/dedicated/ovh-rescue/#in-der-praktischen-anwendung'
 
 'https://docs.ovh.com/gb/en/dedicated/use-ipmi-dedicated-servers/':
   fr: 'https://docs.ovh.com/fr/dedicated/utilisation-ipmi-serveurs-dedies/'
+  it: 'https://docs.ovh.com/it/dedicated/utilizzo-ipmi-server-dedicati/'
+  es: 'https://docs.ovh.com/es/dedicated/utilizzo-ipmi-server-dedicati/'
+  pt: 'https://docs.ovh.com/pt/dedicated/usar-ipmi-servidores-dedicados/'
+  pl: 'https://docs.ovh.com/pl/dedicated/uzywanie-ipmi-serwery-dedykowane/'
+  de: 'https://docs.ovh.com/de/dedicated/verwendung-ipmi-dedicated-server/'
 
 'https://docs.ovh.com/gb/en/dedicated/services-backup-storage/#accessbackup':
   fr: 'https://docs.ovh.com/fr/dedicated/services-backup-storage/#accessbackup'
+  de: 'https://docs.ovh.com/de/dedicated/dienste-Backup%20Storage/#accessbackup'
 
 'https://docs.ovh.com/gb/en//vps/vps-faq/#backupstorage':
   fr: 'https://docs.ovh.com/fr/vps/vps-faq/#backupstorage'
+  it: 'https://docs.ovh.com/it/vps/vps-faq/#backupstorage'
+  es: 'https://docs.ovh.com/es/vps/vps-faq/#backupstorage'
+  pt: 'https://docs.ovh.com/pt/vps/vps-faq/#backupstorage'
+  pl: 'https://docs.ovh.com/pl/vps/vps-faq/#backupstorage'
+  de: 'https://docs.ovh.com/de/vps/vps-faq/#backupstorage'
 
 'https://docs.ovh.com/gb/en/vps/getting-started-vps/#reboot-current-range':
   fr: 'https://docs.ovh.com/fr/vps/debuter-avec-vps/#reboot-current-range'
+  it: 'https://docs.ovh.com/it/vps/iniziare-a-utilizzare-vps/#reboot-current-range'
+  es: 'https://docs.ovh.com/es/vps/primeros-pasos-con-vps/#reboot-current-range'
+  pt: 'https://docs.ovh.com/pt/vps/instalar-gerir-vps/#reboot-current-range'
+  pl: 'https://docs.ovh.com/pl/vps/pierwsze-kroki-vps/#reboot-current-range'
+  de: 'https://docs.ovh.com/de/vps/erste-schritte-mit-einem-vps/#reboot-current-range'
+
+'https://community.ovh.com/en/':
+  fr: 'https://community.ovh.com'
 
 'Move a failover IP':
   fr: 'Déplacer une IP Failover'
   es: 'Mover una IP Failover'
   it: 'Trasferisci un IP failover'
+  pt: 'Migrar um IP Failover'
+  pl: 'Przeniesienie adresu IP Failover'
+  de: 'Eine Failover-IP migrieren'
 
 'Make a failover IP configuration persistent':
   fr: 'Rendre la configuration IP Failover persistante'
   es: 'Hacer persistente la configuración de IP Failover'
   it: 'Configura un IP Failover permanente'
+  pt: 'Tornar a configuração IP Failover persistente'
+  pl: 'Trwała konfiguracja IP Failover'
+  de: 'Persistente Konfiguration einer Failover-IP'
 
 'Import a failover IP':
   fr: 'Configurer une IP Failover'
   es: 'Configurar una IP Failover'
   it: 'Importa un IP Failover'
+  pt: 'Configurar um IP Failover'
+  pl: 'Konfiguracja adresu IP Failover'
+  de: 'Eine Failover-IP konfigurieren'
 
 'Recognising fraud and phishing emails/SMS messages':
   fr: 'Reconnaître des e-mails ou SMS de fraude et de phishing'
   es: 'Detectar los mensajes de correo o SMS fraudulentos y el phishing'
   it: 'Come riconoscere email fraudolente e di phishing'
+  pt: 'Reconhecer os e-mails ou SMS de fraude e de phishing'
+  pl: 'Rozpoznawanie e-maili lub wiadomości SMS typu phishing'
+  de: 'E-Mails und SMS erkennen, die für Phishing oder Betrugsversuche genutzt werden'
 
 'Securing OVHcloud accounts with two-factor authentication':
   fr: 'Sécuriser son compte OVHcloud avec la double authentification'
   es: 'Proteger su cuenta de OVHcloud con la doble autenticación'
   it: 'Rendere sicuro il tuo account OVHcloud con la doppia autenticazione'
+  pt: 'Proteger a sua conta OVHcloud com a dupla autenticação'
+  pl: 'Zabezpieczenie konta OVHcloud za pomocą weryfikacji dwuetapowej'
+  de: 'Den OVHcloud Account mit der Zwei-Faktor-Authentifizierung absichern'
 
 'Increasing the quota of Public Cloud instances':
   fr: 'Augmenter le quota des instances Public Cloud'
   es: 'Aumentar el límite de las instancias Public Cloud'
   it: 'Aumentare la quota delle istanze Public Cloud'
+  pt: 'Aumentar a quota das instâncias Public Cloud'
+  pl: 'Zwiększenie limitu instancji Public Cloud'
+  de: 'Public Cloud Quota erhöhen'
 
 'Rebooting a Public Cloud instance':
   fr: 'Redémarrer une instance Public Cloud'
   es: 'Reiniciar una instancia Public Cloud'
   it: "Riavviare un'istanza Public Cloud"
+  pt: 'Reiniciar uma instância Public Cloud'
+  pl: 'Restart instancji Public Cloud'
+  de: 'Eine Public Cloud Instanz neu starten'
 
 'Activating and using rescue mode':
   fr: 'Activer et utiliser le mode rescue'
   es: 'Activar y utilizar el modo de rescate'
   it: 'Attivare e utilizzare la modalità Rescue'
+  pt: 'Ativar e utilizar o modo rescue'
+  pl: 'Uruchamianie i korzystanie z trybu Rescue'
+  de: 'Rescue-Modus aktivieren und verwenden'
 
 'Using the IPMI with dedicated servers':
   fr: 'Utiliser l’IPMI pour les serveurs dédiés'
   es: 'Utilizar IPMI en un servidor dedicado'
   it: "Utilizzare l'IPMI sui server dedicati"
+  pt: 'Utilizar o IPMI com servidores dedicados'
+  pl: 'Korzystanie z IPMI dla serwerów dedykowanych'
+  de: 'Verwendung von IPMI für Dedicated Server'
 
 'Enabling backup storage on a dedicated server':
   fr: 'Activer Backup Storage sur un serveur dédié'
   es: 'Utilizar Backup Storage en un servidor dedicado'
   it: "Attivare il Backup Storage su un server dedicato"
+  pt: 'Ativar o Backup Storage num servidor dedicado'
+  pl: 'Włączanie Backup Storage na serwerze dedykowanym'
+  de: 'Backup Storage auf einem Dedicated Server verwenden'
 
 'Access your backup':
   fr: 'Accéder à votre backup'
   es: 'Acceder a su backup'
   it: 'Accedi al backup'
+  pt: 'Aceder à sua cópia de segurança'
+  pl: 'Dostęp do kopii zapasowej'
+  de: 'Zugang zu Ihrem Backup'
 
 'Reboot a VPS':
   fr: 'Redemarrer un VPS'
   es: 'Reiniciar un VPS'
   it: 'Riavvia un VPS'
+  pt: 'Re-iniciar um VPS'
+  pl: 'Restart VPS'
+  de: 'VPS neu starten'
 
-'Most consulted guides':
+'Most viewed tutorials':
   fr: 'Les tutoriels les plus consultés'
+  it: 'I tutorial più consultati'
+  es: 'Los tutoriales más consultados'
+  pt: 'Os tutoriais mais consultados'
+  pl: 'Najczęściej wyświetlane poradniki'
+  de: 'Die meistbesuchten Anleitungen'
 
-'Our tutorials by universe':
-  fr: 'Tous nos tutoriels par univers'
+'Our tutorials by cloud universe':
+  fr: 'Tous nos tutoriels par univers cloud'
+  it: "I nostri tutorial per l'universo cloud"
+  es: 'Nuestros tutoriales para universo cloud'
+  pt: 'Os nossos didáticos por universo cloud'
+  pl: 'Wszystkie nasze poradniki dotyczące usług Cloud'
+  de: 'Alle unsere Anleitungen nach Cloud Universum'
