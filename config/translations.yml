@@ -81,7 +81,7 @@ Translations:
   pl: 'Dokumentacja techniczna OVH'
   pt: 'Manuais OVH'
 
-'Search OVHcloud guides':
+'Search OVHcloud documentation':
   fr: 'Rechercher dans la documentation OVHcloud'
   cz: 'Prohledat příručky OVHcloud'
   it: 'Cerca nella documentazione OVHcloud'
@@ -89,8 +89,8 @@ Translations:
   es: 'Buscar en la documentación de OVHcloud'
   fi: 'Etsi OVH:n ohjeista'
   nl: 'Zoek OVHcloud-handleidingen'
-  pl: 'Szukaj w dokumentacji technicznej OVHcloud'
-  pt: 'Procurar Manuais'
+  pl: 'Szukaj w dokumentacji OVHcloud'
+  pt: 'Procurar na documentação OVH'
 
 'These guides might also interest you':
   fr: 'Ces guides pourraient également vous intéresser'
