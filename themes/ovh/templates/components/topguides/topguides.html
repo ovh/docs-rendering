@@ -32,7 +32,7 @@
   {
     'title': 'VPS management',
     'data': [
-      {'title': 'Access your backup', 'url': 'https://docs.ovh.com/gb/en//vps/vps-faq/#backupstorage'},
+      {'title': 'Access your backup', 'url': 'https://docs.ovh.com/gb/en/vps/vps-faq/#backupstorage'},
       {'title': 'Reboot a VPS', 'url': 'https://docs.ovh.com/gb/en/vps/getting-started-vps/#reboot-current-range'}
     ]
   },
@@ -59,7 +59,7 @@
               <ul class="top-guide__links">
                 {% for d in i.data %}
                   <li class="top-guide__links__item">
-                    <a href="{{ d.url|translate(entity.global) }}"
+                    <a href="{{ d.url|translate(entity.locale) }}"
                       class="top-guide__link">{{ d.title|translate(entity.locale) }}</a>
                   </li>
                 {% endfor %}
