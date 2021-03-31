@@ -368,16 +368,16 @@ Print:
 'https://docs.ovh.com/gb/en/dedicated/use-ipmi-dedicated-servers/':
   fr: 'https://docs.ovh.com/fr/dedicated/utilisation-ipmi-serveurs-dedies/'
   it: 'https://docs.ovh.com/it/dedicated/utilizzo-ipmi-server-dedicati/'
-  es: 'https://docs.ovh.com/es/dedicated/utilizzo-ipmi-server-dedicati/'
+  es: 'https://docs.ovh.com/es/dedicated/utilizar-ipmi-servidor-dedicado/'
   pt: 'https://docs.ovh.com/pt/dedicated/usar-ipmi-servidores-dedicados/'
   pl: 'https://docs.ovh.com/pl/dedicated/uzywanie-ipmi-serwery-dedykowane/'
   de: 'https://docs.ovh.com/de/dedicated/verwendung-ipmi-dedicated-server/'
 
 'https://docs.ovh.com/gb/en/dedicated/services-backup-storage/#accessbackup':
   fr: 'https://docs.ovh.com/fr/dedicated/services-backup-storage/#accessbackup'
-  de: 'https://docs.ovh.com/de/dedicated/dienste-Backup%20Storage/#accessbackup'
+  de: 'https://docs.ovh.com/de/dedicated/dienste-storage-backup/#accessbackup'
 
-'https://docs.ovh.com/gb/en//vps/vps-faq/#backupstorage':
+'https://docs.ovh.com/gb/en/vps/vps-faq/#backupstorage':
   fr: 'https://docs.ovh.com/fr/vps/vps-faq/#backupstorage'
   it: 'https://docs.ovh.com/it/vps/vps-faq/#backupstorage'
   es: 'https://docs.ovh.com/es/vps/vps-faq/#backupstorage'
