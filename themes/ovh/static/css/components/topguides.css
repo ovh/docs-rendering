@@ -34,7 +34,7 @@
   position: relative;
   min-width: 90%;
 }
-@media (min-width: 1120px) {
+@media (min-width: 768px) {
   .embla__slide {
     min-width: 150px;
   }
