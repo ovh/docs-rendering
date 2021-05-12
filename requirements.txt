@@ -5,3 +5,5 @@ markdown==2.6.11
 PyYAML
 beautifulsoup4==4.6.0
 mdx-include==1.4.1
+Jinja2==2.11.3
+MarkupSafe==1.1.1
