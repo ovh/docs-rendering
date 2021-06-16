@@ -1,1 +1,1174 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><defs><style>.a{fill:none;}.b{fill:rgba(256,256,256,0);}.c{fill:#FFFFFF;}</style></defs><rect class="a" width="50" height="50"/><rect class="b" width="0.5" height="2" transform="translate(0 48)"/><g transform="translate(13 13)"><path class="c" d="M3.222,18.778A11,11,0,1,1,18.778,3.222,11,11,0,1,1,3.222,18.778ZM11,20a8.946,8.946,0,0,0,4.771-1.372,9.84,9.84,0,0,1-3.479-1.921,1.468,1.468,0,0,1-.478-1.316,6.76,6.76,0,0,1,1.267-1.823A5.906,5.906,0,0,0,14,10c0-2.824-.941-4-3-4S8,7.176,8,10a5.906,5.906,0,0,0,.918,3.569,6.76,6.76,0,0,1,1.267,1.823,1.468,1.468,0,0,1-.478,1.316,9.84,9.84,0,0,1-3.479,1.921A8.946,8.946,0,0,0,11,20ZM2,11a8.968,8.968,0,0,0,2.449,6.165,1,1,0,0,1,.235-.114,12.789,12.789,0,0,0,3.295-1.493,6.69,6.69,0,0,1-.693-.835A7.856,7.856,0,0,1,6,10c0-3.843,1.725-6,5-6s5,2.157,5,6a7.856,7.856,0,0,1-1.285,4.723,6.69,6.69,0,0,1-.693.835,12.789,12.789,0,0,0,3.295,1.493,1,1,0,0,1,.235.114A9,9,0,1,0,2,11Z" transform="translate(1 1)"/></g></svg>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "about:legacy-compat">
+<html>
+<head lang="lt-LT">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Puslapis nerastas- OVH</title>
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="lt">
+<meta http-equiv="description" name="description" content="">
+<meta http-equiv="keywords" name="keywords" content="">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ovh">
+<meta name="twitter:title" content="404 - Puslapis nerastas...">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
+<meta property="og:title" content="404 - Puslapis nerastas">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
+<meta name="Geography" content="Lithuania">
+<meta name="country" content="Lithuania">
+<meta name="Language" content="Lithuanian">
+<meta name="msvalidate.01" content="9571C6C1172FA240D5DC7B902DD1F2A9">
+<meta name="google-site-verification" content="Hu5zXE5R3_xsiyNn0dtpXjQH1yrArNzISQU_JUiirkM">
+<meta name="Copyright" content="OVH">
+<meta name="Author" content="OVH">
+<meta http-equiv="robots" name="Robots" content="all">
+<meta name="robots" content="index, follow">
+<meta http-equiv="cache-control" content="no-cache">
+<link rel="icon" href="https://www.ovh.lt/favicon.ico" type="image/gif" translate="none">
+<script src="https://www.ovh.lt/js/jquery/1.10.2/jquery.min.js"></script><script src="https://www.ovh.lt/js/jquery.cookie.js"></script><script src="https://www.ovh.lt/components/menu/menu.js"></script><script>
+                    jQuery.noConflict();
+                    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+                </script><link rel="stylesheet" type="text/css" href="/components/menu/menu.css">
+<link rel="stylesheet" type="text/css" href="https://www.ovh.lt/components/footer/footer.css">
+<link rel="stylesheet" type="text/css" href="https://www.ovh.lt/themes/16/newSite.css">
+<script type="text/javascript" src="/templates/jscommon/website/commonOVH/common.js"></script><script language="javascript" type="text/javascript" src="https://www.ovh.lt/js/site-core.js"></script><script language="javascript" type="text/javascript" src="https://www.ovh.lt/js/site-more.js"></script><script type="text/javascript" src="https://www.ovh.lt/js/ajax-lib-core.js"></script><style type="text/css" translate="none"> 
+                .priceInEuros {
+                    margin: 5px auto;
+                    padding: 5px;
+                    background: rgba(0, 0, 0, 0.1);
+                    max-width: 200px;
+                    text-align: center;
+                }
+                .hpc .priceInEuros, table.support .priceInEuros {
+                    margin: 5px;
+                }
+                .priceInEuros * {
+                    font-size: 11px !important;
+                    line-height: 110% !important;
+                }
+                .left-menu-part .priceInEuros { display: none !important; }
+                div.domains_list a {
+                    height: 40px;
+                }
+                .domains_list .priceInEuros {
+                    margin: 0;
+                    padding: 0;
+                }
+                div.domains_list a .overline .priceInEuros { display: none; }
+                div.domains_list a * { font-size: 11px; font-weight: normal; }
+                .label-subinfo .priceInEuros {
+                    margin: 5px auto;
+                    padding: 5px;
+                    background: rgba(0, 0, 0, 0);
+                    max-width: 200px;
+                    text-align: center;
+                    display: inline;
+                }
+                </style>
+<script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "url": "https://www.ovh.lt",
+                    "name": "OVH",
+                    "logo" : "https://www.ovh.lt/images/logo-ovh.jpg",
+                    "sameAs" : [
+                        "https://plus.google.com/u/0/+OvhGroup/ ",
+                        "https://plus.google.com/u/0/113241908030576578981/",
+                        "https://twitter.com/OVHcloud",
+                        "https://www.linkedin.com/company/ovh",
+                        "https://en.wikipedia.org/wiki/OVH",
+                        "https://www.wikidata.org/wiki/Q568183"
+                    ],
+                    "contactPoint" : [
+                    
+                        {"@type" : "ContactPoint",
+                        "telephone": "+33 972 10 10 07",
+                        "areaServed" : "FR",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+33 972 10 10 07",
+                        "areaServed" : "FR",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+44 333 370 0425",
+                        "areaServed" : "GB",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+44 333 370 0425",
+                        "areaServed" : "GB",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+353 1 293 7844",
+                        "areaServed" : "IE",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+353 1 293 7844",
+                        "areaServed" : "IE",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+49 681 906730",
+                        "areaServed" : "DE",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+49 681 906730",
+                        "areaServed" : "DE",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+34 91 758 34 77",
+                        "areaServed" : "ES",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+34 91 758 34 77",
+                        "areaServed" : "ES",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+351 213 155 642",
+                        "areaServed" : "PT",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+351 213 155 642",
+                        "areaServed" : "PT",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+48 71 750 02 00",
+                        "areaServed" : "PL",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+48 71 750 02 00",
+                        "areaServed" : "PL",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+39 02 5560 0423",
+                        "areaServed" : "IT",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+39 02 5560 0423",
+                        "areaServed" : "IT",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+1 855 684 5463",
+                        "areaServed" : "CA",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+1 855 684 5463",
+                        "areaServed" : "CA",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+1 855 684 5463",
+                        "areaServed" : "US",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+1 855 684 5463",
+                        "areaServed" : "US",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+212 5 22 26 00 86",
+                        "areaServed" : "MA",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+212 5 22 26 00 86",
+                        "areaServed" : "MA",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+216 71 966 044",
+                        "areaServed" : "TN",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+216 71 966 044",
+                        "areaServed" : "TN",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+221 33 889 75 70",
+                        "areaServed" : "SN",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+221 33 889 75 70",
+                        "areaServed" : "SN",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+31 20 808 60 57",
+                        "areaServed" : "NL",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+31 20 808 60 57",
+                        "areaServed" : "NL",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+358 9 315 858 14",
+                        "areaServed" : "FI",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+358 9 315 858 14",
+                        "areaServed" : "FI",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+370 5 243 00 10",
+                        "areaServed" : "LT",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+370 5 243 00 10",
+                        "areaServed" : "LT",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+420 246 030 899",
+                        "areaServed" : "CZ",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+420 246 030 899",
+                        "areaServed" : "CZ",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+61 1300 684 287",
+                        "areaServed" : "AU",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+61 1300 684 287",
+                        "areaServed" : "AU",
+                        "contactType": "technical support"}
+                        ,
+                        {"@type" : "ContactPoint",
+                        "telephone": "+65 3163 8340",
+                        "areaServed" : "SG",
+                        "contactType": "customer service"},
+                        {"@type": "ContactPoint",
+                        "telephone": "+65 3163 8340",
+                        "areaServed" : "SG",
+                        "contactType": "technical support"}
+                        
+                    ]
+                }
+            </script>
+</head>
+<body>
+<div class="full" id="main">
+        <div class="full"><div class="row"><div class="col-s-12 col-l-8 col-m-10 col-s-center center"><div class="marginTop80 marginBottom80">
+<div class="errors-icn errors-icn-404"></div>
+<div class="marginTop30 marginBottom30"><div class="col-s-center separationBorder backgroundBleuVif"></div></div>
+<h2 class="fspx33">Atsiprašome, problema kraunant puslapį</h2>
+<div class="center"><a href="/" class="newButton16 center marginTop30 marginBottom30 secondaryButton">Grįžti į pradžią</a></div>
+<p>
+            Įvyko klaida 404: File Not Found.
+            <br>
+            Naudokite ankstesnį savo naršyklės mygtuką ir dar kartą paspauskite reikiamą nuorodą.
+        </p>
+</div></div></div></div>
+<div class="full backgroundBeige">
+<div class="row"><div class="col-s-12 col-l-8 col-s-center center marginTop80 marginBottom40"><h2 qtlid="1109278">Galbūt mes galime jums padėti ir nukreipti į kitą puslapį?</h2></div></div>
+<div class="row"><div class="col-s-12 col-l-6 col-s-center clear marginBottom80">
+<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh.lt/cloud/" class="inline-block"><div class="errors-icn errors-icn-cloud"></div>Cloud</a></div>
+<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh.lt//svetainiu-talpinimas/" class="inline-block"><div class="errors-icn errors-icn-web"></div>Web</a></div>
+</div></div>
+</div>
+    </div>
+<input type="hidden" id="rootUrl" value="https://www.ovh.lt"><div id="header" class="global-component-menu lt">
+<input id="main-language" type="hidden" value="lt"><div class="header_wrapper">
+<a href="https://www.ovh.lt/" title="OVHcloud - domenai, svetainių talpinimas, dedikuoti serveriai, debesų kompiuterija, el. paštas, VPS, CDN..." style="display: flex;" class="main_logo" data-tc-clic="TopHeader-mainLogo"><img src="https://www.ovh.lt/images/logo/ovhLogoColor.svg" alt="OVH.com logo" style="height: 35px; margin: 16px 10px;"></a><div class="support">
+<a id="menu_customer_not_logged" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.lt/&amp;ovhSubsidiary=lt" data-tc-clic="TopHeader-Manager" title="Jūsų OVH valdymo sąsaja">Jūsų kliento ID</a><a id="menu_customer_logged_in" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.lt/&amp;ovhSubsidiary=lt" style="display: none;" data-tc-clic="TopHeader-NIC" title="Jūsų OVH valdymo sąsaja">Jūsų kliento ID (#NIC#)
+                            </a><a id="menu_customer_num_pending_order" class="menu_badge" href="https://www.ovh.com/manager/dedicated/index.html#/billing/orders?status=in-progress" data-tc-clic="TopHeader-Billing" title="Vykdomi užsakymai"></a><a id="menu_customer_num_unpaid_order" class="menu_badge" href="https://www.ovh.com/manager/dedicated/index.html#/billing/orders?status=unpaid" data-tc-clic="TopHeader-UnpaidBilling" title="Užsakymai, paruošti apmokėjimui"></a> 
+
+                            |
+                            <a class="menu_link" href="https://www.ovh.lt/mail//" data-tc-clic="TopHeader-Webmail" title="Jūsų el. laiškai on-line">Žiniatinklio paštas</a> 
+    
+                            |
+                            <style>
+                                .headerHelpMenu {
+                                    display:inline-block;
+                                    color:#0d55d4 !important;
+                                    position:relative;
+                                    box-sizing: border-box;
+                                }
+                                
+                                .headerHelpMenu *{box-sizing: border-box;}
+
+                                .headerHelpMenu ul{
+                                    color:#0d55d4 !important;
+                                    display:none;
+                                    position:absolute;
+                                    z-index: 9999999;
+                                    background: #FFF;
+                                    border-radius: 10px;
+                                    padding: 0;
+                                    margin: 0 !important;
+                                    box-shadow: rgba(0,0,0,0.4) 0px 0px 4px;
+                                    left: calc(50% - 80px);
+                                    min-width: 160px;
+                                    top: 30px;
+                                 }
+
+                                .headerHelpMenu:hover ul{
+                                    display:block;
+                                 }
+                                .headerHelpMenu:hover ul:before{
+                                    content: '';
+                                    display: block;
+                                    height: 10px;
+                                    width: 10px;
+                                    background: #FFF;
+                                    position: absolute;
+                                    transform: rotate(45deg);
+                                    top: -5px;
+                                    left: calc(50% - 6px);
+                                    box-shadow: rgba(0,0,0,0.1) -3px -3px 2px;
+                                    z-index: -1;
+                                }
+
+                                .headerHelpMenu ul li{
+                                    list-style: none;
+                                    margin: 0 !important;
+                                }
+
+                                .headerHelpMenu ul li:first-child{
+                                    margin-top:4px;
+                                    border-radius: 10px 10px 0 0 ;
+                                }
+                                .headerHelpMenu ul li:last-child{
+                                    border-radius: 0 0 10px 10px;
+                                }
+
+                                .headerHelpMenu ul li:hover{
+                                    background:#c0f1fe;
+                                }
+
+                                .headerHelpMenu ul li a{
+                                    color:#0d55d4 !important;
+                                    padding:4px 8px;
+                                    display:inline-block;
+                                    width:100%;
+                                }
+
+                                .headerHelpMenu ul li a:after{
+                                    content:'';
+                                    display:block;
+                                    width:80%;
+                                    border-bottom:solid #b3b3b3 1px;
+                                    margin-top:4px;
+                                    position:absolute;
+                                }
+
+                                .headerHelpMenu ul li:last-child a:after{
+                                    content:'';
+                                    border-bottom:solid #b3b3b3 0px;
+                                }
+
+
+
+                                .support * {
+                                    color:#0d55d4 !important;
+                                
+                                }
+
+                            </style>
+<div class="headerHelpMenu">Techninė pagalba<ul>
+<li><a class="menu_link" data-tc-clic="TopHeader-Support" href="https://www.ovh.lt/pagalba/susisiekti/" title="Techninė pagalba">Techninė pagalba</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-Docs" href="https://docs.ovh.com/lt/" title="Gidai">Gidai</a></li>
+</ul>
+</div>
+<a id="menu_customer_num_pending_ticket" class="menu_badge" href="https://www.ovh.com/manager/dedicated/index.html#/ticket" title="Atidaryti pagalbos kvitai" data-tc-clic="TopHeader-OpenTickets"></a> 
+
+                            |
+                             <div class="headerHelpMenu">Resursai<ul><li><a class="menu_link" data-tc-clic="TopHeader-manifesto" href="https://www.ovh.lt/manifesto.xml" title="Manifesto">Manifesto</a></li></ul>
+</div>
+                            |
+                            <a href="https://www.ovh.com/blog/" class="menu_link" target="_blank" data-tc-clic="TopHeader-OVHBlog" title="OVHcloud Blog">OVHcloud Blog</a>
+                            |
+
+                        <link rel="stylesheet" href="https://www.ovh.com/fr/components/languageChooser/src/languageChooser.css">
+<style type="text/css">
+            .support-nav a#languageChooser {
+                margin: 16px 8px !important;
+                width: 25px !important;
+            }
+
+            .support-nav #changeLanguage ul.countryList li span {
+                float: left !important;
+            }
+
+            .support-nav #changeLanguage ul.countryList li .ovhFlag {
+                float: left !important;
+                margin: 8px !important;
+            }
+
+            
+            .headerLinks a#languageChooser {
+                margin: 0px 12px -6px 8px !important;
+            }
+
+            .mobileLanguageChooserWrapper {
+                height: 49px;
+                margin: 0;
+                text-align: center !important;
+                border: solid #fff 1px;
+                border-top: 0px;
+                border-right: 0px;
+            }
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+               .mobileLanguageChooserWrapper{height: 26px;}
+            }
+        </style>
+<a href="javascript:void(0);" id="languageChooser" class="ovhFlag lt" tabindex="1"></a><div class="lcBg"></div>
+<div id="changeLanguage">
+<div class="contryBox">
+<span class="chLangTitl">Europe</span><ul class="countryList">
+<li><a href="https://www.ovh.cz/" name="Flagz/cz" data-tc-clic="Flag-CZ"><div class="ovhFlag cz"></div>
+<span>Česká Republika [Kč]</span></a></li>
+<li><a href="https://www.ovh.de/" name="Flagz/de" data-tc-clic="Flag-DE"><div class="ovhFlag de"></div>
+<span>Deutschland [€]</span></a></li>
+<li><a href="https://www.ovh.es/" name="Flagz/es" data-tc-clic="Flag-ES"><div class="ovhFlag es"></div>
+<span>España [€]</span></a></li>
+<li><a href="https://www.ovh.com/fr/" name="Flagz/fr" data-tc-clic="Flag-FR"><div class="ovhFlag fr"></div>
+<span>France [€]</span></a></li>
+<li><a href="https://www.ovh.ie/" name="Flagz/ie" data-tc-clic="Flag-IE"><div class="ovhFlag ie"></div>
+<span>Ireland [€] </span></a></li>
+<li><a href="https://www.ovh.it/" name="Flagz/fi" data-tc-clic="Flag-IT"><div class="ovhFlag it"></div>
+<span>Italia [€]</span></a></li>
+<li><a href="https://www.ovh.lt/" name="Flagz/lt" data-tc-clic="Flag-LT"><div class="ovhFlag lt"></div>
+<span>Lietuva [€]</span></a></li>
+<li><a href="https://www.ovh.nl/" name="Flagz/nl" data-tc-clic="Flag-NL"><div class="ovhFlag nl"></div>
+<span>Nederland [€]</span></a></li>
+<li><a href="https://www.ovh.pl/" name="Flagz/pl" data-tc-clic="Flag-PL"><div class="ovhFlag pl"></div>
+<span>Polska [PLN]</span></a></li>
+<li><a href="https://www.ovh.pt/" name="Flagz/pt" data-tc-clic="Flag-PT"><div class="ovhFlag pt"></div>
+<span>Portugal [€]</span></a></li>
+<li><a href="https://www.ovh-hosting.fi/" name="Flagz/fi" data-tc-clic="Flag-FI"><div class="ovhFlag fi"></div>
+<span>Suomi [€]</span></a></li>
+<li style="height: 50px !important;"><a href="https://www.ovh.co.uk/" name="Flagz/uk" data-tc-clic="Flag-UK" style="height: 50px !important; text-align: left;"><div class="ovhFlag uk"></div>
+<span style="line-height: 10px">United Kingdom [£]<br><i style="margin: 0;font-size: 1em; color: #666 !important; line-height: 10px; font-style: inherit;">Reserved for UK residents</i></span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">The Americas</span><ul class="countryList">
+<li><a href="https://www.ovh.com/world/es/" name="Flagz/ws" data-tc-clic="Flag-WS"><div class="ovhFlag ws"></div>
+<span>América Latina [US$]</span></a></li>
+<li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca" data-tc-clic="Flag-CA"><div class="ovhFlag ca"></div>
+<span>Canada EN [CA$]</span></a></li>
+<li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc" data-tc-clic="Flag-QC"><div class="ovhFlag qc"></div>
+<span>Canada FR [CA$]</span></a></li>
+<li><a href="https://us.ovhcloud.com/" name="Flagz/us" data-tc-clic="Flag-WE"><div class="ovhFlag us"></div>
+<span>USA [US$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Africa</span><ul class="countryList">
+<li><a href="https://www.ovh.com/ma/" name="Flagz/ma" data-tc-clic="Flag-MA"><div class="ovhFlag ma"></div>
+<span>Maroc [Dhs]</span></a></li>
+<li><a href="https://www.ovh.sn/" name="Flagz/sn" data-tc-clic="Flag-SN"><div class="ovhFlag sn"></div>
+<span>Sénégal [FCFA]</span></a></li>
+<li><a href="https://www.ovh.com/tn/" name="Flagz/tn" data-tc-clic="Flag-TN"><div class="ovhFlag tn"></div>
+<span>Tunisie [DT]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Oceania</span><ul class="countryList">
+<li><a href="https://www.ovh.com.au/" name="Flagz/au" data-tc-clic="Flag-AU"><div class="ovhFlag au"></div>
+<span>Australia [A$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Asia</span><ul class="countryList">
+<li><a href="https://www.ovh.com/sg/" name="Flagz/au" data-tc-clic="Flag-SG"><div class="ovhFlag sg"></div>
+<span>Singapore [S$]</span></a></li>
+<li><a href="https://www.ovh.com/asia/" name="Flagz/asia" data-tc-clic="Flag-ASIA"><div class="ovhFlag asia"></div>
+<span>Asia [US$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">World</span><ul class="countryList">
+<li><a href="https://www.ovh.com/world/" name="Flagz/World" data-tc-clic="Flag-WorldUS"><div class="ovhFlag world"></div>
+<span>World [US$]</span></a></li>
+<li><a href="https://www.ovh.ie/" name="Flagz/World" data-tc-clic="Flag-WorldEU"><div class="ovhFlag world"></div>
+<span>World [€]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div style="clear: both;"></div>
+</div>
+<input type="hidden" id="gsearchEngine" value="lt_LT"><input type="hidden" id="searchSource" value="www.ovh.lt"><input type="hidden" id="gsearchNoAnswer" value="Jokio rezultato">
+</div>
+</div>
+<div class="
+                    topMainMenu"><div class="header_wrapper">
+<style type="text/css" translate="none">
+                        #header #navigation > ul > li > a { width: 25%; }
+                        #header .topMainMenu.compressed #menu > li > a { width: 22.5%; }
+                        #header .topMainMenu.compressed.mvA #menu > li > a { font-size: 15px !important; }
+
+                        </style>
+<nav id="nav" role="navigation"><ul><li id="navigation">
+<a href="https://www.ovh.lt/" class="mobileLogo" data-tc-clic="TopHeader-Logo-mobile" data-tc-clic-type="navigation"><img src="https://www.ovh.lt/images/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" data-tc-clic="TopHeader-Toggle-mobile" translate="none">≡</label><input type="checkbox" id="menu-toggle"><ul id="menu" role="menubar">
+<li class="menuLogo"><a href="https://www.ovh.lt/"><span class="sprite-logo"></span></a></li>
+        
+        <li class="cloud">
+<a href="javascript:void(0);" nameat="Tab-Server" data-tc-clic="mainMenu-Tab-Server" data-tc-clic-type="navigation">Server</a><ul><li class="products"><ul>
+<li class="icn icn-dedicated first " data-product="dedicated">
+<a href="https://www.ovh.lt/dedikuoti_serveriai/" style="" name="Menu/dedicated" nameat="dedicated" data-tc-clic="mainMenu-dedicated" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Dedikuoti serveriai</span><br><span class="baseline">OVH profesionalūs serveriai</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">53.34€ be PVM</span><span class="period"> /mėn.</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/tarifai/" class="title" style="" name="Menu/dedicated-More/all" nameat="mainMenu-dedicated-all" data-tc-clic="mainMenu-dedicated-all" data-tc-clic-type="navigation" rel="nofollow">Visi mūsų dedikuoti serveriai</a></li>
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/rise/" class="" style="" name="Menu/dedicated-More/rise" nameat="mainMenu-dedicated-rise" data-tc-clic="mainMenu-dedicated-rise" data-tc-clic-type="navigation">Rise serveriai</a></li>
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/advance/" class="" style="" name="Menu/dedicated-More/advance" nameat="mainMenu-dedicated-advance" data-tc-clic="mainMenu-dedicated-advance" data-tc-clic-type="navigation">Advance serveriai</a></li>
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/saugykla/" class="" style="" name="Menu/dedicated-More/backup" nameat="mainMenu-dedicated-backup" data-tc-clic="mainMenu-dedicated-backup" data-tc-clic-type="navigation">Storage ir Backup serveriai</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/paskirstymai/" class="" style="" name="Menu/dedicated-More/distribution" nameat="mainMenu-dedicated-distribution" data-tc-clic="mainMenu-dedicated-distribution" data-tc-clic-type="navigation">Distribucijos ir licencijos</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/paskirstymai/sql_server.xml" class="" style="" name="Menu/dedicated-More/sqlServer" nameat="mainMenu-dedicated-sqlServer" data-tc-clic="mainMenu-dedicated-sqlServer" data-tc-clic-type="navigation">SQL Server</a></li>
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/windows-2014-licenciju-ikainiai.xml" class="" style="" name="Menu/dedicated-More/windowsServer" nameat="mainMenu-dedicated-windowsServer" data-tc-clic="mainMenu-dedicated-windowsServer" data-tc-clic-type="navigation">Windows Server</a></li>
+<li class="separate">
+</ul>
+<ul><li class="more displayOnlyHovered"></ul>
+</li>
+<li class="icn icn-vps" data-product="vps">
+<a href="https://www.ovh.lt/vps/" style="" name="Menu/vps" nameat="vps" data-tc-clic="mainMenu-vps" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">VPS</span><br><span class="baseline">Talpinimas virtualiame privačiame serveryje</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">2.99€ be PVM</span><span class="period"> /mėn.</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/vps/" class="title" style="" name="Menu/vps-More/all" nameat="mainMenu-vps-all" data-tc-clic="mainMenu-vps-all" data-tc-clic-type="navigation" rel="nofollow">Visi mūsų VPS</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/vps/vps-ssd.xml" class="" style="" name="Menu/vps-More/ssd" nameat="mainMenu-vps-ssd" data-tc-clic="mainMenu-vps-ssd" data-tc-clic-type="navigation">VPS SSD</a></li>
+<li><a href="https://www.ovh.lt/vps/vps-cloud.xml" class="" style="" name="Menu/vps-More/cloud" nameat="mainMenu-vps-cloud" data-tc-clic="mainMenu-vps-cloud" data-tc-clic-type="navigation">VPS Cloud</a></li>
+<li><a href="https://www.ovh.lt/vps/vps-cloud-ram.xml" class="" style="" name="Menu/vps-More/cloudRam" nameat="mainMenu-vps-cloudRam" data-tc-clic="mainMenu-vps-cloudRam" data-tc-clic-type="navigation">VPS Cloud RAM</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas-plesk/" class="" style="" name="Menu/vps-More/pleskaas" nameat="mainMenu-vps-pleskaas" data-tc-clic="mainMenu-vps-pleskaas" data-tc-clic-type="navigation">Plesk As a Service</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/vps/kodel-ovh-vps.xml" class="" style="" name="Menu/vps-More/whyVpsOVH" nameat="mainMenu-vps-whyVpsOVH" data-tc-clic="mainMenu-vps-whyVpsOVH" data-tc-clic-type="navigation">Kodėl OVH VPS?</a></li>
+<li><a href="https://docs.ovh.com/lt/vps/" class="" style="" name="Menu/vps-More/help" nameat="mainMenu-vps-help" data-tc-clic="mainMenu-vps-help" data-tc-clic-type="navigation">Pagalba</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"></ul>
+</li>
+<li class="icn icn-pcc" data-product="cloud">
+<a href="https://www.ovh.lt/private-cloud/" style="" name="Menu/privateCloud" nameat="privateCloud" data-tc-clic="mainMenu-privateCloud" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Private Cloud</span><br><span class="baseline">Jūsų Cloud OVH - tai 100% dedikuoti ir pasiekiami resursai</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/sddc/" class="title" style="" name="Menu/privateCloud-More/sddc" nameat="mainMenu-privateCloud-sddc" data-tc-clic="mainMenu-privateCloud-sddc" data-tc-clic-type="navigation">SDDC</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/iskaiciuotos_paslaugos/vsphere.xml" class="" style="" name="Menu/privateCloud-More/vsphere" nameat="mainMenu-privateCloud-vsphere" data-tc-clic="mainMenu-privateCloud-vsphere" data-tc-clic-type="navigation">vSphere as a service</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/parinktys/nsx.xml" class="" style="" name="Menu/privateCloud-More/nsx" nameat="mainMenu-privateCloud-nsx" data-tc-clic="mainMenu-privateCloud-nsx" data-tc-clic-type="navigation">NSX</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/parinktys/veeam.xml" class="" style="" name="Menu/privateCloud-More/veeam" nameat="mainMenu-privateCloud-veeam" data-tc-clic="mainMenu-privateCloud-veeam" data-tc-clic-type="navigation">Managed Backup </a></li>
+<li>
+<a href="https://www.ovh.lt/private-cloud/pra/" class="title" style="" name="Menu/privateCloud-More/pra" nameat="mainMenu-privateCloud-pra" data-tc-clic="mainMenu-privateCloud-pra" data-tc-clic-type="navigation">Veiklos atkūrimo planas (Zerto DRP)</a> <span style="color:#fff;background-color:#59d2ef;padding:0 2px;font-size:10px">Naujiena</span>
+</li>
+<li><a href="https://www.ovh.lt/private-cloud/documentation/sertifikatai.xml" class="" style="" name="Menu/privateCloud-More/certification" nameat="mainMenu-privateCloud-certification" data-tc-clic="mainMenu-privateCloud-certification" data-tc-clic-type="navigation">Sertifikatai</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/payment-infrastructure/" class="title" style="" name="Menu/privateCloud-More/pci-dss" nameat="mainMenu-privateCloud-pci-dss" data-tc-clic="mainMenu-privateCloud-pci-dss" data-tc-clic-type="navigation">Mokėjimų infrastruktūra: bankiniai duomenys</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/parinktys/" class="title" style="" name="Menu/privateCloud-More/options" nameat="mainMenu-privateCloud-options" data-tc-clic="mainMenu-privateCloud-options" data-tc-clic-type="navigation">Parinktys</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/parinktys/vrops.xml" class="" style="" name="Menu/privateCloud-More/vrops" nameat="mainMenu-privateCloud-vrops" data-tc-clic="mainMenu-privateCloud-vrops" data-tc-clic-type="navigation">vRealize Operations</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/parinktys/atvaizdai-licencijos.xml" class="" style="" name="Menu/privateCloud-More/licences" nameat="mainMenu-privateCloud-licences" data-tc-clic="mainMenu-privateCloud-licences" data-tc-clic-type="navigation">Atvaizdai ir licencijos</a></li>
+<li><a href="https://www.ovh.lt/private-cloud/documentation/migruoti.xml" class="" style="" name="Menu/privateCloud-More/howToMigrate" nameat="mainMenu-privateCloud-howToMigrate" data-tc-clic="mainMenu-privateCloud-howToMigrate" data-tc-clic-type="navigation">Kaip migruoti</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"></ul>
+</li>
+<li class="icn icn-storageSolutions">
+<a href="https://www.ovh.lt/storage-solutions/" style="" name="Menu/storageBackup" nameat="storageBackup" data-tc-clic="mainMenu-storageBackup" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Saugykla ir atsarginis kopijavimas</span><br><span class="baseline">Įrangos, tinklo ir Cloud saugyklų sprendimai</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">0.01€ be PVM</span><span class="period"> /mėn.</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/storage-solutions/" class="title" style="" name="Menu/storageBackup-More/allStorage" nameat="mainMenu-storageBackup-allStorage" data-tc-clic="mainMenu-storageBackup-allStorage" data-tc-clic-type="navigation" rel="nofollow">Visi mūsų saugyklų sprendimai</a></li>
+<li><a href="https://www.ovh.lt/nas/" class="" style="" name="Menu/storageBackup-More/nas" nameat="mainMenu-storageBackup-nas" data-tc-clic="mainMenu-storageBackup-nas" data-tc-clic-type="navigation">NAS</a></li>
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/backup-storage.xml" class="" style="" name="Menu/storageBackup-More/backupStor" nameat="mainMenu-storageBackup-backupStor" data-tc-clic="mainMenu-storageBackup-backupStor" data-tc-clic-type="navigation">Backup Storage</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/saugykla/" class="" style="" name="Menu/storageBackup-More/storageServer" nameat="mainMenu-storageBackup-storageServer" data-tc-clic="mainMenu-storageBackup-storageServer" data-tc-clic-type="navigation">Storage serveriai</a></li>
+<li><a href="https://www.ovh.lt/storage-solutions/veeam-cloud-connect/" class="" style="" name="Menu/storageBackup-More/veeam-cloud-connect" nameat="mainMenu-storageBackup-veeam-cloud-connect" data-tc-clic="mainMenu-storageBackup-veeam-cloud-connect" data-tc-clic-type="navigation">Veeam Cloud Connect</a></li>
+<li><a href="https://www.ovh.lt/storage-solutions/veeam-enterprise.xml" class="" style="" name="Menu/storageBackup-More/veeam-enterprise" nameat="mainMenu-storageBackup-veeam-enterprise" data-tc-clic="mainMenu-storageBackup-veeam-enterprise" data-tc-clic-type="navigation">VMware vRealize Operation (vROps)</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"></ul>
+</li>
+<li class="icn icn-network">
+<a href="https://www.ovh.lt/tinklo-ir-saugumo-sprendimai.xml" style="" name="Menu/networkAndSecurity" nameat="networkAndSecurity" data-tc-clic="mainMenu-networkAndSecurity" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Tinklo sprendimai ir saugumas</span><br><span class="baseline">Jūsų tinklo konstravimas OVH ir apsauga</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/tinklo-ir-saugumo-sprendimai.xml" class="title" style="" name="Menu/networkAndSecurity-More/antiDDos" nameat="mainMenu-networkAndSecurity-antiDDos" data-tc-clic="mainMenu-networkAndSecurity-antiDDos" data-tc-clic-type="navigation" rel="nofollow">Visi mūsų tinklo sprendimai</a></li>
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/ip_failover.xml" class="" style="" name="Menu/networkAndSecurity-More/IPfo" nameat="mainMenu-networkAndSecurity-IPfo" data-tc-clic="mainMenu-networkAndSecurity-IPfo" data-tc-clic-type="navigation">IP Failover</a></li>
+<li><a href="https://www.ovh.lt/sprendimai/vrack/" class="" style="" name="Menu/networkAndSecurity-More/vRack" nameat="mainMenu-networkAndSecurity-vRack" data-tc-clic="mainMenu-networkAndSecurity-vRack" data-tc-clic-type="navigation">vRack (privatus tinklas)</a></li>
+<li><a href="https://www.ovh.lt/sprendimai/ovhcloud-connect/" class="" style="" name="Menu/networkAndSecurity-More/dedicatedConnect" nameat="mainMenu-networkAndSecurity-dedicatedConnect" data-tc-clic="mainMenu-networkAndSecurity-dedicatedConnect" data-tc-clic-type="navigation">OVHCloud Connect (OVH ir jūsų DC sujungimas)</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/dedikuoti_serveriai/tinklo-pralaidumo-padidinimas.xml" class="" style="" name="Menu/networkAndSecurity-More/Bandwidth" nameat="mainMenu-networkAndSecurity-Bandwidth" data-tc-clic="mainMenu-networkAndSecurity-Bandwidth" data-tc-clic-type="navigation">Tinklo pralaidumas </a></li>
+<li><a href="https://www.ovh.lt/sprendimai/load-balancer/" class="" style="" name="Menu/networkAndSecurity-More/IPlb" nameat="mainMenu-networkAndSecurity-IPlb" data-tc-clic="mainMenu-networkAndSecurity-IPlb" data-tc-clic-type="navigation">Load Balancers (apkrovos paskirstymas)</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/anti-ddos/" class="" style="" name="Menu/networkAndSecurity-More/antiDDos" nameat="mainMenu-networkAndSecurity-antiDDos" data-tc-clic="mainMenu-networkAndSecurity-antiDDos" data-tc-clic-type="navigation">Anti-DDoS apsauga</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"></ul>
+</li>
+</ul></li></ul>
+</li>
+
+        
+
+
+
+        
+        <li class="web">
+<a href="https://www.ovh.lt/web/" nameat="Tab-Web" data-tc-clic="mainMenu-Tab-Web" data-tc-clic-type="navigation">Svetainių talpinimas</a><ul><li class="products"><ul>
+<li class="icn icn-domains first " data-product="domains">
+<a href="https://www.ovh.lt/domenai/" style="" name="Menu/domains" nameat="domains" data-tc-clic="mainMenu-domains" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Domenai</span><br><span class="baseline">Domenų kūrimas ir perkėlimas</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">0.99€ be PVM</span><span class="period"> /metams</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/domenai/" class="title" style="" name="Menu/domains-More/Create" nameat="mainMenu-domains-Create" data-tc-clic="mainMenu-domains-Create" data-tc-clic-type="navigation" rel="nofollow">Susikurkite savo domeną</a></li>
+<li><a href="https://www.ovh.lt/domenai/domeno_perkelimas.xml" class="" style="" name="Menu/domains-More/Transfer" nameat="mainMenu-domains-Transfer" data-tc-clic="mainMenu-domains-Transfer" data-tc-clic-type="navigation">Domeno perkėlimas</a></li>
+<li><a href="https://www.ovh.lt/domenai/kaines/" class="" style="" name="Menu/domains-More/tous" nameat="mainMenu-domains-tous" data-tc-clic="mainMenu-domains-tous" data-tc-clic-type="navigation" rel="nofollow">Visi domenai</a></li>
+<li><a href="https://www.ovh.lt/domenai/kaines/#promotions" class="" style="" name="Menu/domains-More/Prom" nameat="mainMenu-domains-Prom" data-tc-clic="mainMenu-domains-Prom" data-tc-clic-type="navigation">Specialūs pasiūlymai</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/domenai/easy-redirect/" class="" style="" name="Menu/domains-More/Easy%20Redirect" nameat="mainMenu-domains-Easy Redirect" data-tc-clic="mainMenu-domains-Easy Redirect" data-tc-clic-type="navigation">Easy Redirect</a></li>
+<li><a href="https://www.ovh.lt/domenai/dns-anycast/" class="" style="" name="Menu/domains-More/DNS%20Anycast" nameat="mainMenu-domains-DNS Anycast" data-tc-clic="mainMenu-domains-DNS Anycast" data-tc-clic-type="navigation">DNS Anycast akceleratorius</a></li>
+<li class="separate">
+<li><a href="https://docs.ovh.com/lt/domains/" class="" style="" name="Menu/domains-More/guides" nameat="mainMenu-domains-guides" data-tc-clic="mainMenu-domains-guides" data-tc-clic-type="navigation">Gidai</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/domenai/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
+<br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-hosting" data-product="hosting">
+<a href="https://www.ovh.lt/svetainiu-talpinimas/" style="" name="Menu/hosting" nameat="hosting" data-tc-clic="mainMenu-hosting" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Svetainių talpinimas ir svetainės</span><br><span class="baseline">Paprasti ir galingi svetainių talpinimo planai</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">1.99€ be PVM</span><span class="period"> /mėn.</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/" class="title" style="" name="Menu/hosting-More/all" nameat="mainMenu-hosting-all" data-tc-clic="mainMenu-hosting-all" data-tc-clic-type="navigation" rel="nofollow">Talpinkite savo svetainę</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/svetainiu-talpinimas-asmeninis.xml" class="" style="" name="Menu/hosting-More/Perso" nameat="mainMenu-hosting-Perso" data-tc-clic="mainMenu-hosting-Perso" data-tc-clic-type="navigation">Svetainių talpinimas Asmeninis</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/svetainiu-talpinimas-pro.xml" class="" style="" name="Menu/hosting-More/Pro" nameat="mainMenu-hosting-Pro" data-tc-clic="mainMenu-hosting-Pro" data-tc-clic-type="navigation">Talpinimo planas Pro</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/cloud-web.xml" class="" style="" name="Menu/hosting-More/CloudWeb" nameat="mainMenu-hosting-CloudWeb" data-tc-clic="mainMenu-hosting-CloudWeb" data-tc-clic-type="navigation">Cloud Web talpinimas (izoliuota platforma)</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/svetainiu-talpinimas-performance.xml" class="" style="" name="Menu/hosting-More/Perf" nameat="mainMenu-hosting-Perf" data-tc-clic="mainMenu-hosting-Perf" data-tc-clic-type="navigation">Performance talpinimas (garantuojami resursai)</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/sql-parinktys.xml" class="" style="" name="Menu/hosting-More/options-sql" nameat="mainMenu-hosting-options-sql" data-tc-clic="mainMenu-hosting-options-sql" data-tc-clic-type="navigation">MySQL bazių parinktys</a></li>
+<li><a href="https://www.ovh.lt/ssl/" class="" style="" name="Menu/hosting-More/certificats-ssl" nameat="mainMenu-hosting-certificats-ssl" data-tc-clic="mainMenu-hosting-certificats-ssl" data-tc-clic-type="navigation">SSL sertifikatai</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/website/" class="title" style="" name="Menu/hosting-More/1click" nameat="mainMenu-hosting-1click" data-tc-clic="mainMenu-hosting-1click" data-tc-clic-type="navigation">Lengvai susikurkite savo svetainę</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/website/wordpress.xml" class="" style="" name="Menu/hosting-More/Wordpress" nameat="mainMenu-hosting-Wordpress" data-tc-clic="mainMenu-hosting-Wordpress" data-tc-clic-type="navigation">WordPress</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/website/joomla.xml" class="" style="" name="Menu/hosting-More/Joomla" nameat="mainMenu-hosting-Joomla" data-tc-clic="mainMenu-hosting-Joomla" data-tc-clic-type="navigation">Joomla</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/website/drupal.xml" class="" style="" name="Menu/hosting-More/drupal" nameat="mainMenu-hosting-drupal" data-tc-clic="mainMenu-hosting-drupal" data-tc-clic-type="navigation">Drupal</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/website/prestashop.xml" class="" style="" name="Menu/hosting-More/prestashop" nameat="mainMenu-hosting-prestashop" data-tc-clic="mainMenu-hosting-prestashop" data-tc-clic-type="navigation">PrestaShop</a></li>
+<li class="separate">
+<li><a href="https://docs.ovh.com/lt/hosting/" class="title" style="" name="Menu/hosting-More/guides" nameat="mainMenu-hosting-guides" data-tc-clic="mainMenu-hosting-guides" data-tc-clic-type="navigation">Gidai</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/order/domain/#/legacy/domain/search?options=~(hosting~'pro2014~module~'wordpress)" name="Menu/Pub-Web"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/pub/Mutu_Wordpress.jpg'); background-color: #000;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">WordPress Pro</p>
+<p style="color: #FFF;">Jūsų WordPress paruoštas naudojimui.</p>
+<br><p class="moreButton bgweb" style=""><span class="amount">4.99€ be PVM</span><span class="period"> /mėn.</span></p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-multihosting" data-product="pleskaas">
+<a href="https://www.ovh.lt/svetainiu-talpinimas-plesk/" style="" name="Menu/pleskaas" nameat="pleskaas" data-tc-clic="mainMenu-pleskaas" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Svetainių talpinimas Plesk</span><br><span class="baseline">Sprendimas profesionalams.</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">12.99€ be PVM</span><span class="period"> /mėn.</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh.lt/svetainiu-talpinimas-plesk/" class="title" style="" name="Menu/pleskaas-More/seeOffer" nameat="mainMenu-pleskaas-seeOffer" data-tc-clic="mainMenu-pleskaas-seeOffer" data-tc-clic-type="navigation" rel="nofollow">Atrasti pasiūlymą</a></li></ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/svetainiu-talpinimas-plesk/" name="Menu/Pub-Office"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/pub/encart-menu-plesk.jpg'); "><span><div class="moreContent">
+<p style="color: ;">Interneto svetainė, duomenų bazė, el. paštas, saugumas... Visa tai tampa paprasta su Plesk!</p>
+<br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+<span class="fw200" style="font-size: 9px; color: "></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-email" data-product="email">
+<a href="https://www.ovh.lt/El_pastas/" style="" name="Menu/emails" nameat="emails" data-tc-clic="mainMenu-emails" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">El. pašto sprendimai</span><br><span class="baseline">Bendro darbo sprendimai ir el. paštas</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">0.99€ be PVM</span><span class="period"> /mėn.</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/El_pastas/email-pro/" class="title" style="" name="Menu/emails-More/email-pro" nameat="mainMenu-emails-email-pro" data-tc-clic="mainMenu-emails-email-pro" data-tc-clic-type="navigation">E-mail Pro</a></li>
+<li><a href="https://www.ovh.lt/El_pastas/hosted-exchange/" class="title" style="" name="Menu/emails-More/exchange" nameat="mainMenu-emails-exchange" data-tc-clic="mainMenu-emails-exchange" data-tc-clic-type="navigation">Microsoft Exchange</a></li>
+<li><a href="https://www.ovh.lt/svetainiu-talpinimas/" class="" style="" name="Menu/emails-More/inclusHosting" nameat="mainMenu-emails-inclusHosting" data-tc-clic="mainMenu-emails-inclusHosting" data-tc-clic-type="navigation" rel="nofollow">El. paštas, suteikiamas su talpinimo planais</a></li>
+<li><a href="https://www.ovh.lt/domenai/nemokamas_talpinimas_start10m.xml" class="" style="" name="Menu/emails-More/inclusDomaine" nameat="mainMenu-emails-inclusDomaine" data-tc-clic="mainMenu-emails-inclusDomaine" data-tc-clic-type="navigation" rel="nofollow">El. paštas, suteikiamas su domenu</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/sharepoint/?range=mail" class="" style="" name="Menu/emails-More/sharepoint" nameat="mainMenu-emails-sharepoint" data-tc-clic="mainMenu-emails-sharepoint" data-tc-clic-type="navigation" rel="nofollow"> Microsoft Sharepoint 2016</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/El_pastas/hosted-exchange/gidai/" class="" style="" name="Menu/emails-More/guides" nameat="mainMenu-emails-guides" data-tc-clic="mainMenu-emails-guides" data-tc-clic-type="navigation">Gidai</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/domenai/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
+<br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-office" data-product="dedicated">
+<a href="https://www.ovh.lt/office-365/" style="" name="Menu/office" nameat="office" data-tc-clic="mainMenu-office" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Office 365</span><br><span class="baseline">Įsidiekite Office 2013 Suite į PC ir Mac</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Nuo: <br><span class="amount">7.99€ be PVM</span><span class="period"></span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/office-365/" class="title" style="" name="Menu/office-More/All" nameat="mainMenu-office-All" data-tc-clic="mainMenu-office-All" data-tc-clic-type="navigation" rel="nofollow">Užsakykite Microsoft Office paketą</a></li>
+<li class="separate">
+<li><a href="https://www.ovh.lt/office-365/" class="" style="" name="Menu/office-More/word" nameat="mainMenu-office-word" data-tc-clic="mainMenu-office-word" data-tc-clic-type="navigation" rel="nofollow">Word</a></li>
+<li><a href="https://www.ovh.lt/office-365/" class="" style="" name="Menu/office-More/excel" nameat="mainMenu-office-excel" data-tc-clic="mainMenu-office-excel" data-tc-clic-type="navigation" rel="nofollow">Excel</a></li>
+<li><a href="https://www.ovh.lt/office-365/" class="" style="" name="Menu/office-More/ppt" nameat="mainMenu-office-ppt" data-tc-clic="mainMenu-office-ppt" data-tc-clic-type="navigation" rel="nofollow">PowerPoint</a></li>
+<li><a href="https://www.ovh.lt/office-365/" class="" style="" name="Menu/office-More/outlook" nameat="mainMenu-office-outlook" data-tc-clic="mainMenu-office-outlook" data-tc-clic-type="navigation" rel="nofollow">Outlook</a></li>
+<li><a href="https://www.ovh.lt/office-365/" class="" style="" name="Menu/office-More/oneNote" nameat="mainMenu-office-oneNote" data-tc-clic="mainMenu-office-oneNote" data-tc-clic-type="navigation" rel="nofollow">OneNote</a></li>
+<li><a href="https://www.ovh.lt/office-365/" class="" style="" name="Menu/office-More/publisher" nameat="mainMenu-office-publisher" data-tc-clic="mainMenu-office-publisher" data-tc-clic-type="navigation" rel="nofollow">Publisher</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/domenai/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
+<br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-cdn" data-product="cdn">
+<a href="https://www.ovh.lt/ssl-gateway/" style="" name="Menu/cdn" nameat="cdn" data-tc-clic="mainMenu-cdn" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">SSL Gateway ir CDN</span><br><span class="baseline">Tarptautinių svetainių paspartinimas</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/ssl/" class="title" style="" name="Menu/cdn-More/certificats-ssl" nameat="mainMenu-cdn-certificats-ssl" data-tc-clic="mainMenu-cdn-certificats-ssl" data-tc-clic-type="navigation">SSL sertifikatai</a></li>
+<li><a href="https://www.ovh.lt/ssl-gateway/" class="" style="" name="Menu/cdn-More/ssl-gateway" nameat="mainMenu-cdn-ssl-gateway" data-tc-clic="mainMenu-cdn-ssl-gateway" data-tc-clic-type="navigation" rel="nofollow">SSL-Gateway</a></li>
+<li><a href="https://www.ovh.lt/cdn/infrastructure/" class="" style="" name="Menu/cdn-More/cdn-infra" nameat="mainMenu-cdn-cdn-infra" data-tc-clic="mainMenu-cdn-cdn-infra" data-tc-clic-type="navigation">CDN Infrastructure (Dedicated)</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/domenai/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
+<br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+</ul></li></ul>
+</li>
+
+        
+        
+
+        
+        
+
+        
+
+
+
+        
+        <li class="marketplace">
+<a href="javascript:void(0);" nameat="Tab-Programs" data-tc-clic="mainMenu-Tab-Programs" data-tc-clic-type="navigation">Programos</a><ul><li class="products"><ul>
+<li class="icn icn-marketplace massif
+                             first " data-product="partenaires">
+<a href="https://partner.ovhcloud.com/en-lt/" style="" name="Menu/partenrs-program" nameat="partenrs-program" data-tc-clic="mainMenu-partenrs-program" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVHcloud Partner Program</span><br><span class="baseline"></span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://partner.ovhcloud.com/en-lt/" name="Menu/Programs"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style="">Peržiūrėti puslapį</p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-dlp massif
+                            " data-product="dlp">
+<a href="https://www.ovh.lt/startup/" style="" name="Menu/dlp-main" nameat="dlp-main" data-tc-clic="mainMenu-dlp-main" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVHcloud Startup Program</span><br><span class="baseline"></span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/startup/" name="Menu/Programs"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style="">Peržiūrėti puslapį</p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+</ul></li></ul>
+</li>
+
+        
+        
+
+        
+
+        
+
+
+        <li class="about">
+<a href="javascript:void(0);" nameat="Tab-About" data-tc-clic="mainMenu-Tab-About" data-tc-clic-type="navigation">Apie OVH</a><ul><li class="products"><ul>
+<li class="icn icn-community first ">
+<a href="https://www.ovh.lt/pagalba/" style="" name="Menu/community" nameat="community" data-tc-clic="mainMenu-community" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Reikia pagalbos?</span><br><span class="baseline">Raskite atsakymus į visus savo klausimus</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/pagalba/" class="title" style="" name="Menu/community-More/home" nameat="mainMenu-community-home" data-tc-clic="mainMenu-community-home" data-tc-clic-type="navigation" rel="nofollow">Reikia pagalbos?</a></li>
+<li><a href="https://docs.ovh.com/lt/" class="" style="" name="Menu/community-More/guides" nameat="mainMenu-community-guides" data-tc-clic="mainMenu-community-guides" data-tc-clic-type="navigation">Gidai</a></li>
+<li><a href="https://www.ovh.lt/pagalba/status/" class="" style="" name="Menu/community-More/status" nameat="mainMenu-community-status" data-tc-clic="mainMenu-community-status" data-tc-clic-type="navigation">Paslaugų būsena</a></li>
+<li><a href="https://www.ovh.lt/pagalba/api.xml" class="" style="" name="Menu/community-More/API" nameat="mainMenu-community-API" data-tc-clic="mainMenu-community-API" data-tc-clic-type="navigation">API</a></li>
+<li><a href="https://www.ovh.lt/pagalba/mailing.xml" class="" style="" name="Menu/community-More/mailing" nameat="mainMenu-community-mailing" data-tc-clic="mainMenu-community-mailing" data-tc-clic-type="navigation">Registravimas į el. pašto konferencijas </a></li>
+<li><a href="https://www.ovh.lt/pagalba/forumas.xml" class="" style="" name="Menu/community-More/forum" nameat="mainMenu-community-forum" data-tc-clic="mainMenu-community-forum" data-tc-clic-type="navigation">Forumas</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/startup/" name="Menu/Pub-DLP"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/dlpMenu2.jpg'); background-color: #2D3741;background-size: 100%;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style=""></p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-news">
+<a href="https://www.ovh.lt/naujienos/" style="" name="Menu/news" nameat="news" data-tc-clic="mainMenu-news" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVH naujienos</span><br><span class="baseline"></span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/naujienos/" class="title" style="" name="Menu/news-More/home" nameat="mainMenu-news-home" data-tc-clic="mainMenu-news-home" data-tc-clic-type="navigation" rel="nofollow">Pagrindinis naujienų puslapis</a></li>
+<li><a href="https://www.ovh.lt/focus/" class="" style="" name="Menu/news-More/focus" nameat="mainMenu-news-focus" data-tc-clic="mainMenu-news-focus" data-tc-clic-type="navigation" rel="nofollow">Highlights</a></li>
+<li><a href="https://www.ovh.lt/naujienos/straipsniai/" class="" style="" name="Menu/news-More/all" nameat="mainMenu-news-all" data-tc-clic="mainMenu-news-all" data-tc-clic-type="navigation">Visi straipsniai</a></li>
+<li><a href="https://www.ovh.lt/naujienos/spauda/" class="" style="" name="Menu/news-More/presse" nameat="mainMenu-news-presse" data-tc-clic="mainMenu-news-presse" data-tc-clic-type="navigation">Pranešimai spaudai</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/startup/" name="Menu/Pub-DLP"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/dlpMenu2.jpg'); background-color: #2D3741;background-size: 100%;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style=""></p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-events">
+<a href="https://www.ovh.lt/events/" style="" name="Menu/events" nameat="events" data-tc-clic="mainMenu-events" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVH renginiai</span><br><span class="baseline">Visi įvykiai, mokymai ir susitikimai</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/events/" class="title" style="" name="Menu/events-More/all" nameat="mainMenu-events-all" data-tc-clic="mainMenu-events-all" data-tc-clic-type="navigation" rel="nofollow">Visi įvykiai</a></li>
+<li><a href="https://summit.ovhcloud.com/en/" class="" style="" name="Menu/events-More/summit2019" nameat="mainMenu-events-summit2019" data-tc-clic="mainMenu-events-summit2019" data-tc-clic-type="navigation">OVHcloud SUMMIT</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/startup/" name="Menu/Pub-DLP"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/dlpMenu2.jpg'); background-color: #2D3741;background-size: 100%;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style=""></p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-aboutus">
+<a href="https://www.ovh.lt/apie/" style="" name="Menu/about" nameat="about" data-tc-clic="mainMenu-about" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Apie OVH</span><br><span class="baseline"></span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/apie/" class="title" style="" name="Menu/about-More/discover" nameat="mainMenu-about-discover" data-tc-clic="mainMenu-about-discover" data-tc-clic-type="navigation" rel="nofollow">Susipažinti su OVH</a></li>
+<li><a href="https://www.ovh.lt/apie/duomenu-centrai.xml" class="" style="" name="Menu/about-More/datacenter" nameat="mainMenu-about-datacenter" data-tc-clic="mainMenu-about-datacenter" data-tc-clic-type="navigation">Duomenų centrai</a></li>
+<li><a href="https://www.ovh.lt/apie/tinklas.xml" class="" style="" name="Menu/about-More/MondialNetwork" nameat="mainMenu-about-MondialNetwork" data-tc-clic="mainMenu-about-MondialNetwork" data-tc-clic-type="navigation">Pasaulinis tinklas</a></li>
+<li><a href="https://www.ovh.lt/apie/saugumas.xml" class="" style="" name="Menu/about-More/security" nameat="mainMenu-about-security" data-tc-clic="mainMenu-about-security" data-tc-clic-type="navigation">Saugumas</a></li>
+<li><a href="https://www.ovh.lt/apie/komponentai.xml" class="" style="" name="Menu/about-More/Composants" nameat="mainMenu-about-Composants" data-tc-clic="mainMenu-about-Composants" data-tc-clic-type="navigation">Komponentai</a></li>
+<li><a href="https://www.ovh.lt/apie/gamyba.xml" class="" style="" name="Menu/about-More/prod" nameat="mainMenu-about-prod" data-tc-clic="mainMenu-about-prod" data-tc-clic-type="navigation">Serverių gamyba</a></li>
+<li><a href="https://www.ovh.lt/apie/techniniai-partneriai.xml" class="" style="" name="Menu/about-More/partners" nameat="mainMenu-about-partners" data-tc-clic="mainMenu-about-partners" data-tc-clic-type="navigation">Techniniai partneriai</a></li>
+<li><a href="https://www.ovh.lt/svarbiausi-klientai/" class="" style="" name="Menu/about-More/refs" nameat="mainMenu-about-refs" data-tc-clic="mainMenu-about-refs" data-tc-clic-type="navigation">Prestižiniai klientai</a></li>
+<li><a href="https://www.ovh.lt/apie/sertifikatai.xml" class="" style="" name="Menu/about-More/certifs" nameat="mainMenu-about-certifs" data-tc-clic="mainMenu-about-certifs" data-tc-clic-type="navigation">Sertifikatai</a></li>
+<li><a href="https://www.ovh.lt/apie/zaliosios-it.xml" class="" style="" name="Menu/about-More/green" nameat="mainMenu-about-green" data-tc-clic="mainMenu-about-green" data-tc-clic-type="navigation">Green IT</a></li>
+<li><a href="https://www.ovh.lt/apie/industry-manifesto.xml" class="" style="" name="Menu/about-More/manifesto" nameat="mainMenu-about-manifesto" data-tc-clic="mainMenu-about-manifesto" data-tc-clic-type="navigation">OVH Cloud Industry Manifesto</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/startup/" name="Menu/Pub-DLP"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/dlpMenu2.jpg'); background-color: #2D3741;background-size: 100%;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style=""></p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-jobs">
+<a href="https://careers.ovh.com/en-gb" style="" name="Menu/careers" nameat="careers" data-tc-clic="mainMenu-careers" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Karjera</span><br><span class="baseline">Prisidėkite prie OVH nuotykio</span>
+</div></a><ul class="prMore"><li><a href="https://careers.ovh.com/en-gb" class="title" style="" name="Menu/careers-More/home" nameat="mainMenu-careers-home" data-tc-clic="mainMenu-careers-home" data-tc-clic-type="navigation" rel="nofollow">Pradinis karjeros OVH puslapis</a></li></ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/startup/" name="Menu/Pub-DLP"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/dlpMenu2.jpg'); background-color: #2D3741;background-size: 100%;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style=""></p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+<li class="icn icn-privacy">
+<a href="https://www.ovh.lt/asmens-duomenu-apsauga/" style="" name="Menu/data-protection" nameat="data-protection" data-tc-clic="mainMenu-data-protection" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Duomenų apsauga - GDPR</span><br><span class="baseline"></span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh.lt/asmens-duomenu-apsauga/" class="title" style="" name="Menu/data-protection-More/home" nameat="mainMenu-data-protection-home" data-tc-clic="mainMenu-data-protection-home" data-tc-clic-type="navigation" rel="nofollow">Asmens duomenų apsauga</a></li>
+<li><a href="https://www.ovh.lt/asmens-duomenu-apsauga/gdpr.xml" class="" style="" name="Menu/data-protection-More/gdrp" nameat="mainMenu-data-protection-gdrp" data-tc-clic="mainMenu-data-protection-gdrp" data-tc-clic-type="navigation" rel="nofollow">GDPR</a></li>
+<li><a href="https://www.ovh.lt/asmens-duomenu-apsauga/saugumas.xml" class="" style="" name="Menu/data-protection-More/security" nameat="mainMenu-data-protection-security" data-tc-clic="mainMenu-data-protection-security" data-tc-clic-type="navigation" rel="nofollow">Duomenų saugumas</a></li>
+<li><a href="https://www.ovh.lt/asmens-duomenu-apsauga/jusu-teisiu-igyvendinimas/" class="" style="" name="Menu/data-protection-More/contact" nameat="mainMenu-data-protection-contact" data-tc-clic="mainMenu-data-protection-contact" data-tc-clic-type="navigation" rel="nofollow">Jūsų teisių įgyvendinimas</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh.lt/startup/" name="Menu/Pub-DLP"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh.lt/images/menu/dlpMenu2.jpg'); background-color: #2D3741;background-size: 100%;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style=""></p>
+<span class="fw200" style="font-size: 9px; color: #FFF"></span>
+</div></span></div></a></li></ul>
+</li>
+</ul></li></ul>
+</li>
+
+
+        
+    <li class="mobile first"><a href="https://www.ovh.com/manager/" data-tc-clic="TopHeader-Manager-mobile" data-tc-clic-type="navigation" title="Jūsų OVH valdymo sąsaja">Jūsų kliento ID</a></li>
+<li class="mobile"><a href="https://www.ovh.lt/pagalba/" data-tc-clic="TopHeader-Support-mobile" data-tc-clic-type="navigation" title="Techninė ir komercinė pagalba">Techninė pagalba</a></li>
+<li class="mobile">
+<link rel="stylesheet" href="https://www.ovh.com/fr/components/languageChooser/src/languageChooser.css">
+<style type="text/css">
+            .support-nav a#languageChooser {
+                margin: 16px 8px !important;
+                width: 25px !important;
+            }
+
+            .support-nav #changeLanguage ul.countryList li span {
+                float: left !important;
+            }
+
+            .support-nav #changeLanguage ul.countryList li .ovhFlag {
+                float: left !important;
+                margin: 8px !important;
+            }
+
+            
+            .headerLinks a#languageChooser {
+                margin: 0px 12px -6px 8px !important;
+            }
+
+            .mobileLanguageChooserWrapper {
+                height: 49px;
+                margin: 0;
+                text-align: center !important;
+                border: solid #fff 1px;
+                border-top: 0px;
+                border-right: 0px;
+            }
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+               .mobileLanguageChooserWrapper{height: 26px;}
+            }
+        </style>
+                    <div class="mobileLanguageChooserWrapper">
+                <a href="javascript:void(0);" id="languageChooser" class="ovhFlag lt" tabindex="1"></a><div class="lcBg"></div>
+<div id="changeLanguage">
+<div class="contryBox">
+<span class="chLangTitl">Europe</span><ul class="countryList">
+<li><a href="https://www.ovh.cz/" name="Flagz/cz" data-tc-clic="Flag-CZ"><div class="ovhFlag cz"></div>
+<span>Česká Republika [Kč]</span></a></li>
+<li><a href="https://www.ovh.de/" name="Flagz/de" data-tc-clic="Flag-DE"><div class="ovhFlag de"></div>
+<span>Deutschland [€]</span></a></li>
+<li><a href="https://www.ovh.es/" name="Flagz/es" data-tc-clic="Flag-ES"><div class="ovhFlag es"></div>
+<span>España [€]</span></a></li>
+<li><a href="https://www.ovh.com/fr/" name="Flagz/fr" data-tc-clic="Flag-FR"><div class="ovhFlag fr"></div>
+<span>France [€]</span></a></li>
+<li><a href="https://www.ovh.ie/" name="Flagz/ie" data-tc-clic="Flag-IE"><div class="ovhFlag ie"></div>
+<span>Ireland [€] </span></a></li>
+<li><a href="https://www.ovh.it/" name="Flagz/fi" data-tc-clic="Flag-IT"><div class="ovhFlag it"></div>
+<span>Italia [€]</span></a></li>
+<li><a href="https://www.ovh.lt/" name="Flagz/lt" data-tc-clic="Flag-LT"><div class="ovhFlag lt"></div>
+<span>Lietuva [€]</span></a></li>
+<li><a href="https://www.ovh.nl/" name="Flagz/nl" data-tc-clic="Flag-NL"><div class="ovhFlag nl"></div>
+<span>Nederland [€]</span></a></li>
+<li><a href="https://www.ovh.pl/" name="Flagz/pl" data-tc-clic="Flag-PL"><div class="ovhFlag pl"></div>
+<span>Polska [PLN]</span></a></li>
+<li><a href="https://www.ovh.pt/" name="Flagz/pt" data-tc-clic="Flag-PT"><div class="ovhFlag pt"></div>
+<span>Portugal [€]</span></a></li>
+<li><a href="https://www.ovh-hosting.fi/" name="Flagz/fi" data-tc-clic="Flag-FI"><div class="ovhFlag fi"></div>
+<span>Suomi [€]</span></a></li>
+<li style="height: 50px !important;"><a href="https://www.ovh.co.uk/" name="Flagz/uk" data-tc-clic="Flag-UK" style="height: 50px !important; text-align: left;"><div class="ovhFlag uk"></div>
+<span style="line-height: 10px">United Kingdom [£]<br><i style="margin: 0;font-size: 1em; color: #666 !important; line-height: 10px; font-style: inherit;">Reserved for UK residents</i></span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">The Americas</span><ul class="countryList">
+<li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca" data-tc-clic="Flag-CA"><div class="ovhFlag ca"></div>
+<span>Canada EN [CA$]</span></a></li>
+<li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc" data-tc-clic="Flag-QC"><div class="ovhFlag qc"></div>
+<span>Canada FR [CA$]</span></a></li>
+<li><a href="https://us.ovhcloud.com/" name="Flagz/us" data-tc-clic="Flag-WE"><div class="ovhFlag us"></div>
+<span>USA [US$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Africa</span><ul class="countryList">
+<li><a href="https://www.ovh.com/ma/" name="Flagz/ma" data-tc-clic="Flag-MA"><div class="ovhFlag ma"></div>
+<span>Maroc [Dhs]</span></a></li>
+<li><a href="https://www.ovh.sn/" name="Flagz/sn" data-tc-clic="Flag-SN"><div class="ovhFlag sn"></div>
+<span>Sénégal [FCFA]</span></a></li>
+<li><a href="https://www.ovh.com/tn/" name="Flagz/tn" data-tc-clic="Flag-TN"><div class="ovhFlag tn"></div>
+<span>Tunisie [DT]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Oceania</span><ul class="countryList">
+<li><a href="https://www.ovh.com.au/" name="Flagz/au" data-tc-clic="Flag-AU"><div class="ovhFlag au"></div>
+<span>Australia [A$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Asia</span><ul class="countryList">
+<li><a href="https://www.ovh.com/sg/" name="Flagz/au" data-tc-clic="Flag-SG"><div class="ovhFlag sg"></div>
+<span>Singapore [S$]</span></a></li>
+<li><a href="https://www.ovh.com/asia/" name="Flagz/asia" data-tc-clic="Flag-ASIA"><div class="ovhFlag asia"></div>
+<span>Asia [US$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">World</span><ul class="countryList">
+<li><a href="https://www.ovh.com/world/" name="Flagz/World" data-tc-clic="Flag-WorldUS"><div class="ovhFlag world"></div>
+<span>World [US$]</span></a></li>
+<li><a href="https://www.ovh.ie/" name="Flagz/World" data-tc-clic="Flag-WorldEU"><div class="ovhFlag world"></div>
+<span>World [€]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div style="clear: both;"></div>
+</div>
+                </div>
+            </li>
+</ul>
+</li></ul></nav>
+</div></div>
+</div>
+<input type="hidden" id="foot-language" value="lt"><footer style="position: relative;" id="footer"><div class="wrapper">
+<br><div class="preFoot"><div class="mainContainer">
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Produktai ir paslaugos</span><a href="https://www.ovh.lt/domenai/" nameat="DomainsName" data-tc-clic="Footer-DomainsName" data-tc-clic-type="navigation" data-product="domains">Domenai</a><a href="https://www.ovh.lt/El_pastas/hosted-exchange/" nameat="Emails" data-tc-clic="Footer-Emails" data-tc-clic-type="navigation" data-product="">El. paštas</a><a href="https://www.ovh.lt/svetainiu-talpinimas/" nameat="WebHosting" data-tc-clic="Footer-WebHosting" data-tc-clic-type="navigation" data-product="">Svetainių talpinimas</a><a href="https://www.ovh.lt/vps/" nameat="VPS" data-tc-clic="Footer-VPS" data-tc-clic-type="navigation" data-product="">VPS</a><a href="https://www.ovh.lt/dedikuoti_serveriai/" nameat="DedicatedServers" data-tc-clic="Footer-DedicatedServers" data-tc-clic-type="navigation" data-product="dedicated">Dedikuoti serveriai</a><a href="https://www.soyoustart.com/lt/" nameat="SySservers" data-tc-clic="Footer-SySservers" data-tc-clic-type="navigation" data-product="">So You Start serveriai</a><a href="https://www.ovh.lt/cloud/" nameat="Cloud" data-tc-clic="Footer-Cloud" data-tc-clic-type="navigation" data-product="">Cloud</a><a href="https://www.ovh.lt/dedicated-cloud/" nameat="DedicatedCloud" data-tc-clic="Footer-DedicatedCloud" data-tc-clic-type="navigation" data-product="cloud">Dedicated Cloud</a><br>
+</div></div>
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Bendruomenė ir įrankiai</span><a href="http://www.ovh.lt/manager/" nameat="Manager" data-tc-clic="Footer-Manager" data-tc-clic-type="navigation" data-product="">Valdymo sąsaja </a><a href="https://partner.ovhcloud.com/en-lt/" nameat="Partners" data-tc-clic="Footer-Partners" data-tc-clic-type="navigation" data-product="">OVHcloud Partner Program</a><a href="https://www.ovh.lt/mail/" target="_blank" nameat="Webmail" data-tc-clic="Footer-Webmail" data-tc-clic-type="navigation" data-product="">Žiniatinklio paštas</a><a href="https://www.ovh.lt/community/api.xml" nameat="API" data-tc-clic="Footer-API" data-tc-clic-type="navigation" data-product="">API</a><a href="https://forum.ovh.lt" target="_blank" nameat="OVHForum" data-tc-clic="Footer-OVHForum" data-tc-clic-type="navigation" data-product="">OVH forumas</a><a href="https://www.ovh.lt/community/mailing.xml" nameat="MailingLists" data-tc-clic="Footer-MailingLists" data-tc-clic-type="navigation" data-product="">El. pašto konferencijos</a><a href="https://docs.ovh.com/lt/" nameat="GuidesOVH" data-tc-clic="Footer-GuidesOVH" data-tc-clic-type="navigation" data-product="">Gidai</a><a href="https://www.ovh.lt/community/status/" nameat="Travaux" data-tc-clic="Footer-Travaux" data-tc-clic-type="navigation" data-product="">Darbai</a><a href="https://www.ovh.lt/community/status/" nameat="Status" data-tc-clic="Footer-Status" data-tc-clic-type="navigation" data-product="">Serverių būsena</a><a href="https://www.ovh.lt/community/status/" nameat="Network" data-tc-clic="Footer-Network" data-tc-clic-type="navigation" data-product="">Tinklas</a><a href="https://www.ovh.lt/pagalba/" nameat="Support" data-tc-clic="Footer-Support" data-tc-clic-type="navigation" data-product="">Techninė pagalba</a><a href="https://www.ovh.lt/pagalba/irankiai/check_whois.pl" nameat="Whois" data-tc-clic="Footer-Whois" data-tc-clic-type="navigation" data-product="">Whois</a><a href="https://www.ovh.lt/abuse/" nameat="Abuse" data-tc-clic="Footer-Abuse" data-tc-clic-type="navigation" data-product="">Pranešti apie pažeidimą <span class="grey small fw200" translate="none">(abuse@ovh.net)</span></a><br>
+</div></div>
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Užsakyti</span><a href="https://www.ovh.lt/order/domain/#/legacy/domain/search" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Užsakyti</a><a href="https://www.ovh.lt/dedikuoti_serveriai/tarifai/" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Dedikuoto serverio užsakymas</a><a href="https://www.ovh.lt/cgi-bin/order/renew.cgi" nameat="Renew" data-tc-clic="Footer-Renew" data-tc-clic-type="navigation" data-product="">Atnaujinkite savo paslaugas</a><a href="http://www.ovh.lt/auth/signup/#/?ovhCompany=ovh&amp;ovhSubsidiary=LT" nameat="NewCustomers" data-tc-clic="Footer-NewCustomers" data-tc-clic-type="navigation" data-product="">Dar nesate klientas?</a><a href="https://www.ovh.lt/pagalba/proceduros/" nameat="Procedures" data-tc-clic="Footer-Procedures" data-tc-clic-type="navigation" data-product="">Procedūros</a><br><span class="block fs18"></span><br><span class="block fs18">News</span><a href="https://www.ovh.lt/naujienos/" nameat="News" data-tc-clic="Footer-News" data-tc-clic-type="navigation" data-product="">Visos OVH naujienos</a><br>
+</div></div>
+<div class="half25 Fleft">
+<div class="padded marged"></div>
+<div class="socialLink" style="width: 100%;">
+<a target="_blank" title="Twitter" rel="nofollow" style="display: inline-block; width: 12%;" href="https://twitter.com/OVHcloud"><img src="https://www.ovh.lt/images/index2014/brandTwitter_20px-bkg-dark.svg"></a><a target="_blank" title="Linkedin" rel="nofollow" style="display: inline-block; width: 12%;" href="https://www.linkedin.com/company/ovh/"><img src="https://www.ovh.lt/images/index2014/brandLinkedin_20px-bkg-dark.svg"></a>
+</div>
+</div>
+<div class="half25 Fleft" id="serviceClientOVH">
+<br><div style="float: left; padding: 0; width: 100%;" id="assistance2"><div class="padded marged">
+<p class="white">Jūsų OVH pagalba</p>
+<p>Pr. - Pn.: 09:00 - 18:00</p>
+<br><div><p style="font-size: 20px; line-height: 30px;">+370 5 207 82 48</p></div>
+</div></div>
+<br>
+</div>
+</div></div>
+<del></del><br>
+</div>
+<div class="indexFooter">
+<div id="pik_footer" class="toDisplay">
+<input type="hidden" id="atInternet-orderPageName" value=""><input type="hidden" id="atInternet-NewCartOrder" value="no"><input type="hidden" id="atInternet-id" value=""><input type="hidden" id="atInternet-orderId" value=""><input type="hidden" id="atInternet-XmLarticle" value=""><input type="hidden" id="atInternet-ATpageName" value='"errors::404.xml"'><input type="hidden" id="atInternet-siteN2" value=""><input type="hidden" id="atInternet-aisle" value=""><input type="hidden" id="atInternet-ProductMainCategory" value=""><input type="hidden" id="atInternet-ProductName" value=""><input type="hidden" id="atInternet-ProductID" value=""><input type="hidden" id="atInternet-ProductPrice" value=""><input type="hidden" id="atInternet-roimt" value="NaN"><input type="hidden" id="atInternet-totalATI" value="NaN"><input type="hidden" id="atInternet-totalTF" value="NaN"><input type="hidden" id="atInternet-totalTax" value="NaN"><input type="hidden" id="atInternet-paymentMethod" value="1"><input type="hidden" id="atInternet-domCartTrigger" value=""><input type="hidden" id="atInternet-hasValidSession" value=""><input type="hidden" id="atInternet-vatRate" value="1.21"><input type="hidden" id="atInternet-paymentStatus" value=""><input type="hidden" id="atInternet-paymentSpecialSteps" value=""><input type="hidden" id="tagCo-GetPaymentStatus" value=""><input type="hidden" id="tagCo-GetPaymentMethod" value="1"><input type="hidden" id="atInternet-UrlBase" value=""><input type="hidden" id="atInternet-CurrencySymbolValue" value="€"><input type="hidden" id="atInternet-level1" value="Errors"><input type="hidden" id="atInternet-level2" value=""><input type="hidden" id="atInternet-level3" value=""><input type="hidden" id="atInternet-level4" value=""><input type="hidden" id="atInternet-level5" value=""><input type="hidden" id="atInternet-level6" value=""><script type="text/javascript">
+        var urlToTransform = window.location.pathname;
+        var delBase = urlToTransform.replace(/\/lt\//, "");
+        var urlTransformation = delBase.replace(/\//g, "::");
+        var xtChars = urlTransformation.length;
+        var delLastsPoints = urlTransformation.lastIndexOf('::');
+
+        if (delLastsPoints == xtChars-2){
+            urlTransformation = urlTransformation.substr(0, urlTransformation.length-2);
+        }
+        if (urlTransformation ==''){
+            urlTransformation = "HomePage";
+        }
+
+        var hasValidSession = jQuery('#atInternet-hasValidSession').val();
+        var orderPageName = jQuery('#atInternet-orderPageName').val();
+
+        
+            var tc_vars = {
+                
+                env_template : "Website",
+                env_work : "",
+                env_device : "",
+                env_country : "[LT]",
+                env_language : "[Lithuania]",
+                env_currency: "EUR",
+                
+                user_category : "",
+                user_id : "",
+                user_code: "",
+                user_gender : "",
+                user_age : "",
+                user_postalcode : "",
+                user_address : "",
+                user_firstname : "",
+                user_lastname : "",
+                user_email : "",
+                user_newcustomer : "",
+                user_profil : "",
+                
+                page_name : "errors::404.xml",
+                siteN2 : "",
+                page_level1 : "Errors",
+                page_level2 : "",
+                page_level3 : "",
+                page_level4 : "",
+                page_level5 : "",
+                page_level6 : "",
+                
+                search_keywords : "",
+                search_filters : [],
+                
+                product_array : [
+                    
+                     
+                    ],
+                
+                isBasketPage : false,
+                basket_id : "",
+                order_id : "",
+                order_payment_methods : "",
+                order_status : "",
+                order_amount : "",
+                order_amount_free : "",
+                order_amount_vat : "",
+                order_discount_without_vat: "",
+                order_discount_with_vat: "",
+                order_promo_code: "", 
+                order_product_number : "",
+                Getorder_amount : "",
+                Getorder_amount_free : "",
+                Getorder_amount_vat : "",
+                Page_indicator : "",
+                domCartTrigger : "",
+                domCartTrigger : "",
+                paymentSpecialSteps : "",
+                NewCartOrder : "no",
+                
+                GetSearchKeyword : "",
+                GetSearchPageNumber : "",
+                GetSearchPosition : ""
+
+            }
+        
+        jQuery.getScript("https://analytics.ovh.com/ovh/ovh.js");
+        jQuery.getScript("https://analytics.ovh.com/ovh/ovh_tags.js");
+
+
+    </script>
+</div>
+<br><br><div class="wrapper center">
+<a href="https://www.ovh.lt/" translate="none">© Copyright 1999-2020 OVHcloud</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/teisine-informacija/" title="Teisinė informacija">Teisinė informacija</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/sutartys/" title="Sutartys">Sutartys</a><a class="pipe"> | </a><a href="https://www.ovh.lt/asmens-duomenu-apsauga/" title="Privacy">Privacy</a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/benefits-2013-09-16-en" target="_blank" title="Domenų valdytojų teisės ir pareigos">Domenų valdytojų teisės ir pareigos</a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/responsibilities-2014-03-14-en" target="_blank" title="ICANN dokumentacija domenų valdytojams">ICANN dokumentacija domenų valdytojams</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/teisiniai_dokumentai/apmokejimas.xml" title="OVH mokėjimo priemonės">Mokėjimai</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/susisiekti/" title="Susisiekti su OVH">Techninė pagalba</a><a class="pipe"> | </a><a href="https://www.ovhcloud.com/about-us/" title="Susipažinkite su OVH">Apie OVH</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/irankiai/" title="Viskas apie jūsų produktus, abonementus, parinktis...">Mano paskyra</a><a class="pipe"> | </a><a target="_blank" href="https://careers.ovh.com/en-gb" title="OVH ieško darbuotojų">OVH ieško darbuotojų</a>
+</div>
+<br><br><div class="wrapper legalDirective">Visos kainos pateiktos be PVM, galutinė suma nurodoma užsakymo puslapyje<br>
+</div>
+<div class="wrapper legalDirective">Remiantis Direktyva 2006/112/EB po pakeitimų, nuo 2015 m. sausio 1 d. kainos, nurodytos su PVM, gali keistis priklausomai nuo kliento gyvenamosios vietos <br>(pagal nutylėjimą, kainos, paskelbtos su PVM, nurodomos su Lietuvos Respublikos PVM).</div>
+<br><br>
+</div>
+<br></footer><link rel="stylesheet" type="text/css" href="/klaidos/css/errors.css">
+</body>
+</html>
