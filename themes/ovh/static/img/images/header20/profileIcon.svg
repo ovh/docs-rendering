@@ -1,15 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "about:legacy-compat">
 <html>
+<<<<<<< HEAD
 <head lang="lt-LT">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>404 - Puslapis nerastas- OVH</title>
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Content-Language" content="lt">
+=======
+<head lang="fi-FI">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Sivua ei löydetty- OVH</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="fi">
+>>>>>>> update header menu.fi-fi.html
 <meta http-equiv="description" name="description" content="">
 <meta http-equiv="keywords" name="keywords" content="">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@ovh">
+<<<<<<< HEAD
 <meta name="twitter:title" content="404 - Puslapis nerastas...">
 <meta name="twitter:description" content="...">
 <meta name="twitter:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
@@ -74,6 +83,38 @@
                     "url": "https://www.ovh.lt",
                     "name": "OVH",
                     "logo" : "https://www.ovh.lt/images/logo-ovh.jpg",
+=======
+<meta name="twitter:title" content="404 - Sivua ei löydetty...">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
+<meta property="og:title" content="404 - Sivua ei löydetty">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
+<meta name="Geography" content="Finland">
+<meta name="country" content="Finland">
+<meta name="Language" content="Suomi">
+<meta name="Copyright" content="OVH">
+<meta name="Author" content="OVH">
+<meta name="msvalidate.01" content="9571C6C1172FA240D5DC7B902DD1F2A9">
+<meta name="google-site-verification" content="CsQyD7_Pn-I2xLwdkg-DtADKwXHyDFkNancQrdhtb-M">
+<meta http-equiv="robots" name="Robots" content="all">
+<meta name="robots" content="index, follow">
+<meta http-equiv="cache-control" content="no-cache">
+<link rel="icon" href="https://www.ovh-hosting.fi/favicon.ico" type="image/gif" translate="none">
+<script src="https://www.ovh-hosting.fi/js/jquery/1.10.2/jquery.min.js"></script><script src="https://www.ovh-hosting.fi/js/jquery.cookie.js"></script><script src="https://www.ovh-hosting.fi/components/menu/menu.js"></script><script>
+                    jQuery.noConflict();
+                    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+                </script><link rel="stylesheet" type="text/css" href="/components/menu/menu.css">
+<link rel="stylesheet" type="text/css" href="https://www.ovh-hosting.fi/components/footer/footer.css">
+<link rel="stylesheet" type="text/css" href="https://www.ovh-hosting.fi/themes/16/newSite.css">
+<script type="text/javascript" src="/templates/jscommon/website/commonOVH/common.js"></script><script language="javascript" type="text/javascript" src="https://www.ovh-hosting.fi/js/site-core.js"></script><script language="javascript" type="text/javascript" src="https://www.ovh-hosting.fi/js/site-more.js"></script><script type="text/javascript" src="https://www.ovh-hosting.fi/js/ajax-lib-core.js"></script><script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "url": "https://www.ovh-hosting.fi",
+                    "name": "OVH",
+                    "logo" : "https://www.ovh-hosting.fi/images/logo-ovh.jpg",
+>>>>>>> update header menu.fi-fi.html
                     "sameAs" : [
                         "https://plus.google.com/u/0/+OvhGroup/ ",
                         "https://plus.google.com/u/0/113241908030576578981/",
@@ -264,6 +305,7 @@
         <div class="full"><div class="row"><div class="col-s-12 col-l-8 col-m-10 col-s-center center"><div class="marginTop80 marginBottom80">
 <div class="errors-icn errors-icn-404"></div>
 <div class="marginTop30 marginBottom30"><div class="col-s-center separationBorder backgroundBleuVif"></div></div>
+<<<<<<< HEAD
 <h2 class="fspx33">Atsiprašome, problema kraunant puslapį</h2>
 <div class="center"><a href="/" class="newButton16 center marginTop30 marginBottom30 secondaryButton">Grįžti į pradžią</a></div>
 <p>
@@ -288,6 +330,33 @@
 
                             |
                             <a class="menu_link" href="https://www.ovh.lt/mail//" data-tc-clic="TopHeader-Webmail" title="Jūsų el. laiškai on-line">Žiniatinklio paštas</a> 
+=======
+<h2 class="fspx33">Pahoittelut, tapahtui virhe sivua ladattaessa. </h2>
+<div class="center"><a href="/" class="newButton16 center marginTop30 marginBottom30 secondaryButton">Takaisin etusivulle</a></div>
+<p>
+            Havaittiin virhe 404 "File Not Found".
+            <br>
+            Käytä selaimen takaisin-painiketta ja napsauta uudelleen halutusta linkistä.
+        </p>
+</div></div></div></div>
+<div class="full backgroundBeige">
+<div class="row"><div class="col-s-12 col-l-8 col-s-center center marginTop80 marginBottom40"><h2 qtlid="1109278">Haluatko, että ohjaamme sinut toiselle sivulle?</h2></div></div>
+<div class="row"><div class="col-s-12 col-l-9 col-s-center clear marginBottom80">
+<div class="col-s-6 col-m-6 col-l-4 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh-hosting.fi/cloud/" class="inline-block"><div class="errors-icn errors-icn-cloud"></div>Cloud</a></div>
+<div class="col-s-6 col-m-6 col-l-4 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/" class="inline-block"><div class="errors-icn errors-icn-dedicated"></div>Dedikoidut</a></div>
+<div class="col-s-6 col-m-6 col-l-4 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh-hosting.fi//webhotelli/" class="inline-block"><div class="errors-icn errors-icn-web"></div>Web</a></div>
+</div></div>
+</div>
+    </div>
+<input type="hidden" id="rootUrl" value="https://www.ovh-hosting.fi"><div id="header" class="global-component-menu fi">
+<input id="main-language" type="hidden" value="fi"><div class="header_wrapper">
+<a href="https://www.ovh-hosting.fi/" title="Etusivu OVH-hosting.fi - Verkkotunnukset, Webhotellit, Dedikoidut palvelimet, Cloud computing, Sähköpostit, VPS, CDN ja Housing." style="display: flex;" class="main_logo" data-tc-clic="TopHeader-mainLogo"><img src="https://www.ovh-hosting.fi/images/logo/ovhLogoColor.svg" alt="OVH.com logo" style="height: 35px; margin: 16px 10px;"></a><div class="support">
+<a id="menu_customer_not_logged" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh-hosting.fi/&amp;ovhSubsidiary=fi" data-tc-clic="TopHeader-Manager" title="Hallintapaneelisi">Asiakastunnus</a><a id="menu_customer_logged_in" class="menu_link" href="https://www.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh-hosting.fi/&amp;ovhSubsidiary=fi" style="display: none;" data-tc-clic="TopHeader-NIC" title="Hallintapaneelisi">Asiakastunnus (#NIC#)
+                            </a><a id="menu_customer_num_pending_order" class="menu_badge" href="https://www.ovh.com/manager/dedicated/index.html#/billing/orders?status=in-progress" data-tc-clic="TopHeader-Billing" title="Käynnissä olevat tilaukset"></a><a id="menu_customer_num_unpaid_order" class="menu_badge" href="https://www.ovh.com/manager/dedicated/index.html#/billing/orders?status=unpaid" data-tc-clic="TopHeader-UnpaidBilling" title="Maksamattomat tilaukset"></a> 
+
+                            |
+                            <a class="menu_link" href="https://www.ovh-hosting.fi/mail//" data-tc-clic="TopHeader-Webmail" title="Verkkosähköpostisi">Selainposti</a> 
+>>>>>>> update header menu.fi-fi.html
     
                             |
                             <style>
@@ -378,6 +447,7 @@
                                 }
 
                             </style>
+<<<<<<< HEAD
 <div class="headerHelpMenu">Techninė pagalba<ul>
 <li><a class="menu_link" data-tc-clic="TopHeader-Support" href="https://www.ovh.lt/pagalba/susisiekti/" title="Techninė pagalba">Techninė pagalba</a></li>
 <li><a class="menu_link" data-tc-clic="TopHeader-Docs" href="https://docs.ovh.com/lt/" title="Gidai">Gidai</a></li>
@@ -387,6 +457,17 @@
 
                             |
                              <div class="headerHelpMenu">Resursai<ul><li><a class="menu_link" data-tc-clic="TopHeader-manifesto" href="https://www.ovh.lt/manifesto.xml" title="Manifesto">Manifesto</a></li></ul>
+=======
+<div class="headerHelpMenu">Asiakaspalvelu<ul>
+<li><a class="menu_link" data-tc-clic="TopHeader-Support" href="https://www.ovh-hosting.fi/tuki/asiakaspalvelu/" title="Asiakaspalvelu">Asiakaspalvelu</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-Docs" href="https://docs.ovh.com/fi/" title="Ohjeet">Ohjeet</a></li>
+</ul>
+</div>
+<a id="menu_customer_num_pending_ticket" class="menu_badge" href="https://www.ovh.com/manager/dedicated/index.html#/ticket" title="Avoimet tukitiketit" data-tc-clic="TopHeader-OpenTickets"></a> 
+
+                            |
+                             <div class="headerHelpMenu">Taatut<ul><li><a class="menu_link" data-tc-clic="TopHeader-manifesto" href="https://www.ovh-hosting.fi/manifesto.xml" title="Manifesto">Manifesto</a></li></ul>
+>>>>>>> update header menu.fi-fi.html
 </div>
                             |
                             <a href="https://www.ovh.com/blog/" class="menu_link" target="_blank" data-tc-clic="TopHeader-OVHBlog" title="OVHcloud Blog">OVHcloud Blog</a>
@@ -425,7 +506,11 @@
                .mobileLanguageChooserWrapper{height: 26px;}
             }
         </style>
+<<<<<<< HEAD
 <a href="javascript:void(0);" id="languageChooser" class="ovhFlag lt" tabindex="1"></a><div class="lcBg"></div>
+=======
+<a href="javascript:void(0);" id="languageChooser" class="ovhFlag fi" tabindex="1"></a><div class="lcBg"></div>
+>>>>>>> update header menu.fi-fi.html
 <div id="changeLanguage">
 <div class="contryBox">
 <span class="chLangTitl">Europe</span><ul class="countryList">
@@ -507,7 +592,11 @@
 </div>
 <div style="clear: both;"></div>
 </div>
+<<<<<<< HEAD
 <input type="hidden" id="gsearchEngine" value="lt_LT"><input type="hidden" id="searchSource" value="www.ovh.lt"><input type="hidden" id="gsearchNoAnswer" value="Jokio rezultato">
+=======
+<input type="hidden" id="gsearchEngine" value="fi_FI"><input type="hidden" id="searchSource" value="www.ovh-hosting.fi"><input type="hidden" id="gsearchNoAnswer" value="Ei yhtään tulosta">
+>>>>>>> update header menu.fi-fi.html
 </div>
 </div>
 <div class="
@@ -519,12 +608,18 @@
 
                         </style>
 <nav id="nav" role="navigation"><ul><li id="navigation">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/" class="mobileLogo" data-tc-clic="TopHeader-Logo-mobile" data-tc-clic-type="navigation"><img src="https://www.ovh.lt/images/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" data-tc-clic="TopHeader-Toggle-mobile" translate="none">≡</label><input type="checkbox" id="menu-toggle"><ul id="menu" role="menubar">
 <li class="menuLogo"><a href="https://www.ovh.lt/"><span class="sprite-logo"></span></a></li>
+=======
+<a href="https://www.ovh-hosting.fi/" class="mobileLogo" data-tc-clic="TopHeader-Logo-mobile" data-tc-clic-type="navigation"><img src="https://www.ovh-hosting.fi/images/menu/logo.png" width="34px"></a><label class="menu-icon" for="menu-toggle" data-tc-clic="TopHeader-Toggle-mobile" translate="none">≡</label><input type="checkbox" id="menu-toggle"><ul id="menu" role="menubar">
+<li class="menuLogo"><a href="https://www.ovh-hosting.fi/"><span class="sprite-logo"></span></a></li>
+>>>>>>> update header menu.fi-fi.html
         
         <li class="cloud">
 <a href="javascript:void(0);" nameat="Tab-Server" data-tc-clic="mainMenu-Tab-Server" data-tc-clic-type="navigation">Server</a><ul><li class="products"><ul>
 <li class="icn icn-dedicated first " data-product="dedicated">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/dedikuoti_serveriai/" style="" name="Menu/dedicated" nameat="dedicated" data-tc-clic="mainMenu-dedicated" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">Dedikuoti serveriai</span><br><span class="baseline">OVH profesionalūs serveriai</span>
 </div>
@@ -538,11 +633,27 @@
 <li class="separate">
 <li><a href="https://www.ovh.lt/dedikuoti_serveriai/paskirstymai/sql_server.xml" class="" style="" name="Menu/dedicated-More/sqlServer" nameat="mainMenu-dedicated-sqlServer" data-tc-clic="mainMenu-dedicated-sqlServer" data-tc-clic-type="navigation">SQL Server</a></li>
 <li><a href="https://www.ovh.lt/dedikuoti_serveriai/windows-2014-licenciju-ikainiai.xml" class="" style="" name="Menu/dedicated-More/windowsServer" nameat="mainMenu-dedicated-windowsServer" data-tc-clic="mainMenu-dedicated-windowsServer" data-tc-clic-type="navigation">Windows Server</a></li>
+=======
+<a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/" style="" name="Menu/dedicated" nameat="dedicated" data-tc-clic="mainMenu-dedicated" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Dedikoidut palvelimet</span><br><span class="baseline">OVH:n palvelimet yrityskäyttöön</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/hinnat/" class="title" style="" name="Menu/dedicated-More/all" nameat="mainMenu-dedicated-all" data-tc-clic="mainMenu-dedicated-all" data-tc-clic-type="navigation" rel="nofollow">Dedikoidut palvelimet</a></li>
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/rise/" class="" style="" name="Menu/dedicated-More/rise" nameat="mainMenu-dedicated-rise" data-tc-clic="mainMenu-dedicated-rise" data-tc-clic-type="navigation">Rise palvelimet</a></li>
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/advance/" class="" style="" name="Menu/dedicated-More/advance" nameat="mainMenu-dedicated-advance" data-tc-clic="mainMenu-dedicated-advance" data-tc-clic-type="navigation">Advance-palvelimet</a></li>
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/storage/" class="" style="" name="Menu/dedicated-More/backup" nameat="mainMenu-dedicated-backup" data-tc-clic="mainMenu-dedicated-backup" data-tc-clic-type="navigation">Storage- ja varmuuskopiointipalvelimet</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/distribuutiot/" class="" style="" name="Menu/dedicated-More/distribution" nameat="mainMenu-dedicated-distribution" data-tc-clic="mainMenu-dedicated-distribution" data-tc-clic-type="navigation">Distribuutiot ja lisenssit</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/distribuutiot/sql_server.xml" class="" style="" name="Menu/dedicated-More/sqlServer" nameat="mainMenu-dedicated-sqlServer" data-tc-clic="mainMenu-dedicated-sqlServer" data-tc-clic-type="navigation">SQL Server</a></li>
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/windows-lisenssi-hinnat-2014.xml" class="" style="" name="Menu/dedicated-More/windowsServer" nameat="mainMenu-dedicated-windowsServer" data-tc-clic="mainMenu-dedicated-windowsServer" data-tc-clic-type="navigation">Windows</a></li>
+>>>>>>> update header menu.fi-fi.html
 <li class="separate">
 </ul>
 <ul><li class="more displayOnlyHovered"></ul>
 </li>
 <li class="icn icn-vps" data-product="vps">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/vps/" style="" name="Menu/vps" nameat="vps" data-tc-clic="mainMenu-vps" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">VPS</span><br><span class="baseline">Talpinimas virtualiame privačiame serveryje</span>
 </div>
@@ -557,10 +668,27 @@
 <li class="separate">
 <li><a href="https://www.ovh.lt/vps/kodel-ovh-vps.xml" class="" style="" name="Menu/vps-More/whyVpsOVH" nameat="mainMenu-vps-whyVpsOVH" data-tc-clic="mainMenu-vps-whyVpsOVH" data-tc-clic-type="navigation">Kodėl OVH VPS?</a></li>
 <li><a href="https://docs.ovh.com/lt/vps/" class="" style="" name="Menu/vps-More/help" nameat="mainMenu-vps-help" data-tc-clic="mainMenu-vps-help" data-tc-clic-type="navigation">Pagalba</a></li>
+=======
+<a href="https://www.ovh-hosting.fi/vps/" style="" name="Menu/vps" nameat="vps" data-tc-clic="mainMenu-vps" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">VPS</span><br><span class="baseline">Hosting yksityisellä virtuaalipalvelimella</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Alkaen: <br><span class="amount">3.70€</span><span class="period">/kk</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/vps/" class="title" style="" name="Menu/vps-More/all" nameat="mainMenu-vps-all" data-tc-clic="mainMenu-vps-all" data-tc-clic-type="navigation" rel="nofollow">VPS</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/vps/vps-ssd.xml" class="" style="" name="Menu/vps-More/ssd" nameat="mainMenu-vps-ssd" data-tc-clic="mainMenu-vps-ssd" data-tc-clic-type="navigation">VPS SSD</a></li>
+<li><a href="https://www.ovh-hosting.fi/vps/vps-cloud.xml" class="" style="" name="Menu/vps-More/cloud" nameat="mainMenu-vps-cloud" data-tc-clic="mainMenu-vps-cloud" data-tc-clic-type="navigation">VPS Cloud</a></li>
+<li><a href="https://www.ovh-hosting.fi/vps/vps-cloud-ram.xml" class="" style="" name="Menu/vps-More/cloudRam" nameat="mainMenu-vps-cloudRam" data-tc-clic="mainMenu-vps-cloudRam" data-tc-clic-type="navigation">VPS Cloud RAM</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/plesk-webhotelli/" class="" style="" name="Menu/vps-More/pleskaas" nameat="mainMenu-vps-pleskaas" data-tc-clic="mainMenu-vps-pleskaas" data-tc-clic-type="navigation">Plesk As a Service</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/vps/miksi-ovh-vps.xml" class="" style="" name="Menu/vps-More/whyVpsOVH" nameat="mainMenu-vps-whyVpsOVH" data-tc-clic="mainMenu-vps-whyVpsOVH" data-tc-clic-type="navigation">Miksi kannattaa valita OVH:n VPS?</a></li>
+<li><a href="https://docs.ovh.com/fi/vps/" class="" style="" name="Menu/vps-More/help" nameat="mainMenu-vps-help" data-tc-clic="mainMenu-vps-help" data-tc-clic-type="navigation">Apu</a></li>
+>>>>>>> update header menu.fi-fi.html
 </ul>
 <ul><li class="more displayOnlyHovered"></ul>
 </li>
 <li class="icn icn-pcc" data-product="cloud">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/private-cloud/" style="" name="Menu/privateCloud" nameat="privateCloud" data-tc-clic="mainMenu-privateCloud" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">Private Cloud</span><br><span class="baseline">Jūsų Cloud OVH - tai 100% dedikuoti ir pasiekiami resursai</span>
 </div>
@@ -578,10 +706,30 @@
 <li><a href="https://www.ovh.lt/private-cloud/parinktys/vrops.xml" class="" style="" name="Menu/privateCloud-More/vrops" nameat="mainMenu-privateCloud-vrops" data-tc-clic="mainMenu-privateCloud-vrops" data-tc-clic-type="navigation">vRealize Operations</a></li>
 <li><a href="https://www.ovh.lt/private-cloud/parinktys/atvaizdai-licencijos.xml" class="" style="" name="Menu/privateCloud-More/licences" nameat="mainMenu-privateCloud-licences" data-tc-clic="mainMenu-privateCloud-licences" data-tc-clic-type="navigation">Atvaizdai ir licencijos</a></li>
 <li><a href="https://www.ovh.lt/private-cloud/documentation/migruoti.xml" class="" style="" name="Menu/privateCloud-More/howToMigrate" nameat="mainMenu-privateCloud-howToMigrate" data-tc-clic="mainMenu-privateCloud-howToMigrate" data-tc-clic-type="navigation">Kaip migruoti</a></li>
+=======
+<a href="https://www.ovh-hosting.fi/private-cloud/" style="" name="Menu/privateCloud" nameat="privateCloud" data-tc-clic="mainMenu-privateCloud" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Private Cloud</span><br><span class="baseline">Ylläpidetty Cloud-tuotteesi, 100% dedikoitu, korkea käytettävyys</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/sddc/" class="title" style="" name="Menu/privateCloud-More/sddc" nameat="mainMenu-privateCloud-sddc" data-tc-clic="mainMenu-privateCloud-sddc" data-tc-clic-type="navigation">SDDC</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/sisaltyvat_palvelut/vsphere.xml" class="" style="" name="Menu/privateCloud-More/vsphere" nameat="mainMenu-privateCloud-vsphere" data-tc-clic="mainMenu-privateCloud-vsphere" data-tc-clic-type="navigation">vSphere as a Service</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/lisapalvelut/nsx.xml" class="" style="" name="Menu/privateCloud-More/nsx" nameat="mainMenu-privateCloud-nsx" data-tc-clic="mainMenu-privateCloud-nsx" data-tc-clic-type="navigation">NSX</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/lisapalvelut/veeam.xml" class="" style="" name="Menu/privateCloud-More/veeam" nameat="mainMenu-privateCloud-veeam" data-tc-clic="mainMenu-privateCloud-veeam" data-tc-clic-type="navigation">Managed Veeam Backup</a></li>
+<li>
+<a href="https://www.ovh-hosting.fi/private-cloud/pra/" class="title" style="" name="Menu/privateCloud-More/pra" nameat="mainMenu-privateCloud-pra" data-tc-clic="mainMenu-privateCloud-pra" data-tc-clic-type="navigation">Katastrofisuunnitelma(Zerto PRA)</a> <span style="color:#fff;background-color:#59d2ef;padding:0 2px;font-size:10px">Uutta</span>
+</li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/documentation/sertifioinnit.xml" class="" style="" name="Menu/privateCloud-More/certification" nameat="mainMenu-privateCloud-certification" data-tc-clic="mainMenu-privateCloud-certification" data-tc-clic-type="navigation">Sertifioinnit</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/payment-infrastructure/" class="title" style="" name="Menu/privateCloud-More/pci-dss" nameat="mainMenu-privateCloud-pci-dss" data-tc-clic="mainMenu-privateCloud-pci-dss" data-tc-clic-type="navigation">Payment Infrastructure: pankkitiedot</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/lisapalvelut/" class="title" style="" name="Menu/privateCloud-More/options" nameat="mainMenu-privateCloud-options" data-tc-clic="mainMenu-privateCloud-options" data-tc-clic-type="navigation">Lisäpalvelut</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/lisapalvelut/vrops.xml" class="" style="" name="Menu/privateCloud-More/vrops" nameat="mainMenu-privateCloud-vrops" data-tc-clic="mainMenu-privateCloud-vrops" data-tc-clic-type="navigation">vRealize Operations</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/lisapalvelut/kuvat-lisenssit.xml" class="" style="" name="Menu/privateCloud-More/licences" nameat="mainMenu-privateCloud-licences" data-tc-clic="mainMenu-privateCloud-licences" data-tc-clic-type="navigation">Kuvat &amp; lisenssit</a></li>
+<li><a href="https://www.ovh-hosting.fi/private-cloud/documentation/migraatio.xml" class="" style="" name="Menu/privateCloud-More/howToMigrate" nameat="mainMenu-privateCloud-howToMigrate" data-tc-clic="mainMenu-privateCloud-howToMigrate" data-tc-clic-type="navigation">Miten tehdä migraatio</a></li>
+>>>>>>> update header menu.fi-fi.html
 </ul>
 <ul><li class="more displayOnlyHovered"></ul>
 </li>
 <li class="icn icn-storageSolutions">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/storage-solutions/" style="" name="Menu/storageBackup" nameat="storageBackup" data-tc-clic="mainMenu-storageBackup" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">Saugykla ir atsarginis kopijavimas</span><br><span class="baseline">Įrangos, tinklo ir Cloud saugyklų sprendimai</span>
 </div>
@@ -593,10 +741,24 @@
 <li><a href="https://www.ovh.lt/dedikuoti_serveriai/saugykla/" class="" style="" name="Menu/storageBackup-More/storageServer" nameat="mainMenu-storageBackup-storageServer" data-tc-clic="mainMenu-storageBackup-storageServer" data-tc-clic-type="navigation">Storage serveriai</a></li>
 <li><a href="https://www.ovh.lt/storage-solutions/veeam-cloud-connect/" class="" style="" name="Menu/storageBackup-More/veeam-cloud-connect" nameat="mainMenu-storageBackup-veeam-cloud-connect" data-tc-clic="mainMenu-storageBackup-veeam-cloud-connect" data-tc-clic-type="navigation">Veeam Cloud Connect</a></li>
 <li><a href="https://www.ovh.lt/storage-solutions/veeam-enterprise.xml" class="" style="" name="Menu/storageBackup-More/veeam-enterprise" nameat="mainMenu-storageBackup-veeam-enterprise" data-tc-clic="mainMenu-storageBackup-veeam-enterprise" data-tc-clic-type="navigation">VMware vRealize Operation (vROps)</a></li>
+=======
+<a href="https://www.ovh-hosting.fi/storage-solutions/" style="" name="Menu/storageBackup" nameat="storageBackup" data-tc-clic="mainMenu-storageBackup" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Storage ja varmuuskopiointi</span><br><span class="baseline">Storageratkaisut: laitteisto, verkko, tai Cloud</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Alkaen: <br><span class="amount">0.01€</span><span class="period">/kk</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/storage-solutions/" class="title" style="" name="Menu/storageBackup-More/allStorage" nameat="mainMenu-storageBackup-allStorage" data-tc-clic="mainMenu-storageBackup-allStorage" data-tc-clic-type="navigation" rel="nofollow">Kaikki storageratkaisut</a></li>
+<li><a href="https://www.ovh-hosting.fi/nas/" class="" style="" name="Menu/storageBackup-More/nas" nameat="mainMenu-storageBackup-nas" data-tc-clic="mainMenu-storageBackup-nas" data-tc-clic-type="navigation">NAS</a></li>
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/backup-storage.xml" class="" style="" name="Menu/storageBackup-More/backupStor" nameat="mainMenu-storageBackup-backupStor" data-tc-clic="mainMenu-storageBackup-backupStor" data-tc-clic-type="navigation">Backup Storage</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/storage/" class="" style="" name="Menu/storageBackup-More/storageServer" nameat="mainMenu-storageBackup-storageServer" data-tc-clic="mainMenu-storageBackup-storageServer" data-tc-clic-type="navigation">Storage-palvelin</a></li>
+<li><a href="https://www.ovh-hosting.fi/storage-solutions/veeam-cloud-connect/" class="" style="" name="Menu/storageBackup-More/veeam-cloud-connect" nameat="mainMenu-storageBackup-veeam-cloud-connect" data-tc-clic="mainMenu-storageBackup-veeam-cloud-connect" data-tc-clic-type="navigation">Veeam Cloud Connect</a></li>
+<li><a href="https://www.ovh-hosting.fi/storage-solutions/veeam-enterprise.xml" class="" style="" name="Menu/storageBackup-More/veeam-enterprise" nameat="mainMenu-storageBackup-veeam-enterprise" data-tc-clic="mainMenu-storageBackup-veeam-enterprise" data-tc-clic-type="navigation">VMware vRealize Operation (vROps)</a></li>
+>>>>>>> update header menu.fi-fi.html
 </ul>
 <ul><li class="more displayOnlyHovered"></ul>
 </li>
 <li class="icn icn-network">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/tinklo-ir-saugumo-sprendimai.xml" style="" name="Menu/networkAndSecurity" nameat="networkAndSecurity" data-tc-clic="mainMenu-networkAndSecurity" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">Tinklo sprendimai ir saugumas</span><br><span class="baseline">Jūsų tinklo konstravimas OVH ir apsauga</span>
 </div></a><ul class="prMore">
@@ -609,6 +771,20 @@
 <li><a href="https://www.ovh.lt/sprendimai/load-balancer/" class="" style="" name="Menu/networkAndSecurity-More/IPlb" nameat="mainMenu-networkAndSecurity-IPlb" data-tc-clic="mainMenu-networkAndSecurity-IPlb" data-tc-clic-type="navigation">Load Balancers (apkrovos paskirstymas)</a></li>
 <li class="separate">
 <li><a href="https://www.ovh.lt/anti-ddos/" class="" style="" name="Menu/networkAndSecurity-More/antiDDos" nameat="mainMenu-networkAndSecurity-antiDDos" data-tc-clic="mainMenu-networkAndSecurity-antiDDos" data-tc-clic-type="navigation">Anti-DDoS apsauga</a></li>
+=======
+<a href="https://www.ovh-hosting.fi/verkko-ja-tietoturvaratkaisut.xml" style="" name="Menu/networkAndSecurity" nameat="networkAndSecurity" data-tc-clic="mainMenu-networkAndSecurity" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Verkko- ja tietoturvaratkaisut</span><br><span class="baseline">Verkon kokoaminen ja suojaus</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/verkko-ja-tietoturvaratkaisut.xml" class="title" style="" name="Menu/networkAndSecurity-More/antiDDos" nameat="mainMenu-networkAndSecurity-antiDDos" data-tc-clic="mainMenu-networkAndSecurity-antiDDos" data-tc-clic-type="navigation" rel="nofollow">Verkkoratkaisut</a></li>
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/ip_failover.xml" class="" style="" name="Menu/networkAndSecurity-More/IPfo" nameat="mainMenu-networkAndSecurity-IPfo" data-tc-clic="mainMenu-networkAndSecurity-IPfo" data-tc-clic-type="navigation">Fail-over IP</a></li>
+<li><a href="https://www.ovh-hosting.fi/ratkaisut/vrack/" class="" style="" name="Menu/networkAndSecurity-More/vRack" nameat="mainMenu-networkAndSecurity-vRack" data-tc-clic="mainMenu-networkAndSecurity-vRack" data-tc-clic-type="navigation">vRack (yksityisverkko)</a></li>
+<li><a href="https://www.ovh-hosting.fi/ratkaisut/ovhcloud-connect/" class="" style="" name="Menu/networkAndSecurity-More/dedicatedConnect" nameat="mainMenu-networkAndSecurity-dedicatedConnect" data-tc-clic="mainMenu-networkAndSecurity-dedicatedConnect" data-tc-clic-type="navigation">Dedicated Connect (Dedikoitu yhteys OVH:n ja asiakkaan konesalin välillä)</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/kaistanleveyden-paivitys.xml" class="" style="" name="Menu/networkAndSecurity-More/Bandwidth" nameat="mainMenu-networkAndSecurity-Bandwidth" data-tc-clic="mainMenu-networkAndSecurity-Bandwidth" data-tc-clic-type="navigation">Kaistanleveys</a></li>
+<li><a href="https://www.ovh-hosting.fi/ratkaisut/load-balancer/" class="" style="" name="Menu/networkAndSecurity-More/IPlb" nameat="mainMenu-networkAndSecurity-IPlb" data-tc-clic="mainMenu-networkAndSecurity-IPlb" data-tc-clic-type="navigation">Load Balancers (Kuormantasaaja)</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/anti-ddos/" class="" style="" name="Menu/networkAndSecurity-More/antiDDos" nameat="mainMenu-networkAndSecurity-antiDDos" data-tc-clic="mainMenu-networkAndSecurity-antiDDos" data-tc-clic-type="navigation">Anti-DDoS-suojaus</a></li>
+>>>>>>> update header menu.fi-fi.html
 </ul>
 <ul><li class="more displayOnlyHovered"></ul>
 </li>
@@ -621,6 +797,7 @@
 
         
         <li class="web">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/web/" nameat="Tab-Web" data-tc-clic="mainMenu-Tab-Web" data-tc-clic-type="navigation">Svetainių talpinimas</a><ul><li class="products"><ul>
 <li class="icn icn-domains first " data-product="domains">
 <a href="https://www.ovh.lt/domenai/" style="" name="Menu/domains" nameat="domains" data-tc-clic="mainMenu-domains" data-tc-clic-type="navigation"><div class="prDesc">
@@ -643,10 +820,35 @@
                                     background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
 <br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+=======
+<a href="https://www.ovh-hosting.fi/web/" nameat="Tab-Web" data-tc-clic="mainMenu-Tab-Web" data-tc-clic-type="navigation">Webhotellit</a><ul><li class="products"><ul>
+<li class="icn icn-domains first " data-product="domains">
+<a href="https://www.ovh-hosting.fi/verkkotunnukset/" style="" name="Menu/domains" nameat="domains" data-tc-clic="mainMenu-domains" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Verkkotunnukset</span><br><span class="baseline">Verkkotunnusten rekisteröinti ja siirto</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Alkaen: <br><span class="amount">.61€</span><span class="period">/vuosi</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/verkkotunnukset/" class="title" style="" name="Menu/domains-More/Create" nameat="mainMenu-domains-Create" data-tc-clic="mainMenu-domains-Create" data-tc-clic-type="navigation" rel="nofollow">Etsi vapaata verkkotunnusta</a></li>
+<li><a href="https://www.ovh-hosting.fi/verkkotunnukset/verkkotunnus_siirto.xml" class="" style="" name="Menu/domains-More/Transfer" nameat="mainMenu-domains-Transfer" data-tc-clic="mainMenu-domains-Transfer" data-tc-clic-type="navigation">Siirrä verkkotunnus</a></li>
+<li><a href="https://www.ovh-hosting.fi/verkkotunnukset/hinnat/" class="" style="" name="Menu/domains-More/tous" nameat="mainMenu-domains-tous" data-tc-clic="mainMenu-domains-tous" data-tc-clic-type="navigation" rel="nofollow">Kaikki verkkotunnukset</a></li>
+<li><a href="https://www.ovh-hosting.fi/verkkotunnukset/hinnat/#promotions" class="" style="" name="Menu/domains-More/Prom" nameat="mainMenu-domains-Prom" data-tc-clic="mainMenu-domains-Prom" data-tc-clic-type="navigation">Tarjoukset</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/verkkotunnukset/easy-redirect/" class="" style="" name="Menu/domains-More/Easy%20Redirect" nameat="mainMenu-domains-Easy Redirect" data-tc-clic="mainMenu-domains-Easy Redirect" data-tc-clic-type="navigation">Easy Redirect</a></li>
+<li><a href="https://www.ovh-hosting.fi/verkkotunnukset/dns-anycast/" class="" style="" name="Menu/domains-More/DNS%20Anycast" nameat="mainMenu-domains-DNS Anycast" data-tc-clic="mainMenu-domains-DNS Anycast" data-tc-clic-type="navigation">Anycast DNS</a></li>
+<li class="separate">
+<li><a href="https://docs.ovh.com/fi/domains/" class="" style="" name="Menu/domains-More/guides" nameat="mainMenu-domains-guides" data-tc-clic="mainMenu-domains-guides" data-tc-clic-type="navigation">Ohjeet</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh-hosting.fi/verkkotunnukset/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Kansainvälistä näkyvyyttä</p>
+<br><p class="moreButton bgweb" style="">Katso tuote</p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
 </li>
 <li class="icn icn-hosting" data-product="hosting">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/svetainiu-talpinimas/" style="" name="Menu/hosting" nameat="hosting" data-tc-clic="mainMenu-hosting" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">Svetainių talpinimas ir svetainės</span><br><span class="baseline">Paprasti ir galingi svetainių talpinimo planai</span>
 </div>
@@ -674,10 +876,40 @@
 <p class="title" style="color: #FFF;">WordPress Pro</p>
 <p style="color: #FFF;">Jūsų WordPress paruoštas naudojimui.</p>
 <br><p class="moreButton bgweb" style=""><span class="amount">4.99€ be PVM</span><span class="period"> /mėn.</span></p>
+=======
+<a href="https://www.ovh-hosting.fi/webhotelli/" style="" name="Menu/hosting" nameat="hosting" data-tc-clic="mainMenu-hosting" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Webhotellit</span><br><span class="baseline">Kotisivujen ylläpitoon</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Alkaen: <br><span class="amount">2.50€</span><span class="period">/kk</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/webhotelli/" class="title" style="" name="Menu/hosting-More/all" nameat="mainMenu-hosting-all" data-tc-clic="mainMenu-hosting-all" data-tc-clic-type="navigation" rel="nofollow">Webhotellit</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/webhotelli-perso.xml" class="" style="" name="Menu/hosting-More/Perso" nameat="mainMenu-hosting-Perso" data-tc-clic="mainMenu-hosting-Perso" data-tc-clic-type="navigation">Personal-webhotelli</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/webhotelli-pro.xml" class="" style="" name="Menu/hosting-More/Pro" nameat="mainMenu-hosting-Pro" data-tc-clic="mainMenu-hosting-Pro" data-tc-clic-type="navigation">Pro-webhotelli</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/cloud-web.xml" class="" style="" name="Menu/hosting-More/CloudWeb" nameat="mainMenu-hosting-CloudWeb" data-tc-clic="mainMenu-hosting-CloudWeb" data-tc-clic-type="navigation">Cloud Web -webhotelli (Eristetty alusta)</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/performance-webhotelli.xml" class="" style="" name="Menu/hosting-More/Perf" nameat="mainMenu-hosting-Perf" data-tc-clic="mainMenu-hosting-Perf" data-tc-clic-type="navigation">Performance-webhotelli (Taatut resurssit)</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/sql-optiot.xml" class="" style="" name="Menu/hosting-More/options-sql" nameat="mainMenu-hosting-options-sql" data-tc-clic="mainMenu-hosting-options-sql" data-tc-clic-type="navigation">MySQL-tietokantavaihtoehdot</a></li>
+<li><a href="https://www.ovh-hosting.fi/ssl/" class="" style="" name="Menu/hosting-More/certificats-ssl" nameat="mainMenu-hosting-certificats-ssl" data-tc-clic="mainMenu-hosting-certificats-ssl" data-tc-clic-type="navigation">SSL-varmenteet</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/webhotelli/website/" class="title" style="" name="Menu/hosting-More/1click" nameat="mainMenu-hosting-1click" data-tc-clic="mainMenu-hosting-1click" data-tc-clic-type="navigation">Verkkosivun luominen</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/website/wordpress.xml" class="" style="" name="Menu/hosting-More/Wordpress" nameat="mainMenu-hosting-Wordpress" data-tc-clic="mainMenu-hosting-Wordpress" data-tc-clic-type="navigation">WordPress</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/website/joomla.xml" class="" style="" name="Menu/hosting-More/Joomla" nameat="mainMenu-hosting-Joomla" data-tc-clic="mainMenu-hosting-Joomla" data-tc-clic-type="navigation">Joomla!</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/website/drupal.xml" class="" style="" name="Menu/hosting-More/drupal" nameat="mainMenu-hosting-drupal" data-tc-clic="mainMenu-hosting-drupal" data-tc-clic-type="navigation">Drupal</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/website/prestashop.xml" class="" style="" name="Menu/hosting-More/prestashop" nameat="mainMenu-hosting-prestashop" data-tc-clic="mainMenu-hosting-prestashop" data-tc-clic-type="navigation">PrestaShop</a></li>
+<li class="separate">
+<li><a href="https://docs.ovh.com/fi/hosting/" class="title" style="" name="Menu/hosting-More/guides" nameat="mainMenu-hosting-guides" data-tc-clic="mainMenu-hosting-guides" data-tc-clic-type="navigation">Ohjeet</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh-hosting.fi/order/domain/#/legacy/domain/search?options=~(hosting~'pro2014~module~'wordpress)" name="Menu/Pub-Web"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/pub/Mutu_Wordpress.jpg'); background-color: #000;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">WordPress Pro</p>
+<p style="color: #FFF;">WordPress käyttövalmiina.</p>
+<br><p class="moreButton bgweb" style=""><span class="amount">6.20€</span><span class="period">/kk</span></p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
 </li>
 <li class="icn icn-multihosting" data-product="pleskaas">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/svetainiu-talpinimas-plesk/" style="" name="Menu/pleskaas" nameat="pleskaas" data-tc-clic="mainMenu-pleskaas" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">Svetainių talpinimas Plesk</span><br><span class="baseline">Sprendimas profesionalams.</span>
 </div>
@@ -688,10 +920,23 @@
                                     background-image: url('https://www.ovh.lt/images/menu/pub/encart-menu-plesk.jpg'); "><span><div class="moreContent">
 <p style="color: ;">Interneto svetainė, duomenų bazė, el. paštas, saugumas... Visa tai tampa paprasta su Plesk!</p>
 <br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+=======
+<a href="https://www.ovh-hosting.fi/plesk-webhotelli/" style="" name="Menu/pleskaas" nameat="pleskaas" data-tc-clic="mainMenu-pleskaas" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Plesk-webhotelli</span><br><span class="baseline">Avaimet-käteen ratkaisu ammmattilaisille.</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Alkaen: <br><span class="amount">16.45€</span><span class="period">/kk</span></span></span><!--googleon: anchor--></div></a><ul class="prMore"><li><a href="https://www.ovh-hosting.fi/plesk-webhotelli/" class="title" style="" name="Menu/pleskaas-More/seeOffer" nameat="mainMenu-pleskaas-seeOffer" data-tc-clic="mainMenu-pleskaas-seeOffer" data-tc-clic-type="navigation" rel="nofollow">Tutustu tuotteeseen</a></li></ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh-hosting.fi/plesk-webhotelli/" name="Menu/Pub-Office"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/pub/encart-menu-plesk.jpg'); "><span><div class="moreContent">
+<p style="color: ;">Verkkosivusto, tietokannat, sähköpostit, tietoturva... Kaikki on yksinkertaista Pleskin ansiosta!</p>
+<br><p class="moreButton bgweb" style="">Katso tuote</p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: "></span>
 </div></span></div></a></li></ul>
 </li>
 <li class="icn icn-email" data-product="email">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/El_pastas/" style="" name="Menu/emails" nameat="emails" data-tc-clic="mainMenu-emails" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">El. pašto sprendimai</span><br><span class="baseline">Bendro darbo sprendimai ir el. paštas</span>
 </div>
@@ -711,10 +956,32 @@
                                     background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
 <br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+=======
+<a href="https://www.ovh-hosting.fi/sahkopostit/" style="" name="Menu/emails" nameat="emails" data-tc-clic="mainMenu-emails" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Sähköpostiratkaisut</span><br><span class="baseline">Sähköpostilaatikot ja yritysratkaisut</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Alkaen: <br><span class="amount">1.3€</span><span class="period">/kk</span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/sahkopostit/email-pro/" class="title" style="" name="Menu/emails-More/email-pro" nameat="mainMenu-emails-email-pro" data-tc-clic="mainMenu-emails-email-pro" data-tc-clic-type="navigation">E-mail Pro</a></li>
+<li><a href="https://www.ovh-hosting.fi/sahkopostit/hosted-exchange/" class="title" style="" name="Menu/emails-More/exchange" nameat="mainMenu-emails-exchange" data-tc-clic="mainMenu-emails-exchange" data-tc-clic-type="navigation">Microsoft Exchange</a></li>
+<li><a href="https://www.ovh-hosting.fi/webhotelli/" class="" style="" name="Menu/emails-More/inclusHosting" nameat="mainMenu-emails-inclusHosting" data-tc-clic="mainMenu-emails-inclusHosting" data-tc-clic-type="navigation" rel="nofollow">Webhotelliin sisältyvät sähköpostit</a></li>
+<li><a href="https://www.ovh-hosting.fi/verkkotunnukset/start10m_webhotelli_tuote.xml" class="" style="" name="Menu/emails-More/inclusDomaine" nameat="mainMenu-emails-inclusDomaine" data-tc-clic="mainMenu-emails-inclusDomaine" data-tc-clic-type="navigation" rel="nofollow">Verkkotunnukseen sisältyvät sähköpostit</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/sharepoint/?range=mail" class="" style="" name="Menu/emails-More/sharepoint" nameat="mainMenu-emails-sharepoint" data-tc-clic="mainMenu-emails-sharepoint" data-tc-clic-type="navigation" rel="nofollow"> Microsoft Sharepoint 2016</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/sahkopostit/hosted-exchange/ohjeet/" class="" style="" name="Menu/emails-More/guides" nameat="mainMenu-emails-guides" data-tc-clic="mainMenu-emails-guides" data-tc-clic-type="navigation">Ohjeet</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh-hosting.fi/verkkotunnukset/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Kansainvälistä näkyvyyttä</p>
+<br><p class="moreButton bgweb" style="">Katso tuote</p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
 </li>
 <li class="icn icn-office" data-product="dedicated">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/office-365/" style="" name="Menu/office" nameat="office" data-tc-clic="mainMenu-office" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">Office 365</span><br><span class="baseline">Įsidiekite Office 2013 Suite į PC ir Mac</span>
 </div>
@@ -734,10 +1001,32 @@
                                     background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
 <br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+=======
+<a href="https://www.ovh-hosting.fi/office-365/" style="" name="Menu/office" nameat="office" data-tc-clic="mainMenu-office" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Office 365</span><br><span class="baseline">Suite Office 2013 PC &amp; Mac</span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price">Alkaen: <br><span class="amount">9.90€</span><span class="period"></span></span></span><!--googleon: anchor--></div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/office-365/" class="title" style="" name="Menu/office-More/All" nameat="mainMenu-office-All" data-tc-clic="mainMenu-office-All" data-tc-clic-type="navigation" rel="nofollow">Vuokraa Microsoft Office Suite</a></li>
+<li class="separate">
+<li><a href="https://www.ovh-hosting.fi/office-365/" class="" style="" name="Menu/office-More/word" nameat="mainMenu-office-word" data-tc-clic="mainMenu-office-word" data-tc-clic-type="navigation" rel="nofollow">Word</a></li>
+<li><a href="https://www.ovh-hosting.fi/office-365/" class="" style="" name="Menu/office-More/excel" nameat="mainMenu-office-excel" data-tc-clic="mainMenu-office-excel" data-tc-clic-type="navigation" rel="nofollow">Excel</a></li>
+<li><a href="https://www.ovh-hosting.fi/office-365/" class="" style="" name="Menu/office-More/ppt" nameat="mainMenu-office-ppt" data-tc-clic="mainMenu-office-ppt" data-tc-clic-type="navigation" rel="nofollow">PowerPoint</a></li>
+<li><a href="https://www.ovh-hosting.fi/office-365/" class="" style="" name="Menu/office-More/outlook" nameat="mainMenu-office-outlook" data-tc-clic="mainMenu-office-outlook" data-tc-clic-type="navigation" rel="nofollow">Outlook</a></li>
+<li><a href="https://www.ovh-hosting.fi/office-365/" class="" style="" name="Menu/office-More/oneNote" nameat="mainMenu-office-oneNote" data-tc-clic="mainMenu-office-oneNote" data-tc-clic-type="navigation" rel="nofollow">OneNote</a></li>
+<li><a href="https://www.ovh-hosting.fi/office-365/" class="" style="" name="Menu/office-More/publisher" nameat="mainMenu-office-publisher" data-tc-clic="mainMenu-office-publisher" data-tc-clic-type="navigation" rel="nofollow">Publisher</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh-hosting.fi/verkkotunnukset/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Kansainvälistä näkyvyyttä</p>
+<br><p class="moreButton bgweb" style="">Katso tuote</p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
 </li>
 <li class="icn icn-cdn" data-product="cdn">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/ssl-gateway/" style="" name="Menu/cdn" nameat="cdn" data-tc-clic="mainMenu-cdn" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">SSL Gateway ir CDN</span><br><span class="baseline">Tarptautinių svetainių paspartinimas</span>
 </div></a><ul class="prMore">
@@ -751,6 +1040,21 @@
                                     background-image: url('https://www.ovh.lt/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
 <p class="title" style="color: #FFF;">Plėtokite savo tarptautinę veiklą</p>
 <br><p class="moreButton bgweb" style="">Peržiūrėti pasiūlymą </p>
+=======
+<a href="https://www.ovh-hosting.fi/ssl-gateway/" style="" name="Menu/cdn" nameat="cdn" data-tc-clic="mainMenu-cdn" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">SSL Gateway/CDN</span><br><span class="baseline">Lisävauhtia kansainvälisille kotisivuille</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/ssl/" class="title" style="" name="Menu/cdn-More/certificats-ssl" nameat="mainMenu-cdn-certificats-ssl" data-tc-clic="mainMenu-cdn-certificats-ssl" data-tc-clic-type="navigation">SSL-varmenteet</a></li>
+<li><a href="https://www.ovh-hosting.fi/ssl-gateway/" class="" style="" name="Menu/cdn-More/ssl-gateway" nameat="mainMenu-cdn-ssl-gateway" data-tc-clic="mainMenu-cdn-ssl-gateway" data-tc-clic-type="navigation" rel="nofollow">SSL-Gateway</a></li>
+<li><a href="https://www.ovh-hosting.fi/cdn/infrastructure/" class="" style="" name="Menu/cdn-More/cdn-infra" nameat="mainMenu-cdn-cdn-infra" data-tc-clic="mainMenu-cdn-cdn-infra" data-tc-clic-type="navigation">CDN InfraStructure (dedikoitu)</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><a href="https://www.ovh-hosting.fi/verkkotunnukset/dotcom.xml" name="Menu/Pub-Domains-COM"><div class="
+                                    moreBox
+                                    bgweb" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/pub/dot-com-menu.jpg'); background-color: #484850;"><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Kansainvälistä näkyvyyttä</p>
+<br><p class="moreButton bgweb" style="">Katso tuote</p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
 </li>
@@ -769,6 +1073,7 @@
 
         
         <li class="marketplace">
+<<<<<<< HEAD
 <a href="javascript:void(0);" nameat="Tab-Programs" data-tc-clic="mainMenu-Tab-Programs" data-tc-clic-type="navigation">Programos</a><ul><li class="products"><ul>
 <li class="icn icn-marketplace massif
                              first " data-product="partenaires">
@@ -780,11 +1085,25 @@
                                     marketplace" style="
                                     background-image: url('https://www.ovh.lt/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
 <br><p class="moreButton marketplace" style="">Peržiūrėti puslapį</p>
+=======
+<a href="javascript:void(0);" nameat="Tab-Programs" data-tc-clic="mainMenu-Tab-Programs" data-tc-clic-type="navigation">Ohjelmat</a><ul><li class="products"><ul>
+<li class="icn icn-marketplace massif
+                             first " data-product="partenaires">
+<a href="https://partner.ovhcloud.com/en-fi/" style="" name="Menu/partenrs-program" nameat="partenrs-program" data-tc-clic="mainMenu-partenrs-program" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVHcloud Partner Program</span><br><span class="baseline"></span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://partner.ovhcloud.com/en-fi/" name="Menu/Programs"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style="">Katso sivu</p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
 </li>
 <li class="icn icn-dlp massif
                             " data-product="dlp">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/startup/" style="" name="Menu/dlp-main" nameat="dlp-main" data-tc-clic="mainMenu-dlp-main" data-tc-clic-type="navigation"><div class="prDesc">
 <span class="title">OVHcloud Startup Program</span><br><span class="baseline"></span>
 </div>
@@ -793,6 +1112,16 @@
                                     marketplace" style="
                                     background-image: url('https://www.ovh.lt/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
 <br><p class="moreButton marketplace" style="">Peržiūrėti puslapį</p>
+=======
+<a href="https://www.ovh-hosting.fi/startup/" style="" name="Menu/dlp-main" nameat="dlp-main" data-tc-clic="mainMenu-dlp-main" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVHcloud Startup Program</span><br><span class="baseline"></span>
+</div>
+<div class="prPrice" translate="none"><!--googleoff: anchor--><span style="display: table;vertical-align: middle;width: 100%;"><span class="price"></span></span><!--googleon: anchor--></div></a><ul><li class="more displayOnlyHovered"><a href="https://www.ovh-hosting.fi/startup/" name="Menu/Programs"><div class="
+                                    moreBox
+                                    marketplace" style="
+                                    background-image: url('https://www.ovh-hosting.fi/images/menu/programsMenu.png'); background-color: #88C424;"><span><div class="moreContent">
+<br><p class="moreButton marketplace" style="">Katso sivu</p>
+>>>>>>> update header menu.fi-fi.html
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
 </li>
@@ -808,6 +1137,7 @@
 
 
         <li class="about">
+<<<<<<< HEAD
 <a href="javascript:void(0);" nameat="Tab-About" data-tc-clic="mainMenu-Tab-About" data-tc-clic-type="navigation">Apie OVH</a><ul><li class="products"><ul>
 <li class="icn icn-community first ">
 <a href="https://www.ovh.lt/pagalba/" style="" name="Menu/community" nameat="community" data-tc-clic="mainMenu-community" data-tc-clic-type="navigation"><div class="prDesc">
@@ -912,14 +1242,136 @@
 <br><p class="moreButton marketplace" style=""></p>
 <span class="fw200" style="font-size: 9px; color: #FFF"></span>
 </div></span></div></a></li></ul>
+=======
+<a href="javascript:void(0);" nameat="Tab-About" data-tc-clic="mainMenu-Tab-About" data-tc-clic-type="navigation">Tietoa</a><ul><li class="products"><ul>
+<li class="icn icn-community first ">
+<a href="https://www.ovh-hosting.fi/tuki/" style="" name="Menu/community" nameat="community" data-tc-clic="mainMenu-community" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Tarvitsetko apua?</span><br><span class="baseline">Vastauksia avoimiin kysymyksiin</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/tuki/" class="title" style="" name="Menu/community-More/home" nameat="mainMenu-community-home" data-tc-clic="mainMenu-community-home" data-tc-clic-type="navigation" rel="nofollow">Tarvitsetko apua?</a></li>
+<li><a href="https://docs.ovh.com/fi/" class="" style="" name="Menu/community-More/guides" nameat="mainMenu-community-guides" data-tc-clic="mainMenu-community-guides" data-tc-clic-type="navigation">Ohjeet</a></li>
+<li><a href="https://www.ovh-hosting.fi/tuki/status/" class="" style="" name="Menu/community-More/status" nameat="mainMenu-community-status" data-tc-clic="mainMenu-community-status" data-tc-clic-type="navigation">Palveluiden tila</a></li>
+<li><a href="https://www.ovh-hosting.fi/tuki/api.xml" class="" style="" name="Menu/community-More/API" nameat="mainMenu-community-API" data-tc-clic="mainMenu-community-API" data-tc-clic-type="navigation">API</a></li>
+<li><a href="https://www.ovh-hosting.fi/tuki/mailing.xml" class="" style="" name="Menu/community-More/mailing" nameat="mainMenu-community-mailing" data-tc-clic="mainMenu-community-mailing" data-tc-clic-type="navigation">Tilaa uutiskirje</a></li>
+<li><a href="https://www.ovh-hosting.fi/tuki/foorumi.xml" class="" style="" name="Menu/community-More/forum" nameat="mainMenu-community-forum" data-tc-clic="mainMenu-community-forum" data-tc-clic-type="navigation">Foorumi</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh-hosting.fi/files/featured_images/vrack-g%C3%A9n%C3%A9rique_1.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Ajankohtaista</p>
+<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh-hosting.fi//uutiset/artikkelit/al311.virtuaalirakki-vrack-30-ovhn-yksityinen-verkko-tarkistettu-perusteellisesti-it-projektien-tarpeiden">Virtuaaliräkki (vRack) 3.0: OVH:n yksityinen verkko tarkistettu perusteellisesti IT-projektien tarpeiden ennakoimisen jatkamiseksi</a></p>
+<br><a class="moreButton bgabout" href="https://www.ovh-hosting.fi/news/" name="Menu/Pub-News">OVH:n uutiset</a>
+</div></span></div></li></ul>
+</li>
+<li class="icn icn-news">
+<a href="https://www.ovh-hosting.fi/uutiset/" style="" name="Menu/news" nameat="news" data-tc-clic="mainMenu-news" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVH News</span><br><span class="baseline">OVH:n artikkelit ja julkaisut</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/uutiset/" class="title" style="" name="Menu/news-More/home" nameat="mainMenu-news-home" data-tc-clic="mainMenu-news-home" data-tc-clic-type="navigation" rel="nofollow">Etusivu Uutiset</a></li>
+<li><a href="https://www.ovh-hosting.fi/focus/" class="" style="" name="Menu/news-More/focus" nameat="mainMenu-news-focus" data-tc-clic="mainMenu-news-focus" data-tc-clic-type="navigation" rel="nofollow">Highlights</a></li>
+<li><a href="https://www.ovh-hosting.fi/uutiset/artikkelit/" class="" style="" name="Menu/news-More/all" nameat="mainMenu-news-all" data-tc-clic="mainMenu-news-all" data-tc-clic-type="navigation">Kaikki teemat</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh-hosting.fi/files/featured_images/vrack-g%C3%A9n%C3%A9rique_1.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Ajankohtaista</p>
+<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh-hosting.fi//uutiset/artikkelit/al311.virtuaalirakki-vrack-30-ovhn-yksityinen-verkko-tarkistettu-perusteellisesti-it-projektien-tarpeiden">Virtuaaliräkki (vRack) 3.0: OVH:n yksityinen verkko tarkistettu perusteellisesti IT-projektien tarpeiden ennakoimisen jatkamiseksi</a></p>
+<br><a class="moreButton bgabout" href="https://www.ovh-hosting.fi/news/" name="Menu/Pub-News">OVH:n uutiset</a>
+</div></span></div></li></ul>
+</li>
+<li class="icn icn-events">
+<a href="https://www.ovh-hosting.fi/events/" style="" name="Menu/events" nameat="events" data-tc-clic="mainMenu-events" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">OVH Events</span><br><span class="baseline">Kaikki tapahtumat ja koulutukset</span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/events/" class="title" style="" name="Menu/events-More/all" nameat="mainMenu-events-all" data-tc-clic="mainMenu-events-all" data-tc-clic-type="navigation" rel="nofollow">Tapahtumat</a></li>
+<li><a href="https://summit.ovhcloud.com/en/" class="" style="" name="Menu/events-More/summit2019" nameat="mainMenu-events-summit2019" data-tc-clic="mainMenu-events-summit2019" data-tc-clic-type="navigation">OVHcloud SUMMIT</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh-hosting.fi/files/featured_images/vrack-g%C3%A9n%C3%A9rique_1.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Ajankohtaista</p>
+<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh-hosting.fi//uutiset/artikkelit/al311.virtuaalirakki-vrack-30-ovhn-yksityinen-verkko-tarkistettu-perusteellisesti-it-projektien-tarpeiden">Virtuaaliräkki (vRack) 3.0: OVH:n yksityinen verkko tarkistettu perusteellisesti IT-projektien tarpeiden ennakoimisen jatkamiseksi</a></p>
+<br><a class="moreButton bgabout" href="https://www.ovh-hosting.fi/news/" name="Menu/Pub-News">OVH:n uutiset</a>
+</div></span></div></li></ul>
+</li>
+<li class="icn icn-aboutus">
+<a href="https://www.ovh-hosting.fi/yritysinfo/" style="" name="Menu/about" nameat="about" data-tc-clic="mainMenu-about" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Tietoa</span><br><span class="baseline"></span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/" class="title" style="" name="Menu/about-More/discover" nameat="mainMenu-about-discover" data-tc-clic="mainMenu-about-discover" data-tc-clic-type="navigation" rel="nofollow">Tutustu OVH:hon</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/konesalit.xml" class="" style="" name="Menu/about-More/datacenter" nameat="mainMenu-about-datacenter" data-tc-clic="mainMenu-about-datacenter" data-tc-clic-type="navigation">Konesalit</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/verkko.xml" class="" style="" name="Menu/about-More/MondialNetwork" nameat="mainMenu-about-MondialNetwork" data-tc-clic="mainMenu-about-MondialNetwork" data-tc-clic-type="navigation">Globaali verkko</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/turvallisuus.xml" class="" style="" name="Menu/about-More/security" nameat="mainMenu-about-security" data-tc-clic="mainMenu-about-security" data-tc-clic-type="navigation">Tietoturva</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/komponentit.xml" class="" style="" name="Menu/about-More/Composants" nameat="mainMenu-about-Composants" data-tc-clic="mainMenu-about-Composants" data-tc-clic-type="navigation">Komponentit</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/tuotanto.xml" class="" style="" name="Menu/about-More/prod" nameat="mainMenu-about-prod" data-tc-clic="mainMenu-about-prod" data-tc-clic-type="navigation">Palvelimien kokoaminen</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/tekniset-yhteistyokumppanit.xml" class="" style="" name="Menu/about-More/partners" nameat="mainMenu-about-partners" data-tc-clic="mainMenu-about-partners" data-tc-clic-type="navigation">Tekniset kumppanit</a></li>
+<li><a href="https://www.ovh-hosting.fi/asiakasreferenssit/" class="" style="" name="Menu/about-More/refs" nameat="mainMenu-about-refs" data-tc-clic="mainMenu-about-refs" data-tc-clic-type="navigation">Asiakasreferenssit</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/sertifioinnit.xml" class="" style="" name="Menu/about-More/certifs" nameat="mainMenu-about-certifs" data-tc-clic="mainMenu-about-certifs" data-tc-clic-type="navigation">Sertifioinnit</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/green-it.xml" class="" style="" name="Menu/about-More/green" nameat="mainMenu-about-green" data-tc-clic="mainMenu-about-green" data-tc-clic-type="navigation">Green IT</a></li>
+<li><a href="https://www.ovh-hosting.fi/yritysinfo/industry-manifesto.xml" class="" style="" name="Menu/about-More/manifesto" nameat="mainMenu-about-manifesto" data-tc-clic="mainMenu-about-manifesto" data-tc-clic-type="navigation">OVH Cloud Industry Manifesto</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh-hosting.fi/files/featured_images/vrack-g%C3%A9n%C3%A9rique_1.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Ajankohtaista</p>
+<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh-hosting.fi//uutiset/artikkelit/al311.virtuaalirakki-vrack-30-ovhn-yksityinen-verkko-tarkistettu-perusteellisesti-it-projektien-tarpeiden">Virtuaaliräkki (vRack) 3.0: OVH:n yksityinen verkko tarkistettu perusteellisesti IT-projektien tarpeiden ennakoimisen jatkamiseksi</a></p>
+<br><a class="moreButton bgabout" href="https://www.ovh-hosting.fi/news/" name="Menu/Pub-News">OVH:n uutiset</a>
+</div></span></div></li></ul>
+</li>
+<li class="icn icn-jobs">
+<a href="https://careers.ovh.com/en-gb" style="" name="Menu/careers" nameat="careers" data-tc-clic="mainMenu-careers" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Ura</span><br><span class="baseline">Tule töihin OVH:lle</span>
+</div></a><ul class="prMore"><li><a href="https://careers.ovh.com/en-gb" class="title" style="" name="Menu/careers-More/home" nameat="mainMenu-careers-home" data-tc-clic="mainMenu-careers-home" data-tc-clic-type="navigation" rel="nofollow">Etusivu Urat OVH</a></li></ul>
+<ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh-hosting.fi/files/featured_images/vrack-g%C3%A9n%C3%A9rique_1.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Ajankohtaista</p>
+<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh-hosting.fi//uutiset/artikkelit/al311.virtuaalirakki-vrack-30-ovhn-yksityinen-verkko-tarkistettu-perusteellisesti-it-projektien-tarpeiden">Virtuaaliräkki (vRack) 3.0: OVH:n yksityinen verkko tarkistettu perusteellisesti IT-projektien tarpeiden ennakoimisen jatkamiseksi</a></p>
+<br><a class="moreButton bgabout" href="https://www.ovh-hosting.fi/news/" name="Menu/Pub-News">OVH:n uutiset</a>
+</div></span></div></li></ul>
+</li>
+<li class="icn icn-privacy">
+<a href="https://www.ovh-hosting.fi/henkilotietojen-suojaus/" style="" name="Menu/data-protection" nameat="data-protection" data-tc-clic="mainMenu-data-protection" data-tc-clic-type="navigation"><div class="prDesc">
+<span class="title">Tietojen suojaaminen - GDPR</span><br><span class="baseline"></span>
+</div></a><ul class="prMore">
+<li><a href="https://www.ovh-hosting.fi/henkilotietojen-suojaus/" class="title" style="" name="Menu/data-protection-More/home" nameat="mainMenu-data-protection-home" data-tc-clic="mainMenu-data-protection-home" data-tc-clic-type="navigation" rel="nofollow">Henkilötietojen suojaaminen</a></li>
+<li><a href="https://www.ovh-hosting.fi/henkilotietojen-suojaus/gdpr.xml" class="" style="" name="Menu/data-protection-More/gdrp" nameat="mainMenu-data-protection-gdrp" data-tc-clic="mainMenu-data-protection-gdrp" data-tc-clic-type="navigation" rel="nofollow">Tietosuoja-asetus - GDPR</a></li>
+<li><a href="https://www.ovh-hosting.fi/henkilotietojen-suojaus/turvallisuus.xml" class="" style="" name="Menu/data-protection-More/security" nameat="mainMenu-data-protection-security" data-tc-clic="mainMenu-data-protection-security" data-tc-clic-type="navigation" rel="nofollow">Tietoturvallisuus</a></li>
+<li><a href="https://www.ovh-hosting.fi/henkilotietojen-suojaus/oikeuksien-kayttaminen/" class="" style="" name="Menu/data-protection-More/contact" nameat="mainMenu-data-protection-contact" data-tc-clic="mainMenu-data-protection-contact" data-tc-clic-type="navigation" rel="nofollow">Käytä oikeuksiasi</a></li>
+</ul>
+<ul><li class="more displayOnlyHovered"><div class="
+                        moreBox
+                        bgabout" style="
+                        background-image: url('https://www.ovh-hosting.fi/files/featured_images/vrack-g%C3%A9n%C3%A9rique_1.jpeg'); background-color: #333;  background-position: top center
+                    "><span><div class="moreContent">
+<p class="title" style="color: #FFF;">Ajankohtaista</p>
+<p style="color: #FFF;"><a style="color: #FFF;" href="https://www.ovh-hosting.fi//uutiset/artikkelit/al311.virtuaalirakki-vrack-30-ovhn-yksityinen-verkko-tarkistettu-perusteellisesti-it-projektien-tarpeiden">Virtuaaliräkki (vRack) 3.0: OVH:n yksityinen verkko tarkistettu perusteellisesti IT-projektien tarpeiden ennakoimisen jatkamiseksi</a></p>
+<br><a class="moreButton bgabout" href="https://www.ovh-hosting.fi/news/" name="Menu/Pub-News">OVH:n uutiset</a>
+</div></span></div></li></ul>
+>>>>>>> update header menu.fi-fi.html
 </li>
 </ul></li></ul>
 </li>
 
 
         
+<<<<<<< HEAD
     <li class="mobile first"><a href="https://www.ovh.com/manager/" data-tc-clic="TopHeader-Manager-mobile" data-tc-clic-type="navigation" title="Jūsų OVH valdymo sąsaja">Jūsų kliento ID</a></li>
 <li class="mobile"><a href="https://www.ovh.lt/pagalba/" data-tc-clic="TopHeader-Support-mobile" data-tc-clic-type="navigation" title="Techninė ir komercinė pagalba">Techninė pagalba</a></li>
+=======
+    <li class="mobile first"><a href="https://www.ovh.com/manager/" data-tc-clic="TopHeader-Manager-mobile" data-tc-clic-type="navigation" title="Hallintapaneelisi">Asiakastunnus</a></li>
+<li class="mobile"><a href="https://www.ovh-hosting.fi/tuki/" data-tc-clic="TopHeader-Support-mobile" data-tc-clic-type="navigation" title="Tekninen- ja kaupallinen tuki">Asiakaspalvelu</a></li>
+>>>>>>> update header menu.fi-fi.html
 <li class="mobile">
 <link rel="stylesheet" href="https://www.ovh.com/fr/components/languageChooser/src/languageChooser.css">
 <style type="text/css">
@@ -955,7 +1407,11 @@
             }
         </style>
                     <div class="mobileLanguageChooserWrapper">
+<<<<<<< HEAD
                 <a href="javascript:void(0);" id="languageChooser" class="ovhFlag lt" tabindex="1"></a><div class="lcBg"></div>
+=======
+                <a href="javascript:void(0);" id="languageChooser" class="ovhFlag fi" tabindex="1"></a><div class="lcBg"></div>
+>>>>>>> update header menu.fi-fi.html
 <div id="changeLanguage">
 <div class="contryBox">
 <span class="chLangTitl">Europe</span><ul class="countryList">
@@ -1041,6 +1497,7 @@
 </li></ul></nav>
 </div></div>
 </div>
+<<<<<<< HEAD
 <input type="hidden" id="foot-language" value="lt"><footer style="position: relative;" id="footer"><div class="wrapper">
 <br><div class="preFoot"><div class="mainContainer">
 <div class="half25 Fleft"><div class="padded marged">
@@ -1051,18 +1508,43 @@
 </div></div>
 <div class="half25 Fleft"><div class="padded marged">
 <span class="block fs18">Užsakyti</span><a href="https://www.ovh.lt/order/domain/#/legacy/domain/search" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Užsakyti</a><a href="https://www.ovh.lt/dedikuoti_serveriai/tarifai/" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Dedikuoto serverio užsakymas</a><a href="https://www.ovh.lt/cgi-bin/order/renew.cgi" nameat="Renew" data-tc-clic="Footer-Renew" data-tc-clic-type="navigation" data-product="">Atnaujinkite savo paslaugas</a><a href="http://www.ovh.lt/auth/signup/#/?ovhCompany=ovh&amp;ovhSubsidiary=LT" nameat="NewCustomers" data-tc-clic="Footer-NewCustomers" data-tc-clic-type="navigation" data-product="">Dar nesate klientas?</a><a href="https://www.ovh.lt/pagalba/proceduros/" nameat="Procedures" data-tc-clic="Footer-Procedures" data-tc-clic-type="navigation" data-product="">Procedūros</a><br><span class="block fs18"></span><br><span class="block fs18">News</span><a href="https://www.ovh.lt/naujienos/" nameat="News" data-tc-clic="Footer-News" data-tc-clic-type="navigation" data-product="">Visos OVH naujienos</a><br>
+=======
+<input type="hidden" id="foot-language" value="fi"><footer style="position: relative;" id="footer"><div class="wrapper">
+<br><div class="preFoot"><div class="mainContainer">
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Tuotteet ja palvelut</span><a href="https://www.ovh-hosting.fi/verkkotunnukset/" nameat="DomainsName" data-tc-clic="Footer-DomainsName" data-tc-clic-type="navigation" data-product="domains">Verkkotunnukset</a><a href="https://www.ovh-hosting.fi/sahkopostit/hosted-exchange/" nameat="Emails" data-tc-clic="Footer-Emails" data-tc-clic-type="navigation" data-product="">Sähköpostit</a><a href="https://www.ovh-hosting.fi/webhotelli/" nameat="WebHosting" data-tc-clic="Footer-WebHosting" data-tc-clic-type="navigation" data-product="">Webhotellit</a><a href="https://www.ovh-hosting.fi/vps/" nameat="VPS" data-tc-clic="Footer-VPS" data-tc-clic-type="navigation" data-product="">VPS</a><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/" nameat="DedicatedServers" data-tc-clic="Footer-DedicatedServers" data-tc-clic-type="navigation" data-product="dedicated">Dedikoidut palvelimet</a><a href="https://www.soyoustart.com/fi/" nameat="SySservers" data-tc-clic="Footer-SySservers" data-tc-clic-type="navigation" data-product="">So you Start -dedikoidut palvelimet</a><a href="https://www.ovh-hosting.fi/cloud/" nameat="Cloud" data-tc-clic="Footer-Cloud" data-tc-clic-type="navigation" data-product="">Cloud</a><a href="https://www.ovh-hosting.fi/dedicated-cloud/" nameat="DedicatedCloud" data-tc-clic="Footer-DedicatedCloud" data-tc-clic-type="navigation" data-product="cloud">Dedicated Cloud</a><br>
+</div></div>
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Yhteisö &amp; Työkalut</span><a href="http://www.ovh-hosting.fi/manager/" nameat="Manager" data-tc-clic="Footer-Manager" data-tc-clic-type="navigation" data-product="">Hallintapaneeli</a><a href="https://partner.ovhcloud.com/en-fi/" nameat="Partners" data-tc-clic="Footer-Partners" data-tc-clic-type="navigation" data-product="">OVHcloud Partner Program</a><a href="https://www.ovh-hosting.fi/mail/" target="_blank" nameat="Webmail" data-tc-clic="Footer-Webmail" data-tc-clic-type="navigation" data-product="">Selainposti</a><a href="https://www.ovh-hosting.fi/community/api.xml" nameat="API" data-tc-clic="Footer-API" data-tc-clic-type="navigation" data-product="">API</a><a href="https://foorumi.ovh-hosting.fi" target="_blank" nameat="OVHForum" data-tc-clic="Footer-OVHForum" data-tc-clic-type="navigation" data-product="">Foorumi</a><a href="https://www.ovh-hosting.fi/community/mailing.xml" nameat="MailingLists" data-tc-clic="Footer-MailingLists" data-tc-clic-type="navigation" data-product="">Postituslistat</a><a href="https://docs.ovh.com/fi/" nameat="GuidesOVH" data-tc-clic="Footer-GuidesOVH" data-tc-clic-type="navigation" data-product="">Ohjeet</a><a href="https://www.ovh-hosting.fi/community/status/" nameat="Travaux" data-tc-clic="Footer-Travaux" data-tc-clic-type="navigation" data-product="">Tekniset tiedotteet</a><a href="https://www.ovh-hosting.fi/community/status/" nameat="Status" data-tc-clic="Footer-Status" data-tc-clic-type="navigation" data-product="">Palvelimen tila</a><a href="https://www.ovh-hosting.fi/community/status/" nameat="Network" data-tc-clic="Footer-Network" data-tc-clic-type="navigation" data-product="">Verkko</a><a href="https://www.ovh-hosting.fi/tuki/" nameat="Support" data-tc-clic="Footer-Support" data-tc-clic-type="navigation" data-product="">Asiakaspalvelu</a><a href="https://www.ovh-hosting.fi/tuki/tyokalut/check_whois.pl" nameat="Whois" data-tc-clic="Footer-Whois" data-tc-clic-type="navigation" data-product="">Whois</a><a href="https://www.ovh-hosting.fi/abuse/" nameat="Abuse" data-tc-clic="Footer-Abuse" data-tc-clic-type="navigation" data-product="">Ilmoita väärinkäytöstä <span class="grey small fw200" translate="none">(abuse@ovh.net)</span></a><br>
+</div></div>
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Tilaus</span><a href="https://www.ovh-hosting.fi/order/domain/#/legacy/domain/search" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Tilaa</a><a href="https://www.ovh-hosting.fi/dedikoidut_palvelimet/hinnat/" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Tilaa dedikoitu palvelin</a><a href="https://www.ovh-hosting.fi/cgi-bin/order/renew.cgi" nameat="Renew" data-tc-clic="Footer-Renew" data-tc-clic-type="navigation" data-product="">Palveluiden uusiminen</a><a href="https://www.ovh.com/auth/signup/#/?ovhCompany=ovh&amp;ovhSubsidiary=FI" nameat="NewCustomers" data-tc-clic="Footer-NewCustomers" data-tc-clic-type="navigation" data-product="">Luo asiakastunnus</a><a href="https://www.ovh-hosting.fi/tuki/lomakkeet/" nameat="Procedures" data-tc-clic="Footer-Procedures" data-tc-clic-type="navigation" data-product="">Lomakkeet</a><br><span class="block fs18"></span><br><span class="block fs18">News</span><a href="https://www.ovh-hosting.fi/uutiset/" nameat="News" data-tc-clic="Footer-News" data-tc-clic-type="navigation" data-product="">OVH:n uutiset</a><br>
+>>>>>>> update header menu.fi-fi.html
 </div></div>
 <div class="half25 Fleft">
 <div class="padded marged"></div>
 <div class="socialLink" style="width: 100%;">
+<<<<<<< HEAD
 <a target="_blank" title="Twitter" rel="nofollow" style="display: inline-block; width: 12%;" href="https://twitter.com/OVHcloud"><img src="https://www.ovh.lt/images/index2014/brandTwitter_20px-bkg-dark.svg"></a><a target="_blank" title="Linkedin" rel="nofollow" style="display: inline-block; width: 12%;" href="https://www.linkedin.com/company/ovh/"><img src="https://www.ovh.lt/images/index2014/brandLinkedin_20px-bkg-dark.svg"></a>
+=======
+<a target="_blank" title="Twitter" rel="nofollow" style="display: inline-block; width: 12%;" href="https://twitter.com/OVHcloud"><img src="https://www.ovh-hosting.fi/images/index2014/brandTwitter_20px-bkg-dark.svg"></a><a target="_blank" title="Linkedin" rel="nofollow" style="display: inline-block; width: 12%;" href="https://www.linkedin.com/company/ovh/"><img src="https://www.ovh-hosting.fi/images/index2014/brandLinkedin_20px-bkg-dark.svg"></a>
+>>>>>>> update header menu.fi-fi.html
 </div>
 </div>
 <div class="half25 Fleft" id="serviceClientOVH">
 <br><div style="float: left; padding: 0; width: 100%;" id="assistance2"><div class="padded marged">
+<<<<<<< HEAD
 <p class="white">Jūsų OVH pagalba</p>
 <p>Pr. - Pn.: 09:00 - 18:00</p>
 <br><div><p style="font-size: 20px; line-height: 30px;">+370 5 207 82 48</p></div>
+=======
+<p class="white">Asiakaspalvelu avoinna</p>
+<p>Maanantaista perjantaihin klo 9–17</p>
+<br><div>
+<p style="font-size: 20px; line-height: 30px;">+358 9 315 858 14</p>
+<p class="grey" style="font-size: 10px;"> </p>
+</div>
+>>>>>>> update header menu.fi-fi.html
 </div></div>
 <br>
 </div>
@@ -1071,9 +1553,15 @@
 </div>
 <div class="indexFooter">
 <div id="pik_footer" class="toDisplay">
+<<<<<<< HEAD
 <input type="hidden" id="atInternet-orderPageName" value=""><input type="hidden" id="atInternet-NewCartOrder" value="no"><input type="hidden" id="atInternet-id" value=""><input type="hidden" id="atInternet-orderId" value=""><input type="hidden" id="atInternet-XmLarticle" value=""><input type="hidden" id="atInternet-ATpageName" value='"errors::404.xml"'><input type="hidden" id="atInternet-siteN2" value=""><input type="hidden" id="atInternet-aisle" value=""><input type="hidden" id="atInternet-ProductMainCategory" value=""><input type="hidden" id="atInternet-ProductName" value=""><input type="hidden" id="atInternet-ProductID" value=""><input type="hidden" id="atInternet-ProductPrice" value=""><input type="hidden" id="atInternet-roimt" value="NaN"><input type="hidden" id="atInternet-totalATI" value="NaN"><input type="hidden" id="atInternet-totalTF" value="NaN"><input type="hidden" id="atInternet-totalTax" value="NaN"><input type="hidden" id="atInternet-paymentMethod" value="1"><input type="hidden" id="atInternet-domCartTrigger" value=""><input type="hidden" id="atInternet-hasValidSession" value=""><input type="hidden" id="atInternet-vatRate" value="1.21"><input type="hidden" id="atInternet-paymentStatus" value=""><input type="hidden" id="atInternet-paymentSpecialSteps" value=""><input type="hidden" id="tagCo-GetPaymentStatus" value=""><input type="hidden" id="tagCo-GetPaymentMethod" value="1"><input type="hidden" id="atInternet-UrlBase" value=""><input type="hidden" id="atInternet-CurrencySymbolValue" value="€"><input type="hidden" id="atInternet-level1" value="Errors"><input type="hidden" id="atInternet-level2" value=""><input type="hidden" id="atInternet-level3" value=""><input type="hidden" id="atInternet-level4" value=""><input type="hidden" id="atInternet-level5" value=""><input type="hidden" id="atInternet-level6" value=""><script type="text/javascript">
         var urlToTransform = window.location.pathname;
         var delBase = urlToTransform.replace(/\/lt\//, "");
+=======
+<input type="hidden" id="atInternet-orderPageName" value=""><input type="hidden" id="atInternet-NewCartOrder" value="no"><input type="hidden" id="atInternet-id" value=""><input type="hidden" id="atInternet-orderId" value=""><input type="hidden" id="atInternet-XmLarticle" value=""><input type="hidden" id="atInternet-ATpageName" value='"errors::404.xml"'><input type="hidden" id="atInternet-siteN2" value=""><input type="hidden" id="atInternet-aisle" value=""><input type="hidden" id="atInternet-ProductMainCategory" value=""><input type="hidden" id="atInternet-ProductName" value=""><input type="hidden" id="atInternet-ProductID" value=""><input type="hidden" id="atInternet-ProductPrice" value=""><input type="hidden" id="atInternet-roimt" value="NaN"><input type="hidden" id="atInternet-totalATI" value="NaN"><input type="hidden" id="atInternet-totalTF" value="NaN"><input type="hidden" id="atInternet-totalTax" value="NaN"><input type="hidden" id="atInternet-paymentMethod" value="1"><input type="hidden" id="atInternet-domCartTrigger" value=""><input type="hidden" id="atInternet-hasValidSession" value=""><input type="hidden" id="atInternet-vatRate" value="1.24"><input type="hidden" id="atInternet-paymentStatus" value=""><input type="hidden" id="atInternet-paymentSpecialSteps" value=""><input type="hidden" id="tagCo-GetPaymentStatus" value=""><input type="hidden" id="tagCo-GetPaymentMethod" value="1"><input type="hidden" id="atInternet-UrlBase" value=""><input type="hidden" id="atInternet-CurrencySymbolValue" value="€"><input type="hidden" id="atInternet-level1" value="Errors"><input type="hidden" id="atInternet-level2" value=""><input type="hidden" id="atInternet-level3" value=""><input type="hidden" id="atInternet-level4" value=""><input type="hidden" id="atInternet-level5" value=""><input type="hidden" id="atInternet-level6" value=""><script type="text/javascript">
+        var urlToTransform = window.location.pathname;
+        var delBase = urlToTransform.replace(/\/fi\//, "");
+>>>>>>> update header menu.fi-fi.html
         var urlTransformation = delBase.replace(/\//g, "::");
         var xtChars = urlTransformation.length;
         var delLastsPoints = urlTransformation.lastIndexOf('::');
@@ -1094,8 +1582,13 @@
                 env_template : "Website",
                 env_work : "",
                 env_device : "",
+<<<<<<< HEAD
                 env_country : "[LT]",
                 env_language : "[Lithuania]",
+=======
+                env_country : "[FI]",
+                env_language : "[Finland]",
+>>>>>>> update header menu.fi-fi.html
                 env_currency: "EUR",
                 
                 user_category : "",
@@ -1145,7 +1638,10 @@
                 Getorder_amount_vat : "",
                 Page_indicator : "",
                 domCartTrigger : "",
+<<<<<<< HEAD
                 domCartTrigger : "",
+=======
+>>>>>>> update header menu.fi-fi.html
                 paymentSpecialSteps : "",
                 NewCartOrder : "no",
                 
@@ -1162,6 +1658,7 @@
     </script>
 </div>
 <br><br><div class="wrapper center">
+<<<<<<< HEAD
 <a href="https://www.ovh.lt/" translate="none">© Copyright 1999-2020 OVHcloud</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/teisine-informacija/" title="Teisinė informacija">Teisinė informacija</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/sutartys/" title="Sutartys">Sutartys</a><a class="pipe"> | </a><a href="https://www.ovh.lt/asmens-duomenu-apsauga/" title="Privacy">Privacy</a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/benefits-2013-09-16-en" target="_blank" title="Domenų valdytojų teisės ir pareigos">Domenų valdytojų teisės ir pareigos</a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/responsibilities-2014-03-14-en" target="_blank" title="ICANN dokumentacija domenų valdytojams">ICANN dokumentacija domenų valdytojams</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/teisiniai_dokumentai/apmokejimas.xml" title="OVH mokėjimo priemonės">Mokėjimai</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/susisiekti/" title="Susisiekti su OVH">Techninė pagalba</a><a class="pipe"> | </a><a href="https://www.ovhcloud.com/about-us/" title="Susipažinkite su OVH">Apie OVH</a><a class="pipe"> | </a><a href="https://www.ovh.lt/pagalba/irankiai/" title="Viskas apie jūsų produktus, abonementus, parinktis...">Mano paskyra</a><a class="pipe"> | </a><a target="_blank" href="https://careers.ovh.com/en-gb" title="OVH ieško darbuotojų">OVH ieško darbuotojų</a>
 </div>
 <br><br><div class="wrapper legalDirective">Visos kainos pateiktos be PVM, galutinė suma nurodoma užsakymo puslapyje<br>
@@ -1170,5 +1667,15 @@
 <br><br>
 </div>
 <br></footer><link rel="stylesheet" type="text/css" href="/klaidos/css/errors.css">
+=======
+<a href="https://www.ovh-hosting.fi/" translate="none">© Copyright 1999-2020 OVHcloud</a><a class="pipe"> | </a><a href="https://www.ovh-hosting.fi/tuki/juridiset-tiedot/" title="Juridiset tiedot">Juridiset tiedot</a><a class="pipe"> | </a><a href="https://www.ovh-hosting.fi/tuki/sopimusehdot/" title="Sopimusehdot">Sopimusehdot</a><a class="pipe"> | </a><a href="https://www.ovh-hosting.fi/henkilotietojen-suojaus/" title="Tietosuojaseloste">Tietosuojaseloste</a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/benefits-2013-09-16-en" target="_blank" title="Rekisteröijän oikeudet ja velvollisuudet ">Rekisteröijän oikeudet ja velvollisuudet </a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/responsibilities-2014-03-14-en" target="_blank" title="ICANN-dokumentaatio rekisteröijälle">ICANN-dokumentaatio rekisteröijälle</a><a class="pipe"> | </a><a href="https://www.ovh-hosting.fi/tuki/kayttoehdot/maksu.xml" title="Maksutavat">Maksutavat</a><a class="pipe"> | </a><a href="https://www.ovh-hosting.fi/tuki/" title="Ota yhteyttä">Asiakaspalvelu</a><a class="pipe"> | </a><a href="https://www.ovhcloud.com/about-us/" title="Tutustu OVH:hon">Yritys</a><a class="pipe"> | </a><a href="https://www.ovh-hosting.fi/tuki/tyokalut/" title="Kaikki, mikä liitty tuotteisiisi, liittymiin, vaihtoehtoihin...">Oma tili</a><a class="pipe"> | </a><a target="_blank" href="https://careers.ovh.com/en-gb" title="Rekrytointi">Rekrytointi</a>
+</div>
+<br><br><div class="wrapper legalDirective">Kaikki hinnat sisältävät ALV:n.<br>
+</div>
+<div class="wrapper legalDirective">Muutetun direktiivin 2006/112/EY mukaisesti arvonlisäverolliset hinnat voivat vaihdella asiakkaan asuinmaan mukaan 1.1.2015 alkaen <br>(näytetyt hinnat sisältävät Suomessa voimassaolevan arvonlisäveron). </div>
+<br><br>
+</div>
+<br></footer><link rel="stylesheet" type="text/css" href="/virheet/css/errors.css">
+>>>>>>> update header menu.fi-fi.html
 </body>
 </html>
