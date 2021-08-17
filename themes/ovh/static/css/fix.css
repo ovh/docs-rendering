@@ -325,3 +325,33 @@ div.breadcrumbs {padding-top: 2px;}
 .tabs-title > a .caps {
   line-height: inherit;
 }
+
+/*
+===========================================
+==           new footer fixes            ==
+===========================================
+*/
+
+ul.ods-footer__menu {
+  margin-left: 0;
+}
+
+.ods-footer__link:active, .ods-footer__link:focus, .ods-footer__link:hover {
+  color: #fff!important;
+}
+
+.ods-bottomfooter__menu__item a {
+  font-size: 0.875rem;
+}
+
+.ods-bottomfooter__menu__item a:active,
+.ods-bottomfooter__menu__item a:hover,
+.ods-bottomfooter__menu__item a:focus {
+  color: #fff!important;
+}
+
+.ods-footer .container > div {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding: 0;
+}
