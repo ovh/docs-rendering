@@ -46,7 +46,7 @@
                         </h2>
                       </div>
                       <ul>
-                        {% for l2item in l1item.children %}
+                        {% for l2item in l1item.children|sort(attribute='order') %}
                         <li>
                           <a href="/{{l2item.url}}">{{l2item.title}}</a>
                         </li>
