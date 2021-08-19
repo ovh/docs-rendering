@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.523" height="29.542" viewBox="0 0 30.523 29.542">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_36" data-name="Tracé 36" d="M57.384-.462h6.823V-20.154H57.384ZM80.1-20.764c-2.826,0-4.382.985-6.174,3.269v-2.658H67.1V-.462h6.823v-10.7c0-2.255,1.063-4.46,3.623-4.46s3.18,2.206,3.18,4.411V-.462h6.794v-11.2C87.523-19.425,82.925-20.764,80.1-20.764ZM60.81-30A3.653,3.653,0,0,0,57-26.524a3.653,3.653,0,0,0,3.81,3.466,3.653,3.653,0,0,0,3.8-3.466A3.653,3.653,0,0,0,60.81-30Z" transform="translate(-57 30.004)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Tracé_35" data-name="Tracé 35" d="M56-.492H87.508V-32H56Z" transform="translate(-56 32)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_27" data-name="Groupe 27" clip-path="url(#clip-path)">
+    <g id="Groupe_26" data-name="Groupe 26" transform="translate(-0.985 -1.966)" clip-path="url(#clip-path-2)">
+      <path id="Tracé_34" data-name="Tracé 34" d="M52-35H92.369V4.385H52Z" transform="translate(-55.938 32.046)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
