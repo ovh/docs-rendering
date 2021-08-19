@@ -133,7 +133,7 @@ div.carousel .slick-list{
 
 .universe-home a:hover {
     color: #fff !important;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 .product-section ul, .product-section li {
