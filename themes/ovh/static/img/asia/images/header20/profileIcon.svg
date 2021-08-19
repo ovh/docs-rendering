@@ -1,1 +1,990 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><defs><style>.a{fill:none;}.b{fill:rgba(0,14,156,0);}.c{fill:#0050d7;}</style></defs><rect class="a" width="50" height="50"/><rect class="b" width="0.5" height="2" transform="translate(0 48)"/><g transform="translate(13 13)"><path class="c" d="M3.222,18.778A11,11,0,1,1,18.778,3.222,11,11,0,1,1,3.222,18.778ZM11,20a8.946,8.946,0,0,0,4.771-1.372,9.84,9.84,0,0,1-3.479-1.921,1.468,1.468,0,0,1-.478-1.316,6.76,6.76,0,0,1,1.267-1.823A5.906,5.906,0,0,0,14,10c0-2.824-.941-4-3-4S8,7.176,8,10a5.906,5.906,0,0,0,.918,3.569,6.76,6.76,0,0,1,1.267,1.823,1.468,1.468,0,0,1-.478,1.316,9.84,9.84,0,0,1-3.479,1.921A8.946,8.946,0,0,0,11,20ZM2,11a8.968,8.968,0,0,0,2.449,6.165,1,1,0,0,1,.235-.114,12.789,12.789,0,0,0,3.295-1.493,6.69,6.69,0,0,1-.693-.835A7.856,7.856,0,0,1,6,10c0-3.843,1.725-6,5-6s5,2.157,5,6a7.856,7.856,0,0,1-1.285,4.723,6.69,6.69,0,0,1-.693.835,12.789,12.789,0,0,0,3.295,1.493,1,1,0,0,1,.235.114A9,9,0,1,0,2,11Z" transform="translate(1 1)"/></g></svg>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<!--
+                X-RECRUITMENT: You know how to code? 
+                This is a good start, but it may not be enough! 
+                We are looking for engineers who LOVE coding. 
+                Programming enthusiasts, code aesthetes, CTF winners, ... 
+                In short, geeks eager to learn, obstinate, involved. 
+                You want to challenge yourself? 
+                Join us! 
+                https://careers.ovh.com/
+            --><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Page not found - OVH</title>
+<link rel="apple-touch-icon" href="/asia/images/appleIcon/apple-icon_152px-by-152px.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/asia/images/appleIcon/apple-icon_152px-by-152px.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/asia/images/appleIcon/apple-icon_180px-by-180px.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/asia/images/appleIcon/apple-icon_167px-by-167px.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="google-site-verification" content="J3fSHAVfI5uZPzM4rlKtSiBnE5iC0lxi0k2-pn0aM1U">
+<meta name="msvalidate.01" content="9571C6C1172FA240D5DC7B902DD1F2A9">
+<meta http-equiv="Content-Language" content="en-ASIA">
+<meta http-equiv="keywords" name="keywords" content=" OVH, domain names, dedicated server, web hosting, cloud computing, Dedicated Cloud, emails, exchange, VPS, NOC, network operating center, burst, bandwidth, Linux, Redhat, Debian, PHP, Perl, MySQL, Bind, Qmail, Webalizer, Webmin, backup, weekly backup, high availability, server hosting, dedicated hosting, unlimited traffic, no setup">
+<meta http-equiv="description" name="description" content="OVH supports your changing needs in terms of cloud computing, web presence, email and high-availability hosting">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ovh">
+<meta name="twitter:title" content="404 - Page not found...">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
+<meta property="og:title" content="404 - Page not found">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://www.ovh.com/fr/images/logos/logo-ovh-twitter.jpg">
+<meta name="Language" content="English">
+<meta name="Copyright" content="OVH">
+<meta name="Author" content="OVH">
+<meta name="robots" content="index, follow">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<link href="https://plus.google.com/+OvhGroup/" rel="publisher" translate="none">
+<link rel="alternate" type="application/rss+xml" href="https://www.ovh.com/asia/rss.xml" title="OVH news " qtlid_title="507677">
+<link rel="icon" href="https://www.ovh.com/asia/favicon.ico" type="image/gif" translate="none">
+<script language="javascript" type="text/javascript" src="https://www.ovh.com/asia/js/mootools-site-all.js"></script><script src="https://www.ovh.com/asia/js/jquery/1.10.2/jquery.min.js"></script><script src="https://www.ovh.com/asia/js/jquery.cookie.js" defer></script><script type="text/javascript" defer>
+                    jQuery.noConflict();
+                </script><script src="/fr/components/menu/menu.js?r" defer></script><script type="text/javascript" src="https://analytics.ovh.com/ovh/ovh_abt.js" async="async"></script><link rel="stylesheet" type="text/css" href="https://www.ovh.com/asia/components/menu/menu.css">
+<link rel="stylesheet" type="text/css" href="https://www.ovh.com/asia/components/footer/footer.css">
+<link rel="stylesheet" type="text/css" href="https://www.ovh.com/asia/themes/16/newSite.css">
+<link rel="stylesheet" type="text/css" href="https://www.ovh.com/asia/themes/16/ocms-icons.css">
+<script type="text/javascript" src="https://www.ovh.com/asia/js/website/commonOVH/common.js" defer async="async"></script><script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "url": "https://www.ovh.com/asia",
+                    "name": "OVH",
+                    "logo" : "https://www.ovh.com/images/logo-ovh.jpg",
+                    "sameAs" : [
+                        "https://plus.google.com/u/0/+OvhGroup/ ",
+                        "https://plus.google.com/u/0/113241908030576578981/",
+                        "https://twitter.com/ovhcloud_seasia",
+                        "https://www.linkedin.com/company/ovh",
+                        "https://en.wikipedia.org/wiki/OVH",
+                        "https://www.wikidata.org/wiki/Q568183"
+                    ],    
+                    "contactPoint" : [
+                        
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+33 972 10 10 07",
+                                "areaServed" : "FR",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+33 972 10 10 07",
+                                "areaServed" : "FR",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+44 333 370 0425",
+                                "areaServed" : "GB",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+44 333 370 0425",
+                                "areaServed" : "GB",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+353 1 293 7844",
+                                "areaServed" : "IE",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+353 1 293 7844",
+                                "areaServed" : "IE",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+49 681 906730",
+                                "areaServed" : "DE",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+49 681 906730",
+                                "areaServed" : "DE",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+34 91 758 34 77",
+                                "areaServed" : "ES",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+34 91 758 34 77",
+                                "areaServed" : "ES",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+351 213 155 642",
+                                "areaServed" : "PT",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+351 213 155 642",
+                                "areaServed" : "PT",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+48 71 750 02 00",
+                                "areaServed" : "PL",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+48 71 750 02 00",
+                                "areaServed" : "PL",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+39 02 5560 0423",
+                                "areaServed" : "IT",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+39 02 5560 0423",
+                                "areaServed" : "IT",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+1 855 684 5463",
+                                "areaServed" : "CA",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+1 855 684 5463",
+                                "areaServed" : "CA",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+1 855 684 5463",
+                                "areaServed" : "US",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+1 855 684 5463",
+                                "areaServed" : "US",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+212 5 22 26 00 86",
+                                "areaServed" : "MA",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+212 5 22 26 00 86",
+                                "areaServed" : "MA",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+216 71 966 044",
+                                "areaServed" : "TN",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+216 71 966 044",
+                                "areaServed" : "TN",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+221 33 889 75 70",
+                                "areaServed" : "SN",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+221 33 889 75 70",
+                                "areaServed" : "SN",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+31 20 808 60 57",
+                                "areaServed" : "NL",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+31 20 808 60 57",
+                                "areaServed" : "NL",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+358 9 315 858 14",
+                                "areaServed" : "FI",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+358 9 315 858 14",
+                                "areaServed" : "FI",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+370 5 243 00 10",
+                                "areaServed" : "LT",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+370 5 243 00 10",
+                                "areaServed" : "LT",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+420 246 030 899",
+                                "areaServed" : "CZ",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+420 246 030 899",
+                                "areaServed" : "CZ",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+61 1300 684 287",
+                                "areaServed" : "AU",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+61 1300 684 287",
+                                "areaServed" : "AU",
+                                "contactType": "technical support"
+                            },
+                            {
+                                "@type" : "ContactPoint",
+                                "telephone": "+65 3163 8340",
+                                "areaServed" : "SG",
+                                "contactType": "customer service"
+                            },
+                            {
+                                "@type": "ContactPoint",
+                                "telephone": "+65 3163 8340",
+                                "areaServed" : "SG",
+                                "contactType": "technical support"
+                            }    
+                    ]
+                }
+            </script>
+</head>
+<body>
+<div class="full" id="main">
+<div class="full"><div class="row"><div class="col-s-12 col-l-8 col-m-10 col-s-center center"><div class="marginTop80 marginBottom80">
+<div class="errors-icn errors-icn-404"></div>
+<div class="marginTop30 marginBottom30"><div class="col-s-center separationBorder backgroundBleuVif"></div></div>
+<h2 class="fspx33">Sorry, the page you were looking for was not found </h2>
+<div class="center"><a href="/" class="newButton16 center marginTop30 marginBottom30 secondaryButton">Go back home</a></div>
+<p>
+            You have encountered a 404 "File Not Found" error.  
+          <br>
+            Please click your browser's back button and try clicking on the link again. 
+       </p>
+</div></div></div></div>
+<div class="full backgroundBeige">
+<div class="row"><div class="col-s-12 col-l-8 col-s-center center marginTop80 marginBottom40"><h2 qtlid="1109278">May we direct you to another page?</h2></div></div>
+<div class="row"><div class="col-s-12 col-l-6 col-s-center clear marginBottom80">
+<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh.com/asia/cloud/" class="inline-block"><div class="errors-icn errors-icn-cloud"></div>Cloud</a></div>
+<div class="col-s-6 center marginTop20 marginBottom20 errorLinkBlock"><a href="https://www.ovh.com/asia/dedicated-servers/" class="inline-block"><div class="errors-icn errors-icn-dedicated"></div>Dedicated</a></div>
+</div></div>
+</div>
+</div>
+<input type="hidden" id="rootUrl" value="https://www.ovh.com/asia"><style>
+            #header20 a.new:after{
+                content: "New";
+                padding: 0.1em 0.6em;
+                background: #47ff78;
+                color: #00185E;
+                border-radius: 1em;
+                margin-left: 0.4em;
+                font-size: 0.8em;
+            }
+        </style>
+<div id="header20">
+<div class="full offBg"><div class="row">
+<div class="col-s-12 col-m-12 col-l-3">
+<div class="hamburger " id="hamburger-1">
+<span class="line"></span><span class="line"></span><span class="line"></span>
+</div>
+<input type="hidden" id="ovhcloudUrl" value="https://www.ovhcloud.com/asia/"><a href="https://www.ovh.com/asia/" data-tc-clic="TopHeader-mainLogo" id="ovhCloudLogo"><img src="https://www.ovh.com/asia/images/newLogos/logo-ovh.png" alt="OVHcloud" style="margin-top: 3px;"></a><a href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/asia/&amp;ovhSubsidiary=asia" id="profilIcon"><img alt="" src="https://www.ovh.com/asia/images/header20/profileIcon.svg"></a>
+</div>
+<div class="col-s-hide col-m-9"><div class="support" style="padding: 0;">
+<img alt="" src="https://www.ovh.com/asia/images/header20/profileIconW.svg"><a id="menu_customer_not_logged" class="menu_link a6dU7e" href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/asia/&amp;ovhSubsidiary=asia" data-tc-clic="TopHeader-Manager" title="OVHcloud Control Panel">My customer account</a><a id="menu_customer_logged_in" class="menu_link a6dU7e" href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/asia/&amp;ovhSubsidiary=asia" style="display: none;" data-tc-clic="TopHeader-NIC" title="OVHcloud Control Panel">My customer account (#NIC#)
+                                </a><a id="menu_customer_num_pending_order" class="menu_badge a6dU7e" href="https://ca.ovh.com/manager/dedicated/index.html#/billing/orders?status=in-progress" data-tc-clic="TopHeader-Billing" title="Orders in progress"></a><a id="menu_customer_num_unpaid_order" class="menu_badge a6dU7e" href="https://ca.ovh.com/manager/dedicated/index.html#/billing/orders?status=unpaid" data-tc-clic="TopHeader-UnpaidBilling" title="Unpaid invoices"></a> 
+
+                                ┃
+                                <a class="menu_link a6dU7e" data-tc-clic="TopHeader-SupportContactSales" href="https://www.ovhcloud.com/asia/contact-sales/" title="Contact Sales">Contact Sales</a> ┃
+                                <a class="menu_link a6dU7e" href="https://www.ovh.com/asia/mail/" data-tc-clic="TopHeader-Webmail" title="Your emails online">Webmail</a> 
+                                ┃
+
+                                <div class="headerHelpMenu">Support ▾
+                                    <ul>
+<li><a class="menu_link" data-tc-clic="TopHeader-Support" href="https://help.ovhcloud.com/asia/" title="Help Center">Help Center</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-SupportLevels" href="https://www.ovhcloud.com/asia/support-levels/" title="Support Levels">Support Levels</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-Docs" href="https://docs.ovh.com/asia/en/" title="Guides">Guides</a></li>
+</ul>
+</div>
+<a id="menu_customer_num_pending_ticket" class="menu_badge a6dU7e" href="https://ca.ovh.com/manager/dedicated/index.html#/ticket" title="Open support tickets " data-tc-clic="TopHeader-OpenTickets"></a> 
+
+                                ┃
+                                 <div class="headerHelpMenu">Resources ▾
+                                    <ul>
+<li><a class="menu_link" data-tc-clic="TopHeader-caseStudies" href="https://www.ovhcloud.com/asia/case-studies/" title="Case Studies">Case Studies</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-Stories" href="https://www.ovhcloud.com/asia/stories/" title="OVHcloud Stories">OVHcloud Stories</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-usecases" href="https://www.ovhcloud.com/asia/use-cases/" title="Use Cases">Use Cases</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-manifesto" href="https://www.ovh.com/asia/manifesto.xml" title="Manifesto">Manifesto</a></li>
+<li><a class="menu_link" data-tc-clic="TopHeader-cloudsecurity" href="https://www.ovhcloud.com/asia/cloud-security/" title="Cloud Security" translate="none">
+                                                Cloud Security
+                                            </a></li>
+</ul>
+</div>
+                                ┃
+                                <a href="https://www.ovh.com/blog/" class="menu_link a6dU7e" target="_blank" data-tc-clic="TopHeader-OVHBlog" title="OVHcloud Blog">OVHcloud Blog</a><link rel="stylesheet" href="https://www.ovh.com/fr/components/languageChooser/src/languageChooser.css">
+<style type="text/css">
+            .support-nav a#languageChooser {
+                margin: 16px 8px !important;
+                width: 25px !important;
+            }
+
+            .support-nav #changeLanguage ul.countryList li span {
+                float: left !important;
+            }
+
+            .support-nav #changeLanguage ul.countryList li .ovhFlag {
+                float: left !important;
+                margin: 8px !important;
+            }
+
+            
+            .headerLinks a#languageChooser {
+                margin: 0px 12px -6px 8px !important;
+            }
+
+            .mobileLanguageChooserWrapper {
+                height: 49px;
+                margin: 0;
+                text-align: center !important;
+                border: solid #fff 1px;
+                border-top: 0px;
+                border-right: 0px;
+            }
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+               .mobileLanguageChooserWrapper{height: 26px;}
+            }
+        </style>
+<a href="javascript:void(0);" id="languageChooser" class="ovhFlag asia" tabindex="1"></a><div class="lcBg"></div>
+<div id="changeLanguage">
+<div class="contryBox">
+<span class="chLangTitl">Asia</span><ul class="countryList">
+<li><a href="https://www.ovh.com/sg/" name="Flagz/au" data-tc-clic="Flag-SG"><div class="ovhFlag sg"></div>
+<span>Singapore [S$]</span></a></li>
+<li><a href="https://www.ovh.com/asia/" name="Flagz/asia" data-tc-clic="Flag-ASIA"><div class="ovhFlag asia"></div>
+<span>Asia [US$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Oceania</span><ul class="countryList">
+<li><a href="https://www.ovh.com.au/" name="Flagz/au" data-tc-clic="Flag-AU"><div class="ovhFlag au"></div>
+<span>Australia [A$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">The Americas</span><ul class="countryList">
+<li><a href="https://www.ovh.com/world/es/" name="Flagz/ws" data-tc-clic="Flag-WS"><div class="ovhFlag ws"></div>
+<span>América Latina [US$]</span></a></li>
+<li><a href="https://www.ovh.com/ca/en/" name="Flagz/ca" data-tc-clic="Flag-CA"><div class="ovhFlag ca"></div>
+<span>Canada EN [CA$]</span></a></li>
+<li><a href="https://www.ovh.com/ca/fr/" name="Flagz/qc" data-tc-clic="Flag-QC"><div class="ovhFlag qc"></div>
+<span>Canada FR [CA$]</span></a></li>
+<li><a href="https://us.ovhcloud.com/" name="Flagz/us" data-tc-clic="Flag-WE"><div class="ovhFlag us"></div>
+<span>USA [US$]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Europe</span><ul class="countryList">
+<li><a href="https://www.ovh.de/" name="Flagz/de" data-tc-clic="Flag-DE"><div class="ovhFlag de"></div>
+<span>Deutschland [€]</span></a></li>
+<li><a href="https://www.ovh.es/" name="Flagz/es" data-tc-clic="Flag-ES"><div class="ovhFlag es"></div>
+<span>España [€]</span></a></li>
+<li><a href="https://www.ovh.com/fr/" name="Flagz/fr" data-tc-clic="Flag-FR"><div class="ovhFlag fr"></div>
+<span>France [€]</span></a></li>
+<li><a href="https://www.ovh.ie/" name="Flagz/ie" data-tc-clic="Flag-IE"><div class="ovhFlag ie"></div>
+<span>Ireland [€] </span></a></li>
+<li><a href="https://www.ovh.it/" name="Flagz/fi" data-tc-clic="Flag-IT"><div class="ovhFlag it"></div>
+<span>Italia [€]</span></a></li>
+<li><a href="https://www.ovh.nl/" name="Flagz/nl" data-tc-clic="Flag-NL"><div class="ovhFlag nl"></div>
+<span>Nederland [€]</span></a></li>
+<li><a href="https://www.ovh.pl/" name="Flagz/pl" data-tc-clic="Flag-PL"><div class="ovhFlag pl"></div>
+<span>Polska [PLN]</span></a></li>
+<li><a href="https://www.ovh.pt/" name="Flagz/pt" data-tc-clic="Flag-PT"><div class="ovhFlag pt"></div>
+<span>Portugal [€]</span></a></li>
+<li style="height: 50px !important;"><a href="https://www.ovh.co.uk/" name="Flagz/uk" data-tc-clic="Flag-UK" style="height: 50px !important; text-align: left;"><div class="ovhFlag uk"></div>
+<span style="line-height: 10px">United Kingdom [£]<br><i style="margin: 0;font-size: 1em; color: #666 !important; line-height: 10px; font-style: inherit;">Reserved for UK residents</i></span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">Africa</span><ul class="countryList">
+<li><a href="https://www.ovh.com/ma/" name="Flagz/ma" data-tc-clic="Flag-MA"><div class="ovhFlag ma"></div>
+<span>Maroc [Dhs]</span></a></li>
+<li><a href="https://www.ovh.sn/" name="Flagz/sn" data-tc-clic="Flag-SN"><div class="ovhFlag sn"></div>
+<span>Sénégal [FCFA]</span></a></li>
+<li><a href="https://www.ovh.com/tn/" name="Flagz/tn" data-tc-clic="Flag-TN"><div class="ovhFlag tn"></div>
+<span>Tunisie [DT]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div class="contryBox">
+<span class="chLangTitl">World</span><ul class="countryList">
+<li><a href="https://www.ovh.com/world/" name="Flagz/World" data-tc-clic="Flag-WorldUS"><div class="ovhFlag world"></div>
+<span>World [US$]</span></a></li>
+<li><a href="https://www.ovh.ie/" name="Flagz/World" data-tc-clic="Flag-WorldEU"><div class="ovhFlag world"></div>
+<span>World [€]</span></a></li>
+<div style="clear: both;"></div>
+</ul>
+</div>
+<div style="clear: both;"></div>
+</div>
+</div></div>
+</div></div>
+<div id="profileContainer"><div class="card">
+<div class="row"><div class="col-s-12">
+<img src="https://www.ovh.com/asia/images/header20/profileIcn.png" alt=""><p class="bold">Welcome to OVHcloud.</p>
+<p>Log in to order, manage your products and services, and track your orders</p>
+<a class="newButton20" href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/asia/&amp;ovhSubsidiary=asia">Log in</a>
+</div></div>
+<div class="row" style="border-top:solid #ccc 1px;"><div class="col-s-12"><a href="https://www.ovh.com/asia/mail/" class="link20">Go to Webmail</a></div></div>
+</div></div>
+<script type="text/javascript" src="https://www.ovh.com/fr/components/menu/src/menu204.js?78BBZ"></script><link rel="stylesheet" href="https://www.ovh.com/fr/components/menu/src/menu204.css?ZY5">
+<div class="full menu20 "><div class="row" style="position: relative;"><ul>
+<li class="l1 v2">
+<a href="https://www.ovhcloud.com/asia/bare-metal/" class="menuTitle a6dU7eb" nameat="Tab-Baremetal" data-tc-clic="mainMenu-v2_Tab-Baremetal" data-tc-clic-type="navigation">Bare Metal Cloud</a><div class="menu20Content" style="min-height: 420px;">
+<div class="flex-wrapper " style="padding: 0;"><ul class="full row l2" style="margin: 0.5em 0 7em 0em; padding:0px;">
+<li>
+<div class="col-s-12 col-l-3 title noMargin a5etf"><a href="https://www.ovhcloud.com/asia/bare-metal/" nameat="dedicated" data-tc-clic="mainMenu-v2_Baremetal_dedicated" data-tc-clic-type="navigation">Dedicated Servers</a></div>
+<div class="col-s-12 col-l-9 flex-wrapper content noMargin"><ul class="l3 tisMenu"><div class="row">
+<div class="col-s-12 col-l-7 noMargin oHide">
+<div class="quickAction a5efd s-hide l-show ocmsMr1" style="margin-left:0.5em;">Products<a class="s-hide l-show" href="https://www.ovhcloud.com/asia/bare-metal/prices/" style="float:right;margin-top: 0.9em;">All OVHcloud Dedicated Servers</a>
+</div>
+<hr style="margin-left:0.5em;">
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/rise/" class="full block" nameat="rise" data-tc-clic="mainMenu-v2_Baremetal_rise" data-tc-clic-type="navigation">Rise Servers</a><span class="a5elt baseline">The most affordable bare-metal servers offered by OVHcloud.</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/advance/" class="full block" nameat="advance" data-tc-clic="mainMenu-v2_Baremetal_advance" data-tc-clic-type="navigation">Advance Servers</a><span class="a5elt baseline">For companies looking to invest in versatile servers.</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/storage/" class="full block" nameat="backup" data-tc-clic="mainMenu-v2_Baremetal_backup" data-tc-clic-type="navigation">Storage Servers</a><span class="a5elt baseline">Servers for archiving, backup, and distributed storage.</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/scale/" class="full block" nameat="scale" data-tc-clic="mainMenu-v2_Baremetal_scale" data-tc-clic-type="navigation">Scale Servers</a><span class="a5elt baseline">Specifically designed for complex, high-resilience infrastructures.</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/high-grade/" class="full block" nameat="high-grade" data-tc-clic="mainMenu-v2_Baremetal_high-grade" data-tc-clic-type="navigation">High Grade Servers</a><span class="a5elt baseline">The most powerful servers, optimised for critical loads.</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/hosting/" class="full block" nameat="hosting" data-tc-clic="mainMenu-v2_Baremetal_hosting" data-tc-clic-type="navigation">Hosting Servers</a><span class="a5elt baseline">Ideal for Web hosting in Asia-pacific</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/enterprise/" class="full block" nameat="enterprise" data-tc-clic="mainMenu-v2_Baremetal_enterprise" data-tc-clic-type="navigation">Enterprise Servers</a><span class="a5elt baseline">Enterprise-level with up to 20 cores</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/infra/" class="full block" nameat="infra" data-tc-clic="mainMenu-v2_Baremetal_infra" data-tc-clic-type="navigation">Infrastructure Servers</a><span class="a5elt baseline">High-bandwidth and top-range components</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/game/" class="full block" nameat="game" data-tc-clic="mainMenu-v2_Baremetal_game" data-tc-clic-type="navigation">Game Servers</a><span class="a5elt baseline">For video games and streaming platforms.</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/prices/?localisation=singapore" class="full block" nameat="all" data-tc-clic="mainMenu-v2_Baremetal_all" data-tc-clic-type="navigation">Asia Pacific Servers</a><span class="a5elt baseline">All our Asia-Pacific hosted servers</span>
+</li>
+</div>
+<div class="eastSide col-s-12 col-m-3 col-l-5 noMargin" style="box-sizing:border-box; margin:0px -1em 0px 0px !important;">
+<div class="quickAction a5etf">Use cases</div>
+<hr>
+<ul class="full row l2 a5etf oHide" style="margin-top:0px!important;">
+<a class="col-s-12 a5etf" style="margin:0px;" onClick="window.location.href='https://www.ovhcloud.com/asia/bare-metal/uc-hyper-converged-infrastructure/'" nameat="Baremetal-Usecases-hyper-converged-infrastructure" data-tc-clic="mainMenu-v2_Baremetal-Usecases-hyper-converged-infrastructure" data-tc-clic-type="navigation">Hyperconverged infrastructure (HCI)</a><span class="a5etf baseline">Proxmox VE, OpenStack</span><a class="col-s-12 a5etf" style="margin:0px;" onClick="window.location.href='https://www.ovhcloud.com/asia/bare-metal/uc-software-defined-storage/'" nameat="Baremetal-Usecases-software-defined-storage" data-tc-clic="mainMenu-v2_Baremetal-Usecases-software-defined-storage" data-tc-clic-type="navigation">Software-defined storage (SDS)</a><span class="a5etf baseline">Netapp, Ceph, OpenIO, Scality</span><a class="col-s-12 a5etf" style="margin:0px;" onClick="window.location.href='https://www.ovhcloud.com/asia/bare-metal/uc-virtualization-containerization-orchestration/'" nameat="Baremetal-Usecases-virtualization-containerization-orchestration" data-tc-clic="mainMenu-v2_Baremetal-Usecases-virtualization-containerization-orchestration" data-tc-clic-type="navigation">Virtualisation and containerisation</a><span class="a5etf baseline">VMware ESXi, Proxmox VE, KVM, Citrix XenServer, Microsoft Hyper-V, Docker, Kubernetes, Apache Mesos</span><a class="col-s-12 a5etf" style="margin:0px;" onClick="window.location.href='https://www.ovhcloud.com/asia/bare-metal/uc-big-data-analytics/'" nameat="Baremetal-Usecases-big-data-analytics" data-tc-clic="mainMenu-v2_Baremetal-Usecases-big-data-analytics" data-tc-clic-type="navigation">Big data and analytics</a><span class="a5etf baseline">Hadoop, Cloudera, Spark, Solr, Elasticsearch</span><a class="col-s-12 a5etf" style="margin:0px;" onClick="window.location.href='https://www.ovhcloud.com/asia/bare-metal/uc-archiving-backup-recovery/'" nameat="Baremetal-Ucases-archiving-backup-recovery" data-tc-clic="mainMenu-v2_Baremetal-Ucases-archiving-backup-recovery" data-tc-clic-type="navigation">Archiving and backup</a><span class="a5etf baseline">restic, rsync</span>
+</ul>
+</div>
+</div></ul></div>
+</li>
+<li>
+<div class="col-s-12 col-l-3 title noMargin a5etf"><a href="https://www.ovhcloud.com/asia/vps/" nameat="vps" data-tc-clic="mainMenu-v2_Baremetal_vps" data-tc-clic-type="navigation">Virtual Private Servers</a></div>
+<div class="col-s-12 col-l-9 flex-wrapper content noMargin">
+<div class="a5efd row s-hide m-show l-show"><div class="col-s-6 contentTitle">Virtual Private Servers</div></div>
+<hr class="s-hide m-show l-show">
+<ul class="l3"><div class="row">
+<div class="col-s-12 col-l-6 noMargin oHide">
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/vps/" class="full block" nameat="VPS-all" data-tc-clic="mainMenu-v2_Baremetal_VPS-all" data-tc-clic-type="navigation">All VPS solutions</a><span class="a5elt baseline">View our full range of Virtual Private Servers</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/vps/os/" class="full block" nameat="pleskaas" data-tc-clic="mainMenu-v2_Baremetal_pleskaas" data-tc-clic-type="navigation">Plesk-as-a-Service</a><span class="a5elt baseline">Build and maintain your websites with one of the simplest...</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/vps/os/" class="full block" nameat="VPS-operatingSystems" data-tc-clic="mainMenu-v2_Baremetal_VPS-operatingSystems" data-tc-clic-type="navigation">Distributions and licences</a><span class="a5elt baseline">See all our distributions and licences</span>
+</li>
+<li class="col-s-12 a5elt"><a href="https://docs.ovh.com/asia/en/vps/" class="full block" nameat="help" data-tc-clic="mainMenu-v2_Baremetal_help" data-tc-clic-type="navigation">Help</a></li>
+</div>
+<div class="col-s-12 col-l-6 noMargin oHide"></div>
+</div></ul>
+</div>
+</li>
+<li>
+<div class="col-s-12 col-l-3 title noMargin a5etf"><a href="https://www.ovhcloud.com/asia/managed-bare-metal/" nameat="managedbm" data-tc-clic="mainMenu-v2_Baremetal_managedbm" data-tc-clic-type="navigation">Managed Bare Metal</a></div>
+<div class="col-s-12 col-l-9 flex-wrapper content noMargin">
+<div class="a5efd row s-hide m-show l-show"><div class="col-s-6 contentTitle">Managed Bare Metal</div></div>
+<hr class="s-hide m-show l-show">
+<ul class="l3"><div class="row">
+<div class="col-s-12 col-l-6 noMargin oHide"><li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/managed-bare-metal/" class="full block" nameat="ManagedBaremetal-Essentials" data-tc-clic="mainMenu-v2_Baremetal_ManagedBaremetal-Essentials" data-tc-clic-type="navigation">Managed Bare Metal Essentials powered by VMware®</a><span class="a5elt baseline">Your virtual infrastructure managed by OVHcloud</span>
+</li></div>
+<div class="col-s-12 col-l-6 noMargin oHide"></div>
+</div></ul>
+</div>
+</li>
+<li>
+<div class="col-s-12 col-l-3 title noMargin a5etf"><a href="https://www.ovh.com/asia/storage-solutions/" nameat="storageBackup" data-tc-clic="mainMenu-v2_Baremetal_storageBackup" data-tc-clic-type="navigation">Storage and backups</a></div>
+<div class="col-s-12 col-l-9 flex-wrapper content noMargin">
+<div class="a5efd row s-hide m-show l-show"><div class="col-s-6 contentTitle">Storage and backups</div></div>
+<hr class="s-hide m-show l-show">
+<ul class="l3"><div class="row">
+<div class="col-s-12 col-l-6 noMargin oHide">
+<li class="col-s-12 a5elt">
+<a href="https://www.ovh.com/asia/storage-solutions/" class="full block" nameat="allStorage" data-tc-clic="mainMenu-v2_Baremetal_allStorage" data-tc-clic-type="navigation">All our storage solutions</a><span class="a5elt baseline">View all our storage solutions</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/backup-storage/" class="full block" nameat="backupStor" data-tc-clic="mainMenu-v2_Baremetal_backupStor" data-tc-clic-type="navigation">Backup Storage</a><span class="a5elt baseline">Increase your server backup capacity</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/storage/" class="full block" nameat="storageServer" data-tc-clic="mainMenu-v2_Baremetal_storageServer" data-tc-clic-type="navigation">Storage Servers</a><span class="a5elt baseline">Servers with more disk space to store large amounts of da...</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovh.com/asia/storage-solutions/veeam-cloud-connect/" class="full block" nameat="veeam-cloud-connect" data-tc-clic="mainMenu-v2_Baremetal_veeam-cloud-connect" data-tc-clic-type="navigation">Veeam Cloud Connect</a><span class="a5elt baseline">Activate, back up, restore.</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovh.com/asia/storage-solutions/veeam-enterprise.xml" class="full block" nameat="veeam-enterprise" data-tc-clic="mainMenu-v2_Baremetal_veeam-enterprise" data-tc-clic-type="navigation">Veeam Enterprise</a><span class="a5elt baseline">Full access to the Veeam Backup Replication administratio...</span>
+</li>
+</div>
+<div class="col-s-12 col-l-6 noMargin oHide"></div>
+</div></ul>
+</div>
+</li>
+<li>
+<div class="col-s-12 col-l-3 title noMargin a5etf noL3"><a href="https://www.ovh.com/asia/managed-cloudera/" nameat="managed-bigdata" data-tc-clic="mainMenu-v2_Baremetal_managed-bigdata" data-tc-clic-type="navigation">Managed Big Data Clusters</a></div>
+<div class="col-s-12 col-l-9 flex-wrapper content noMargin"></div>
+</li>
+<li>
+<div class="col-s-12 col-l-3 title noMargin a5etf"><a href="https://www.ovh.com/asia/data-platforms/" nameat="data-platforms" data-tc-clic="mainMenu-v2_Baremetal_data-platforms" data-tc-clic-type="navigation">Data Platforms</a></div>
+<div class="col-s-12 col-l-9 flex-wrapper content noMargin">
+<div class="a5efd row s-hide m-show l-show"><div class="col-s-6 contentTitle">Data Platforms</div></div>
+<hr class="s-hide m-show l-show">
+<ul class="l3"><div class="row">
+<div class="col-s-12 col-l-6 noMargin oHide"><li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/data-platforms/logs/" class="full block" nameat="logs" data-tc-clic="mainMenu-v2_Baremetal_logs" data-tc-clic-type="navigation">Logs Data Platform</a><span class="a5elt baseline">Index and analyse your logs in real time. Receive alerts ...</span>
+</li></div>
+<div class="col-s-12 col-l-6 noMargin oHide"></div>
+</div></ul>
+</div>
+</li>
+<li>
+<div class="col-s-12 col-l-3 title noMargin a5etf"><a href="https://www.ovh.com/asia/network-and-security-solutions.xml" nameat="networkAndSecurity" data-tc-clic="mainMenu-v2_Baremetal_networkAndSecurity" data-tc-clic-type="navigation">Network and security solutions</a></div>
+<div class="col-s-12 col-l-9 flex-wrapper content noMargin">
+<div class="a5efd row s-hide m-show l-show"><div class="col-s-6 contentTitle">Network and security solutions</div></div>
+<hr class="s-hide m-show l-show">
+<ul class="l3"><div class="row">
+<div class="col-s-12 col-l-6 noMargin oHide">
+<li class="col-s-12 a5elt">
+<a href="https://www.ovh.com/asia/network-and-security-solutions.xml" class="full block" nameat="all-network-solutions" data-tc-clic="mainMenu-v2_Baremetal_all-network-solutions" data-tc-clic-type="navigation">All our network solutions</a><span class="a5elt baseline">Choose the best options to enhance and secure your infras...</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/ip/" class="full block" nameat="IPfo" data-tc-clic="mainMenu-v2_Baremetal_IPfo" data-tc-clic-type="navigation">Failover IP</a><span class="a5elt baseline">An IP you can transfer between servers</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovh.com/asia/solutions/vrack/" class="full block" nameat="vRack" data-tc-clic="mainMenu-v2_Baremetal_vRack" data-tc-clic-type="navigation">vRack</a><span class="a5elt baseline">Connect all of your infrastructures privately across the ...</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/network-security/ovhcloud-connect/" class="full block" nameat="dedicatedConnect" data-tc-clic="mainMenu-v2_Baremetal_dedicatedConnect" data-tc-clic-type="navigation">OVHcloud Connect</a><span class="a5elt baseline">Connect your datacentre to OVHcloud</span>
+</li>
+<li class="col-s-12 a5elt">
+<a href="https://www.ovhcloud.com/asia/bare-metal/bandwidth/" class="full block" nameat="Bandwidth" data-tc-clic="mainMenu-v2_Baremetal_Bandwidth" data-tc-clic-type="navigation">Bandwidth</a><span class="a5elt baseline">Upgrade your default guaranteed bandwidth</span>
+</li>
+</div>
+<div class="col-s-12 col-l-6 noMargin oHide"><li class="col-s-12 a5elt">
+<a href="https://www.ovh.com/asia/anti-ddos/" class="full block" nameat="antiDDos" data-tc-clic="mainMenu-v2_Baremetal_antiDDos" data-tc-clic-type="navigation">Anti-DDoS </a><span class="a5elt baseline">Keep your dedicated infrastructures protected against DDo...</span>
+</li></div>
+</div></ul>
+</div>
+</li>
+</ul></div>
+<div class="rightLightBlueBorder fakeColumn"></div>
+</div>
+</li>
+<li class="l1">
+<a class="menuTitle a6dU7eb" href="https://www.ovhcloud.com/asia/enterprise/products/hosted-private-cloud/" nameat="Tab-HostedPrivateCloud" data-tc-clic="mainMenu-v2_Tab-HostedPrivateCloud" data-tc-clic-type="navigation">Hosted Private Cloud</a><div class="menu20Content"><div class="row flex-container noMargin noPadding oHide">
+<div class="westSide col-s-12 col-m-9">
+<div class="a5efd row ">
+<div class="col-s-6 contentTitle">Hosted Private Cloud</div>
+<div class="col-s-6 txtRight"><a onclick="window.location.href='https://www.ovhcloud.com/asia/enterprise/products/hosted-private-cloud/'" class="discover" nameat="Discover_HostedPrivateCloud" data-tc-clic="mainMenu-v2_Discover_HostedPrivateCloud" data-tc-clic-type="navigation">Get started Hosted Private Cloud</a></div>
+</div>
+<hr style="margin-left: 0.5em;">
+<ul class="full row l2">
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/enterprise/products/hosted-private-cloud/" class="col-s-12 a5etf" nameat="HPC-by-VMware" data-tc-clic="mainMenu-v2_HPC-by-VMware" data-tc-clic-type="navigation">Hosted Private Cloud Premier Powered by VMware </a><span class="a5etf baseline">Explore the flexibility of the cloud with our starter packs.</span><a href="https://www.ovhcloud.com/asia/enterprise/products/hosted-private-cloud/veeam-backup-managed/" class="col-s-12 a5etf" nameat="veeam" data-tc-clic="mainMenu-v2_veeam" data-tc-clic-type="navigation">Veeam Managed Backup</a><span class="a5etf baseline">The Backup-as-a-Service solution for your VMs</span><a href="https://www.ovhcloud.com/asia/enterprise/products/hosted-private-cloud/zerto/" class="col-s-12 a5etf" nameat="pra" data-tc-clic="mainMenu-v2_pra" data-tc-clic-type="navigation">Disaster Recovery Plan (Zerto DRP)</a><span class="a5etf baseline">Stay one step ahead protecting your data</span>
+</div>
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/enterprise/certification-conformity/hds/" class="col-s-12 a5etf" nameat="healthcare" data-tc-clic="mainMenu-v2_healthcare" data-tc-clic-type="navigation">Healthcare certifications: healthcare data</a><span class="a5etf baseline">Compliance for hosting healthcare data in Europe and HDS compliance in France</span><a href="https://www.ovhcloud.com/asia/enterprise/certification-conformity/pci-dss/" class="col-s-12 a5etf" nameat="pcidss" data-tc-clic="mainMenu-v2_pcidss" data-tc-clic-type="navigation">Payment Infrastructure: banking data</a><span class="a5etf baseline">PCI DSS Certification for financial data hosting</span>
+</div>
+</ul>
+</div>
+<div class="eastSide col-s-12 col-m-3">
+<div class="quickAction a5efd">Quick Access</div>
+<hr>
+<ul class="full row l2 oHide">
+<a class="col-s-12 a5etf pointer" onclick="window.location.href='https://www.ovhcloud.com/asia/enterprise/products/hosted-private-cloud/prices/'" nameat="HPC-prices" data-tc-clic="mainMenu-v2_HPC-prices" data-tc-clic-type="navigation">View our prices</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf pointer" onclick="window.location.href='https://www.ovh.com/asia/lp/nutanix/'" nameat="lp-nutanix" data-tc-clic="mainMenu-v2_lp-nutanix" data-tc-clic-type="navigation">Hosted Private Cloud powered by Nutanix - beta</a><span class="a5etf baseline"></span>
+</ul>
+</div>
+</div></div>
+</li>
+<li class="l1">
+<a class="menuTitle a6dU7eb" href="https://www.ovhcloud.com/asia/public-cloud/" nameat="Tab-PublicCloud" data-tc-clic="mainMenu-v2_Tab-PublicCloud" data-tc-clic-type="navigation">Public Cloud</a><div class="menu20Content"><div class="row flex-container noMargin noPadding oHide">
+<div class="westSide col-s-12 col-m-9">
+<div class="a5efd row ">
+<div class="col-s-6 contentTitle">Public Cloud</div>
+<div class="col-s-6 txtRight"><a onclick="window.location.href='https://www.ovhcloud.com/asia/public-cloud/'" class="discover" nameat="Discover_PublicCloud" data-tc-clic="mainMenu-v2_Discover_PublicCloud" data-tc-clic-type="navigation">Get started Public Cloud</a></div>
+</div>
+<hr style="margin-left: 0.5em;">
+<ul class="full row l2">
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/public-cloud/compute/" class="col-s-12 a5etf" nameat="PublicCloud-compute" data-tc-clic="mainMenu-v2_PublicCloud-compute" data-tc-clic-type="navigation">Compute</a><span class="a5etf baseline">Explore our range of instances, adapted to your needs</span><a href="https://www.ovhcloud.com/asia/public-cloud/storage/" class="col-s-12 a5etf" nameat="PublicCloud-storage" data-tc-clic="mainMenu-v2_PublicCloud-storage" data-tc-clic-type="navigation">Storage</a><span class="a5etf baseline">Multiple storage options for your data</span><a href="https://www.ovhcloud.com/asia/public-cloud/network/" class="col-s-12 a5etf" nameat="PublicCloud-network" data-tc-clic="mainMenu-v2_PublicCloud-network" data-tc-clic-type="navigation">Network</a><span class="a5etf baseline">Organise your network architecture to suit your needs</span><a href="https://www.ovhcloud.com/asia/public-cloud/databases/" class="col-s-12 a5etf" nameat="PublicCloud-databases" data-tc-clic="mainMenu-v2_PublicCloud-databases" data-tc-clic-type="navigation">Databases</a><span class="a5etf baseline">Managed database services in the cloud</span>
+</div>
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/public-cloud/orchestration/" class="col-s-12 a5etf" nameat="PublicCloud-orchestration" data-tc-clic="mainMenu-v2_PublicCloud-orchestration" data-tc-clic-type="navigation">Containers &amp; Orchestration</a><span class="a5etf baseline">Tools and services to automate your infrastructure</span><a href="https://www.ovhcloud.com/asia/public-cloud/data-analytics/" class="col-s-12 a5etf" nameat="PublicCloud-data" data-tc-clic="mainMenu-v2_PublicCloud-data" data-tc-clic-type="navigation">Data Analytics</a><span class="a5etf baseline">Centralise and leverage your data with big data</span><a href="https://www.ovhcloud.com/asia/public-cloud/ai-machine-learning/" class="col-s-12 a5etf" nameat="PublicCloud-aiMachineLearning" data-tc-clic="mainMenu-v2_PublicCloud-aiMachineLearning" data-tc-clic-type="navigation">AI &amp; Machine Learning</a><span class="a5etf baseline">Increase the value of your data with artificial intelligence</span>
+</div>
+</ul>
+</div>
+<div class="eastSide col-s-12 col-m-3">
+<div class="quickAction a5efd">Quick Access</div>
+<hr>
+<ul class="full row l2 oHide">
+<a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/public-cloud/" nameat="PublicCloud-createProject" data-tc-clic="mainMenu-v2_PublicCloud-createProject" data-tc-clic-type="navigation">Start a project</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/public-cloud/prices/" nameat="PublicCloud-prices" data-tc-clic="mainMenu-v2_PublicCloud-prices" data-tc-clic-type="navigation">View our prices</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://docs.ovh.com/asia/en//platform/" nameat="PublicCloud-documentation" data-tc-clic="mainMenu-v2_PublicCloud-documentation" data-tc-clic-type="navigation">Browse our documentation</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/public-cloud/why-ovh-public-cloud/" nameat="PublicCloud-why-public-cloud" data-tc-clic="mainMenu-v2_PublicCloud-why-public-cloud" data-tc-clic-type="navigation">Why choose the Public Cloud?</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/enterprise/certification-conformity/" nameat="PublicCloud-certifications" data-tc-clic="mainMenu-v2_PublicCloud-certifications" data-tc-clic-type="navigation">Compliance and certifications</a><span class="a5etf baseline"></span>
+</ul>
+</div>
+</div></div>
+</li>
+<li class="l1">
+<a class="menuTitle a6dU7eb" href="https://www.ovh.com/asia/web/" nameat="Tab-Web" data-tc-clic="mainMenu-v2_Tab-Web" data-tc-clic-type="navigation">Web Cloud</a><div class="menu20Content"><div class="row flex-container noMargin noPadding oHide">
+<div class="westSide col-s-12 col-m-9">
+<div class="a5efd row ">
+<div class="col-s-6 contentTitle">Web Cloud</div>
+<div class="col-s-6 txtRight"><a onclick="window.location.href='https://www.ovh.com/asia/web/'" class="discover" nameat="Discover_Web" data-tc-clic="mainMenu-v2_Discover_Web" data-tc-clic-type="navigation">Get started Web Cloud</a></div>
+</div>
+<hr style="margin-left: 0.5em;">
+<ul class="full row l2">
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovh.com/asia/domains/" class="col-s-12 a5etf" nameat="Web-domains" data-tc-clic="mainMenu-v2_Web-domains" data-tc-clic-type="navigation">Domain names</a><span class="a5etf baseline">Register and transfer domain names</span><a href="https://www.ovh.com/asia/web-hosting/" class="col-s-12 a5etf" nameat="Web-hosting" data-tc-clic="mainMenu-v2_Web-hosting" data-tc-clic-type="navigation">Web Hosting</a><span class="a5etf baseline">Host your website projects easily</span>
+</div>
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovh.com/asia/web-hosting/options/" class="col-s-12 a5etf" nameat="Web-hostingOptions" data-tc-clic="mainMenu-v2_Web-hostingOptions" data-tc-clic-type="navigation">Additional services</a><span class="a5etf baseline">Security and performance for your websites: CDN, SSL certificate, databases</span>
+</div>
+</ul>
+</div>
+<div class="eastSide col-s-12 col-m-3">
+<div class="quickAction a5efd">Quick Access</div>
+<hr>
+<ul class="full row l2 oHide">
+<a class="col-s-12 a5etf" href="https://www.ovh.com/asia/domains/" nameat="Web-registrarDomain" data-tc-clic="mainMenu-v2_Web-registrarDomain" data-tc-clic-type="navigation">Find your domain name</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovh.com/asia/domains/domain_renewal.xml" nameat="Web-renewDomain" data-tc-clic="mainMenu-v2_Web-renewDomain" data-tc-clic-type="navigation">Renew your domain name</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovh.com/asia/domains/domain_transfer.xml" nameat="Web-transferDomain" data-tc-clic="mainMenu-v2_Web-transferDomain" data-tc-clic-type="navigation">Transfer your domain name</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovh.com/asia/web-hosting/website/" nameat="Web-createWebsite" data-tc-clic="mainMenu-v2_Web-createWebsite" data-tc-clic-type="navigation">Build a website</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovh.com/asia/web-hosting/website/wordpress.xml" nameat="Web-wordpress" data-tc-clic="mainMenu-v2_Web-wordpress" data-tc-clic-type="navigation">Create a WordPress website</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovh.com/asia/domains/dotstore.xml" nameat="Web-dot-store" data-tc-clic="mainMenu-v2_Web-dot-store" data-tc-clic-type="navigation">[Promo] Reserve your .STORE</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovh.com/asia/web-hosting/website/prestashop.xml" nameat="Web-prestashop" data-tc-clic="mainMenu-v2_Web-prestashop" data-tc-clic-type="navigation">Create an online store</a><span class="a5etf baseline"></span>
+</ul>
+</div>
+</div></div>
+</li>
+<li class="l1">
+<a class="menuTitle a6dU7eb" href="https://www.ovhcloud.com/asia/enterprise/" nameat="Tab-Enterprise" data-tc-clic="mainMenu-v2_Tab-Enterprise" data-tc-clic-type="navigation">Enterprise</a><div class="menu20Content"><div class="row flex-container noMargin noPadding oHide">
+<div class="westSide col-s-12 col-m-9">
+<div class="a5efd row ">
+<div class="col-s-6 contentTitle">Enterprise</div>
+<div class="col-s-6 txtRight"><a onclick="window.location.href='https://www.ovhcloud.com/asia/enterprise/'" class="discover" nameat="Discover_Enterprise" data-tc-clic="mainMenu-v2_Discover_Enterprise" data-tc-clic-type="navigation">Get started Enterprise</a></div>
+</div>
+<hr style="margin-left: 0.5em;">
+<ul class="full row l2">
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/enterprise/solutions/certified-cloud-solutions/" class="col-s-12 a5etf" nameat="Enterprise-certified-cloud-solutions" data-tc-clic="mainMenu-v2_Enterprise-certified-cloud-solutions" data-tc-clic-type="navigation">Solutions by industry</a><span class="a5etf baseline">Specific solutions for the public sector, healthcare, financial services and manufacturing sectors</span><a href="https://www.ovhcloud.com/asia/enterprise/solutions/datacentre-extension-cloud/" class="col-s-12 a5etf" nameat="Enterprise-datacenterExtensionCloud" data-tc-clic="mainMenu-v2_Enterprise-datacenterExtensionCloud" data-tc-clic-type="navigation">Datacentre extensions with cloud solutions</a><span class="a5etf baseline">Prepare to transform your on-premises infrastructure </span><a href="https://www.ovhcloud.com/asia/enterprise/solutions/big-data-ai-grid-computing/" class="col-s-12 a5etf" nameat="Enterprise-bigData" data-tc-clic="mainMenu-v2_Enterprise-bigData" data-tc-clic-type="navigation">Big data, artificial intelligence and grid computing</a><span class="a5etf baseline">Start your big data projects with ease </span><a href="https://www.ovhcloud.com/asia/enterprise/certification-conformity/" class="col-s-12 a5etf" nameat="Enterprise-certification-conformity" data-tc-clic="mainMenu-v2_Enterprise-certification-conformity" data-tc-clic-type="navigation">Compliance and certifications</a><span class="a5etf baseline">List of OVHcloud certifications and compliance standards we meet</span><a href="https://www.ovhcloud.com/asia/network-security/ovhcloud-connect/" class="col-s-12 a5etf" nameat="Enterprise-ovhcloudConnect" data-tc-clic="mainMenu-v2_Enterprise-ovhcloudConnect" data-tc-clic-type="navigation">OVHcloud Connect</a><span class="a5etf baseline">Connect your datacentre to OVHcloud</span>
+</div>
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/enterprise/products/hosted-private-cloud/" class="col-s-12 a5etf" nameat="Enterprise-hostedPrivateCloud" data-tc-clic="mainMenu-v2_Enterprise-hostedPrivateCloud" data-tc-clic-type="navigation">Hosted Private Cloud</a><span class="a5etf baseline">Get a fully dedicated, high-availability hosted cloud</span><a href="https://www.ovhcloud.com/asia/enterprise/products/dedicated-servers-hg/" class="col-s-12 a5etf" nameat="Enterprise-highPerformanceServers" data-tc-clic="mainMenu-v2_Enterprise-highPerformanceServers" data-tc-clic-type="navigation">High Performance Servers</a><span class="a5etf baseline">Custom servers designed for the most resource-intensive environments</span><a href="https://www.ovhcloud.com/asia/enterprise/products/enterprise-cloud-databases/" class="col-s-12 a5etf" nameat="Enterprise-cloudDatabases" data-tc-clic="mainMenu-v2_Enterprise-cloudDatabases" data-tc-clic-type="navigation">Enterprise Cloud Databases</a><span class="a5etf baseline">High availability managed databases</span><a href="https://www.ovh.com/asia/managed-cloudera/" class="col-s-12 a5etf" nameat="Enterprise-managedBigData" data-tc-clic="mainMenu-v2_Enterprise-managedBigData" data-tc-clic-type="navigation">Managed Big Data Clusters</a><span class="a5etf baseline">Collect, store and analyse your data</span><a href="https://www.ovhcloud.com/asia/data-platforms/logs/" class="col-s-12 a5etf" nameat="Enterprise-logsDataPlatform" data-tc-clic="mainMenu-v2_Enterprise-logsDataPlatform" data-tc-clic-type="navigation">Logs Data Platform</a><span class="a5etf baseline">Index and analyse your logs in real-time with this turn-key solution</span>
+</div>
+</ul>
+</div>
+<div class="eastSide col-s-12 col-m-3">
+<div class="quickAction a5efd">Quick Access</div>
+<hr>
+<ul class="full row l2 oHide">
+<a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/enterprise/solutions/" nameat="Enterprise-discoverSolutions" data-tc-clic="mainMenu-v2_Enterprise-discoverSolutions" data-tc-clic-type="navigation">View our solutions</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/enterprise/products/" nameat="Enterprise-discoverProducts" data-tc-clic="mainMenu-v2_Enterprise-discoverProducts" data-tc-clic-type="navigation">View our products</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/support-levels/enterprise/" nameat="Enterprise-supportEnterprise" data-tc-clic="mainMenu-v2_Enterprise-supportEnterprise" data-tc-clic-type="navigation">Sign up to Enterprise support</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://www.ovhcloud.com/asia/support-levels/business/" nameat="Enterprise-supportBusiness" data-tc-clic="mainMenu-v2_Enterprise-supportBusiness" data-tc-clic-type="navigation">Sign up to Business support</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" target="_blank" href="https://corporate.ovhcloud.com/" nameat="Enterprise-corp" data-tc-clic="mainMenu-v2_Enterprise-corp" data-tc-clic-type="navigation">Learn more about OVHcloud</a><span class="a5etf baseline"></span>
+</ul>
+</div>
+</div></div>
+</li>
+<li class="l1">
+<a class="menuTitle a6dU7eb" href="javascript:void(0);" nameat="Tab-Programs" data-tc-clic="mainMenu-v2_Tab-Programs" data-tc-clic-type="navigation">Programs</a><div class="menu20Content"><div class="row flex-container noMargin noPadding oHide">
+<div class="westSide col-s-12 col-m-9">
+<div class="a5efd row "><div class="col-s-6 contentTitle">Programs</div></div>
+<hr style="margin-left: 0.5em;">
+<ul class="full row l2">
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://partner.ovhcloud.com/asia/" class="col-s-12 a5etf" nameat="Programs-partnerProgram" data-tc-clic="mainMenu-v2_Programs-partnerProgram" data-tc-clic-type="navigation">OVHcloud Partner Program</a><span class="a5etf baseline">A program for our partners, based on our cloud solutions</span><a href="https://startup.ovhcloud.com/asia/" class="col-s-12 a5etf" nameat="Programs-startupProgram" data-tc-clic="mainMenu-v2_Programs-startupProgram" data-tc-clic-type="navigation">OVHcloud Startup Program</a><span class="a5etf baseline">A support program for startups and scaleups to accelerate their growth</span>
+</div>
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://opentrustedcloud.ovhcloud.com/asia/" class="col-s-12 a5etf" nameat="Programs-OTC" data-tc-clic="mainMenu-v2_Programs-OTC" data-tc-clic-type="navigation">Open Trusted Cloud Program</a><span class="a5etf baseline">This program is aimed at software publishers, as well as SaaS and PaaS solution providers</span>
+</div>
+</ul>
+</div>
+<div class="eastSide col-s-12 col-m-3">
+<div class="quickAction a5efd">Quick Access</div>
+<hr>
+<ul class="full row l2 oHide">
+<a class="col-s-12 a5etf" href="https://partner.ovhcloud.com//asia/" nameat="Programs-becomePartner" data-tc-clic="mainMenu-v2_Programs-becomePartner" data-tc-clic-type="navigation">Sign up to the Partner Program</a><span class="a5etf baseline"></span><a class="col-s-12 a5etf" href="https://startup.ovhcloud.com/asia/" nameat="Programs-gotoStartup" data-tc-clic="mainMenu-v2_Programs-gotoStartup" data-tc-clic-type="navigation">Sign up to the Startup Program</a><span class="a5etf baseline"></span>
+</ul>
+</div>
+</div></div>
+</li>
+<li class="l1">
+<a class="menuTitle a6dU7eb" href="https://www.ovhcloud.com/asia/about-us/" nameat="Tab-About" data-tc-clic="mainMenu-v2_Tab-About" data-tc-clic-type="navigation">About</a><div class="menu20Content"><div class="row flex-container noMargin noPadding oHide">
+<div class="westSide col-s-12 col-m-9">
+<div class="a5efd row "><div class="col-s-6 contentTitle">About</div></div>
+<hr style="margin-left: 0.5em;">
+<ul class="full row l2">
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/about-us/" class="col-s-12 a5etf" nameat="About-about" data-tc-clic="mainMenu-v2_About-about" data-tc-clic-type="navigation">Who we are</a><span class="a5etf baseline"></span><a href="https://careers.ovh.com/en-gb/" class="col-s-12 a5etf" nameat="About-join-the-adventure" data-tc-clic="mainMenu-v2_About-join-the-adventure" data-tc-clic-type="navigation">Join the OVHcloud adventure</a><span class="a5etf baseline"></span><a href="https://www.ovh.com/asia/community/contracts/" class="col-s-12 a5etf" nameat="About-legal" data-tc-clic="mainMenu-v2_About-legal" data-tc-clic-type="navigation">Legal</a><span class="a5etf baseline"></span>
+</div>
+<div class="col-s-12 col-m-6 oHide">
+<a href="https://www.ovhcloud.com/asia/about-us/patent-pledge/" class="col-s-12 a5etf" nameat="About-patent-pledge" data-tc-clic="mainMenu-v2_About-patent-pledge" data-tc-clic-type="navigation">Patent Pledge</a><span class="a5etf baseline"></span><a href="https://corporate.ovhcloud.com/asia/newsroom/" class="col-s-12 a5etf" nameat="About-news" data-tc-clic="mainMenu-v2_About-news" data-tc-clic-type="navigation">News</a><span class="a5etf baseline"></span><a href="https://www.ovhcloud.com/asia/datacenters-ovhcloud/" class="col-s-12 a5etf" nameat="About-our-datacenters" data-tc-clic="mainMenu-v2_About-our-datacenters" data-tc-clic-type="navigation">Our datacentres</a><span class="a5etf baseline"></span>
+</div>
+</ul>
+</div>
+<div class="eastSide col-s-12 col-m-3">
+<div class="quickAction a5efd">Quick Access</div>
+<hr>
+<ul class="full row l2 oHide">
+<a class="col-s-12 a5etf" target="_blank" href="https://corporate.ovhcloud.com/asia/" nameat="Enterprise-corp" data-tc-clic="mainMenu-v2_Enterprise-corp" data-tc-clic-type="navigation">More information about OVHcloud</a><span class="a5etf baseline"></span>
+</ul>
+</div>
+</div></div>
+</li>
+</ul></div></div>
+<div class="full mobileSupportMenu"><div class="menu20 row"><ul>
+<li class="noL2"><a href="https://www.ovhcloud.com/asia/contact-sales/" class="menuTitle a6dU7eb white noL2">Contact Sales</a></li>
+<li class="">
+<span class="menuTitle a6dU7eb white">Support</span><div class="menu20Content"><ul class="row">
+<li><a class="col-s-12  title noMargin a5etf white noL3" href="https://help.ovhcloud.com/asia/" title="Help Center">Help Center</a></li>
+<li><a class="col-s-12  title noMargin a5etf white noL3" href="https://www.ovhcloud.com/asia/support-levels/" title="Support Levels">Support Levels</a></li>
+<li><a class="col-s-12  title noMargin a5etf white noL3" href="https://docs.ovh.com/asia/en/" title="Guides">Guides</a></li>
+</ul></div>
+</li>
+<li class="">
+<span class="menuTitle a6dU7eb white">Resources</span><div class="menu20Content"><ul class="row">
+<li><a class="col-s-12  title noMargin a5etf white noL3" href="https://www.ovhcloud.com/asia/case-studies/" title="Case Studies">Case Studies</a></li>
+<li><a class="col-s-12  title noMargin a5etf white noL3" href="https://www.ovhcloud.com/asia/stories/" title="OVHcloud Stories">OVHcloud Stories</a></li>
+<li><a class="col-s-12  title noMargin a5etf white noL3" href="https://www.ovhcloud.com/asia/use-cases/" title="Use Cases">Use Cases</a></li>
+<li><a class="col-s-12  title noMargin a5etf white noL3" href="https://www.ovh.com/asia/manifesto.xml" title="Manifesto">Manifesto</a></li>
+</ul></div>
+</li>
+<li>
+<span id="languageChooser" class="menuTitle a6dU7eb ovhFlag asia"></span><div class="menu20Content"><ul class="row">
+<li class=""><a href="https://www.ovh.com.au/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag au"></div>Australia [A$]</a></li>
+<li class=""><a href="https://www.ovh.com/asia/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag asia"></div>Asia [US$]</a></li>
+<li class=""><a href="https://us.ovhcloud.com/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag we"></div>USA [US$]</a></li>
+<li class=""><a href="https://www.ovh.com/ca/en/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag ca"></div>Canada EN [CA$]</a></li>
+<li class=""><a href="https://www.ovh.com/ca/fr/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag qc"></div>Canada FR [CA$]</a></li>
+<li class=""><a href="https://www.ovh.com/world/es/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag ws"></div>América Latina [US$]</a></li>
+<li class=""><a href="https://www.ovh.de/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag de"></div>Deutschland [€]</a></li>
+<li class=""><a href="https://www.ovh.com/fr/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag fr"></div>France [€]</a></li>
+<li class=""><a href="https://www.ovh.it/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag it"></div>Italia [€]</a></li>
+<li class=""><a href="https://www.ovh.ie/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag ie"></div>Ireland [€] </a></li>
+<li class=""><a href="https://www.ovh.nl/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag nl"></div>Nederland [€]</a></li>
+<li class=""><a href="https://www.ovh.pl/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag pl"></div>Polska [PLN]</a></li>
+<li class=""><a href="https://www.ovh.pt/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag pt"></div>Portugal [€]</a></li>
+<li class=""><a href="https://www.ovh.es/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag es"></div>España [€]</a></li>
+<li class=""><a href="https://www.ovh.co.uk/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag en"></div>United Kingdom </a></li>
+<li class=""><a href="https://www.ovh.com/ma/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag ma"></div>Maroc [Dhs]</a></li>
+<li class=""><a href="https://www.ovh.sn/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag sn"></div>Sénégal [FCFA]</a></li>
+<li class=""><a href="https://www.ovh.com/sg/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag sg"></div>Singapore [S$]</a></li>
+<li class=""><a href="https://www.ovh.com/tn/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag tn"></div>Tunisie [DT]</a></li>
+<li class=""><a href="https://www.ovh.com/world/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag worldUS"></div>World [US$]</a></li>
+<li class=""><a href="https://www.ovh.ie/" class="col-s-12  title noMargin a5etf white nbfr"><div class="ovhFlag worldEU"></div>World [€]</a></li>
+</ul></div>
+</li>
+</ul></div></div>
+<script></script>
+</div>
+<input type="hidden" id="foot-language" value="asia"><footer style="position: relative;" id="footer"><div class="wrapper">
+<br><div class="preFoot"><div class="mainContainer">
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Products and services</span><a href="https://www.ovh.com/asia/domains/" nameat="DomainsName" data-tc-clic="Footer-DomainsName" data-tc-clic-type="navigation" data-product="domains">Domain names</a><a href="https://www.ovh.com/asia/web-hosting/" nameat="WebHosting" data-tc-clic="Footer-WebHosting" data-tc-clic-type="navigation" data-product="">Hosting</a><a href="https://www.ovhcloud.com/asia/bare-metal/" nameat="DedicatedServers" data-tc-clic="Footer-DedicatedServers" data-tc-clic-type="navigation" data-product="dedicated">Dedicated servers</a><a href="https://www.ovh.com/asia/private-cloud/" nameat="PrivateCloud" data-tc-clic="Footer-PrivateCloud" data-tc-clic-type="navigation" data-product="private">Hosted Private Cloud</a><a href="https://www.ovh.com/asia/solutions/hybrid-cloud/" nameat="HybridCloud" data-tc-clic="Footer-HybridCloud" data-tc-clic-type="navigation" data-product="hybrid">Hybrid Cloud</a><a href="https://www.ovhcloud.com/asia/vps/" nameat="VPS" data-tc-clic="Footer-VPS" data-tc-clic-type="navigation" data-product="">VPS</a><a href="https://www.ovhcloud.com/asia/public-cloud/" nameat="PublicCloud" data-tc-clic="Footer-PublicCloud" data-tc-clic-type="navigation" data-product="">Public Cloud</a><a href="https://www.ovh.com/asia/cloud/network-and-security-solutions.xml" nameat="networkSolutions" data-tc-clic="Footer-networkSolutions" data-tc-clic-type="navigation" data-product="">Network and security solutions</a><a href="https://www.ovhcloud.com/asia/enterprise/" nameat="Enterprise" data-tc-clic="Footer-Enterprise" data-tc-clic-type="navigation" data-product="">Enterprise</a><br>
+</div></div>
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Community &amp; tools</span><a href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/asia/&amp;ovhSubsidiary=asia" nameat="Manager" data-tc-clic="Footer-Manager" data-tc-clic-type="navigation" data-product="">OVH Control Panel </a><a href="https://partner.ovhcloud.com/asia/" nameat="Partners" data-tc-clic="Footer-Partners" data-tc-clic-type="navigation" data-product="">OVHcloud Partner Program</a><a href="https://startup.ovhcloud.com/asia/" nameat="Startup" data-tc-clic="Footer-Startup" data-tc-clic-type="navigation" data-product="">OVHcloud Startup Program</a><a href="https://community.ovh.com/en/" target="_blank" nameat="OVH-Community" data-tc-clic="Footer-OVH-Community" data-tc-clic-type="navigation" data-product="">OVHcloud Community</a><a href="https://ca.api.ovh.com/" target="_blank" nameat="OVHAPI" data-tc-clic="Footer-OVHAPI" data-tc-clic-type="navigation" data-product="">API</a><a href="http://weathermap.ovh.net/" target="_blank" nameat="Network" data-tc-clic="Footer-Network" data-tc-clic-type="navigation" data-product="">Network</a><a href="http://status.ovh.com/vms/" target="_blank" nameat="Datacenters" data-tc-clic="Footer-Datacenters" data-tc-clic-type="navigation" data-product="">Datacentres</a><a href="http://status.ovh.com/" target="_blank" nameat="Travaux" data-tc-clic="Footer-Travaux" data-tc-clic-type="navigation" data-product="">Status</a><a href="https://www.ovhcloud.com/asia/lp/request-ovhcloud-registered-domain/" target="_blank" nameat="Domain contact" data-tc-clic="Footer-Domain contact" data-tc-clic-type="navigation" data-product="">Domain contact</a><a href="https://www.ovh.com/abuse/#!/" nameat="Abuse" data-tc-clic="Footer-Abuse" data-tc-clic-type="navigation" data-product="">Report abuse <span class="grey small fw200" translate="none">(abuse@ovh.net)</span></a><a href="https://docs.ovh.com/asia/en/" target="_blank" nameat="guides" data-tc-clic="Footer-guides" data-tc-clic-type="navigation" data-product="">Guides</a><br>
+</div></div>
+<div class="half25 Fleft"><div class="padded marged">
+<span class="block fs18">Order</span><a href="https://ca.ovh.com/asia/order/webcloud/#/webCloud/domain/select" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Order</a><a href="https://www.ovhcloud.com/asia/bare-metal/prices/" nameat="Order" data-tc-clic="Footer-Order" data-tc-clic-type="navigation" data-product="">Order a dedicated server</a><a href="https://ca.ovh.com/manager/dedicated/#/billing/autorenew" nameat="Renew" data-tc-clic="Footer-Renew" data-tc-clic-type="navigation" data-product="">Renew your solutions </a><a href="https://ca.ovh.com/auth/?action=gotomanager&amp;from=https://www.ovh.com/asia/&amp;ovhSubsidiary=ASIA" nameat="NewCustomers" data-tc-clic="Footer-NewCustomers" data-tc-clic-type="navigation" data-product="">Not a customer yet?</a><br><span class="block fs18">News</span><a href="https://www.ovhcloud.com/asia/about-us/news/" nameat="News" data-tc-clic="Footer-News" data-tc-clic-type="navigation" data-product="">All OVHcloud news</a><a href="https://ecosystemexperience.ovhcloud.com/en/" nameat="OVHSummit" data-tc-clic="Footer-OVHSummit" data-tc-clic-type="navigation" data-product="">Ecosystem Experience</a><br>
+</div></div>
+<div class="half25 Fleft">
+<div class="padded marged">
+<span class="block fs18">OVHcloud Careers</span><a href="https://careers.ovh.com/en-gb" class="sprite-img-careers" target="_blank" nameat="Careers" data-tc-clic="Footer-Careers" data-tc-clic-type="navigation" data-product=""></a><br>
+</div>
+<div class="socialLink" style="width: 100%;">
+<a target="_blank" title="Twitter" rel="nofollow" style="display: inline-block; width: 12%;" href="https://twitter.com/ovhcloud_seasia"><img src="https://www.ovh.com/asia/asia/images/index2014/brandTwitter_20px-bkg-dark.svg"></a><a target="_blank" title="Linkedin" rel="nofollow" style="display: inline-block; width: 12%;" href="https://www.linkedin.com/company/ovhgroup/"><img src="https://www.ovh.com/asia/asia/images/index2014/brandLinkedin_20px-bkg-dark.svg"></a>
+</div>
+</div>
+<div class="half25 Fleft" id="serviceClientOVH">
+<br><div style="float: left; padding: 0; width: 100%;" id="assistance2"><div class="padded marged callUs">
+<p class="white">OVH Asia Customer Service</p>
+<p style="font-size: 20px;">+65 6962 8978</p>
+<p class="grey" style="font-size: 10px;">Monday to Friday, 7am to 5pm (GMT+8)</p>
+<div><br></div>
+</div></div>
+<br>
+</div>
+</div></div>
+<del></del><br>
+</div>
+<div class="indexFooter">
+<div id="pik_footer" class="toDisplay">
+<input type="hidden" id="atInternet-orderPageName" value=""><input type="hidden" id="atInternet-NewCartOrder" value="no"><input type="hidden" id="atInternet-id" value=""><input type="hidden" id="atInternet-orderId" value=""><input type="hidden" id="atInternet-XmLarticle" value=""><input type="hidden" id="atInternet-ATpageName" value='"errors::404.xml"'><input type="hidden" id="atInternet-siteN2" value=""><input type="hidden" id="atInternet-aisle" value=""><input type="hidden" id="atInternet-ProductMainCategory" value=""><input type="hidden" id="atInternet-ProductName" value=""><input type="hidden" id="atInternet-ProductID" value=""><input type="hidden" id="atInternet-ProductPrice" value=""><input type="hidden" id="atInternet-roimt" value="NaN"><input type="hidden" id="atInternet-totalATI" value="NaN"><input type="hidden" id="atInternet-totalTF" value="NaN"><input type="hidden" id="atInternet-totalTax" value="NaN"><input type="hidden" id="atInternet-paymentMethod" value="1"><input type="hidden" id="atInternet-domCartTrigger" value=""><input type="hidden" id="atInternet-hasValidSession" value=""><input type="hidden" id="atInternet-vatRate" value="1.07"><input type="hidden" id="atInternet-paymentStatus" value=""><input type="hidden" id="atInternet-paymentSpecialSteps" value=""><input type="hidden" id="tagCo-GetPaymentStatus" value=""><input type="hidden" id="tagCo-GetPaymentMethod" value="1"><input type="hidden" id="atInternet-UrlBase" value="/asia"><input type="hidden" id="atInternet-CurrencySymbolValue" value="$"><input type="hidden" id="atInternet-level1" value="Errors"><input type="hidden" id="atInternet-level2" value=""><input type="hidden" id="atInternet-level3" value=""><input type="hidden" id="atInternet-level4" value=""><input type="hidden" id="atInternet-level5" value=""><input type="hidden" id="atInternet-level6" value=""><script type="text/javascript">
+        var urlToTransform = window.location.pathname;
+        var delBase = urlToTransform.replace(/\/us\//, "");
+        var urlTransformation = delBase.replace(/\//g, "::");
+        var xtChars = urlTransformation.length;
+        var delLastsPoints = urlTransformation.lastIndexOf('::');
+
+        if (delLastsPoints == xtChars-2){
+            urlTransformation = urlTransformation.substr(0, urlTransformation.length-2);
+        }
+        if (urlTransformation ==''){
+            urlTransformation = "HomePage";
+        }
+
+        var hasValidSession = jQuery('#atInternet-hasValidSession').val();
+        var orderPageName = jQuery('#atInternet-orderPageName').val();
+
+        
+            var tc_vars = {
+                
+                env_template : "Website",
+                env_work : "",
+                env_device : "",
+                env_country : "[ID]",
+                env_language : "[Asia]",
+                env_currency: "USD",
+                
+                user_category : "",
+                user_id : "",
+                user_code: "",
+                user_gender : "",
+                user_age : "",
+                user_postalcode : "",
+                user_address : "",
+                user_firstname : "",
+                user_lastname : "",
+                user_email : "",
+                user_newcustomer : "",
+                user_profil : "",
+                
+                page_name : "errors::404.xml",
+                siteN2 : "",
+                siteN2_label : "Other",
+                page_level1 : "Errors",
+                page_level2 : "",
+                page_level3 : "",
+                page_level4 : "",
+                page_level5 : "",
+                page_level6 : "",
+                
+                search_keywords : "",
+                search_filters : [],
+                
+                product_array : [
+                    
+                     
+                    ],
+                
+                isBasketPage : false,
+                is_landing_page : false,
+                basket_id : "",
+                order_id : "",
+                order_payment_methods : "",
+                order_status : "",
+                order_amount : "",
+                order_amount_free : "",
+                order_amount_vat : "",
+                order_discount_without_vat: "",
+                order_discount_with_vat: "",
+                order_promo_code: "", 
+                order_product_number : "",
+                Getorder_amount : "",
+                Getorder_amount_free : "",
+                Getorder_amount_vat : "",
+                Page_indicator : "",
+                domCartTrigger : "",
+                paymentSpecialSteps : "",
+                NewCartOrder : "no",
+                
+                GetSearchKeyword : "",
+                GetSearchPageNumber : "",
+                GetSearchPosition : ""
+
+            }
+        
+        jQuery.getScript("https://analytics.ovh.com/ovh/ovh.js");
+        jQuery.getScript("https://analytics.ovh.com/ovh/ovh_tags.js");
+
+
+    </script>
+</div>
+<br><br><div class="wrapper center">
+<a href="https://www.ovh.com/asia/" translate="none">© Copyright 1999-2021 OVHcloud</a><a class="pipe"> | </a><a href="https://www.ovh.com/asia/support/terms-and-conditions/" title="Terms &amp; conditions">Terms &amp; conditions</a><a class="pipe"> | </a><a href="https://www.ovh.com/asia/support/contracts/" title="Contracts">Contracts</a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/benefits-2013-09-16-en" target="_blank" title="Rights and responsibilities of domain name holders">Rights and responsibilities of domain name holders</a><a class="pipe"> | </a><a href="https://www.icann.org/resources/pages/responsibilities-2014-03-14-en" target="_blank" title="ICANN documentation for domain name holders">ICANN documentation for domain name holders</a><a class="pipe"> | </a><a href="https://www.ovhcloud.com/asia/about-us/" title="Find out more about OVHcloud">About OVHcloud</a><a class="pipe"> | </a><a href="https://www.ovh.com/asia/news/press/" title="OVHcloud press releases and files">Press </a><a class="pipe"> | </a><a href="https://www.ovh.com/asia/news/" title="OVHcloud official blog">Official blog </a>
+</div>
+<br><br><br><br>
+</div>
+<br></footer><div id="newHelpbox" style="display: none;">
+<div id="newHelpbox-btn" data-tc-clic="needHelp-Button">
+<p class="newHelpbox-btn-text">Need help?</p>
+<span id="newHelpbox-close"></span>
+</div>
+<div id="newHelpbox-container">
+<div class="help-box-section"><a href="https://help.ovhcloud.com/asia/" id="newHelpbox-support" class="icn-lifebay help-box-section-btn" data-tc-clic="helpCenter-Button" target="_blank">Help Center</a></div>
+<div class="help-box-section"><div id="newHelpbox-startchat" class="icn-message help-box-section-btn" data-tc-clic="chat-Button">Virtual Assistance</div></div>
+</div>
+<div id="newHelpbox-overflow"></div>
+</div>
+<link rel="stylesheet" type="text/css" href="https://www.ovh.com/asia/components/helpbox/css/helpbox.css">
+<script language="javascript" type="text/javascript" src="https://www.ovh.com/asia/js/jquery-ui-min.js"></script><script language="javascript" type="text/javascript" src="https://www.ovh.com/asia/components/helpbox/js/helpbox.js"></script><link rel="stylesheet" type="text/css" href="/asia/errors/css/errors.css">
+</body>
+</html>
