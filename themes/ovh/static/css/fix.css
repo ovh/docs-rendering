@@ -241,8 +241,8 @@ div.breadcrumbs {padding-top: 2px;}
 
 .rel-pages a {
     border-radius: 3px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
 }
 
 .rel-pages a:hover {
@@ -354,4 +354,17 @@ ul.ods-footer__menu {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
   padding: 0;
+}
+
+.ovh-api-main a::after {
+  display: none!important;
+}
+
+.tabs-title > a {
+  padding: 1.25rem 1.5rem!important;
+}
+
+.row.product a,
+#content a:not([class]) {
+  font-weight: normal!important;
 }
