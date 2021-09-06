@@ -188,7 +188,9 @@
 {% endblock %}
 
 {% block footer %}
-  {% include 'footers/footer.'+ entity.global + '-' + entity.locale + '.html' %}
+  <div class="ocms-menu">
+    {% include 'footers/footer.'+ entity.global + '-' + entity.locale + '.html' %}
+  </div>
 {% endblock %}
 
 {% block scripts_bottom %}
