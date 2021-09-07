@@ -62,7 +62,9 @@
 {% endblock %}
 
 {% block menu%}
+  <div class="ocms-menu">
     {% include 'menus/menu.'+ entity.global + '-' + entity.locale + '.html' %}
+  </div>
 {% endblock %}
 
 {% block main%}
