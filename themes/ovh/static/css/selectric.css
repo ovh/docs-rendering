@@ -223,7 +223,7 @@
 }
 
 .selectric-items .selectric-group .selectric-group-label {
-  font-weight: bold;
+  font-weight: 600;
   padding-left: 10px;
   cursor: default;
   -webkit-user-select: none;

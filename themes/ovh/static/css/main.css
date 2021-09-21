@@ -17,7 +17,7 @@
 
 .k {
   color: #007020;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .o {
   color: #666666; }
@@ -48,7 +48,7 @@
 
 .gh {
   color: #000080;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .gi {
   color: #00A000; }
@@ -58,36 +58,36 @@
 
 .gp {
   color: #C65D09;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .gs {
-  font-weight: bold; }
+  font-weight: 600; }
 
 .gu {
   color: #800080;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .gt {
   color: #0040D0; }
 
 .kc {
   color: #007020;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .kd {
   color: #007020;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .kn {
   color: #007020;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .kp {
   color: #007020; }
 
 .kr {
   color: #007020;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .kt {
   color: #902000; }
@@ -106,18 +106,18 @@
 
 .nc {
   color: #0E84B5;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .no {
   color: #60ADD5; }
 
 .nd {
   color: #555555;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .ni {
   color: #D55537;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .ne {
   color: #007020; }
@@ -127,22 +127,22 @@
 
 .nl {
   color: #002070;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .nn {
   color: #0E84B5;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .nt {
   color: #062873;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .nv {
   color: #BB60D5; }
 
 .ow {
   color: #007020;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .w {
   color: #BBBBBB; }
@@ -174,7 +174,7 @@
 
 .se {
   color: #4070A0;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .sh {
   color: #4070A0; }
@@ -280,7 +280,7 @@
 
 /* Generic.Emph */
 .highlight .gs {
-  font-weight: bold; }
+  font-weight: 600; }
 
 /* Generic.Strong */
 .highlight .kc {
@@ -580,7 +580,7 @@ abbr[title] {
    */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: 600; }
 
 /**
    * Address styling not present in Safari and Chrome.
@@ -820,7 +820,7 @@ textarea {
    * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
    */
 optgroup {
-  font-weight: bold; }
+  font-weight: 600; }
 
 /* Tables
      ========================================================================== */
@@ -1685,7 +1685,7 @@ i {
 
 strong,
 b {
-  font-weight: bold;
+  font-weight: 600;
   line-height: inherit; }
 
 small {
@@ -1792,7 +1792,7 @@ dl {
   margin-bottom: 1rem; }
   dl dt {
     margin-bottom: 0.3rem;
-    font-weight: bold; }
+    font-weight: 600; }
 
 blockquote {
   margin: 0 0 1rem;
@@ -2305,7 +2305,7 @@ select {
   margin-top: -0.5rem;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #ec5840; }
   .form-error.is-visible {
     display: block; }
@@ -2646,7 +2646,7 @@ select {
     background: #2199e8; }
 
 .menu-text {
-  font-weight: bold;
+  font-weight: 600;
   color: inherit;
   line-height: 1;
   padding-top: 0;
@@ -3340,7 +3340,7 @@ body {
   position: absolute;
   margin: 0;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #fefefe;
   white-space: nowrap; }
 
@@ -3545,7 +3545,7 @@ html.is-reveal-open body {
       -ms-user-select: none;
           user-select: none;
   color: #fefefe;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 0.875rem; }
 
 .switch-input {
@@ -3648,7 +3648,7 @@ table {
     border: 1px solid #f1f1f1;
     background-color: #fefefe; }
   table caption {
-    font-weight: bold;
+    font-weight: 600;
     padding: 0.5rem 0.625rem 0.625rem; }
   table thead {
     background: #f8f8f8;
@@ -3664,7 +3664,7 @@ table {
   table tfoot th,
   table tfoot td {
     padding: 0.5rem 0.625rem 0.625rem;
-    font-weight: bold;
+    font-weight: 600;
     text-align: left; }
   table tbody tr:nth-child(even) {
     background-color: #f1f1f1; }
@@ -3795,13 +3795,13 @@ table.hover tbody tr:nth-of-type(even):hover {
   text-align: right; }
 
 .title-bar-title {
-  font-weight: bold;
+  font-weight: 600;
   vertical-align: middle;
   display: inline-block; }
 
 .has-tip {
   border-bottom: dotted 1px #8a8a8a;
-  font-weight: bold;
+  font-weight: 600;
   position: relative;
   display: inline-block;
   cursor: help; }
@@ -4474,13 +4474,13 @@ table.hover tbody tr:nth-of-type(even):hover {
   font-weight: 200; }
 
 .fw400 {
-  font-weight: bold; }
+  font-weight: 600; }
 
 .fw600 {
   font-weight: 600; }
 
 .fw700 {
-  font-weight: 700; }
+  font-weight: 600; }
 
 .fw900 {
   font-weight: 900; }
@@ -4593,7 +4593,8 @@ h6, h6 * {
   padding: 0 10px 55px;
   color: white;
   background: url(../img/header-background.png) no-repeat center, linear-gradient(90deg,#000e9c,#0050d7) no-repeat padding-box;
-  margin: 59px 0 0 0; }
+  /* margin: 59px 0 0 0;  */
+}
   .entry-title .site-title {
     text-align: left;
     color: white;
@@ -4612,7 +4613,7 @@ h6, h6 * {
     display: block;
     margin-bottom: 36px !important;
     line-height: 1em !important;
-    font-weight: bold;
+    font-weight: 600;
     color: #FFF;
     font-size: 38px !important;
     margin: 0;}
@@ -4655,7 +4656,7 @@ h6, h6 * {
   border-radius: 3px;
   color: #2B4E4C;
   font-family: monospace;
-  font-weight: bold;
+  font-weight: 600;
   padding: 3px 6px;
   font-size: 0.9rem;
   text-shadow: 1px 1px 0px #E2FAFF; }
@@ -4699,7 +4700,7 @@ h6, h6 * {
     overflow: auto;
     border: none !important;
     color: #17273B !important;
-    font-weight: bold;
+    font-weight: 600;
     display: none; }
     #toc-wrapper #contents ul {
       list-style: none;
@@ -4763,7 +4764,7 @@ pre {
   font-size: 0.8rem;
   margin-bottom: 20px; }
   .system-message .system-message-title {
-    font-weight: bold;
+    font-weight: 600;
     color: #A51616; }
 
 .citation .label {
@@ -4906,7 +4907,7 @@ dl.docutils .classifier-delimiter {
       font-size: .7em;
       margin-top: -15px; }
     .rel-pages a .title-tag {
-      font-weight: bold; }
+      font-weight: 600; }
     .rel-pages a:hover {
       background: #39BEE0;
       color: white; }
@@ -4940,7 +4941,7 @@ dl.docutils .classifier-delimiter {
     display: inline-block;
     font-family: sans-serif;
     font-size: 10px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 14px;
     margin-right: 7px;
     padding: 2px 4px;
@@ -4982,7 +4983,7 @@ dl.docutils .classifier-delimiter {
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd; }
     .ovh-api-params dl.docutils dt {
-      font-weight: bold;
+      font-weight: 600;
       font-family: "Consolas", "Monaco", monospace;
       font-size: 12px;
       float: left;
@@ -5145,7 +5146,7 @@ dl.docutils .classifier-delimiter {
   background-size: cover;
 }
 .community-block h2 {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 46px !important;
   color: #fff;
   margin-bottom: 36px;
@@ -5171,7 +5172,7 @@ dl.docutils .classifier-delimiter {
   border-radius: 8px;
   padding: 20px 35px;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   color: #0050D7;
 }
@@ -5202,7 +5203,7 @@ dl.docutils .classifier-delimiter {
   padding: 0 10px;
   text-align: left;
   color: #0050D7;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 37px;
   background: none;
 }

@@ -32064,13 +32064,13 @@ table {
   font-weight: 200; }
 
 .fw400 {
-  font-weight: bold; }
+  font-weight: 600; }
 
 .fw600 {
   font-weight: 600; }
 
 .fw700 {
-  font-weight: 700; }
+  font-weight: 600; }
 
 .fw900 {
   font-weight: 900; }
@@ -33406,7 +33406,7 @@ blockquote {
         color: #d14; }
       blockquote pre code .code-tagname {
         color: #900;
-        font-weight: bold; }
+        font-weight: 600; }
     blockquote pre, blockquote pre code, blockquote pre code * {
       font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace !important; }
 
@@ -33923,7 +33923,7 @@ ul.summary.fixed {
     margin-top: 0;
     color: inherit; }
   .alert .alert-link {
-    font-weight: bold; }
+    font-weight: 600; }
   .alert > p,
   .alert > ul {
     margin-bottom: 0; }
@@ -52004,8 +52004,8 @@ body {
       margin-bottom: 16px; } }
   body * {
     font-family: "SourceSansPro" !important;
-    font-size: 17px;
-    line-height: 27px;
+    /* font-size: 17px; */
+    /* line-height: 27px; */
     /*color: #122844;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -52058,7 +52058,7 @@ body {
   body a:hover, body .newLink:hover {
     color: #00a2bf !important;
     text-decoration: underline; }
-    body a:hover *, body .newLink:hover * {
+    body a:hover *:not(class*=icon--), body .newLink:hover * {
       color: #00a2bf;
       text-decoration: underline; }
   body a.none, body .newLink.none {
@@ -52179,7 +52179,7 @@ body {
       transition: all ease 0.4s; }
     body .productHomePad .price.white * {
       color: #FFF;
-      font-weight: bold;
+      font-weight: 600;
       font-size: 17px; }
     body .productHomePad:hover .toShowHover {
       opacity: 1;
