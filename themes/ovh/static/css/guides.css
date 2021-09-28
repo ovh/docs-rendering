@@ -97,12 +97,12 @@
   cursor: pointer;
 }
 
-#content h1:hover::after,
-#content h2:hover::after,
-#content h3:hover::after,
-#content h4:hover::after,
-#content h5:hover::after,
-#content h6:hover::after {
+#content h1:not(:empty):hover::after,
+#content h2:not(:empty):hover::after,
+#content h3:not(:empty):hover::after,
+#content h4:not(:empty):hover::after,
+#content h5:not(:empty):hover::after,
+#content h6:not(:empty):hover::after {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f0c1';
