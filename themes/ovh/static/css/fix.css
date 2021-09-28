@@ -413,3 +413,13 @@ ul.ods-footer__menu {
   z-index: 300;
   position: sticky;
 }
+
+:target {
+    scroll-margin-top: 3.5rem;
+}
+
+@media (min-width: 1120px) {
+    :target {
+        scroll-margin-top: 7.125rem;
+    }
+}
