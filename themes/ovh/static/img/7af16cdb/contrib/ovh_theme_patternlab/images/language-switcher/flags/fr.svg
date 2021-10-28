@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="36px" height="24px" viewBox="0 0 36 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
-    <title>oui-Flag/France</title>
-    <desc>Created with Sketch.</desc>
-    <g id="oui-Flag/France" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="France" fill-rule="nonzero">
-            <rect id="Rectangle-path" fill="#193593" x="0" y="0" width="11.9502" height="24"></rect>
-            <rect id="Rectangle-path" fill="#F9F9F9" x="11.9502" y="0" width="12.0996" height="24"></rect>
-            <rect id="Rectangle-path" fill="#FF4032" x="24.0498" y="0" width="11.9502" height="24"></rect>
-        </g>
-    </g>
-</svg>
+<svg width="36" height="24" viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path fill="#193593" d="M0 0h12v24H0z"/><path fill="#F9F9F9" d="M12 0h12v24H12z"/><path fill="#FF4032" d="M24 0h12v24H24z"/></g></svg>
