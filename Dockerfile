@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:3.6
 
 ARG UID=1000
 ARG GID=1000
@@ -31,7 +31,7 @@ ENV PATH="/home/$UNAME/.local/bin:$PATH"
 WORKDIR $WORKDIR
 
 # Install python packages
-RUN pip install --user -r requirements.txt
+RUN python3 -m pip install --user -r requirements.txt
 
 VOLUME ["$PAGES_DIR", "$WORKDIR/themes/", "$WORKDIR/plugins/"]
 
