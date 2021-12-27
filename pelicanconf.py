@@ -173,7 +173,8 @@ HREFLANG_CONFIG = {
         'en-mo',
         'en-np',
         'en-ws',
-        'en-tl'
+        'en-tl',
+        'en-in'
     ],
     'en-au': [
         'en-au',
