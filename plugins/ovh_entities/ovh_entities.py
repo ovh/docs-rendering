@@ -174,6 +174,28 @@ class OvhEntity(Entity):
     def hideContribute(self):
         return self.contribute == False or self.contribute == 'False' or self.contribute == 'false'
 
+    @property
+    def supported_langs(self):
+        langs = [self.lang]
+        for translation in self.translations:
+            langs.append(translation.lang)
+        return langs
+
+    @property
+    def algolia_lang_tags(self):
+        lang_tags = []
+        prefix = 'lang'
+        site_langs = self.settings['LANGS'].keys()
+        entity_supported_langs = self.supported_langs
+
+        lang_tags.append('{}-{}'.format(prefix, self.lang))
+        if 'en-ie' == self.lang:
+            for lang in site_langs:
+                if lang not in entity_supported_langs:
+                    lang_tags.append('{}-{}'.format(prefix, lang))
+
+        return lang_tags
+
     def getSections(self):
         sections = [name.strip() for name in getattr(self, 'sections', 'Misc').split(',')]
         sections += list(set([getattr(child, 'section', 'Misc').strip() for child in self.children]) - set(sections))

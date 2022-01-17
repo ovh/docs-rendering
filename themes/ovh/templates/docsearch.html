@@ -1,5 +1,5 @@
 {
-  "index_name": "docs-ovh-com-docsearch-mdprod",
+  "index_name": "{{ ALGOLIA_SEARCH_INDEX }}",
   "start_urls": [
   {% for entity in product.entities %}
     {
@@ -11,7 +11,9 @@
         {% endif %}
         {% endfor %}
         "{{ 'product-' + entity.folder}}",
-        "lang-{{ entity.lang }}"
+        {% for lang_tag in entity.algolia_lang_tags %}
+        "{{ lang_tag }}"{{ ',' if not loop.last }}
+        {% endfor %}
       ],
       "page_rank": 2
     }{{ ',' if not loop.last or universe.entities|length > 0}}
@@ -25,7 +27,9 @@
         {% endif %}
         {% endfor %}
         "{{ 'product-' + translation.folder}}",
-        "lang-{{ translation.lang }}"
+        {% for lang_tag in translation.algolia_lang_tags %}
+        "{{ lang_tag }}"{{ ',' if not loop.last }}
+        {% endfor %}
       ],
       "page_rank": 2
     }{{ ',' if not loop.last or universe.entities|length > 0}}

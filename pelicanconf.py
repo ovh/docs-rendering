@@ -89,6 +89,8 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 DOCSEARCH_SAVE_AS = 'docsearch.json'
 SEOURLS_SAVE_AS = 'seourls.json'
 
+ALGOLIA_SEARCH_INDEX = "test-search-en-override"
+
 # plugins
 PLUGIN_PATHS = ['plugins', 'plugins/contrib']
 PLUGINS = ['ovh_entities', 'ovh_filters', 'ovh_markdown', 'pelican-toc', 'pelican-md-metayaml']
