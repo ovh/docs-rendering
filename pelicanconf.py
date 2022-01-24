@@ -89,6 +89,8 @@ SITEMAP_SAVE_AS = 'sitemap.xml'
 DOCSEARCH_SAVE_AS = 'docsearch.json'
 SEOURLS_SAVE_AS = 'seourls.json'
 
+ALGOLIA_INDEX = 'full-search'
+
 # plugins
 PLUGIN_PATHS = ['plugins', 'plugins/contrib']
 PLUGINS = ['ovh_entities', 'ovh_filters', 'ovh_markdown', 'pelican-toc', 'pelican-md-metayaml']
@@ -173,7 +175,8 @@ HREFLANG_CONFIG = {
         'en-mo',
         'en-np',
         'en-ws',
-        'en-tl'
+        'en-tl',
+        'en-in'
     ],
     'en-au': [
         'en-au',

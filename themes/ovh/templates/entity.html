@@ -123,7 +123,7 @@
                 var search = docsearch({
                     appId: 'M7SCQID0YP',
                     apiKey: 'de7bd7b8f085e85359e0aac9c33cf4a4',
-                    indexName: 'docs-ovh-com-docsearch-mdprod',
+                    indexName: '{{ ALGOLIA_INDEX }}',
                     inputSelector: '#q',
                     handleSelected: function (input, event, suggestion) {
                         var index = $('.ds-cursor').first().data('index');
