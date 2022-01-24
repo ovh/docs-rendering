@@ -1,5 +1,5 @@
 {
-  "index_name": "docs-ovh-com-docsearch-mdprod",
+  "index_name": "{{ ALGOLIA_INDEX }}",
   "start_urls": [
   {% for entity in product.entities %}
     {
@@ -62,9 +62,6 @@
     }{{ ',' if not loop.last or not outer_loop.last}}
     {% endfor %}
   {% endfor %}
-  ],
-  "stop_urls": [
-    "https://docs.ovh.com/[^/]+?/[^/]+?/[^/]+?/[^/]+?/[^/]+?/$"
   ],
   "allowed_domains": [
     "docs.ovh.com"
