@@ -35,9 +35,7 @@
 {% block css %}
     {{- super() -}}
 
-    {% if entity.metadata.get('deprecated') == 'true' %}
-      <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/components/deprecated.css" />
-    {% endif %}
+    <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/components/deprecated.css" />
 {% endblock %}
 
 {% block metas %}
@@ -164,6 +162,10 @@
 
         {% if entity.metadata.get('deprecated') == 'true' %}
           {% include 'components/deprecated/block.html' %}
+        {% else %}
+          {% if entity.type == 'Home' or entity.type == 'Product' %}
+            {% include 'components/helpcenter_beta/block.html' %}
+          {% endif %}
         {% endif %}
         {% endblock %}
 

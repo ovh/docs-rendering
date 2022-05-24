@@ -86,10 +86,11 @@
 
 .deprecated-block p, 
 .deprecated-block a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
 }
 
 .deprecated-block p {
+    text-align: center;
     margin: 0;
 }
