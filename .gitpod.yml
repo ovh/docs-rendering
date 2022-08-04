@@ -1,3 +1,2 @@
 tasks:
-  - init: pip install --upgrade pip
-  - init: pip install --upgrade -r requirements.txt
+  - init: pip3 install -r requirements.txt
