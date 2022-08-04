@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1
-
 FROM gitpod/workspace-base:latest
 
 # Install Pip
