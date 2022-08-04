@@ -41,5 +41,3 @@ RUN python3 -m pip install --upgrade --user -r requirements.txt
 VOLUME ["$PAGES_DIR", "$WORKDIR/themes/", "$WORKDIR/plugins/"]
 
 EXPOSE 8080
-
-CMD $SRC/entrypoint.sh
