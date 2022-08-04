@@ -2,6 +2,9 @@
 
 FROM gitpod/workspace-base:latest
 
+# Install Pip
+RUN apt update && apt install -y python3-pip
+
 ARG UID=1000
 ARG GID=1000
 
