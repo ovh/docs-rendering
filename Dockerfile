@@ -31,6 +31,7 @@ ENV PATH="/home/$UNAME/.local/bin:$PATH"
 WORKDIR $WORKDIR
 
 # Install python packages
+RUN python3 -m pip install --upgrade --user pip
 RUN python3 -m pip install --upgrade --user -r requirements.txt
 
 VOLUME ["$PAGES_DIR", "$WORKDIR/themes/", "$WORKDIR/plugins/"]
