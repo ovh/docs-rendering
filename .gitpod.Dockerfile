@@ -3,7 +3,8 @@
 FROM gitpod/workspace-base:latest
 
 # Install Pip
-RUN sudo apt-get update && sudo apt-get install -y python3-pip
+RUN sudo apt-get update
+RUN sudo apt-get install -y python3-pip
 
 ENV UNAME=gitpod
 ENV SRC=/home/$UNAME/src
