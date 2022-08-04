@@ -1,5 +1,3 @@
 image:
   file: .gitpod.Dockerfile
 
-tasks:
-  - init: pip install --upgrade pip && pip install -r requirements.txt
