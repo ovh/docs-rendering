@@ -3,7 +3,7 @@
 FROM gitpod/workspace-base:latest
 
 # Install Pip
-RUN apt update && apt install -y python3-pip
+RUN sudo apt update && sudo apt install -y python3-pip
 
 ARG UID=1000
 ARG GID=1000
@@ -15,8 +15,8 @@ ENV PAGES_DIR=$WORKDIR/pages
 ENV OUTPUT_DIR=$SRC/output
 
 # Permissions
-RUN groupadd -g $GID -o $UNAME
-RUN useradd -m -u $UID -g $GID -o -s /bin/sh $UNAME
+RUN sudo groupadd -g $GID -o $UNAME
+RUN sudo useradd -m -u $UID -g $GID -o -s /bin/sh $UNAME
 USER $UNAME
 
 # Create dirs
