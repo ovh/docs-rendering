@@ -105,3 +105,6 @@ pages
 
 # Exlcude theme from rules
 !/themes/ovh/static/**/dist/
+cache/PagesGenerator-Readers
+cache/OvhSubEntityGenerator-Readers
+cache/ArticlesGenerator-Readers

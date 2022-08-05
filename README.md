@@ -9,28 +9,24 @@ All modifications to this repository, will automatically trigger a new build to 
 
 ## Test it
 
-Clone the repository
-```sh
-git clone --recurse-submodules https://github.com/ovh/docs-rendering.git
+Start the rendering engine on a specific branch: 
+
+```bash
+./render.sh "my-branch"
 ```
 
-Go to the project root
-```sh
-cd docs-rendering
+Or on the master branch with no parameter:
+
+```bash
+./render.sh
 ```
 
-Build the docker image
-```sh
-./docker/build.sh
-```
+Wait until the process finishes, this could take few minutes.
 
-> This build the docker image using the current user's ID and group ID.
+Then, ask Gitpod the public url and try it on your browser:
 
-> The resulting image name is `ovh-docs-dev-env`
-
-Run the container with the helper script:
-```sh
-./docker/run-container.sh [-f /path/to/docs] [-p port]
+```bash
+gp url 8080
 ```
 
 ## Technical specs
