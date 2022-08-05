@@ -20,7 +20,12 @@ then
 	rm -rf ${GITPOD_REPO_ROOT}/docs
 fi
 
-rm -rf ${GITPOD_REPO_ROOT}/output/* 2>>/dev/null
+if [ -d ${GITPOD_REPO_ROOT}/output ]
+then
+	rm -rf ${GITPOD_REPO_ROOT}/output/* 2>>/dev/null
+else
+	mkdir ${GITPOD_REPO_ROOT}/output
+fi
 
 git clone --single-branch -b ${BRANCH} https://github.com/ovh/docs.git
 

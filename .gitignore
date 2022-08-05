@@ -102,6 +102,7 @@ ENV/
 
 output
 pages
+docs
 
 # Exlcude theme from rules
 !/themes/ovh/static/**/dist/
