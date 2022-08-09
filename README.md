@@ -261,6 +261,13 @@ stored in the folder `themes/ovh`
 └── templates
     └── ... (jinja2 templates)
 ```
+
+#### Install
+
+The theme relies on npm packages for some parts (iconfont generation, ...).
+In order to work on it, you should install the dependencies first using `yarn
+install`.
+
 #### Templates
 
 ##### base.html
@@ -311,6 +318,28 @@ defined in config as direct template
 DIRECT_TEMPLATES = ['sitemap']
 SITEMAP_SAVE_AS = 'sitemap.xml'
 ```
+#### Custom icons
+
+You can use icons in guides content like so :
+
+```md
+Test icon <i class="icons-ellipsis icons-masterbrand-blue"></i> <br>
+Test icon <i class="icons-ellipsis icons-border-rounded icons-masterbrand-blue"></i> <br>
+Test icon <i class="icons-eye-open icons-sky-blue"></i> <br>
+Test icon <i class="icons-eye-open icons-border-rounded icons-sky-blue"></i> <br>
+```
+
+Available colors and custom CSS classes for icons can be found in the [iconfont template](https://github.com/ovh/docs-rendering/blob/master/themes/ovh/svgtofont/templates/icons.css.template).
+
+The font is generated based on [themes/ovh/static/svg](https://github.com/ovh/docs-rendering/tree/master/themes/ovh/static/svg) content. Each icon will generate a corresponding CSS class named `icons-[filename]`.
+
+##### Add new icons
+
+Add a new svg file to the [themes/ovh/static/svg](https://github.com/ovh/docs-rendering/tree/master/themes/ovh/static/svg) folder.
+
+Then run `yarn run font` from [themes/ovh/](https://github.com/ovh/docs-rendering/tree/master/themes/ovh/) folder in order to generate the icons font.
+
+It should then generate new font files under [themes/ovh/static/fonts/icons](https://github.com/ovh/docs-rendering/tree/master/themes/ovh/static/fonts/icons/).
 
 ## Contributing
 
