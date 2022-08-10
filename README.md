@@ -7,21 +7,65 @@ Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/doc
 Our CI Pipe is managed by [CDS](https://github.com/ovh/cds)
 All modifications to this repository, will automatically trigger a new build to docs.ovh.com.
 
-## Test it
+## Clone the desired OVHcloud Documentation Git repository
 
-Start the rendering engine on a specific branch: 
+### Define the branch name
 
 ```bash
-./render.sh "my-branch"
+export BRANCH="my-branch"
 ```
 
-Or on the master branch with no parameter:
+### Clone the repository
+
+```bash
+git clone --single-branch -b ${BRANCH} https://github.com/ovh/docs.git
+```
+
+## (Optionnal) Test the urls consistency within mardown files
+
+You can check before rendering urls consistency.
+
+For all documentation with:
+
+```bash
+./check_links_markdown.sh
+```  
+
+Or for a specific folder with:
+
+```bash
+./check_links_markdown.sh docs/pages/path/to/directory
+```
+
+Results are printed like:
+
+```bash
+### (markdown file name with full path)
+(HTTP return code) - Link found inside the markdown file
+```
+
+Ex:
+
+```bash
+### ./docs/pages/platform/ai/app_tuto_getting_started/guide.en-asia.md
+(404) - https://982a750f-e1f0-45cf-bf41-efc1031f1101.app.bhs.training.ai.cloud.ovh.net/predict
+(200) - https://ca.ovh.com/auth/?action=gotomanager
+(200) - https://discord.com/invite/KbrKSEettv
+(301) - https://docs.ovh.com/asia/en/ai-training/build-use-custom-image/
+```
+
+Results are also stored as CSV in the **check_links_markdown.result.csv** file.
+
+## Convert the markdown files to html files
+
+Start the rendering engine
 
 ```bash
 ./render.sh
 ```
-
 Wait until the process finishes, this could take few minutes.
+
+The html files are created into the **output** folder. 
 
 Then, ask Gitpod the public url and try it on your browser:
 

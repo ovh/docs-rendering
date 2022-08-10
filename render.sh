@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-BRANCH="$1"
 PY=${PY:-python}
 PELICAN=${PELICAN:-pelican}
 
@@ -26,6 +25,8 @@ then
 else
 	mkdir ${GITPOD_REPO_ROOT}/output
 fi
+
+echo "Cloning $BRANCH branch from https://github.com/ovh/docs.git.."
 
 git clone --single-branch -b ${BRANCH} https://github.com/ovh/docs.git
 

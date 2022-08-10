@@ -109,3 +109,6 @@ docs
 cache/PagesGenerator-Readers
 cache/OvhSubEntityGenerator-Readers
 cache/ArticlesGenerator-Readers
+
+# Additionnal functions
+check_links_markdown.result.csv
