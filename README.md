@@ -15,7 +15,7 @@ All modifications to this repository, will automatically trigger a new build to 
 export BRANCH="my-branch"
 ```
 
-### Clone the repository
+### get the last commit on the desired branch from the repository
 
 ```bash
 git clone --single-branch -b ${BRANCH} https://github.com/ovh/docs.git
