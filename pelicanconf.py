@@ -235,7 +235,7 @@ ENTITY_TYPES = {
         "PATHS": ["**/product.*.md"],
         "PATH_METADATA": r"(?P<slug>([^\/]+\/)*(?P<folder>[^\/]+))\/product\.(?P<lang>(?P<locale>\w{2})-(?P<global>\w{2,4}))\.md",
         "SUBGENERATOR_CLASS": OvhEntityGenerator.OvhSubEntityGenerator,
-        "CHILDREN": ["Guide"],
+        "CHILDREN": ["Product", "Guide"],
         "EXCLUDE_SLUGS": ["Home", "Universe"],
     },
     "Guide": {
