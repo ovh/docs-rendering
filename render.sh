@@ -70,7 +70,7 @@ Usage ${CMD} [OPTIONS]
 §
   -h, --help§ Display this help
   --full§ Generate a full rendering of docs
-  --restart& Restart the pelican server
+  --restart& Restart the pelican server 
 §
   " | column -t -s "§"
   exit 0
