@@ -70,7 +70,7 @@ Usage ${CMD} [OPTIONS]
 §
   -h, --help§ Display this help
   --full§ Generate a full rendering of docs
-  --restart§ Restart the pelican server 
+  --restart§ Restart the pelican server
 §
   " | column -t -s "§"
   exit 0
@@ -97,18 +97,17 @@ checkLinks() {
     echo "<article><div class=\"card\"><header><b>Guide: ${title}</b><small>${g}</small></header><ul class=\"list-group\">" >> ${t}
     while read u
     do
-      w=""
-      if [[ "${u}" =~ ^"https://docs.ovh.com".* ]];then
-        [[ "${u}" =~ .*"${OVHDOCS_LANG[${gs^^}]}".* ]] || w=$SUB_WARNING_ICON
-      fi
-      if [[ "${u}" =~ ^"https://www.ovhcloud.com".* ]];then
-        [[ "${u}" =~ .*"${OVHCLOUD_LANG[${gs^^}]}".* ]] || w=$SUB_WARNING_ICON
-      fi
-      if [[ "${u}" =~ ^"https://www.ovh.com/auth/".* ]];then
-        [[ "${u}" == "${MANAGER[${gs^^}]}" ]] || w=$SUB_WARNING_ICON
-      fi
-
       if [ ! -z ${u} ];then
+        w=""
+        if [[ "${u}" =~ ^"https://docs.ovh.com".* ]];then
+          [[ "${u}" =~ .*"${OVHDOCS_LANG[${gs^^}]}".* ]] || w=$SUB_WARNING_ICON
+        fi
+        if [[ "${u}" =~ ^"https://www.ovhcloud.com".* ]];then
+          [[ "${u}" =~ .*"${OVHCLOUD_LANG[${gs^^}]}".* ]] || w=$SUB_WARNING_ICON
+        fi
+        if [[ "${u}" =~ ^"https://www.ovh.com/auth/".* ]];then
+          [[ "${u}" == "${MANAGER[${gs^^}]}" ]] || w=$SUB_WARNING_ICON
+        fi
         http_code=$(curl -sL -o /dev/null -w "%{http_code}" --connect-timeout 5 ${u})
         if [ ${http_code} -ne 000 ];then
           [[ $http_code -ge 200 ]] && code_cls="bg-success"
