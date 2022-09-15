@@ -369,6 +369,15 @@ ul.ods-footer__menu {
   font-weight: normal!important;
 }
 
+/* Fix firefox box-shadow zoom-out issue */
+.thumbnail {
+  box-shadow: none;
+  border: solid 1px rgba(10, 10, 10, 0.2);
+  transition-property: box-shadow, border-color;
+}
+.thumbnail:hover, .thumbnail:focus {
+  border-color: #fefefe;
+}
 
 /*
 ===========================================
