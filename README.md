@@ -33,6 +33,8 @@ Run the container with the helper script:
 ./docker/run-container.sh [-f /path/to/docs] [-p port]
 ```
 
+You can find a more details in the [getting-started](getting-started.md) guide.
+
 ## Technical specs
 
 [docs.ovh.com](https://docs.ovh.com/) is entirely generated with [Pelican](https://github.com/getpelican/pelican) from `markdown` [files](https://github.com/ovh/docs)
