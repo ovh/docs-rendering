@@ -311,3 +311,11 @@ defined in config as direct template
 DIRECT_TEMPLATES = ['sitemap']
 SITEMAP_SAVE_AS = 'sitemap.xml'
 ```
+
+## Contributing
+
+### Branch management
+
+Please note that development branch is **develop**, all pull requests should be based on it.
+
+Stable branch is **master**, changes need to pass by **develop** before going to **master**.
