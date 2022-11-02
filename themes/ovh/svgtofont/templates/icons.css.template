@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "{{fontname}}";
+  src: url('{{cssPath}}{{fontname}}.eot?t={{timestamp}}'); /* IE9*/
+  src: url('{{cssPath}}{{fontname}}.eot?t={{timestamp}}#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("{{cssPath}}{{fontname}}.woff2?t={{timestamp}}") format("woff2"),
+  url("{{cssPath}}{{fontname}}.woff?t={{timestamp}}") format("woff"),
+  url('{{cssPath}}{{fontname}}.ttf?t={{timestamp}}') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('{{cssPath}}{{fontname}}.svg?t={{timestamp}}#{{fontname}}') format('svg'); /* iOS 4.1- */
+}
+
+[class^="{{prefix}}-"], [class*=" {{prefix}}-"] {
+  font-family: '{{fontname}}' !important;
+  font-size:{{fontSize}};
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+
+  --color-masterbrand-blue: #000E9C;
+  --color-sky-blue: #73E3FF;
+  --color-sky-blue-light: #98E9FF;
+  --color-sky-blue-dark: #50B7EA;
+  --color-green: #A7D74D;
+  --color-green-light: #BDE475;
+  --color-green-dark: #7BB73C;
+  --color-yellow: #FFD224;
+  --color-yellow-light: #FFE16D;
+  --color-yellow-dark: #FFBB22;
+  --color-orange: #ED743E;
+  --color-orange-light: #F4A17D;
+  --color-orange-dark: #D85639;
+  --color-gray-dark: #46464A;
+  --color-gray-light: #D4D6DC;
+  --color-gray: #87888C;
+}
+
+
+/* COLORS */
+.{{prefix}}-masterbrand-blue { color: var(--color-masterbrand-blue); }
+.{{prefix}}-sky-blue { color: var(--color-sky-blue); }
+.{{prefix}}-sky-blue-light { color: var(--color-sky-blue-light); }
+.{{prefix}}-sky-blue-dark { color: var(--color-sky-blue-dark); }
+.{{prefix}}-green { color: var(--color-green); }
+.{{prefix}}-green-light { color: var(--color-green-light); }
+.{{prefix}}-green-dark { color: var(--color-green-dark); }
+.{{prefix}}-yellow { color: var(--color-yellow); }
+.{{prefix}}-yellow-light { color: var(--color-yellow-light); }
+.{{prefix}}-yellow-dark { color: var(--color-yellow-dark); }
+.{{prefix}}-orange { color: var(--color-orange); }
+.{{prefix}}-orange-light { color: var(--color-orange-light); }
+.{{prefix}}-orange-dark { color: var(--color-orange-dark); }
+.{{prefix}}-gray { color: var(--color-gray); }
+.{{prefix}}-gray-light { color: var(--color-gray-light); }
+.{{prefix}}-gray-dark { color: var(--color-gray-dark); }
+
+/* CUSTOM CLASSES */
+.{{prefix}}-border-rounded {
+  border: solid 1px;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+/* ICONS */
+{{cssString}}

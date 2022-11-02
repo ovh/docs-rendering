@@ -1,0 +1,27 @@
+{
+  "name": "ovh-theme",
+  "version": "1.0.0",
+  "description": "pelican theme for ovhcloud",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "optimize-svg": "svgo -f ./static/svg",
+    "font": "yarn run optimize-svg && svgtofont --sources ./static/svg --output ./static/fonts/icons --fontName icons && yarn run clean-icons-font",
+    "clean-icons-font": "rm ./static/fonts/icons/icons.symbol.svg"
+  },
+  "svgtofont": {
+    "outSVGReact": false,
+    "outSVGPath": false,
+    "emptyDist": true,
+    "website": false,
+    "styleTemplates": "./svgtofont/templates/",
+    "css": {
+      "cssPath": "/theme/fonts/icons/"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "svgo": "^2.8.0",
+    "svgtofont": "^3.17.8"
+  }
+}

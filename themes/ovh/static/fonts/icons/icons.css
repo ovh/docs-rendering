@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "icons";
+  src: url('/theme/fonts/icons/icons.eot?t=1665739929615'); /* IE9*/
+  src: url('/theme/fonts/icons/icons.eot?t=1665739929615#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("/theme/fonts/icons/icons.woff2?t=1665739929615") format("woff2"),
+  url("/theme/fonts/icons/icons.woff?t=1665739929615") format("woff"),
+  url('/theme/fonts/icons/icons.ttf?t=1665739929615') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('/theme/fonts/icons/icons.svg?t=1665739929615#icons') format('svg'); /* iOS 4.1- */
+}
+
+[class^="icons-"], [class*=" icons-"] {
+  font-family: 'icons' !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+
+  --color-masterbrand-blue: #000E9C;
+  --color-sky-blue: #73E3FF;
+  --color-sky-blue-light: #98E9FF;
+  --color-sky-blue-dark: #50B7EA;
+  --color-green: #A7D74D;
+  --color-green-light: #BDE475;
+  --color-green-dark: #7BB73C;
+  --color-yellow: #FFD224;
+  --color-yellow-light: #FFE16D;
+  --color-yellow-dark: #FFBB22;
+  --color-orange: #ED743E;
+  --color-orange-light: #F4A17D;
+  --color-orange-dark: #D85639;
+  --color-gray-dark: #46464A;
+  --color-gray-light: #D4D6DC;
+  --color-gray: #87888C;
+}
+
+
+/* COLORS */
+.icons-masterbrand-blue { color: var(--color-masterbrand-blue); }
+.icons-sky-blue { color: var(--color-sky-blue); }
+.icons-sky-blue-light { color: var(--color-sky-blue-light); }
+.icons-sky-blue-dark { color: var(--color-sky-blue-dark); }
+.icons-green { color: var(--color-green); }
+.icons-green-light { color: var(--color-green-light); }
+.icons-green-dark { color: var(--color-green-dark); }
+.icons-yellow { color: var(--color-yellow); }
+.icons-yellow-light { color: var(--color-yellow-light); }
+.icons-yellow-dark { color: var(--color-yellow-dark); }
+.icons-orange { color: var(--color-orange); }
+.icons-orange-light { color: var(--color-orange-light); }
+.icons-orange-dark { color: var(--color-orange-dark); }
+.icons-gray { color: var(--color-gray); }
+.icons-gray-light { color: var(--color-gray-light); }
+.icons-gray-dark { color: var(--color-gray-dark); }
+
+/* CUSTOM CLASSES */
+.icons-border-rounded {
+  border: solid 1px;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+/* ICONS */
+.icons-add:before { content: "\ea01"; }
+.icons-backToV4:before { content: "\ea02"; }
+.icons-bandwidth-concept:before { content: "\ea03"; }
+.icons-bar-chart:before { content: "\ea04"; }
+.icons-bell:before { content: "\ea05"; }
+.icons-bin:before { content: "\ea06"; }
+.icons-book:before { content: "\ea07"; }
+.icons-cart:before { content: "\ea08"; }
+.icons-certificate:before { content: "\ea09"; }
+.icons-check:before { content: "\ea0a"; }
+.icons-chevron-down:before { content: "\ea0b"; }
+.icons-chevron-left:before { content: "\ea0c"; }
+.icons-chevron-right:before { content: "\ea0d"; }
+.icons-chevron-up:before { content: "\ea0e"; }
+.icons-close:before { content: "\ea0f"; }
+.icons-cloud-essential-concept:before { content: "\ea10"; }
+.icons-cloud-package:before { content: "\ea11"; }
+.icons-cloud-root:before { content: "\ea12"; }
+.icons-cloudnas:before { content: "\ea13"; }
+.icons-copy:before { content: "\ea14"; }
+.icons-database:before { content: "\ea15"; }
+.icons-dedicatedCloud:before { content: "\ea16"; }
+.icons-dns-anycast-concept:before { content: "\ea17"; }
+.icons-domain:before { content: "\ea18"; }
+.icons-ellipsis-vertical:before { content: "\ea19"; }
+.icons-ellipsis:before { content: "\ea1a"; }
+.icons-error-circle:before { content: "\ea1b"; }
+.icons-error:before { content: "\ea1c"; }
+.icons-export-concept:before { content: "\ea1d"; }
+.icons-eye-closed:before { content: "\ea1e"; }
+.icons-eye-open:before { content: "\ea1f"; }
+.icons-file:before { content: "\ea20"; }
+.icons-filter:before { content: "\ea21"; }
+.icons-folder-concept:before { content: "\ea22"; }
+.icons-gear-concept:before { content: "\ea23"; }
+.icons-graph:before { content: "\ea24"; }
+.icons-hamburger:before { content: "\ea25"; }
+.icons-hashtag-concept:before { content: "\ea26"; }
+.icons-help-circle:before { content: "\ea27"; }
+.icons-hosting:before { content: "\ea28"; }
+.icons-import-concept:before { content: "\ea29"; }
+.icons-info-circle:before { content: "\ea2a"; }
+.icons-ip:before { content: "\ea2b"; }
+.icons-iplb:before { content: "\ea2c"; }
+.icons-key-concept:before { content: "\ea2d"; }
+.icons-mail:before { content: "\ea2e"; }
+.icons-message:before { content: "\ea2f"; }
+.icons-network:before { content: "\ea30"; }
+.icons-nutanix-concept:before { content: "\ea31"; }
+.icons-overTheBox:before { content: "\ea32"; }
+.icons-partner-platformsh-concept:before { content: "\ea33"; }
+.icons-pen:before { content: "\ea34"; }
+.icons-phone-concept:before { content: "\ea35"; }
+.icons-phone:before { content: "\ea36"; }
+.icons-print:before { content: "\ea37"; }
+.icons-reload-concept:before { content: "\ea38"; }
+.icons-search:before { content: "\ea39"; }
+.icons-server:before { content: "\ea3a"; }
+.icons-success-circle:before { content: "\ea3b"; }
+.icons-tasks:before { content: "\ea3c"; }
+.icons-telecom-ethernet:before { content: "\ea3d"; }
+.icons-user-ovh-font:before { content: "\ea3e"; }
+.icons-user:before { content: "\ea3f"; }
+.icons-windows:before { content: "\ea40"; }
+
