@@ -421,6 +421,7 @@ ul.ods-footer__menu {
   top: 0;
   z-index: 300;
   position: sticky;
+  height: 3.125rem;
 }
 
 :target {
@@ -428,6 +429,10 @@ ul.ods-footer__menu {
 }
 
 @media (min-width: 1120px) {
+    .ocms-menu:first-of-type {
+        height: 6rem;
+    }
+
     :target {
         scroll-margin-top: 7.125rem;
     }
