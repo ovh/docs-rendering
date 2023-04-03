@@ -102,9 +102,16 @@ ENV/
 
 output
 pages
+docs
 
 # Exlcude theme from rules
 !/themes/ovh/static/**/dist/
+cache/PagesGenerator-Readers
+cache/OvhSubEntityGenerator-Readers
+cache/ArticlesGenerator-Readers
 
 # JS package management
 node_modules
+
+# Additionnal functions
+check_links_markdown.result.csv

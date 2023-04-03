@@ -7,30 +7,70 @@ Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/doc
 Our CI Pipe is managed by [CDS](https://github.com/ovh/cds)
 All modifications to this repository, will automatically trigger a new build to docs.ovh.com.
 
-## Test it
+## Clone the desired OVHcloud Documentation Git repository
 
-Clone the repository
-```sh
-git clone --recurse-submodules https://github.com/ovh/docs-rendering.git
+### Define the branch name
+
+```bash
+export BRANCH="my-branch"
 ```
 
-Go to the project root
-```sh
-cd docs-rendering
+### get the last commit on the desired branch from the repository
+
+```bash
+git clone --single-branch -b ${BRANCH} https://github.com/ovh/docs.git
 ```
 
-Build the docker image
-```sh
-./docker/build.sh
+## (Optionnal) Test the urls consistency within mardown files
+
+You can check before rendering urls consistency.
+
+For all documentation with:
+
+```bash
+./check_links_markdown.sh
+```  
+
+Or for a specific folder with:
+
+```bash
+./check_links_markdown.sh docs/pages/path/to/directory
 ```
 
-> This build the docker image using the current user's ID and group ID.
+Results are printed like:
 
-> The resulting image name is `ovh-docs-dev-env`
+```bash
+### (markdown file name with full path)
+(HTTP return code) - Link found inside the markdown file
+```
 
-Run the container with the helper script:
-```sh
-./docker/run-container.sh [-f /path/to/docs] [-p port]
+Ex:
+
+```bash
+### ./docs/pages/platform/ai/app_tuto_getting_started/guide.en-asia.md
+(404) - https://982a750f-e1f0-45cf-bf41-efc1031f1101.app.bhs.training.ai.cloud.ovh.net/predict
+(200) - https://ca.ovh.com/auth/?action=gotomanager
+(200) - https://discord.com/invite/KbrKSEettv
+(301) - https://docs.ovh.com/asia/en/ai-training/build-use-custom-image/
+```
+
+Results are also stored as CSV in the **check_links_markdown.result.csv** file.
+
+## Convert the markdown files to html files
+
+Start the rendering engine
+
+```bash
+./render.sh
+```
+Wait until the process finishes, this could take few minutes.
+
+The html files are created into the **output** folder. 
+
+Then, ask Gitpod the public url and try it on your browser:
+
+```bash
+gp url 8080
 ```
 
 You can find a more details in the [getting-started](getting-started.md) guide.
